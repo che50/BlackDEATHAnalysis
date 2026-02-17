@@ -1,6 +1,7 @@
 # BlackDEATHAnalysis
 Digital Methods 2026 group project
-Team Member:
+
+## Team Member:
 - Ingrid Lewis
 - Charlie Erdos
 - Hayden Conely
