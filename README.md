@@ -1,6 +1,5 @@
-# Title
 
-# BlackDEATHAnalysis
+# The Decameron and Perceptions Around the Black Death
 Digital Methods 2026 group project
 
 ## Team Members:
