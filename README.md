@@ -11,7 +11,6 @@ Digital Methods 2026 group project
 
 ## Meeting Time
     - Still in works
-    - Possible time slot: Thursdays @ 3:00 pm
 
 ## Project Corpus and Research Question:
 Corpus: The Decameron <br />
