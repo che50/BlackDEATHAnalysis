@@ -1,3 +1,5 @@
+# Title
+
 # BlackDEATHAnalysis
 Digital Methods 2026 group project
 
@@ -6,6 +8,9 @@ Digital Methods 2026 group project
 - Charlie Erdos
 - Hayden Conely
 - Nora Broering
+
+## Meeting Time
+    - Still in works
 
 ## Project Corpus and Research Question:
 Corpus: The Decameron <br />
