@@ -10,7 +10,7 @@ Digital Methods 2026 group project
 - Nora Broering
 
 ## Meeting Time
-    - Still in works
+thursdays at 3pm
 
 ## Project Corpus and Research Question:
 Corpus: The Decameron <br />
