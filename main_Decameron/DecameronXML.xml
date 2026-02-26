@@ -249,7 +249,7 @@
         sort of blood-suckers, sprung from the dregs of the people, who styled themselves pickmen[8]
         and did such offices for hire, shouldered the bier and bore it with hurried steps, not to
         that <org type="religous" subtype="church">church</org> which the dead man had chosen before his death, but most times to the nearest,
-        behind five or six[9] priests, with little light[10] and whiles none at all, which latter,
+        behind five or six[9] <roleName type="clerical" subtype="priest">priests</roleName>, with little light[10] and whiles none at all, which latter,
         with the aid of the said pickmen, thrust him into what grave soever they first found
         unoccupied, without troubling themselves with too long or too formal a service. </p>
 
@@ -269,9 +269,9 @@
         thereof, they laid upon some board or other. Nor was it only one bier that carried two or
         three corpses, nor did this happen but once; nay, many might have been counted which
         contained husband and wife, two or three brothers, father and son or the like. And an
-        infinite number of times it befell that, two priests going with one cross for some one,
+        infinite number of times it befell that, two <roleName type="clerical" subtype="priest">priests</roleName> going with one cross for some one,
         three or four biers, borne by bearers, ranged themselves behind the latter,[12] and whereas
-        the priests thought to have but one dead man to bury, they had six or eight, and whiles
+        the <roleName type="clerical" subtype="priest">priests</roleName> thought to have but one dead man to bury, they had six or eight, and whiles
         more. Nor therefore were the dead honoured with aught of tears or candles or funeral train;
         nay, the thing was come to such a pass that folk recked no more of men that died than
         nowadays they would of goats; whereby it very manifestly appeared that that which the
@@ -698,7 +698,7 @@
         consent to confess or take any sacrament of the <org type="religous" subtype="church">church</org>; and he dying without confession, no
         <org type="religous" subtype="church">church</org> will receive his body; nay, he will be cast into a ditch, like a dog. Again, even if
         he do confess, his sins are so many and so horrible that the like will come of it, for that
-        there is nor priest nor friar who can or will absolve him thereof; wherefore, being
+        there is nor <roleName type="clerical" subtype="priest">priest</roleName> nor friar who can or will absolve him thereof; wherefore, being
         unshriven, he will still be cast into the ditches. Should it happen thus, the people of the
         city, as well on account of our trade, which appeareth to them most iniquitous and of which
         they missay all day, as of their itch to plunder us, seeing this, will rise up in riot and
@@ -2847,10 +2847,10 @@
         persons speaking and presently perceived that they came to do that which he and his comrades
         had already done; whereat fear redoubled upon him. But, after the newcomers had forced open
         the tomb and propped up the lid, they fell into dispute of who should go in, and none was
-        willing to do it. However, after long parley, a priest said, 'What fear ye? Think you he
+        willing to do it. However, after long parley, a <roleName type="clerical" subtype="priest">priest</roleName> said, 'What fear ye? Think you he
         will eat you? The dead eat not men. I will go in myself.' So saying, he set his breast to
         the marge of the tomb and turning his head outward, put in his legs, thinking to let himself
-        drop. Andreuccio, seeing this, started up and catching the priest by one of his legs, made a
+        drop. Andreuccio, seeing this, started up and catching the <roleName type="clerical" subtype="priest">priest</roleName> by one of his legs, made a
         show of offering to pull him down into the tomb. The other, feeling this, gave a terrible
         screech and flung precipitately out of the tomb; whereupon all the others fled in terror, as
         they were pursued by an hundred thousand devils, leaving the tomb open. </p>
@@ -6520,7 +6520,7 @@
         cherished her ere I died, insomuch that I held her all night in mine arms and did nought but
         kiss her, and t' other thing also I did, when I had a mind thereto.' Then, being very
         sharp-set, he fell to eating and drinking and himseeming the wine was not overgood, 'Lord
-        confound her!' quoth he. 'Why did not she give the priest wine of the cask against the
+        confound her!' quoth he. 'Why did not she give the <roleName type="clerical" subtype="priest">priest</roleName> wine of the cask against the
         wall?' </p>
 
     <p> After he had eaten, the monk laid hold of him anew and gave him another sound beating with
@@ -7676,7 +7676,7 @@
         eating flesh nor drinking wine, whenas he had not thereof that which was to his liking. In
         short, scarce was any ware of him when from a thief, a pimp, a forger, a manslayer, he
         suddenly became a great preacher, without having for all that forsworn the vices aforesaid,
-        whenas he might secretly put them in practice. Moreover, becoming a priest, he would still,
+        whenas he might secretly put them in practice. Moreover, becoming a <roleName type="clerical" subtype="priest">priest</roleName>, he would still,
         whenas he celebrated mass at the altar, an he were seen of many, beweep our Saviour's
         passion, as one whom tears cost little, whenas he willed it. Brief, what with his preachings
         and his tears, he contrived on such wise to inveigle the Venetians that he was trustee and
@@ -12722,8 +12722,8 @@
 
      THE FIFTH STORY 
      Day the Seventh 
-    <p> A JEALOUS HUSBAND, IN THE GUISE OF A PRIEST, CONFESSETH HIS WIFE, WHO GIVETH HIM TO BELIEVE
-        THAT SHE LOVETH A PRIEST, WHO COMETH TO HER EVERY NIGHT; AND WHILST THE HUSBAND SECRETLY
+    <p> A JEALOUS HUSBAND, IN THE GUISE OF A <roleName type="clerical" subtype="priest">PRIEST</roleName>, CONFESSETH HIS WIFE, WHO GIVETH HIM TO BELIEVE
+        THAT SHE LOVETH A <roleName type="clerical" subtype="priest">PRIEST</roleName>, WHO COMETH TO HER EVERY NIGHT; AND WHILST THE HUSBAND SECRETLY
         KEEPETH WATCH AT THE DOOR FOR THE LATTER, THE LADY BRINGETH IN A LOVER OF HERS BY THE ROOF
         AND LIETH WITH HIM </p>
 
@@ -12796,12 +12796,12 @@
         sacrament, as other <faith ref="#Roman Catholic">Christians </faith>did. Quoth he, 'And what sin hast thou committed that thou
         wouldst confess?' 'How?' answered the lady. 'Thinkest thou that I am a saint, because thou
         keepest me mewed up? Thou must know well enough that I commit sins like all others that live
-        in this world; but I will not tell them to thee, for that thou art not a priest.' The
+        in this world; but I will not tell them to thee, for that thou art not a <roleName type="clerical" subtype="priest">priest</roleName>.' The
         jealous wretch took suspicion at these words and determined to seek to know what sins she
         had committed; wherefore, having bethought himself of a means whereby he might gain his end,
         he answered that he was content, but that he would have her go to no other <org type="religous" subtype="church">church</org> than their
         parish chapel and that thither she must go betimes in the morning and confess herself either
-        to their chaplain or to such priest as the latter should appoint her and to none other and
+        to their chaplain or to such <roleName type="clerical" subtype="priest">priest</roleName> as the latter should appoint her and to none other and
         presently return home. Herseemed she half apprehended his meaning; but without saying
         otherwhat, she answered that she would do as he said. </p>
 
@@ -12809,30 +12809,30 @@
         to the <org type="religous" subtype="church">church</org> appointed her of her husband, who, on his part, betook himself to the same
         place and reached it before her. Having already taken order with the chaplain of that which
         he had a mind to do, he hastily donned one of the latter's gowns, with a great flapped cowl,
-        such as we see priests wear, and drawing the hood a little over his face, seated himself in
+        such as we see <roleName type="clerical" subtype="priest">priests</roleName> wear, and drawing the hood a little over his face, seated himself in
         the choir. The lady, entering the chapel, enquired for the chaplain, who came and hearing
         from her that she would fain confess, said that he could not hear her, but would send her
         one of his brethren. Accordingly, going away, he sent her the jealous man, in an ill hour
         for the latter, who came up with a very grave air, and albeit the day was not over bright
         and he had drawn the cowl far over his eyes, knew not so well to disguise himself but he was
         readily recognized by the lady, who, seeing this, said in herself, 'Praised be God! From a
-        jealous man he is turned priest; but no matter; I will e'en give him what he goeth seeking.' </p>
+        jealous man he is turned <roleName type="clerical" subtype="priest">priest</roleName>; but no matter; I will e'en give him what he goeth seeking.' </p>
 
     <p> Accordingly, feigning not to know him, she seated herself at his feet. My lord Jealousy had
         put some pebbles in his mouth, to impede his speech somewhat, so his wife might not know him
         by his voice, himseeming he was in every other particular so thoroughly disguised that he
         was nowise fearful of being recognized by her. To come to the confession, the lady told him,
         amongst other things, (having first declared herself to be married,) that she was enamoured
-        of a priest, who came every night to lie with her. When the jealous man heard this,
+        of a <roleName type="clerical" subtype="priest">priest</roleName>, who came every night to lie with her. When the jealous man heard this,
         himseemed he had gotten a knife-thrust in the heart, and had not desire constrained him to
         know more, he had abandoned the confession and gone away. Standing fast, then, he asked the
         lady, 'How! Doth not your husband lie with you?' 'Ay doth he, sir,' replied she. 'How,
-        then,' asked the jealous man, 'can the priest also lie with you?' 'Sir,' answered she, 'by
+        then,' asked the jealous man, 'can the <roleName type="clerical" subtype="priest">priest</roleName> also lie with you?' 'Sir,' answered she, 'by
         what art he doth it I know not, but there is not a door in the house so fast locked but it
         openeth so soon as he toucheth it; and he telleth me that, whenas he cometh to the door of
         my chamber, before opening it, he pronounceth certain words, by virtue whereof my husband
         incontinent falleth asleep, and so soon as he perceiveth him to be fast, he openeth the door
-        and cometh in and lieth with me; and this never faileth.' Quoth the mock priest, 'Madam,
+        and cometh in and lieth with me; and this never faileth.' Quoth the mock <roleName type="clerical" subtype="priest">priest</roleName>, 'Madam,
         this is ill done, and it behoveth you altogether to refrain therefrom.' 'Sir,' answered the
         lady, 'methinketh I could never do that, for that I love him too well.' 'Then,' said the
         other, 'I cannot shrive you.' Quoth she, 'I am grieved for that; but I came not hither to
@@ -12849,13 +12849,13 @@
         word of the matter from him.' Then said she, 'So but you can engage to do that, I am
         content.' Then, having made her confession and gotten her penance, she rose to her feet and
         went off to hear mass; whilst the jealous man, (ill luck go with him!) withdrew, bursting
-        with rage, to put off his priest's habit, and returned home, impatient to find a means of
-        surprising the priest with his wife, so he might play the one and the other an ill turn. </p>
+        with rage, to put off his <roleName type="clerical" subtype="priest">priest</roleName>'s habit, and returned home, impatient to find a means of
+        surprising the <roleName type="clerical" subtype="priest">priest</roleName> with his wife, so he might play the one and the other an ill turn. </p>
 
     <p> Presently the lady came back from <org type="religous" subtype="church">church</org> and saw plainly enough from her husband's looks
         that she had given him an ill Christmas; albeit he studied, as most he might, to conceal
         that which he had done and what himseemed he had learned. Then, being inwardly resolved to
-        lie in wait near the street-door that night and watch for the priest's coming, he said to
+        lie in wait near the street-door that night and watch for the <roleName type="clerical" subtype="priest">priest</roleName>'s coming, he said to
         the lady, 'Needs must I sup and lie abroad to-night, wherefore look thou lock the
         street-door fast, as well as that of the midstair and that of thy chamber, and get thee to
         bed, whenas it seemeth good to thee.' The lady answered, 'It is well,' and betaking herself,
@@ -12873,26 +12873,26 @@
         they went to bed and gave themselves a good time, taking their pleasure one of the other
         till daybreak, when the young man returned to his own house. Meanwhile, the jealous man
         stood to his arms well nigh all night beside the street-door, sorry and supperless and dying
-        of cold, and waited for the priest to come till near upon day, when, unable to watch any
+        of cold, and waited for the <roleName type="clerical" subtype="priest">priest</roleName> to come till near upon day, when, unable to watch any
         longer, he returned to the ground floor room and there fell asleep. Towards tierce he awoke
         and the street door being now open, he made a show of returning from otherwhere and went up
-        into his house and dined. A little after, he sent a lad, as he were the priest's clerkling
+        into his house and dined. A little after, he sent a lad, as he were the <roleName type="clerical" subtype="priest">priest</roleName>'s clerkling
         that had confessed her, to the lady to ask if she wot of were come thither again. She knew
         the messenger well enough and answered that he had not come thither that night and that if
         he did thus, he might haply pass out of her mind, albeit she wished it not. What more should
         I tell you? The jealous man abode on the watch night after night, looking to catch the
-        priest at his entering in, and the lady still had a merry life with her lover the while. </p>
+        <roleName type="clerical" subtype="priest">priest</roleName> at his entering in, and the lady still had a merry life with her lover the while. </p>
 
     <p> At length the cuckold, able to contain himself no longer, asked his wife, with an angry air,
-        what she had said to the priest the morning she had confessed herself to him. She answered
+        what she had said to the <roleName type="clerical" subtype="priest">priest</roleName> the morning she had confessed herself to him. She answered
         that she would not tell him, for that it was neither a just thing nor a seemly; whereupon,
         'Vile woman that thou art!' cried he. 'In despite of thee I know what thou saidst to him,
-        and needs must I know the priest of whom thou art so mightily enamoured and who, by means of
+        and needs must I know the <roleName type="clerical" subtype="priest">priest</roleName> of whom thou art so mightily enamoured and who, by means of
         his conjurations, lieth with thee every night; else will I slit thy weasand.' She replied
-        that it was not true that she was enamoured of any priest. 'How?' cried the husband, 'Saidst
-        thou not thus and thus to the priest who confessed thee?' And she, 'Thou couldst not have
+        that it was not true that she was enamoured of any <roleName type="clerical" subtype="priest">priest</roleName>. 'How?' cried the husband, 'Saidst
+        thou not thus and thus to the <roleName type="clerical" subtype="priest">priest</roleName> who confessed thee?' And she, 'Thou couldst not have
         reported it better, not to say if he had told it thee, but if thou hadst been present; ay, I
-        did tell him this.' 'Then,' rejoined the jealous man, 'tell me who is this priest, and that
+        did tell him this.' 'Then,' rejoined the jealous man, 'tell me who is this <roleName type="clerical" subtype="priest">priest</roleName>, and that
         quickly.' </p>
 
     <p> The lady fell a-smiling and answered, 'It rejoiceth me mightily to see a wise man led by the
@@ -12900,18 +12900,18 @@
         longer wise nor hast been since the hour when, unknowing why, thou sufferedst the malignant
         spirit of jealousy to enter thy breast; and the sillier and more besotted thou art, so much
         the less is my glory thereof. Deemest thou, husband mine, I am as blind of the eyes of the
-        body as thou of those of the mind? Certes, no; I perceived at first sight who was the priest
+        body as thou of those of the mind? Certes, no; I perceived at first sight who was the <roleName type="clerical" subtype="priest">priest</roleName>
         that confessed me and know that thou wast he; but I had it at heart to give thee that which
         thou wentest seeking, and in sooth I have done it. Wert thou as wise as thou thinkest to be,
         thou wouldst not have essayed by this means to learn the secrets of thy good wife, but
         wouldst, without taking vain suspicion, have recognized that which she confessed to thee to
-        be the very truth, without her having sinned in aught. I told thee that I loved a priest,
-        and wast not thou, whom I am much to blame to love as I do, become a priest? I told thee
+        be the very truth, without her having sinned in aught. I told thee that I loved a <roleName type="clerical" subtype="priest">priest</roleName>,
+        and wast not thou, whom I am much to blame to love as I do, become a <roleName type="clerical" subtype="priest">priest</roleName>? I told thee
         that no door of my house could abide locked, whenas he had a mind to lie with me; and what
         door in the house was ever kept against thee, whenas thou wouldst come whereas I might be? I
-        told thee that the priest lay with me every night, and when was it that thou layest not with
+        told thee that the <roleName type="clerical" subtype="priest">priest</roleName> lay with me every night, and when was it that thou layest not with
         me? And whenassoever thou sentest thy clerk to me, which was thou knowest, as often as thou
-        layest from me, I sent thee word that the priest had not been with me. What other than a
+        layest from me, I sent thee word that the <roleName type="clerical" subtype="priest">priest</roleName> had not been with me. What other than a
         crack-brain like thee, who has suffered thyself to be blinded by thy jealousy, had failed to
         understand these things? Thou hast abidden in the house, keeping watch anights, and
         thoughtest to have given me to believe that thou wast gone abroad to sup and sleep. Bethink
@@ -13965,7 +13965,7 @@
 
      THE SECOND STORY 
      Day the Eighth 
-    <p> THE PARISH PRIEST OF VARLUNGO LIETH WITH MISTRESS BELCOLORE AND LEAVETH HER A CLOAK OF HIS
+    <p> THE PARISH <roleName type="clerical" subtype="priest">PRIEST</roleName> OF VARLUNGO LIETH WITH MISTRESS BELCOLORE AND LEAVETH HER A CLOAK OF HIS
         IN PLEDGE; THEN, BORROWING A MORTAR OF HER, HE SENDETH IT BACK TO HER, DEMANDING IN RETURN
         THE CLOAK LEFT BY WAY OF TOKEN, WHICH THE GOOD WOMAN GRUDGINGLY GIVETH HIM BACK </p>
 
@@ -13978,16 +13978,16 @@
         under them, conceive themselves to have gained forgiveness of fault and pardon of penalty no
         otherwise than as they had brought the Soldan bound from Alexandria to Avignon.[365] Whereof
         the wretched laymen cannot return them the like, albeit they wreak their ire upon the
-        priests' mothers and sisters, doxies and daughters, assailing them with no less ardour than
+        <roleName type="clerical" subtype="priest">priests</roleName>' mothers and sisters, doxies and daughters, assailing them with no less ardour than
         the former do their wives. Wherefore I purpose to recount to you a village love-affair, more
         laughable for its conclusion than long in words, wherefrom you may yet gather, by way of
-        fruit, that priests are not always to be believed in everything. </p>
+        fruit, that <roleName type="clerical" subtype="priest">priests</roleName> are not always to be believed in everything. </p>
 
     <p> You must know, then, that there was once at Varlungo,—a village very near here, as each of
-        you ladies either knoweth or may have heard,—a worthy priest and a lusty of his person in
+        you ladies either knoweth or may have heard,—a worthy <roleName type="clerical" subtype="priest">priest</roleName> and a lusty of his person in
         the service of the ladies, who, albeit he knew not overwell how to read, natheless regaled
         his parishioners with store of good and pious saws at the elmfoot on Sundays and visited
-        their women, whenas they went abroad anywhither, more diligently than any priest who had
+        their women, whenas they went abroad anywhither, more diligently than any <roleName type="clerical" subtype="priest">priest</roleName> who had
         been there aforetime, carrying them fairings and holy water and a stray candle-end or so,
         whiles even to their houses. Now it chanced that, among other his she-parishioners who were
         most to his liking, one pleased him over all, by name Mistress Belcolore, the wife of a
@@ -13995,7 +13995,7 @@
         brown-favoured and tight-made, as apt at turning the mill[366] as any woman alive. Moreover,
         it was she who knew how to play the tabret and sing 'The water runneth to the ravine' and
         lead up the haye and the round, when need was, with a fine muckender in her hand and a
-        quaint, better than any woman of her neighbourhood; by reason of which things my lord priest
+        quaint, better than any woman of her neighbourhood; by reason of which things my lord <roleName type="clerical" subtype="priest">priest</roleName>
         became so sore enamoured of her that he was like to lose his wits therefor and would prowl
         about all day long to get a sight of her. Whenas he espied her in <org type="religous" subtype="church">church</org> of a Sunday
         morning, he would say a Kyrie and a Sanctus, studying to show himself a past master in
@@ -14007,18 +14007,18 @@
         tilled with his own hands, and otherwhiles a punnet of peascods or a bunch of chives or
         scallions, and whenas he saw his opportunity, he would ogle her askance and cast a friendly
         gibe at her; but she, putting on the prude, made a show of not observing it and passed on
-        with a demure air; wherefore my lord priest could not come by his will of her. </p>
+        with a demure air; wherefore my lord <roleName type="clerical" subtype="priest">priest</roleName> could not come by his will of her. </p>
 
     <p> It chanced one day that as he sauntered about the quarter on the stroke of noon, he
         encountered Bentivegna del Mazzo, driving an ass laden with gear, and accosting him, asked
         whither he went. 'Faith, sir,' answered the husbandman, 'to tell you the truth, I am going
         to town about a business of mine and am carrying these things to Squire Bonaccorri da
         Ginestreto, so he may help me in I know not what whereof the police-court judge hath
-        summoned me by his proctor for a peremptory attendance.' The priest was rejoiced to hear
+        summoned me by his proctor for a peremptory attendance.' The <roleName type="clerical" subtype="priest">priest</roleName> was rejoiced to hear
         this and said, 'Thou dost well, my son; go now with my benison and return speedily; and
         shouldst thou chance to see Lapuccio or Naldino, forget not to bid them bring me those
         straps they wot of for my flails.' Bentivegna answered that it should be done and went his
-        way towards Florence, whereupon the priest bethought himself that now was his time to go try
+        way towards Florence, whereupon the <roleName type="clerical" subtype="priest">priest</roleName> bethought himself that now was his time to go try
         his luck with Belcolore. Accordingly, he let not the grass grow under his feet, but set off
         forthright and stayed not till he came to her house and entering in, said, 'God send us all
         well! Who is within there?' Belcolore, who was gone up into the hay-loft, hearing him, said,
@@ -14027,46 +14027,46 @@
         to town.' </p>
 
     <p> Belcolore came down and taking a seat, fell to picking over cabbage-seed which her husband
-        had threshed out a while before; whereupon quoth the priest to her, 'Well, Belcolore, wilt
+        had threshed out a while before; whereupon quoth the <roleName type="clerical" subtype="priest">priest</roleName> to her, 'Well, Belcolore, wilt
         thou still cause me die for thee on this wise?' She laughed and answered, 'What is it I do
         to you?' Quoth he, 'Thou dost nought to me, but thou sufferest me not do to thee that which
         I would fain do and which God commandeth.' 'Alack!' cried Belcolore, 'Go to, go to. Do
-        priests do such things?' 'Ay do we,' replied he, 'as well as other men; and why not? And I
+        <roleName type="clerical" subtype="priest">priests</roleName> do such things?' 'Ay do we,' replied he, 'as well as other men; and why not? And I
         tell thee more, we do far and away better work and knowest thou why? Because we grind with a
         full head of water. But in good sooth it shall be shrewdly to thy profit, an thou wilt but
         abide quiet and let me do.' 'And what might this "shrewdly to my profit" be?' asked she.
-        'For all you priests are stingier than the devil.' Quoth he, 'I know not; ask thou. Wilt
+        'For all you <roleName type="clerical" subtype="priest">priests</roleName> are stingier than the devil.' Quoth he, 'I know not; ask thou. Wilt
         have a pair of shoes or a head-lace or a fine stammel waistband or what thou wilt?' 'Pshaw!'
         cried Belcolore. 'I have enough and to spare of such things; but an you wish me so well, why
-        do you not render me a service, and I will do what you will?' Quoth the priest, 'Say what
+        do you not render me a service, and I will do what you will?' Quoth the <roleName type="clerical" subtype="priest">priest</roleName>, 'Say what
         thou wilt have of me, and I will do it willingly.' Then said she, 'Needs must I go to
         Florence, come Saturday, to carry back the wool I have spun and get my spinning-wheel
         mended; and an you will lend me five crowns, which I know you have by you, I can take my
         watchet gown out of pawn and my Sunday girdle[367] that I brought my husband, for you see I
         cannot go to <org type="religous" subtype="church">church</org> nor to any decent place, because I have them not; and after I will still
-        do what you would have me.' 'So God give me a good year,' replied the priest, 'I have them
+        do what you would have me.' 'So God give me a good year,' replied the <roleName type="clerical" subtype="priest">priest</roleName>, 'I have them
         not about me; but believe me, ere Saturday come, I will contrive that thou shalt have them,
         and that very willingly.' 'Ay,' said Belcolore, 'you are all like this, great promisers, and
         after perform nothing to any. Think you to do with me as you did with Biliuzza, who went off
         with the ghittern-player?[368] Cock's faith, then, you shall not, for that she is turned a
         common drab only for that. If you have them not about you, go for them.' 'Alack,' cried the
-        priest, 'put me not upon going all the way home. Thou seest that I have the luck just now to
+        <roleName type="clerical" subtype="priest">priest</roleName>, 'put me not upon going all the way home. Thou seest that I have the luck just now to
         find thee alone, but maybe, when I return, there will be some one or other here to hinder
         us; and I know not when I shall find so good an opportunity again.' Quoth she, 'It is well;
         an you choose to go, go; if not, go without.' </p>
 
-    <p> The priest, seeing that she was not in the humour to do his pleasure without a salvum me
+    <p> The <roleName type="clerical" subtype="priest">priest</roleName>, seeing that she was not in the humour to do his pleasure without a salvum me
         fac, whereas he would fain have done it sine custodiâ, said, 'Harkye, thou believest not
         that I will bring thee the money; but, so thou mayst credit me, I will leave thee this my
         blue-cloth cloak.' Belcolore raised her eyes and said, 'Eh what! That cloak? What is it
-        worth?' 'Worth?' answered the priest. 'I would have thee know that it is cloth of Douay,
+        worth?' 'Worth?' answered the <roleName type="clerical" subtype="priest">priest</roleName>. 'I would have thee know that it is cloth of Douay,
         nay, Threeay, and there be some of our folk here who hold it for Fouray.[369] It is scarce a
         fortnight since it cost me seven crowns of hard money to Lotto the broker, and according to
         what Buglietto telleth me (and thou knowest he is a judge of this kind of cloth), I had it
         good five shillings overcheap.' 'Indeed!' quoth Belcolore. 'So God be mine aid, I had never
-        thought it. But give it me first of all.' My lord priest, who had his arbalest ready cocked,
+        thought it. But give it me first of all.' My lord <roleName type="clerical" subtype="priest">priest</roleName>, who had his arbalest ready cocked,
         pulled off the cloak and gave it her; and she, after she had laid it up, said, 'Come, sir,
-        let us go into the barn, for no one ever cometh there.' And so they did. There the priest
+        let us go into the barn, for no one ever cometh there.' And so they did. There the <roleName type="clerical" subtype="priest">priest</roleName>
         gave her the heartiest busses in the world and making her sib to God Almighty,[370] solaced
         himself with her a great while; after which he took leave of her and returned to the
         parsonage in his cassock, as it were he came from officiating at a wedding. </p>
@@ -14078,12 +14078,12 @@
         that on the morrow, it being a holiday, he sent a neighbour's lad of his to Mistress
         Belcolore's house, with a message praying her be pleased to lend him her stone mortar, for
         that Binguccio dal Poggio and Nuto Buglietti were to dine with him that morning and he had a
-        mind to make sauce. She sent it to him and towards dinner-time, the priest, having spied out
+        mind to make sauce. She sent it to him and towards dinner-time, the <roleName type="clerical" subtype="priest">priest</roleName>, having spied out
         when Bentivegna and his wife were at meat together, called his clerk and said to him, 'Carry
         this mortar back to Belcolore and say to her, 'His reverence biddeth you gramercy and
         prayeth you send him back the cloak that the boy left you by way of token.' The clerk
         accordingly repaired to her house and there, finding her at table with Bentivegna, set down
-        the mortar and did the priest's errand. Belcolore, hearing require the cloak again, would
+        the mortar and did the <roleName type="clerical" subtype="priest">priest</roleName>'s errand. Belcolore, hearing require the cloak again, would
         have answered; but her husband said, with an angry air, 'Takest thou a pledge of his
         reverence? I vow to Christ, I have a mind to give thee a good clout over the head! Go, give
         it quickly back to him, pox take thee! And in future, let him ask what he will of ours, (ay,
@@ -14092,14 +14092,14 @@
         from me, Belcolore saith, she voweth to God you shall never again pound sauce in her mortar;
         you have done her no such fine honour of this bout.' </p>
 
-    <p> The clerk made off with the cloak and did her message to the priest, who said, laughing,
+    <p> The clerk made off with the cloak and did her message to the <roleName type="clerical" subtype="priest">priest</roleName>, who said, laughing,
         'Tell her, when thou seest her, that, an she will not lend me her mortar, I will not lend
         her my pestle; and so we shall be quits.' Bentivegna concluded that his wife had said this,
-        because he had chidden her, and took no heed thereof; but Belcolore bore the priest a grudge
+        because he had chidden her, and took no heed thereof; but Belcolore bore the <roleName type="clerical" subtype="priest">priest</roleName> a grudge
         and held him at arm's length till vintage-time; when, he having threatened to cause her go
         into the mouth of Lucifer the great devil, for very fear she made her peace with him over
         must and roast chestnuts and they after made merry together time and again. In lieu of the
-        five crowns, the priest let put new parchment to her tabret and string thereto a cast of
+        five crowns, the <roleName type="clerical" subtype="priest">priest</roleName> let put new parchment to her tabret and string thereto a cast of
         hawk's bells, and with this she was fain to be content." </p>
 
      THE THIRD STORY 
@@ -14331,7 +14331,7 @@
         all the company, the queen turned to Emilia, and signified to her her wish that she should
         follow after with her story, whereupon she promptly began thus: "I have not forgotten, noble
         ladies, that it hath already been shown, in sundry of the foregoing stories, how much we
-        women are exposed to the importunities of the priests and friars and clergy of every kind;
+        women are exposed to the importunities of the <roleName type="clerical" subtype="priest">priests</roleName> and friars and clergy of every kind;
         but, seeing that so much cannot be said thereof but that yet more will remain to say, I
         purpose, to boot, to tell you a story of a rector, who, maugre all the world, would e'en
         have a gentlewoman wish him well,[377] whether she would or not; whereupon she, like a very
@@ -14353,7 +14353,7 @@
         hated him worse than the megrims; wherefore, like a discreet woman as she was, she answered
         him, 'Sir, that you love me should be mighty pleasing to me, who am bound to love you and
         will gladly do so; but between your love and mine nothing unseemly should ever befall. You
-        are my spiritual father and a priest and are presently well stricken in years, all which
+        are my spiritual father and a <roleName type="clerical" subtype="priest">priest</roleName> and are presently well stricken in years, all which
         things should make you both modest and chaste; whilst I, on the other hand, am no girl, nor
         do these amorous toys beseem my present condition, for that I am a widow and you well know
         what discretion is required in widows; wherefore I pray you hold me excused, for that I
@@ -14382,7 +14382,7 @@
         let that pass for the present. When and where can we be together?' Whereto quoth the lady,
         'Sweet my lord, as for the when, it may be what time soever most pleaseth us, for that I
         have no husband to whom it behoveth me render an account of my nights; but for the where I
-        know not how to contrive.' 'How?' cried the priest. 'Why, in your house to be sure.' 'Sir,'
+        know not how to contrive.' 'How?' cried the <roleName type="clerical" subtype="priest">priest</roleName>. 'Why, in your house to be sure.' 'Sir,'
         answered the lady, 'you know I have two young brothers, who come and go about the house with
         their companions day and night, and my house is not overbig; wherefore it may not be there,
         except one chose to abide there mute-fashion, without saying a word or making the least
@@ -14447,7 +14447,7 @@
         committed. The bishop presently enquiring how it came to pass that he had gone thither to
         lie with Ciutazza, the young men orderly related everything to him, which having heard, he
         greatly commended both the lady and her brothers for that, without choosing to imbrue their
-        hands in the blood of a priest, they had entreated him as he deserved. As for the rector, he
+        hands in the blood of a <roleName type="clerical" subtype="priest">priest</roleName>, they had entreated him as he deserved. As for the rector, he
         caused him bewail his offence forty days' space; but love and despite made him rue it for
         more than nine-and-forty,[380] more by token that, for a great while after, he could never
         go abroad but the children would point at him and say, 'See, there is he who lay with
@@ -14563,9 +14563,9 @@
         pig, and it was his wont still to betake himself thither, he and his wife, and kill the pig
         and have it salted on the spot. It chanced one year that, his wife being somewhat ailing, he
         went himself to kill the pig, which Bruno and Buffalmacco hearing and knowing that his wife
-        was not gone to the farm with him, they repaired to a priest, very great friend of theirs
+        was not gone to the farm with him, they repaired to a <roleName type="clerical" subtype="priest">priest</roleName>, very great friend of theirs
         and a neighbor of Calandrino, to sojourn some days with him. Now Calandrino had that very
-        morning killed the pig and seeing them with the priest, called to them saying, 'You are
+        morning killed the pig and seeing them with the <roleName type="clerical" subtype="priest">priest</roleName>, called to them saying, 'You are
         welcome. I would fain have you see what a good husband[382] I am.' Then carrying them into
         the house, he showed them the pig, which they seeing to be a very fine one and understanding
         from Calandrino that he meant to salt it down for his family, 'Good lack,' quoth Bruno to
@@ -14579,19 +14579,19 @@
         stealing yonder pig from him to-night?' 'Marry,' replied the other, 'how can we do it?'
         Quoth Bruno, 'I can see how well enough, an he remove it not from where it was but now.'
         'Then,' rejoined his companion, 'let us do it. Why should we not? And after we will make
-        merry over it with the parson here.' The priest answered that he would well, and Bruno said,
+        merry over it with the parson here.' The <roleName type="clerical" subtype="priest">priest</roleName> answered that he would well, and Bruno said,
         'Here must some little art be used. Thou knowest, Buffalmacco, how niggardly Calandrino is
         and how gladly he drinketh when others pay; let us go and carry him to the tavern, where the
-        priest shall make believe to pay the whole scot in our honor nor suffer him to pay aught.
+        <roleName type="clerical" subtype="priest">priest</roleName> shall make believe to pay the whole scot in our honor nor suffer him to pay aught.
         Calandrino will soon grow fuddled and then we can manage it lightly enough, for that he is
-        alone in the house.' As he said, so they did and Calandrino seeing that the priest suffered
+        alone in the house.' As he said, so they did and Calandrino seeing that the <roleName type="clerical" subtype="priest">priest</roleName> suffered
         none to pay, gave himself up to drinking and took in a good load, albeit it needed no great
         matter to make him drunk. It was pretty late at night when they left the tavern and
         Calandrino, without troubling himself about supper, went straight home, where, thinking to
         have shut the door, he left it open and betook himself to bed. Buffalmacco and Bruno went
-        off to sup with the priest and after supper repaired quietly to Calandrino's house, carrying
+        off to sup with the <roleName type="clerical" subtype="priest">priest</roleName> and after supper repaired quietly to Calandrino's house, carrying
         with them certain implements wherewithal to break in whereas Bruno had appointed it; but,
-        finding the door open, they entered and unhooking the pig, carried it off to the priest's
+        finding the door open, they entered and unhooking the pig, carried it off to the <roleName type="clerical" subtype="priest">priest</roleName>'s
         house, where they laid it up and betook themselves to sleep. </p>
 
     <p> On the morrow, Calandrino, having slept off the fumes of the wine, arose in the morning and
@@ -16425,7 +16425,7 @@
      Day the Ninth 
     <p> AN ABBESS, ARISING IN HASTE AND IN THE DARK TO FIND ONE OF HER NUNS, WHO HAD BEEN DENOUNCED
         TO HER, IN BED WITH HER LOVER AND THINKING TO COVER HER HEAD WITH HER COIF, DONNETH INSTEAD
-        THEREOF THE BREECHES OF A PRIEST WHO IS ABED WITH HER; THE WHICH THE ACCUSED NUN OBSERVING
+        THEREOF THE BREECHES OF A <roleName type="clerical" subtype="priest">PRIEST</roleName> WHO IS ABED WITH HER; THE WHICH THE ACCUSED NUN OBSERVING
         AND MAKING HER AWARE THEREOF, SHE IS ACQUITTED AND HATH LEISURE TO BE WITH HER LOVER </p>
 
 
@@ -16463,11 +16463,11 @@
         themselves into two parties, whereof one abode on guard at the door of her cell, whilst the
         other ran to the abbess's chamber and knocking at the door, till she answered, said to her,
         'Up, madam; arise quickly, for we have discovered that Isabetta hath a young man in her
-        cell.' Now the abbess was that night in company with a priest, whom she ofttimes let come to
+        cell.' Now the abbess was that night in company with a <roleName type="clerical" subtype="priest">priest</roleName>, whom she ofttimes let come to
         her in a chest; but, hearing the nuns' outcry and fearing lest, of their overhaste and
         eagerness, they should push open the door, she hurriedly arose and dressed herself as best
         she might in the dark. Thinking to take certain plaited veils, which nuns wear on their
-        heads and call a psalter, she caught up by chance the priest's breeches, and such was her
+        heads and call a psalter, she caught up by chance the <roleName type="clerical" subtype="priest">priest</roleName>'s breeches, and such was her
         haste that, without remarking what she did, she threw them over her head, in lieu of the
         psalter, and going forth, hurriedly locked the door after her, saying, 'Where is this
         accursed one of God?' Then, in company with the others, who were so ardent and so intent
@@ -16501,7 +16501,7 @@
         altogether different from her beginning, came to the conclusion that it is impossible to
         withstand the pricks of the flesh, wherefore she said that each should, whenas she might,
         privily give herself a good time, even as it had been done until that day. Accordingly,
-        setting the young lady free, she went back to sleep with her priest and Isabetta returned to
+        setting the young lady free, she went back to sleep with her <roleName type="clerical" subtype="priest">priest</roleName> and Isabetta returned to
         her lover, whom many a time thereafter she let come thither, in despite of those who envied
         her, whilst those of the others who were loverless pushed their fortunes in secret, as best
         they knew." </p>
@@ -16872,7 +16872,7 @@
         done speedily.' Quoth Bruno, 'Will thy heart serve thee to touch her with a script I shall
         give thee?' 'Ay, sure,' replied Calandrino; and the other, 'Then do thou make shift to bring
         me a piece of virgin parchment and a live bat, together with three grains of frankincense
-        and a candle that hath been blessed by the priest, and leave me do.' Accordingly, Calandrino
+        and a candle that hath been blessed by the <roleName type="clerical" subtype="priest">priest</roleName>, and leave me do.' Accordingly, Calandrino
         lay in wait all the next night with his engines to catch a bat and having at last taken one,
         carried it to Bruno, with the other things required; whereupon the latter, withdrawing to a
         chamber, scribbled divers toys of his fashion upon the parchment, in characters of his own
@@ -17397,7 +17397,7 @@
         enchantment and how slight a default thereof sufficeth to mar everything done by the
         magician. </p>
 
-    <p> A year or two agone there was at Barletta a priest called Dom Gianni di Barolo, who, for
+    <p> A year or two agone there was at Barletta a <roleName type="clerical" subtype="priest">priest</roleName> called Dom Gianni di Barolo, who, for
         that he had but a poor cure, took to eking out his livelihood by hawking merchandise hither
         and thither about the fairs of Apulia with a mare of his and buying and selling. In the
         course of his travels he contracted a strait friendship with one who styled himself Pietro
@@ -17411,10 +17411,10 @@
         received from him at Barletta. Nevertheless, in the matter of lodging, having but one sorry
         little bed, in which he slept with his handsome wife, he could not entertain him as he
         would, but, Dom Gianni's mare being lodged with Pietro's ass in a little stable he had,
-        needs must the priest himself lie by her side on a truss of straw. </p>
+        needs must the <roleName type="clerical" subtype="priest">priest</roleName> himself lie by her side on a truss of straw. </p>
 
     <p> The goodwife, knowing the hospitality which the latter did her husband at Barletta, would
-        more than once, whenas the priest came thither, have gone to lie with a neighbor of hers, by
+        more than once, whenas the <roleName type="clerical" subtype="priest">priest</roleName> came thither, have gone to lie with a neighbor of hers, by
         name Zita Caraprese, [daughter] of Giudice Leo, so he might sleep in the bed with her
         husband, and had many a time proposed it to Dom Gianni, but he would never hear of it; and
         once, amongst other times, he said to her, 'Gossip Gemmata, fret not thyself for me; I fare
