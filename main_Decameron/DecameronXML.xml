@@ -234,7 +234,8 @@
         the dead should assemble in his house and there condole with those who more nearly pertained
         unto him, whilst his neighbours and many other citizens foregathered with his next of kin
         before his house, whither, according to the dead man's quality, came the clergy, and he with
-        funeral pomp of chants and candles was borne on the shoulders of his peers to the <org type="religous" subtype="church">church</org>
+        funeral pomp of chants and candles was borne on the shoulders of his peers to the 
+        <!-- tagging religious organizations to track references to power structures --><org type="religous" subtype="church">church</org>
         chosen by himself before his death; which usages, after the virulence of the plague began to
         increase, were either altogether or for the most part laid aside, and other and strange
         customs sprang up in their stead. For that, not only did folk die without having a multitude
@@ -249,7 +250,8 @@
         sort of blood-suckers, sprung from the dregs of the people, who styled themselves pickmen[8]
         and did such offices for hire, shouldered the bier and bore it with hurried steps, not to
         that <org type="religous" subtype="church">church</org> which the dead man had chosen before his death, but most times to the nearest,
-        behind five or six[9] <roleName type="clerical" subtype="priest">priests</roleName>, with little light[10] and whiles none at all, which latter,
+        behind five or six[9] <!-- similarly tagging positions of power which are referenced, this will help with analysis of censorship -->
+        <roleName type="clerical" subtype="priest">priests</roleName>, with little light[10] and whiles none at all, which latter,
         with the aid of the said pickmen, thrust him into what grave soever they first found
         unoccupied, without troubling themselves with too long or too formal a service. </p>
 
