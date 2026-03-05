@@ -1,8 +1,10 @@
+
+<?xml-model href="DecameronXML_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <p> Here Beginneth the Book Called Decameron and Surnamed Prince Galahalt Wherein Are Contained
         an Hundred Stories in Ten Days Told by Seven Ladies and Three Young Men </p>
 
-     Proem 
+    <head>Proem</head> 
 
     <p> A kindly thing it is to have compassion of the afflicted and albeit it well beseemeth every
         one, yet of those is it more particularly required who have erst had need of comfort and
@@ -71,7 +73,7 @@
         pleasures. </p>
 
 
-     Day the First 
+    <head>Day the First</head> 
     <p> Here Beginneth the First Day of the Decameron Wherein (After Demonstration Made by the
         Author of the Manner in Which it Came to Pass That the Persons Who Are Hereinafter Presented
         Foregathered for the Purpose of Devising Together) Under the Governance of Pampinea Is
@@ -589,8 +591,8 @@
 
 
 
-     THE FIRST STORY 
-     Day the First 
+     <title>THE FIRST STORY</title> 
+     <head>Day the First</head> 
     <p> MASTER CIAPPELLETTO DUPETH A HOLY FRIAR WITH A FALSE CONFESSION AND DIETH; AND HAVING BEEN
         IN HIS LIFETIME THE WORST OF MEN, HE IS, AFTER HIS DEATH, REPUTED A SAINT AND CALLED SAINT
         CIAPPELLETTO. </p>
@@ -931,8 +933,8 @@
         with this he was silent. </p>
 
 
-     THE SECOND STORY 
-     Day the First 
+    <title>THE SECOND STORY</title> 
+    <head>Day the First</head> 
     <p> ABRAHAM THE <faith ref="#Judaism">JEW,</faith> AT THE INSTIGATION OF JEHANNOT DE CHEVIGNÉ, GOETH TO THE COURT OF ROME AND
         SEEING THE DEPRAVITY OF THE CLERGY, RETURNETH TO PARIS AND THERE BECOMETH A <faith ref="#Roman Catholic">CHRISTIAN </faith></p>
 
@@ -1050,8 +1052,8 @@
         great worth and learning in the tenets of our holy faith, which he speedily apprehended and
         thenceforward was a good man and a worthy and one of a devout life." </p>
 
-     THE THIRD STORY 
-     Day the First 
+    <title>THE THIRD STORY</title> 
+    <head>Day the First</head> 
     <p> MELCHIZEDEK THE <faith ref="#Judaism">JEW,</faith> WITH A STORY OF THREE RINGS, ESCAPETH A PARLOUS SNARE SET FOR HIM BY
         SALADIN </p>
 
@@ -1128,8 +1130,8 @@
         very great gifts and still had him to friend and maintained him about his own person in high
         and honourable estate." </p>
 
-     THE FOURTH STORY 
-     Day the First 
+    <title>THE FOURTH STORY</title> 
+    <head>Day the First</head> 
     <p> A MONK, HAVING FALLEN INTO A SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY REPROACHING
         THE SAME FAULT TO HIS ABBOT, QUITTETH HIMSELF OF THE PENALTY </p>
 
@@ -1235,8 +1237,8 @@
         thereafterward." </p>
 
 
-     THE FIFTH STORY 
-     Day the First 
+    <title>THE FIFTH STORY</title> 
+    <head>Day the First</head> 
     <p> THE MARCHIONESS OF MONFERRATO, WITH A DINNER OF HENS AND CERTAIN SPRIGHTLY WORDS, CURBETH
         THE EXTRAVAGANT PASSION OF THE KING OF FRANCE </p>
 
@@ -1315,8 +1317,8 @@
         had received from her and commending her to God, he set out for Genoa, so by his prompt
         departure he might make amends for his unseemly visit." </p>
 
-     THE SIXTH STORY 
-     Day the First 
+    <title>THE SIXTH STORY</title> 
+    <head>Day the First</head> 
     <p> AN HONEST MAN, WITH A CHANCE PLEASANTRY, PUTTETH TO SHAME THE PERVERSE HYPOCRISY OF THE
         RELIGIOUS ORDERS </p>
 
@@ -1390,8 +1392,8 @@
         good-for-noughts; wherefore, of his despite, he bade him thenceforward do what most pleased
         him and not come before him again." </p>
 
-     THE SEVENTH STORY 
-     Day the First 
+    <title>THE SEVENTH STORY</title> 
+    <head>Day the First</head> 
     <p> BERGAMINO, WITH A STORY OF PRIMASSO AND THE ABBOT OF CLUNY, COURTEOUSLY REBUKETH A FIT OF
         PARSIMONY NEWLY COME TO MESSER CANE DELLA SCALA </p>
 
@@ -1518,8 +1520,8 @@
         suit of his own apparel, he gave him money and a palfrey and committed to his choice for the
         nonce to go or stay." </p>
 
-     THE EIGHTH STORY 
-     Day the First 
+    <title>THE EIGHTH STORY</title> 
+    <head>Day the First</head> 
     <p> GUGLIELMO BORSIERE WITH SOME QUAINT WORDS REBUKETH THE NIGGARDLINESS OF MESSER ERMINO DE'
         GRIMALDI </p>
 

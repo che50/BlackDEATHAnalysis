@@ -1,0 +1,15 @@
+start = root
+root = element root {(p | head | title)*}
+    p = element p {(org | faith | roleName | text)*}
+        org = element org {type, subtype, text}
+            type = attribute type {text}
+            subtype = attribute subtype {text}
+        faith = element faith {ref, text}
+            ref = attribute ref {text}
+        roleName = element roleName {role_type, role_subtype, text}
+            role_type = attribute type {text}
+            role_subtype = attribute subtype {text}
+    head = element head {text}
+    title = element title {text}
+#list of faith values
+#faith_list = (#Islam|#Judaism|#Roman Catholic)
