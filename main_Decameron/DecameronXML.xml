@@ -1,10 +1,8 @@
-
-<?xml-model href="DecameronXML_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
-    <p> Here Beginneth the Book Called Decameron and Surnamed Prince Galahalt Wherein Are Contained
-        an Hundred Stories in Ten Days Told by Seven Ladies and Three Young Men </p>
+    <div><p><main_title>Here Beginneth the Book Called Decameron and Surnamed Prince Galahalt Wherein Are Contained
+        an Hundred Stories in Ten Days Told by Seven Ladies and Three Young Men</main_title></p>
 
-    <head>Proem</head> 
+     <intro><p><intro_title>Proem</intro_title></p> 
 
     <p> A kindly thing it is to have compassion of the afflicted and albeit it well beseemeth every
         one, yet of those is it more particularly required who have erst had need of comfort and
@@ -70,15 +68,15 @@
         like wise to be ensued,—the which methinketh cannot betide without cease of chagrin. If it
         happen thus (as God grant it may) let them render thanks therefor to Love, who, by loosing
         me from his bonds, hath vouchsafed me the power of applying myself to the service of their
-        pleasures. </p>
+        pleasures. </p></intro></div>
+    
+<!-- creating "div" elements for each section: attributes will distinguish between days and stories -->
+<div day="First"><p><ch_title>Day the First </ch_title></p>
 
-
-    <head>Day the First</head> 
     <p> Here Beginneth the First Day of the Decameron Wherein (After Demonstration Made by the
         Author of the Manner in Which it Came to Pass That the Persons Who Are Hereinafter Presented
         Foregathered for the Purpose of Devising Together) Under the Governance of Pampinea Is
         Discoursed of That Which Is Most Agreeable Unto Each </p>
-
 
     <p> As often, most gracious ladies, as, taking thought in myself, I mind me how very pitiful you
         are all by nature, so often do I recognize that this present work will, to your thinking,
@@ -236,7 +234,8 @@
         the dead should assemble in his house and there condole with those who more nearly pertained
         unto him, whilst his neighbours and many other citizens foregathered with his next of kin
         before his house, whither, according to the dead man's quality, came the clergy, and he with
-        funeral pomp of chants and candles was borne on the shoulders of his peers to the <org type="religous" subtype="church">church</org>
+        funeral pomp of chants and candles was borne on the shoulders of his peers to the 
+        <!-- tagging religious organizations to track references to power structures --><org type="religous" subtype="church">church</org>
         chosen by himself before his death; which usages, after the virulence of the plague began to
         increase, were either altogether or for the most part laid aside, and other and strange
         customs sprang up in their stead. For that, not only did folk die without having a multitude
@@ -251,7 +250,8 @@
         sort of blood-suckers, sprung from the dregs of the people, who styled themselves pickmen[8]
         and did such offices for hire, shouldered the bier and bore it with hurried steps, not to
         that <org type="religous" subtype="church">church</org> which the dead man had chosen before his death, but most times to the nearest,
-        behind five or six[9] <roleName type="clerical" subtype="priest">priests</roleName>, with little light[10] and whiles none at all, which latter,
+        behind five or six[9] <!-- similarly tagging positions of power which are referenced, this will help with analysis of censorship -->
+        <roleName type="clerical" subtype="priest">priests</roleName>, with little light[10] and whiles none at all, which latter,
         with the aid of the said pickmen, thrust him into what grave soever they first found
         unoccupied, without troubling themselves with too long or too formal a service. </p>
 
@@ -589,14 +589,13 @@
         sat on her right hand, she smilingly bade him give beginning to the story-telling with one
         of his; and he, hearing the commandment, forthright began thus, whilst all gave ear to him. </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
+<p><ch_title>Day the First </ch_title></p>
 
-     <title>THE FIRST STORY</title> 
-     <head>Day the First</head> 
     <p> MASTER CIAPPELLETTO DUPETH A HOLY FRIAR WITH A FALSE CONFESSION AND DIETH; AND HAVING BEEN
         IN HIS LIFETIME THE WORST OF MEN, HE IS, AFTER HIS DEATH, REPUTED A SAINT AND CALLED SAINT
         CIAPPELLETTO. </p>
-
 
     <p> "It is a seemly thing, dearest ladies, that whatsoever a man doth, he give it beginning from
         the holy and admirable name of Him who is the maker of all things. Wherefore, it behoving
@@ -930,14 +929,14 @@
         His grace we may be preserved safe and sound in this present adversity and in this so joyous
         company, let us, magnifying His name, in which we have begun our diversion, and holding Him
         in reverence, commend ourselves to Him in our necessities, well assured of being heard." And
-        with this he was silent. </p>
+        with this he was silent. </p></story>
 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
 
-    <title>THE SECOND STORY</title> 
-    <head>Day the First</head> 
+<p><ch_title>Day the First </ch_title></p>
+
     <p> ABRAHAM THE <faith ref="#Judaism">JEW,</faith> AT THE INSTIGATION OF JEHANNOT DE CHEVIGNÉ, GOETH TO THE COURT OF ROME AND
         SEEING THE DEPRAVITY OF THE CLERGY, RETURNETH TO PARIS AND THERE BECOMETH A <faith ref="#Roman Catholic">CHRISTIAN </faith></p>
-
 
     <p> Pamfilo's story was in part laughed at and altogether commended by the ladies, and it being
         come to its end, after being diligently hearkened, the queen bade Neifile, who sat next him,
@@ -1050,13 +1049,14 @@
         demanded it, straightway proceeded to baptize him, whilst Jehannot raised him from the
         sacred font[45] and named him Giovanni. After this, he had him thoroughly lessoned by men of
         great worth and learning in the tenets of our holy faith, which he speedily apprehended and
-        thenceforward was a good man and a worthy and one of a devout life." </p>
+        thenceforward was a good man and a worthy and one of a devout life." </p></story>
 
-    <title>THE THIRD STORY</title> 
-    <head>Day the First</head> 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> MELCHIZEDEK THE <faith ref="#Judaism">JEW,</faith> WITH A STORY OF THREE RINGS, ESCAPETH A PARLOUS SNARE SET FOR HIM BY
         SALADIN </p>
-
 
     <p> Neifile having made an end of her story, which was commended of all, Filomena, by the
         queen's good pleasure, proceeded to speak thus: "The story told by Neifile bringeth to my
@@ -1128,13 +1128,14 @@
         in mind to do, had he not answered him on such discreet wise. The <faith ref="#Judaism">Jew </faith>freely furnished him
         with all that he required, and the Soldan after satisfied him in full; moreover, he gave him
         very great gifts and still had him to friend and maintained him about his own person in high
-        and honourable estate." </p>
+        and honourable estate." </p></story>
 
-    <title>THE FOURTH STORY</title> 
-    <head>Day the First</head> 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> A MONK, HAVING FALLEN INTO A SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY REPROACHING
         THE SAME FAULT TO HIS ABBOT, QUITTETH HIMSELF OF THE PENALTY </p>
-
 
     <p> Filomena, having despatched her story, was now silent, whereupon Dioneo, who sat next her,
         knowing already, by the ordinance begun, that it fell to his turn to tell, proceeded,
@@ -1234,14 +1235,14 @@
         to inflict on the monk a punishment which he himself had merited even as he. Accordingly,
         pardoning him and charging him keep silence of that which he had seen, they privily put the
         girl out of doors and it is believed that they caused her return thither more than once
-        thereafterward." </p>
+        thereafterward." </p></story>
 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
 
-    <title>THE FIFTH STORY</title> 
-    <head>Day the First</head> 
+<p><ch_title>Day the First </ch_title></p>
+
     <p> THE MARCHIONESS OF MONFERRATO, WITH A DINNER OF HENS AND CERTAIN SPRIGHTLY WORDS, CURBETH
         THE EXTRAVAGANT PASSION OF THE KING OF FRANCE </p>
-
 
     <p> The story told by Dioneo at first pricked the hearts of the listening ladies with somewhat
         of shamefastness, whereof a modest redness appearing in their faces gave token; but after,
@@ -1315,13 +1316,14 @@
         passion. Accordingly, without making any more words with her, for fear of her replies, he
         dined, out of all hope; and the meal ended, thanking her for the honourable entertainment he
         had received from her and commending her to God, he set out for Genoa, so by his prompt
-        departure he might make amends for his unseemly visit." </p>
+        departure he might make amends for his unseemly visit." </p></story>
 
-    <title>THE SIXTH STORY</title> 
-    <head>Day the First</head> 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> AN HONEST MAN, WITH A CHANCE PLEASANTRY, PUTTETH TO SHAME THE PERVERSE HYPOCRISY OF THE
         RELIGIOUS ORDERS </p>
-
 
     <p> Emilia, who sat next after Fiammetta,—the courage of the marchioness and the quaint rebuke
         administered by her to the King of France having been commended of all the ladies,—began, by
@@ -1390,13 +1392,14 @@
         that he had gotten blame for that which he had already done, he would have saddled him with
         another prosecution, for that with a laughable speech he had rebuked him and his brother
         good-for-noughts; wherefore, of his despite, he bade him thenceforward do what most pleased
-        him and not come before him again." </p>
+        him and not come before him again." </p></story>
 
-    <title>THE SEVENTH STORY</title> 
-    <head>Day the First</head> 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> BERGAMINO, WITH A STORY OF PRIMASSO AND THE ABBOT OF CLUNY, COURTEOUSLY REBUKETH A FIT OF
         PARSIMONY NEWLY COME TO MESSER CANE DELLA SCALA </p>
-
 
     <p> Emilia's pleasantness and her story moved the queen and all the rest to laugh and applaud
         the rare conceit of this new-fangled crusader. Then, after the laughter had subsided and all
@@ -1518,13 +1521,14 @@
         assailed of parsimony; but I will drive it away with that same stick which thou thyself hast
         shown me.' Then, letting pay Bergamino's host and clothing himself most sumptuously in a
         suit of his own apparel, he gave him money and a palfrey and committed to his choice for the
-        nonce to go or stay." </p>
+        nonce to go or stay." </p></story>
 
-    <title>THE EIGHTH STORY</title> 
-    <head>Day the First</head> 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> GUGLIELMO BORSIERE WITH SOME QUAINT WORDS REBUKETH THE NIGGARDLINESS OF MESSER ERMINO DE'
         GRIMALDI </p>
-
 
     <p> Next Filostrato sat Lauretta, who, after she had heard Bergamino's address commended,
         perceiving that it behoved her tell somewhat, began, without awaiting any commandment,
@@ -1588,13 +1592,14 @@
         that neither you nor any other shall ever again have cause to tell me that I have never seen
         nor known it.' And from that time forth (such was the virtue of Guglielmo's words) he was
         the most liberal and the most courteous gentleman of his day in Genoa and he who most
-        hospitably entreated both strangers and citizens." </p>
+        hospitably entreated both strangers and citizens." </p></story>
 
-     THE NINTH STORY 
-     Day the First 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> THE KING OF CYPRUS, TOUCHED TO THE QUICK BY A GASCON LADY, FROM A MEAN-SPIRITED PRINCE
         BECOMETH A MAN OF WORTH AND VALIANCE </p>
-
 
     <p> The Queen's last commandment rested with Elisa, who, without awaiting it, began all
         blithely, "Young ladies, it hath often chanced that what all manner reproofs and many
@@ -1624,13 +1629,14 @@
 
     <p> The King, who till then had been sluggish and supine, awoke as if from sleep and beginning
         with the wrong done to the lady, which he cruelly avenged, thenceforth became a very
-        rigorous prosecutor of all who committed aught against the honour of his crown." </p>
+        rigorous prosecutor of all who committed aught against the honour of his crown." </p></story>
 
-     THE TENTH STORY 
-     Day the First 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the First </ch_title></p>
+
     <p> MASTER ALBERTO OF BOLOGNA CIVILLY PUTTETH A LADY TO THE BLUSH WHO THOUGHT TO HAVE SHAMED HIM
         OF BEING ENAMOURED OF HER </p>
-
 
     <p> Elisa being now silent, the last burden of the story-telling rested with the queen, who,
         with womanly grace beginning to speak, said, "Noble damsels, like as in the lucid nights the
@@ -1811,23 +1817,21 @@
      Of such a strain as ne'er 
      Was proven here below of love-desire. 
 
-
     <p> Lauretta having thus made an end of her ballad,[76]—in the burden of which all had blithely
         joined, albeit the words thereof gave some much matter for thought,—divers other rounds were
         danced and a part of the short night being now spent, it pleased the queen to give an end to
         the first day; wherefore, letting kindle the flambeaux, she commanded that all should betake
         themselves to rest until the ensuing morning, and all, accordingly, returning to their
-        several chambers, did so. </p>
-
+        several chambers, did so. </p></story>
 
      HERE ENDETH THE FIRST DAY 
-     OF THE DECAMERON 
+     OF THE DECAMERON</div> 
 
-     Day the Second 
+<div day="Second"><p><ch_title>Day the Second </ch_title></p>
+
     <p> Here Beginneth the Second Day of the Decameron Wherein Under the Governance of Filomena Is
         Discoursed of Those Who After Being Baffled by Divers Chances Have Won at Last to a Joyful
         Issue Beyond Their Hope </p>
-
 
     <p> The sun had already everywhere brought on the new day with its light and the birds,
         carolling blithely among the green branches, bore witness thereof unto the ear with their
@@ -1842,14 +1846,13 @@
         day's stories by telling one of her fashion; whereupon the latter, without making any
         excuse, blithely began to speak thus: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
+<p><ch_title>Day the Second </ch_title></p>
 
-     THE FIRST STORY 
-     Day the Second 
     <p> MARTELLINO FEIGNETH HIMSELF A CRIPPLE AND MAKETH BELIEVE TO WAX WHOLE UPON THE BODY OF ST.
         ARRIGO. HIS IMPOSTURE BEING DISCOVERED, HE IS BEATEN AND BEING AFTER TAKEN [FOR A THIEF,]
         GOETH IN PERIL OF BEING HANGED BY THE NECK, BUT ULTIMATELY ESCAPETH </p>
-
 
     <p> "It chanceth oft, dearest ladies, that he who studieth to befool others, and especially in
         things reverend, findeth himself with nothing for his pains but flouts and whiles cometh not
@@ -1972,14 +1975,15 @@
         go about his business, for that, until he should be in Florence again, it would still seem
         to him he had the rope about his neck. The Prince laughed heartily at his mischance and let
         give each of the three a suit of apparel, wherewith they returned home safe and sound,
-        having, beyond all their hope, escaped so great a peril." </p>
+        having, beyond all their hope, escaped so great a peril." </p></story>
 
-     THE SECOND STORY 
-     Day the Second 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
+
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> RINALDO D'ASTI, HAVING BEEN ROBBED, MAKETH HIS WAY TO CASTEL GUGLIELMO, WHERE HE IS
         HOSPITABLY ENTERTAINED BY A WIDOW LADY AND HAVING MADE GOOD HIS LOSS, RETURNETH TO HIS OWN
         HOUSE, SAFE AND SOUND </p>
-
 
     <p> The ladies laughed immoderately at Martellino's misfortunes narrated by Neifile, as did also
         the young men and especially Filostrato, whom, for that he sat next Neifile, the queen bade
@@ -2142,16 +2146,16 @@
         confession, his horse and clothes and money were restored to him, nor did he lose aught save
         a pair of garters, with which the robbers knew not what they had done. Rinaldo accordingly
         gave thanks to God and St. Julian and taking horse, returned home, safe and sound, leaving
-        the three rogues to go kick on the morrow against the wind."[87] </p>
+        the three rogues to go kick on the morrow against the wind."[87] </p></story>
 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
 
-     THE THIRD STORY 
-     Day the Second 
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> THREE YOUNG MEN SQUANDER THEIR SUBSTANCE AND BECOME POOR; BUT A NEPHEW OF THEIRS, RETURNING
         HOME IN DESPERATION, FALLETH IN WITH AN ABBOT AND FINDETH HIM TO BE THE KING'S DAUGHTER OF
         ENGLAND, WHO TAKETH HIM TO HUSBAND AND MAKETH GOOD ALL HIS UNCLES' LOSSES, RESTORING THEM TO
         GOOD ESTATE </p>
-
 
     <p> The adventures of Rinaldo d'Asti were hearkened with admiration and his devoutness commended
         by the ladies, who returned thanks to God and St. Julian for that they had succoured him in
@@ -2376,15 +2380,15 @@
         returned to Florence, rich beyond measure, having first been knighted by Count Alessandro.
         The latter lived long and gloriously with his lady, and according as some avouch, what with
         his wit and valour and the aid of his father-in-law, he after conquered Scotland and was
-        crowned King thereof." </p>
+        crowned King thereof." </p></story>
 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
 
-     THE FOURTH STORY 
-     Day the Second 
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> LANDOLFO RUFFOLO, GROWN POOR, TURNETH CORSAIR AND BEING TAKEN BY THE GENOESE, IS WRECKED AT
         SEA, BUT SAVETH HIMSELF UPON A COFFER FULL OF JEWELS OF PRICE AND BEING ENTERTAINED IN CORFU
         BY A WOMAN, RETURNETH HOME RICH </p>
-
 
     <p> Lauretta, who sat next Pampinea, seeing her come to the glorious ending of her story, began,
         without awaiting more, to speak on this wise: "Most gracious ladies, there can, to my
@@ -2520,13 +2524,14 @@
         of his jewels, he sent a good sum of money to Corfu to the good woman who had brought him
         forth of the sea, in requital of the service received, and the like to Trani to those who
         had reclothed him. The rest he kept for himself and lived in honour and worship to the end
-        of his days, without seeking to trade any more." </p>
+        of his days, without seeking to trade any more." </p></story>
 
-     THE FIFTH STORY 
-     Day the Second 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> ANDREUCCIO OF PERUGIA, COMING TO NAPLES TO BUY HORSES, IS IN ONE NIGHT OVERTAKEN WITH THREE
         GRIEVOUS ACCIDENTS, BUT ESCAPETH THEM ALL AND RETURNETH HOME WITH A RUBY </p>
-
 
     <p> "The stones found by Landolfo," began Fiammetta, to whose turn it came to tell, "have
         brought to my mind a story scarce less full of perilous scapes than that related by
@@ -2863,16 +2868,17 @@
         his way back to his inn, where he found his comrades and the host, who had been in concern
         for him all that night. He told them what had betided him and themseemed, by the host's
         counsel, that he were best depart Naples incontinent. Accordingly, he set out forthright and
-        returned to Perugia, having invested his money in a ring, whereas he came to buy horses." </p>
+        returned to Perugia, having invested his money in a ring, whereas he came to buy horses." </p></story>
 
-     THE SIXTH STORY 
-     Day the Second 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> MADAM BERITOLA, HAVING LOST HER TWO SONS, IS FOUND ON A DESERT ISLAND WITH TWO KIDS AND
         GOETH THENCE INTO LUNIGIANA, WHERE ONE OF HER SONS, TAKING SERVICE WITH THE LORD OF THE
         COUNTRY, LIETH WITH HIS DAUGHTER AND IS CAST INTO PRISON. SICILY AFTER REBELLING AGAINST
         KING CHARLES AND THE YOUTH BEING RECOGNIZED BY HIS MOTHER, HE ESPOUSETH HIS LORD'S DAUGHTER,
         AND HIS BROTHER BEING LIKEWISE FOUND, THEY ARE ALL THREE RESTORED TO HIGH ESTATE </p>
-
 
     <p> Ladies and young men alike laughed heartily at Andreuccio's adventures, as related by
         Fiammetta, and Emilia, seeing the story ended, began, by the queen's commandment, to speak
@@ -3226,16 +3232,16 @@
         wind, they came speedily to Sicily, where all alike, both sons and daughters-in-law, were
         received by Arrighetto in Palermo with such rejoicing as might never be told; and there it
         is believed that they all lived happily a great while after, in love and thankfulness to God
-        the Most High, as mindful of the benefits received." </p>
+        the Most High, as mindful of the benefits received." </p></story>
 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
 
-     THE SEVENTH STORY 
-     Day the Second 
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> THE SOLDAN OF BABYLON SENDETH A DAUGHTER OF HIS TO BE MARRIED TO THE KING OF ALGARVE, AND
         SHE, BY DIVERS CHANCES, IN THE SPACE OF FOUR YEARS COMETH TO THE HANDS OF NINE MEN IN
         VARIOUS PLACES. ULTIMATELY, BEING RESTORED TO HER FATHER FOR A MAID, SHE GOETH TO THE KING
         OF ALGARVE TO WIFE, AS FIRST SHE DID </p>
-
 
     <p> Had Emilia's story been much longer protracted, it is like the compassion had by the young
         ladies on the misfortunes of Madam Beritola would have brought them to tears; but, an end
@@ -3811,16 +3817,16 @@
         at this news and sending for her in state, received her joyfully; and she, who had lain with
         eight men belike ten thousand times, was put to bed to him for a maid and making him believe
         that she was so, lived happily with him as his queen awhile after; wherefore it was said,
-        'Lips for kissing forfeit no favour; nay, they renew as the moon doth ever.'" </p>
+        'Lips for kissing forfeit no favour; nay, they renew as the moon doth ever.'" </p></story>
 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
 
-     THE EIGHTH STORY 
-     Day the Second 
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> THE COUNT OF ANTWERP, BEING FALSELY ACCUSED, GOETH INTO EXILE AND LEAVETH HIS TWO CHILDREN
         IN DIFFERENT PLACES IN ENGLAND, WHITHER, AFTER AWHILE, RETURNING IN DISGUISE AND FINDING
         THEM IN GOOD CASE, HE TAKETH SERVICE AS A HORSEBOY IN THE SERVICE OF THE KING OF FRANCE AND
         BEING APPROVED INNOCENT, IS RESTORED TO HIS FORMER ESTATE </p>
-
 
     <p> The ladies sighed amain over the fortunes of the fair <faith ref="#Islam">Saracen</faith>; but who knoweth what gave
         rise to those sighs? Maybe there were some of them who sighed no less for envy of such
@@ -4228,17 +4234,17 @@
         and mother to Paris, whither came also Perrot's wife; and there they all foregathered in the
         utmost joyance with the count, whom the king had reinstated in all his good and made greater
         than he ever was. Then all, with Gautier's leave, returned to their several homes and he
-        until his death abode in Paris more worshipfully than ever." </p>
+        until his death abode in Paris more worshipfully than ever." </p></story>
 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
 
-     THE NINTH STORY 
-     Day the Second 
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> BERNABO OF GENOA, DUPED BY AMBROGIUOLO, LOSETH HIS GOOD AND COMMANDETH THAT HIS INNOCENT
         WIFE BE PUT TO DEATH. SHE ESCAPETH AND SERVETH THE SOLDAN IN A MAN'S HABIT. HERE SHE
         LIGHTETH UPON THE DECEIVER OF HER HUSBAND AND BRINGETH THE LATTER TO ALEXANDRIA, WHERE, HER
         TRADUCER BEING PUNISHED, SHE RESUMETH WOMAN'S APPAREL AND RETURNETH TO GENOA WITH HER
         HUSBAND, RICH </p>
-
 
     <p> Elisa having furnished her due with her pitiful story, Filomena the queen, who was tall and
         goodly of person and smiling and agreeable of aspect beyond any other of her sex, collecting
@@ -4545,16 +4551,16 @@
         slain, but devoured, of the flies and wasps and gadflies, wherewith that country aboundeth,
         even to the bones, which latter, waxed white and hanging by the sinews, being left
         unremoved, long bore witness of his villainy to all who saw them. And on this wise did the
-        deceiver abide at the feet of the deceived." </p>
+        deceiver abide at the feet of the deceived." </p></story>
 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
 
-     THE TENTH STORY 
-     Day the Second 
+<p><ch_title>Day the Second </ch_title></p>
+
     <p> PAGANINO OF MONACO STEALETH AWAY THE WIFE OF MESSER RICCIARDO DI CHINZICA, WHO, LEARNING
         WHERE SHE IS, GOETH THITHER AND MAKING FRIENDS WITH PAGANINO, DEMANDETH HER AGAIN OF HIM.
         THE LATTER CONCEDETH HER TO HIM, AN SHE WILL; BUT SHE REFUSETH TO RETURN WITH HIM AND MESSER
         RICCIARDO DYING, SHE BECOMETH THE WIFE OF PAGANINO </p>
-
 
     <p> Each of the honourable company highly commended for goodly the story told by their queen,
         especially Dioneo, with whom alone for that present day it now rested to tell, and who,
@@ -4803,18 +4809,16 @@
     <p> After this they sang sundry other songs and danced sundry dances and played upon divers
         instruments of music. Then, the queen deeming it time to go to rest, each betook himself,
         with torches before him, to his chamber, and all on the two following days, whilst applying
-        themselves to those things whereof the queen had spoken, looked longingly for Sunday. </p>
+        themselves to those things whereof the queen had spoken, looked longingly for Sunday. </p></story>
 
+     <p>HERE ENDETH THE SECOND DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE SECOND DAY 
-     OF THE DECAMERON 
+<div day="Third"><p><ch_title>Day the Third </ch_title></p>
 
-
-     Day the Third 
     <p> Here Beginneth the Third Day of the Decameron wherein Under the Governance of Neifile Is
         Discoursed of Such as Have by Dint of Diligence Acquired Some Much Desired Thing or
         Recovered Some Lost Good </p>
-
 
     <p> The dawn from vermeil began to grow orange-tawny, at the approach of the sun, when on the
         Sunday the queen arose and caused all her company rise also. The seneschal had a great while
@@ -4892,12 +4896,12 @@
         waited to fall to story-telling upon the subject proposed by her. The first upon whom she
         laid this charge was Filostrato, who began on this wise: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
-     THE FIRST STORY 
-     Day the Third 
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> MASETTO OF LAMPORECCHIO FEIGNETH HIMSELF DUMB AND BECOMETH GARDENER TO A CONVENT OF WOMEN,
         WHO ALL FLOCK TO LIE WITH HIM </p>
-
 
     <p> "Fairest ladies, there be many men and women foolish enough to believe that, whenas the
         white fillet is bound about a girl's head and the black cowl clapped upon her back, she is
@@ -5054,15 +5058,15 @@
         by his foresight contrived to employ his youth to good purpose, returned in his old age,
         rich and a father, without being at the pains or expense of rearing children, to the place
         whence he had set out with an axe about his neck, avouching that thus did Christ entreat
-        whoso set horns to his cap." </p>
+        whoso set horns to his cap." </p></story>
 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
 
-     THE SECOND STORY 
-     Day the Third 
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> A HORSEKEEPER LIETH WITH THE WIFE OF KING AGILULF, WHO, BECOMING AWARE THEREOF, WITHOUT WORD
         SAID, FINDETH HIM OUT AND POLLETH HIM; BUT THE POLLED MAN POLLETH ALL HIS FELLOWS ON LIKE
         WISE AND SO ESCAPETH ILL HAP </p>
-
 
     <p> The end of Filostrato's story, whereat whiles the ladies had some little blushed and other
         whiles laughed, being come, it pleased the queen that Pampinea should follow on with a
@@ -5186,14 +5190,15 @@
         Those who heard the king's words marvelled and long debated amongst themselves what he meant
         by this speech; but none understood it, save he whom it concerned, and he, like a wise man,
         never, during Agilulf's lifetime, discovered the matter nor ever again committed his life to
-        the hazard of such a venture." </p>
+        the hazard of such a venture." </p></story>
 
-     THE THIRD STORY 
-     Day the Third 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> UNDER COLOUR OF CONFESSION AND OF EXCEEDING NICENESS OF CONSCIENCE, A LADY, BEING ENAMOURED
         OF A YOUNG MAN, BRINGETH A GRAVE FRIAR, WITHOUT HIS MISDOUBTING HIM THEREOF, TO AFFORD A
         MEANS OF GIVING ENTIRE EFFECT TO HER PLEASURE </p>
-
 
     <p> Pampinea being now silent and the daring and subtlety of the horsekeeper having been
         extolled by several of the company, as also the king's good sense, the queen, turning to
@@ -5415,14 +5420,15 @@
         Moreover, having taken order for their future converse, they did on such wise that, without
         having to resort anew to my lord the friar, they foregathered in equal joyance many another
         night, to the like whereof I pray God, of His holy mercy, speedily to conduct me and all
-        <faith ref="#Roman Catholic">Christian </faith>souls who have a mind thereto." </p>
+        <faith ref="#Roman Catholic">Christian </faith>souls who have a mind thereto." </p></story>
 
-     THE FOURTH STORY 
-     Day the Third 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> DOM FELICE TEACHETH FRA PUCCIO HOW HE MAY BECOME BEATIFIED BY PERFORMING A CERTAIN PENANCE
         OF HIS FASHION, WHICH THE OTHER DOTH, AND DOM FELICE MEANWHILE LEADETH A MERRY LIFE OF IT
         WITH THE GOOD MAN'S WIFE </p>
-
 
     <p> Filomena, having made an end of her story, was silent and Dioneo having with dulcet speech
         mightily commended the lady's shrewdness and eke the prayer with which Filomena had
@@ -5545,14 +5551,15 @@
         last words may not be out of accord with my first, it came to pass that, whereas Fra Puccio,
         by doing penance, thought to win Paradise for himself, he put therein the monk, who had
         shown him the speedy way thither, and his wife, who lived with him in great lack of that
-        whereof Dom Felice, like a charitable man as he was, vouchsafed her great plenty." </p>
+        whereof Dom Felice, like a charitable man as he was, vouchsafed her great plenty." </p></story>
 
-     THE FIFTH STORY 
-     Day the Third 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> RICCIARDO, SURNAMED IL ZIMA, GIVETH MESSER FRANCESCO VERGELLESI A PALFREY OF HIS AND HATH
         THEREFOR HIS LEAVE TO SPEAK WITH HIS WIFE. SHE KEEPING SILENCE, HE IN HER PERSON REPLIETH
         UNTO HIMSELF, AND THE EFFECT AFTER ENSUETH IN ACCORDANCE WITH HIS ANSWER </p>
-
 
     <p> Pamfilo having made an end, not without laughter on the part of the ladies, of the story of
         Fra Puccio, the queen with a commanding air bade Elisa follow on. She, rather tartly than
@@ -5690,16 +5697,16 @@
         her chamber, where, getting them to bed without a moment's delay, they knew the utmost term
         of amorous delight. Nor was this first time the last, for that, what while the gentleman
         abode at Milan and even after his coming back, Il Zima returned thither many another time,
-        to the exceeding satisfaction of both parties." </p>
+        to the exceeding satisfaction of both parties." </p></story>
 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
 
-     THE SIXTH STORY 
-     Day the Third 
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> RICCIARDO MINUTOLO, BEING ENAMOURED OF THE WIFE OF FILIPPELLO FIGHINOLFI AND KNOWING HER
         JEALOUSY OF HER HUSBAND, CONTRIVETH, BY REPRESENTING THAT FILIPPELLO WAS ON THE ENSUING DAY
         TO BE WITH HIS OWN WIFE IN A BAGNIO, TO BRING HER TO THE LATTER PLACE, WHERE, THINKING TO BE
         WITH HER HUSBAND, SHE FINDETH THAT SHE HATH ABIDDEN WITH RICCIARDO </p>
-
 
     <p> Elisa having no more to say, the queen, after commending the sagacity of Il Zima, bade
         Fiammetta proceed with a story, who answered, all smilingly, "Willingly, Madam," and began
@@ -5913,16 +5920,17 @@
         lover's kisses than those of the husband and her former rigour being changed into kind
         love-liking for Ricciardo, from that day forth she loved him very tenderly and thereafter,
         ordering themselves with the utmost discretion, they many a time had joyance of their loves.
-        God grant us to enjoy ours!" </p>
+        God grant us to enjoy ours!" </p></story>
 
-     THE SEVENTH STORY 
-     Day the Third 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> TEDALDO ELISEI, HAVING FALLEN OUT WITH HIS MISTRESS, DEPARTETH FLORENCE AND RETURNING
         THITHER, AFTER AWHILE, IN A PILGRIM'S FAVOUR, SPEAKETH WITH THE LADY AND MAKETH HER
         COGNISANT OF HER ERROR; AFTER WHICH HE DELIVERETH HER HUSBAND, WHO HAD BEEN CONVICTED OF
         MURDERING HIM, FROM DEATH AND RECONCILING HIM WITH HIS BRETHREN, THENCEFORWARD DISCREETLY
         ENJOYETH HIMSELF WITH HIS MISTRESS </p>
-
 
     <p> Fiammetta being now silent, commended of all, the queen, to lose no time, forthright
         committed the burden of discourse to Emilia, who began thus: "It pleaseth me to return to
@@ -6354,15 +6362,16 @@
         and not Tedaldo, and all doubt of the latter[191] accordingly departed [the minds of] his
         brothers and of every other. Tedaldo, then, being returned very rich, persevered in his love
         and the lady falling out with him no more, they long, discreetly dealing, had enjoyment of
-        their love. God grant us to enjoy ours!" </p>
+        their love. God grant us to enjoy ours!" </p></story>
 
-     THE EIGHTH STORY 
-     Day the Third 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> FERONDO, HAVING SWALLOWED A CERTAIN POWDER, IS ENTOMBED FOR DEAD AND BEING TAKEN FORTH OF
         THE SEPULCHRE BY THE ABBOT, WHO ENJOYETH HIS WIFE THE WHILE, IS PUT IN PRISON AND GIVEN TO
         BELIEVE THAT HE IS IN PURGATORY; AFTER WHICH, BEING RAISED UP AGAIN, HE REARETH FOR HIS OWN
         A CHILD BEGOTTEN OF THE ABBOT ON HIS WIFE </p>
-
 
     <p> The end being come of Emilia's long story,—which had not withal for its length been
         unpleasing to any of the company, nay, but was held of all the ladies to have been briefly
@@ -6604,23 +6613,23 @@
         of the fools who believe that women go just nine months with child,—the lady gave birth to a
         boy, who was called Benedict Ferondi.[198] </p>
 
-
     <p> Ferondo's return and his talk, well nigh every one believing him to have risen from the
         dead, added infinitely to the renown of the abbot's sanctity, and he himself, as if cured of
         his jealousy by the many beatings he had received therefor, thenceforward, according to the
         promise made by the abbot to the lady, was no more jealous; whereat she was well pleased and
         lived honestly with him, as of her wont, save indeed that, whenas she conveniently might,
         she willingly foregathered with the holy abbot, who had so well and diligently served her in
-        her greatest needs." </p>
+        her greatest needs." </p></story>
 
-     THE NINTH STORY 
-     Day the Third 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> GILLETTE DE NARBONNE RECOVERETH THE KING OF FRANCE OF A FISTULA AND DEMANDETH FOR HER
         HUSBAND BERTRAND DE ROUSSILLON, WHO MARRIETH HER AGAINST HIS WILL AND BETAKETH HIM FOR
         DESPITE TO FLORENCE, WHERE, HE PAYING COURT TO A YOUNG LADY, GILLETTE, IN THE PERSON OF THE
         LATTER, LIETH WITH HIM AND HATH BY HIM TWO SONS; WHEREFORE AFTER, HOLDING HER DEAR, HE
         ENTERTAINETH HER FOR HIS WIFE </p>
-
 
     <p> Lauretta's story being now ended, it rested but with the queen to tell, an she would not
         infringe upon Dioneo's privilege; wherefore, without waiting to be solicited by her
@@ -6865,13 +6874,14 @@
         beseemed her quality, to the exceeding joyance of as many as were there and of all other his
         vassals who heard the news, he held high festival, not only all that day, but sundry others,
         and from that day forth still honoured her as his bride and his wife and loved and tendered
-        her over all." </p>
+        her over all." </p></story>
 
-     THE TENTH STORY 
-     Day the Third 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Third </ch_title></p>
+
     <p> ALIBECH, TURNING HERMIT, IS TAUGHT BY RUSTICO, A MONK, TO PUT THE DEVIL IN HELL, AND BEING
         AFTER BROUGHT AWAY THENCE, BECOMETH NEERBALE HIS WIFE </p>
-
 
     <p> Dioneo, who had diligently hearkened to the queen's story, seeing that it was ended and that
         it rested with him alone to tell, without awaiting commandment, smilingly began to speak as
@@ -7155,17 +7165,15 @@
         Thereafter the king let kindle store of flambeaux upon the grass and among the flowers and
         caused sing divers other songs, until every star began to decline, that was above the
         horizon, when, deeming it time for sleep, he bade all with a good night betake themselves to
-        their chambers. </p>
+        their chambers. </p></story>
 
+     <p>HERE ENDETH THE THIRD DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE THIRD DAY 
-     OF THE DECAMERON 
+<div day="Fourth"><p><ch_title>Day the Fourth </ch_title></p>
 
-
-     Day the Fourth 
     <p> Here Beginneth the Fourth Day of the Decameron Wherein Under the Governance of Filostrato Is
         Discoursed of Those Whose Loves Have Had Unhappy Endings </p>
-
 
     <p> Dearest ladies, as well by words of wise men heard as by things many a time both seen and
         read of myself, I had conceived that the boisterous and burning blast of envy was apt to
@@ -7346,12 +7354,12 @@
         story-telling; whereupon, without awaiting further commandment, she began with womanly grace
         as follows: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
-     THE FIRST STORY 
-     Day the Fourth 
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> TANCRED, PRINCE OF SALERNO, SLAYETH HIS DAUGHTER'S LOVER AND SENDETH HER HIS HEART IN A BOWL
         OF GOLD; WHEREUPON, POURING POISONED WATER OVER IT, SHE DRINKETH THEREOF AND DIETH </p>
-
 
     <p> "Our king hath this day appointed us a woeful subject of discourse, considering that,
         whereas we came hither to make merry, needs must we tell of others' tears, the which may not
@@ -7620,17 +7628,17 @@
         she departed this life of woe. Such, then, as you have heard, was the sorrowful ending of
         the loves of Guiscardo and Ghismonda, whose bodies Tancred, after much lamentation, too late
         repenting him of his cruelty, caused honourably bury in one same sepulchre, amid the general
-        mourning of all the people of Salerno." </p>
+        mourning of all the people of Salerno." </p></story>
 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
 
-     THE SECOND STORY 
-     Day the Fourth 
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> FRA ALBERTO GIVETH A LADY TO BELIEVE THAT THE ANGEL GABRIEL IS ENAMOURED OF HER AND IN HIS
         SHAPE LIETH WITH HER SUNDRY TIMES; AFTER WHICH, FOR FEAR OF HER KINSMEN, HE CASTETH HIMSELF
         FORTH OF HER WINDOW INTO THE CANAL AND TAKETH REFUGE IN THE HOUSE OF A POOR MAN, WHO ON THE
         MORROW CARRIETH HIM, IN THE GUISE OF A WILD MAN OF THE WOODS, TO THE PIAZZA, WHERE, BEING
         RECOGNIZED, HE IS TAKEN BY HIS BRETHREN AND PUT IN PRISON </p>
-
 
     <p> The story told by Fiammetta had more than once brought the tears to the eyes of the ladies
         her companions; but, it being now finished, the king with a stern countenance said, "My life
@@ -7879,17 +7887,18 @@
         fellow, held good and doing ill, without it being believed, dare to feign himself the angel
         Gabriel, and after being turned into a wild man of the woods and put to shame, as he
         deserved, bewailed, when too late, the sins he had committed. God grant it happen thus to
-        all other knaves of his fashion!" </p>
+        all other knaves of his fashion!" </p></story>
 
-     THE THIRD STORY 
-     Day the Fourth 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> THREE YOUNG MEN LOVE THREE SISTERS AND FLEE WITH THEM INTO CRETE, WHERE THE ELDEST SISTER
         FOR JEALOUSY SLAYETH HER LOVER. THE SECOND, YIELDING HERSELF TO THE DUKE OF CRETE, SAVETH
         HER SISTER FROM DEATH, WHEREUPON HER OWN LOVER SLAYETH HER AND FLEETH WITH THE ELDEST
         SISTER. MEANWHILE THE THIRD LOVER AND THE YOUNGEST SISTER ARE ACCUSED OF THE NEW MURDER AND
         BEING TAKEN, CONFESS IT; THEN, FOR FEAR OF DEATH, THEY CORRUPT THEIR KEEPERS WITH MONEY AND
         FLEE TO RHODES, WHERE THEY DIE IN POVERTY </p>
-
 
     <p> Filostrato, having heard the end of Pampinea's story, bethought himself awhile and
         presently, turning to her, said, "There was some little that was good and that pleased me in
@@ -8063,14 +8072,15 @@
         money, which they kept hidden in their house against urgent occasions, and embarking with
         their guards, without having leisure to take any of their goods, fled by night to Rhodes,
         where they lived no great while after in poverty and distress. To such a pass, then, did
-        Restagnone's mad love and Ninetta's rage bring themselves and others." </p>
+        Restagnone's mad love and Ninetta's rage bring themselves and others." </p></story>
 
-     THE FOURTH STORY 
-     Day the Fourth 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> GERBINO, AGAINST THE PLIGHTED FAITH OF HIS GRANDFATHER, KING GUGLIELMO OF SICILY, ATTACKETH
         A SHIP OF THE KING OF TUNIS, TO CARRY OFF A DAUGHTER OF HIS, WHO BEING PUT TO DEATH OF THOSE
         ON BOARD, HE SLAYETH THESE LATTER AND IS AFTER HIMSELF BEHEADED </p>
-
 
     <p> Lauretta, having made an end of her story, was silent, whilst the company bewailed the
         illhap of the lovers, some blaming Ninetta's anger and one saying one thing and another
@@ -8200,15 +8210,16 @@
         purpose,—condemned him to death and let strike off his head in his presence, choosing rather
         to abide without posterity than to be held a faithless king. Thus, then, as I have told you,
         did these two lovers within a few days[239] die miserably a violent death, without having
-        tasted any fruit of their loves." </p>
+        tasted any fruit of their loves." </p></story>
 
-     THE FIFTH STORY 
-     Day the Fourth 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> LISABETTA'S[240] BROTHERS SLAY HER LOVER, WHO APPEARETH TO HER IN A DREAM AND SHOWETH HER
         WHERE HE IS BURIED, WHEREUPON SHE PRIVILY DISINTERRETH HIS HEAD AND SETTETH IT IN A POT OF
         BASIL. THEREOVER MAKING MOAN A GREAT WHILE EVERY DAY, HER BROTHERS TAKE IT FROM HER AND SHE
         FOR GRIEF DIETH A LITTLE THEREAFTERWARD </p>
-
 
     <p> Elisa's tale being ended and somedele commended of the king, Filomena was bidden to
         discourse, who, full of compassion for the wretched Gerbino and his mistress, after a
@@ -8305,12 +8316,13 @@
         weeping; and so her ill-fortuned love had end. But, after a while the thing being grown
         manifest unto many, there was one who made thereon the song that is yet sung, to wit: </p>
 
-     Alack! ah, who can the ill <faith ref="#Roman Catholic">Christian </faith>be, 
-     That stole my pot away?" etc.[244] 
+     <p>Alack! ah, who can the ill <faith ref="#Roman Catholic">Christian </faith>be, 
+     That stole my pot away?" etc.[244]</p></story>
+    
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
 
+<p><ch_title>Day the Fourth </ch_title></p>
 
-     THE SIXTH STORY 
-     Day the Fourth 
     <p> ANDREVUOLA LOVETH GABRIOTTO AND RECOUNTETH TO HIM A DREAM SHE HATH HAD, WHEREUPON HE TELLETH
         HER ONE OF HIS OWN AND PRESENTLY DIETH SUDDENLY IN HER ARMS. WHAT WHILE SHE AND A WAITING
         WOMAN OF HERS BEAR HIM TO HIS OWN HOUSE, THEY ARE TAKEN BY THE OFFICERS OF JUSTICE AND
@@ -8318,7 +8330,6 @@
         FAIN FORCE HER, BUT SHE SUFFERETH IT NOT AND HER FATHER, COMING TO HEAR OF THE MATTER,
         PROCURETH HER TO BE SET AT LIBERTY, SHE BEING FOUND INNOCENT; WHEREUPON, ALTOGETHER REFUSING
         TO ABIDE LONGER IN THE WORLD, SHE BECOMETH A NUN </p>
-
 
     <p> Filomela's story was very welcome to the ladies, for that they had many a time heard sing
         this song, yet could never, for asking, learn the occasion of its making. But the king,
@@ -8502,14 +8513,15 @@
         thereafterward, the Provost ensuing that which he had demanded, Messer Negro propounded it
         to his daughter, who would hear nought thereof, but, her father being willing to comply with
         her in this, she and her maid made themselves nuns in a convent very famous for sanctity and
-        there lived honourably a great while after." </p>
+        there lived honourably a great while after." </p></story>
 
-     THE SEVENTH STORY 
-     Day the Fourth 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> SIMONA LOVETH PASQUINO AND THEY BEING TOGETHER IN A GARDEN, THE LATTER RUBBETH A LEAF OF
         SAGE AGAINST HIS TEETH AND DIETH. SHE, BEING TAKEN AND THINKING TO SHOW THE JUDGE HOW HER
         LOVER DIED, RUBBETH ONE OF THE SAME LEAVES AGAINST HER TEETH AND DIETH ON LIKE WISE </p>
-
 
     <p> Pamfilo having delivered himself of his story, the king, showing no compassion for
         Andrevuola, looked at Emilia and signed to her that it was his pleasure she should with a
@@ -8614,14 +8626,15 @@
         sage. So ended the judge's inquest upon the death of the unfortunate Pasquino, who, together
         with his Simona, all swollen as they were, was buried by Stramba and Atticciato and Guccio
         Imbratta and Malagevole in the <org type="religous" subtype="church">church</org> of St. Paul, whereof it chanced they were
-        parishioners." </p>
+        parishioners." </p></story>
 
-     THE EIGHTH STORY 
-     Day the Fourth 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> GIROLAMO LOVETH SALVESTRA AND BEING CONSTRAINED BY HIS MOTHER'S PRAYERS TO GO TO PARIS,
         RETURNETH AND FINDETH HIS MISTRESS MARRIED; WHEREUPON HE ENTERETH HER HOUSE BY STEALTH AND
         DIETH BY HER SIDE; AND HE BEING CARRIED TO A <org type="religous" subtype="church">CHURCH</org>, SALVESTRA DIETH BESIDE HIM </p>
-
 
     <p> Emilia's story come to an end, Neifile, by the king's commandment, began thus: "There are
         some, noble ladies, who believe themselves to know more than other folk, albeit, to my
@@ -8761,14 +8774,15 @@
         the dead girl and decking her, as they use to deck the dead, they laid her beside Girolamo
         on the same bier and there long bewept her; after which the twain were buried in one same
         tomb, and so these, whom love had not availed to conjoin on life, death conjoined with an
-        inseparable union." </p>
+        inseparable union." </p></story>
 
-     THE NINTH STORY 
-     Day the Fourth 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> SIR GUILLAUME DE ROUSSILLON GIVETH HIS WIFE TO EAT THE HEART OF SIR GUILLAUME DE
         GUARDESTAING BY HIM SLAIN AND LOVED OF HER, WHICH SHE AFTER COMING TO KNOW, CASTETH HERSELF
         FROM A HIGH CASEMENT TO THE GROUND AND DYING, IS BURIED WITH HER LOVER </p>
-
 
     <p> Neifile having made an end of her story, which had awakened no little compassion in all the
         ladies her companions, the king, who purposed not to infringe Dioneo his privilege, there
@@ -8859,17 +8873,17 @@
         whereupon the two bodies were, with the utmost grief and lamentation, taken up by
         Guardestaing's people and those of the lady and laid in one same sepulchre in the chapel of
         the latter's own castle; and thereover were verses written, signifying who these were that
-        were buried therewithin and the manner and occasion of their death."[256] </p>
+        were buried therewithin and the manner and occasion of their death."[256] </p></story>
 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
 
-     THE TENTH STORY 
-     Day the Fourth 
+<p><ch_title>Day the Fourth </ch_title></p>
+
     <p> A PHYSICIAN'S WIFE PUTTETH HER LOVER FOR DEAD IN A CHEST, WHICH TWO USURERS CARRY OFF TO
         THEIR OWN HOUSE, GALLANT AND ALL. THE LATTER, WHO IS BUT DRUGGED, COMETH PRESENTLY TO
         HIMSELF AND BEING DISCOVERED, IS TAKEN FOR A THIEF; BUT THE LADY'S MAID AVOUCHETH TO THE
         SEIGNORY THAT SHE HERSELF HAD PUT HIM INTO THE CHEST STOLEN BY THE TWO USURERS, WHEREBY HE
         ESCAPETH THE GALLOWS AND THE THIEVES ARE AMERCED IN CERTAIN MONIES </p>
-
 
     <p> Filostrato having made an end of his telling, it rested only with Dioneo to accomplish his
         task, who, knowing this and it being presently commanded him of the king, began as follows:
@@ -9208,17 +9222,16 @@
         yet plainlier declared, had not the shades of the now fallen night hidden the blushes that
         rose to her face. But, when he had made an end of his song, many others were sung, till such
         time as the hour of sleep arrived, whereupon, at the queen's commandment, each of the ladies
-        withdrew to her chamber. </p>
+        withdrew to her chamber. </p></story>
 
+     <p>HERE ENDETH THE FOURTH DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE FOURTH DAY 
-     OF THE DECAMERON 
+<div day="Fifth"><p><ch_title>Day the Fifth </ch_title></p>
 
-     Day the Fifth 
     <p> Here Beginneth the Fifth Day of the Decameron Wherein Under the Governance of Fiammetta Is
         Discoursed of That Which Hath Happily Betided Lovers After Sundry Cruel and Misfortunate
         Adventures </p>
-
 
     <p> The East was already all white and the rays of the rising sun had made it light through all
         our hemisphere, when Fiammetta, allured by the sweet song of the birds that blithely chanted
@@ -9240,14 +9253,14 @@
         towards Pamfilo and smilingly charged him make a beginning with the fair-fortuned stories;
         whereto he willingly addressed himself and spoke as follows: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
-     THE FIRST STORY 
-     Day the Fifth 
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> CIMON, LOVING, WAXETH WISE AND CARRIETH OFF TO SEA IPHIGENIA HIS MISTRESS. BEING CAST INTO
         PRISON AT RHODES, HE IS DELIVERED THENCE BY LYSIMACHUS AND IN CONCERT WITH HIM CARRIETH OFF
         IPHIGENIA AND CASSANDRA ON THEIR WEDDING-DAY, WITH WHOM THE TWAIN FLEE INTO CRETE, WHERE THE
         TWO LADIES BECOME THEIR WIVES AND WHENCE THEY ARE PRESENTLY ALL FOUR RECALLED HOME </p>
-
 
     <p> "Many stories, delightsome ladies, apt to give beginning to so glad a day as this will be,
         offer themselves unto me to be related; whereof one is the most pleasing to my mind, for
@@ -9536,16 +9549,16 @@
         reason of their doings; but, ultimately, their friends and kinsfolk, interposing in one and
         the other place, found means so to adjust matters that, after some exile, Cimon joyfully
         returned to Cyprus with Iphigenia, whilst Lysimachus on like wise returned to Rhodes with
-        Cassandra, and each lived long and happily with his mistress in his own country." </p>
+        Cassandra, and each lived long and happily with his mistress in his own country." </p></story>
 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
 
-     THE SECOND STORY 
-     Day the Fifth 
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> COSTANZA LOVETH MARTUCCIO GOMITO AND HEARING THAT HE IS DEAD, EMBARKETH FOR DESPAIR ALONE IN
         A BOAT, WHICH IS CARRIED BY THE WIND TO SUSA. FINDING HER LOVER ALIVE AT TUNIS, SHE
         DISCOVERETH HERSELF TO HIM AND HE, BEING GREAT IN FAVOUR WITH THE KING FOR COUNSELS GIVEN,
         ESPOUSETH HER AND RETURNETH RICH WITH HER TO LIPARI </p>
-
 
     <p> The queen, seeing Pamfilo's story at an end, after she had much commended it, enjoined
         Emilia to follow on, telling another, and she accordingly began thus: "Every one must
@@ -9706,15 +9719,16 @@
         Carapresa on board a little ship and returned with a fair wind to Lipari, where so great was
         the rejoicing that it might never be told. There Martuccio took Costanza to wife and held
         great and goodly nuptials; after which they long in peace and repose had enjoyment of their
-        loves." </p>
+        loves." </p></story>
 
-     THE THIRD STORY 
-     Day the Fifth 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> PIETRO BOCCAMAZZA, FLEEING WITH AGNOLELLA, FALLETH AMONG THIEVES; THE GIRL ESCAPETH THROUGH
         A WOOD AND IS LED [BY FORTUNE] TO A CASTLE, WHILST PIETRO IS TAKEN BY THE THIEVES, BUT
         PRESENTLY, ESCAPING FROM THEIR HANDS, WINNETH, AFTER DIVERS ADVENTURES, TO THE CASTLE WHERE
         HIS MISTRESS IS AND ESPOUSING HER, RETURNETH WITH HER TO ROME </p>
-
 
     <p> There was none among all the company but commended Emilia's story, which the queen seeing to
         be finished, turned to Elisa and bade her follow on. Accordingly, studious to obey, she
@@ -9893,13 +9907,14 @@
         with the utmost delight, they enjoyed the first-fruits of their love and a few days after,
         they took horse with the lady and returned, under good escort, to Rome, where she found
         Pietro's kinsfolk sore incensed at that which he had done, but contrived to make his peace
-        with them, and he lived with his Agnolella in all peace and pleasance to a good old age." </p>
+        with them, and he lived with his Agnolella in all peace and pleasance to a good old age." </p></story>
 
-     THE FOURTH STORY 
-     Day the Fifth 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> RICCIARDO MANARDI, BEING FOUND BY MESSER LIZIO DA VALBONA WITH HIS DAUGHTER, ESPOUSETH HER
         AND ABIDETH IN PEACE WITH HER FATHER </p>
-
 
     <p> Elisa holding her peace and hearkening to the praises bestowed by the ladies her companions
         upon her story, the Queen charged Filostrato tell one of his own, whereupon he began,
@@ -10035,15 +10050,16 @@
         married the damsel over again, in the presence of their friends and kinsfolk, and brought
         her with great pomp to his own house. There he held goodly and honourable nuptials and after
         went long nightingale-fowling with her to his heart's content, in peace and solace, both by
-        night and by day." </p>
+        night and by day." </p></story>
 
-     THE FIFTH STORY 
-     Day the Fifth 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> GUIDOTTO DA CREMONA LEAVETH TO GIACOMINO DA PAVIA A DAUGHTER OF HIS AND DIETH. GIANNOLE DI
         SEVERINO AND MINGHINO DI MINGOLE FALL IN LOVE WITH THE GIRL AT FAENZA AND COME TO BLOWS ON
         HER ACCOUNT. ULTIMATELY SHE IS PROVED TO BE GIANNOLE'S SISTER AND IS GIVEN TO MINGHINO TO
         WIFE </p>
-
 
     <p> All the ladies, hearkening to the story of the nightingale, had laughed so much that, though
         Filostrato had made an end of telling, they could not yet give over laughing. But, after
@@ -10192,14 +10208,15 @@
         peace between the two young men, gave the girl, whose name was Agnesa, to Minghino to wife,
         to the great contentment of all their kinsfolk; whereupon Minghino, mightily rejoiced, made
         a great and goodly wedding and carrying her home, lived with her many years after in peace
-        and weal." </p>
+        and weal." </p></story>
 
-     THE SIXTH STORY 
-     Day the Fifth 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> GIANNI DI PROCIDA BEING FOUND WITH A YOUNG LADY, WHOM HE LOVED AND WHO HAD BEEN GIVEN TO
         KING FREDERICK OF SICILY, IS BOUND WITH HER TO A STAKE TO BE BURNT; BUT, BEING RECOGNIZED BY
         RUGGIERI DELL' ORIA, ESCAPETH AND BECOMETH HER HUSBAND </p>
-
 
     <p> Neifile's story, which had much pleased the ladies, being ended, the queen bade Pampinea
         address herself to tell another, and she accordingly, raising her bright face, began:
@@ -10344,14 +10361,15 @@
         honour; wherefore he let clothe them anew on sumptuous wise and finding them of one accord,
         caused Gianni to take the damsel to wife. Then, making them magnificent presents, he sent
         them back, rejoicing, to their own country, where they were received with the utmost joyance
-        and delight." </p>
+        and delight." </p></story>
 
-     THE SEVENTH STORY 
-     Day the Fifth 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> TEODORO, BEING ENAMOURED OF VIOLANTE, DAUGHTER OF MESSER AMERIGO HIS LORD, GETTETH HER WITH
         CHILD AND IS CONDEMNED TO BE HANGED; BUT, BEING RECOGNIZED AND DELIVERED BY HIS FATHER, AS
         THEY ARE LEADING HIM TO THE GALLOWS, SCOURGING HIM THE WHILE, HE TAKETH VIOLANTE TO WIFE </p>
-
 
     <p> The ladies, who abode all fearful in suspense to know if the lovers should be burnt, hearing
         of their escape, praised God and were glad; whereupon the queen, seeing that Pampinea had
@@ -10537,17 +10555,18 @@
         a daughter-in-law, caused celebrate their nuptials with the utmost pomp and rejoicing and
         receiving her as a daughter, ever after held her such. And after some days, taking ship with
         his son and her and his little grandson, he carried them with him into Lazistan, where the
-        two lovers abode in peace and happiness, so long as life endured unto them." </p>
+        two lovers abode in peace and happiness, so long as life endured unto them." </p></story>
 
-     THE EIGHTH STORY 
-     Day the Fifth 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> NASTAGIO DEGLI ONESTI, FALLING IN LOVE WITH A LADY OF THE TRAVERSARI FAMILY, SPENDETH HIS
         SUBSTANCE WITHOUT BEING BELOVED IN RETURN, AND BETAKING HIMSELF, AT THE INSTANCE OF HIS
         KINSFOLK, TO CHIASSI, HE THERE SEETH A HORSEMAN GIVE CHASE TO A DAMSEL AND SLAY HER AND
         CAUSE HER BE DEVOURED OF TWO DOGS. THEREWITHAL HE BIDDETH HIS KINSFOLK AND THE LADY WHOM HE
         LOVETH TO A DINNER, WHERE HIS MISTRESS SEETH THE SAME DAMSEL TORN IN PIECES AND FEARING A
         LIKE FATE, TAKETH NASTAGIO TO HUSBAND </p>
-
 
     <p> No sooner was Lauretta silent than Filomena, by the queen's commandment, began thus:
         "Lovesome ladies, even as pity is in us commended, so also is cruelty rigorously avenged by
@@ -10692,15 +10711,16 @@
         the ensuing Sunday and celebrating his nuptials, lived with her long and happily. Nor was
         this affright the cause of that good only; nay, all the ladies of Ravenna became so fearful
         by reason thereof, that ever after they were much more amenable than they had before been to
-        the desires of the men." </p>
+        the desires of the men." </p></story>
 
-     THE NINTH STORY 
-     Day the Fifth 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> FEDERIGO DEGLI ALBERIGHI LOVETH AND IS NOT LOVED. HE WASTETH HIS SUBSTANCE IN PRODIGAL
         HOSPITALITY TILL THERE IS LEFT HIM BUT ONE SOLE FALCON, WHICH, HAVING NOUGHT ELSE, HE GIVETH
         HIS MISTRESS TO EAT, ON HER COMING TO HIS HOUSE; AND SHE, LEARNING THIS, CHANGETH HER MIND
         AND TAKING HIM TO HUSBAND, MAKETH HIM RICH AGAIN </p>
-
 
     <p> Filomena having ceased speaking, the queen, seeing that none remained to tell save only
         herself and Dioneo, whose privilege entitled him to speak last, said, with blithe aspect,
@@ -10858,10 +10878,12 @@
         mind and knowing Federigo for a man of great merit, poor though he was, gave her, with all
         her wealth, to him, even as she would; and he, seeing himself married to a lady of such
         worth and one whom he had loved so dear and exceeding rich, to boot, became a better husband
-        of his substance and ended his days with her in joy and solace." </p>
+        of his substance and ended his days with her in joy and solace." </p></story>
 
-     THE TENTH STORY 
-     Day the Fifth 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Fifth </ch_title></p>
+
     <p> PIETRO DI VINCIOLO GOETH TO SUP ABROAD, WHEREUPON HIS WIFE LETTETH FETCH HER A YOUTH TO KEEP
         HER COMPANY, AND HER HUSBAND RETURNING, UNLOOKED FOR, SHE HIDETH HER GALLANT UNDER A
         HEN-COOP. PIETRO TELLETH HER HOW THERE HAD BEEN FOUND IN THE HOUSE OF ONE ARCOLANO, WITH
@@ -10869,7 +10891,6 @@
         PRESENTLY, AN ASS, BY MISCHANCE, SETTETH FOOT ON THE FINGERS OF HIM WHO IS UNDER THE COOP
         AND HE ROARETH OUT, WHEREUPON PIETRO RUNNETH THITHER AND ESPYING HIM, DISCOVERETH HIS WIFE'S
         UNFAITH, BUT ULTIMATELY COMETH TO AN ACCORD WITH HER FOR HIS OWN LEWD ENDS </p>
-
 
     <p> The queen's story come to an end and all having praised God for that He had rewarded
         Federigo according to his desert, Dioneo, who never waited for commandment, began on this
@@ -10953,7 +10974,6 @@
         for that I am a poor body and would have thee henceforth a sharer in all my pardonings and
         in all the paternosters I shall say, so God may make them light and candles for thy
         dead.'[288] </p>
-
 
     <p> With this she made an end of her discourse, and the young lady came to an understanding with
         her that, whenas she chanced to spy a certain young spark who passed often through that
@@ -11073,7 +11093,6 @@
         thou hast no call to missay of me therefor; at the least, I do thee this much honour that I
         have not to do with horseboys and scald-heads.' </p>
 
-
     <p> Pietro perceived that words were not like to fail her for all that night; wherefore, as one
         who recked little of her, 'Wife,' said he, 'no more for the present; I will content thee
         aright of this matter; but thou wilt do us a great courtesy to let us have somewhat to sup
@@ -11165,17 +11184,16 @@
     <p> Dioneo, by his silence, showing that his song was ended, the queen let sing many others,
         having natheless much commended his. Then, somedele of the night being spent and the queen
         feeling the heat of the day to be now overcome of the coolness of the night, she bade each
-        at his pleasure betake himself to rest against the ensuing day. </p>
+        at his pleasure betake himself to rest against the ensuing day. </p></story>
 
+     <p>HERE ENDETH THE FIFTH DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE FIFTH DAY 
-     OF THE DECAMERON 
+<div day="Sixth"><p><ch_title>Day the Sixth </ch_title></p>
 
-     Day the Sixth 
     <p> Here Beginneth the Sixth Day of the Decameron Wherein Under the Governance of Elisa Is
         Discoursed of Whoso Being Assailed With Some Jibing Speech Hath Vindicated Himself or Hath
         With Some Ready Reply or Advisement Escaped Loss, Peril or Shame </p>
-
 
     <p> The moon, being now in the middest heaven, had lost its radiance and every part of our world
         was bright with the new coming light, when, the queen arising and letting call her company,
@@ -11233,12 +11251,12 @@
         her. When they were gone, the queen called on Filomena to make a beginning with the day's
         stories and she blithely began thus: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
-     THE FIRST STORY 
-     Day the Sixth 
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> A GENTLEMAN ENGAGETH TO MADAM ORETTA TO CARRY HER A-HORSEBACK WITH A STORY, BUT, TELLING IT
         DISORDERLY, IS PRAYED BY HER TO SET HER DOWN AGAIN </p>
-
 
     <p> "Young ladies, like as stars, in the clear nights, are the ornaments of the heavens and the
         flowers and the leaf-clad shrubs, in the Spring, of the green fields and the hillsides, even
@@ -11276,13 +11294,14 @@
         this horse of yours hath too hard a trot; wherefore I pray you be pleased to set me down.'
         The gentleman, who, as it chanced, understood a hint better than he told a story, took the
         jest in good part and turning it off with a laugh, fell to discoursing of other matters and
-        left unfinished the story that he had begun and conducted so ill." </p>
+        left unfinished the story that he had begun and conducted so ill." </p></story>
 
-     THE SECOND STORY 
-     Day the Sixth 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> CISTI THE BAKER WITH A WORD OF HIS FASHION MAKETH MESSER GERI SPINA SENSIBLE OF AN
         INDISCREET REQUEST OF HIS </p>
-
 
     <p> Madam Oretta's saying was greatly commended of all, ladies and men, and the queen bidding
         Pampinea follow on, she began thus: "Fair ladies, I know not of mine own motion to resolve
@@ -11370,13 +11389,14 @@
         purpose no longer to be your steward thereof, I have sent it all to you; henceforward do
         with it as it pleaseth you.' Messer Geri set great store by Cisti's present and rendering
         him such thanks as he deemed sortable, ever after held him for a man of great worth and for
-        friend." </p>
+        friend." </p></story>
 
-     THE THIRD STORY 
-     Day the Sixth 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> MADAM NONNA DE' PULCI, WITH A READY RETORT TO A NOT ALTOGETHER SEEMLY PLEASANTRY, IMPOSETH
         SILENCE ON THE BISHOP OF FLORENCE </p>
-
 
     <p> Pampinea having made an end of her story and both Cisti's reply and his liberality having
         been much commended of all, it pleased the queen that the next story should be told by
@@ -11420,13 +11440,14 @@
         the other as having suffered the affront in the person of his kinswoman, and made off,
         shamefast and silent, without looking at one another or saying aught more to her that day.
         Thus, then, the young lady having been bitten, it was not forbidden her to bite her biter
-        with a retort." </p>
+        with a retort." </p></story>
 
-     THE FOURTH STORY 
-     Day the Sixth 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> CHICHIBIO, COOK TO CURRADO GIANFIGLIAZZI, WITH A READY WORD SPOKEN TO SAVE HIMSELF, TURNETH
         HIS MASTER'S ANGER INTO LAUGHTER AND ESCAPETH THE PUNISHMENT THREATENED HIM BY THE LATTER </p>
-
 
     <p> Lauretta being silent and Nonna having been mightily commended of all, the queen charged
         Neifile to follow on, and she said, "Although, lovesome ladies, a ready wit doth often
@@ -11486,14 +11507,14 @@
         and the other leg, even as did those yonder.' This reply so tickled Currado that all his
         wrath was changed into mirth and laughter and he said, 'Chichibio, thou art in the right;
         indeed, I should have done it.' Thus, then, with his prompt and comical answer did Chichibio
-        avert ill luck and made his peace with his master." </p>
+        avert ill luck and made his peace with his master." </p></story>
 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
 
-     THE FIFTH STORY 
-     Day the Sixth 
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> MESSER FORESE DA RABATTA AND MASTER GIOTTO THE PAINTER COMING FROM MUGELLO, EACH JESTINGLY
         RALLIETH THE OTHER ON HIS SCURVY FAVOUR </p>
-
 
     <p> Neifile being silent and the ladies having taken much pleasure in Chichibio's reply,
         Pamfilo, by the queen's desire, spoke thus: "Dearest ladies, it chanceth often that, like as
@@ -11543,13 +11564,14 @@
         art, the finest painter in the world?' 'Ay, sir,' answered Giotto forthright, 'methinketh he
         might e'en believe it whenas, looking upon you, he should believe that you knew your A B C.'
         Messer Forese, hearing this, was sensible of his error and saw himself paid with money such
-        as the wares he had sold."[304] </p>
+        as the wares he had sold."[304] </p></story>
 
-     THE SIXTH STORY 
-     Day the Sixth 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> MICHELE SCALZA PROVETH TO CERTAIN YOUNG MEN THAT THE CADGERS OF FLORENCE ARE THE BEST
         GENTLEMEN OF THE WORLD OR THE MAREMMA AND WINNETH A SUPPER </p>
-
 
     <p> The ladies yet laughed at Giotto's prompt retort, when the queen charged Fiammetta follow on
         and she proceeded to speak thus: "Young ladies, the mention by Pamfilo of the cadgers of
@@ -11603,13 +11625,14 @@
         had won the supper, for that the Cadgers were assuredly the noblest and most ancient
         gentlemen that were to be found not in Florence alone, but in the world or the Maremma.
         Wherefore it was very justly said of Pamfilo, seeking to show the foulness of Messer
-        Forese's visnomy, that it would have showed notably ugly on one of the Cadgers." </p>
+        Forese's visnomy, that it would have showed notably ugly on one of the Cadgers." </p></story>
 
-     THE SEVENTH STORY 
-     Day the Sixth 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> MADAM FILIPPA, BEING FOUND BY HER HUSBAND WITH A LOVER OF HERS AND BROUGHT TO JUSTICE,
         DELIVERETH HERSELF WITH A PROMPT AND PLEASANT ANSWER AND CAUSETH MODIFY THE STATUTE </p>
-
 
     <p> Fiammetta was now silent and all laughed yet at the novel argument used by Scalza for the
         ennoblement over all of the Cadgers, when the queen enjoined Filostrato to tell and he
@@ -11678,13 +11701,14 @@
         modified the cruel statute and left it to apply to those women only who should for money
         make default to their husbands. Thereupon Rinaldo, having taken nought but shame by so fond
         an emprise, departed the court, and the lady returned in triumph to her own house, joyful
-        and free and in a manner raised up out of the fire." </p>
+        and free and in a manner raised up out of the fire." </p></story>
 
-     THE EIGHTH STORY 
-     Day the Sixth 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> FRESCO EXHORTETH HIS NIECE NOT TO MIRROR HERSELF IN THE GLASS, IF, AS SHE SAITH, IT IRKETH
         HER TO SEE DISAGREEABLE FOLK </p>
-
 
     <p> The story told by Filostrato at first touched the hearts of the listening ladies with some
         little shamefastness and they gave token thereof by a modest redness that appeared upon
@@ -11719,13 +11743,14 @@
         to thee as thou sayest, never mirror thyself in the glass, so thou wouldst live merry.' But
         she, emptier than a reed, albeit herseemed she was a match for Solomon in wit, apprehended
         Fresco's true speech no better than a block; nay, she said that she chose to mirror herself
-        in the glass like other women; and so she abode in her folly and therein abideth yet." </p>
+        in the glass like other women; and so she abode in her folly and therein abideth yet." </p></story>
 
-     THE NINTH STORY 
-     Day the Sixth 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> GUIDO CAVALCANTI WITH A PITHY SPEECH COURTEOUSLY FLOUTETH CERTAIN FLORENTINE GENTLEMEN WHO
         HAD TAKEN HIM BY SURPRISE </p>
-
 
     <p> The queen, seeing Emilia delivered of her story and that it rested with none other than
         herself to tell, saving him who was privileged to speak last, began thus, "Although,
@@ -11785,14 +11810,15 @@
         other men of learning, worse than dead folk; wherefore, being here, we are in our own
         house.' Thereupon each understood what Guido had meant to say and was abashed nor ever
         plagued him more, but held Messer Betto thenceforward a gentleman of a subtle wit and an
-        understanding." </p>
+        understanding." </p></story>
 
-     THE TENTH STORY 
-     Day the Sixth 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Sixth </ch_title></p>
+
     <p> FRA CIPOLLA PROMISETH CERTAIN COUNTRY FOLK TO SHOW THEM ONE OF THE ANGEL GABRIEL'S FEATHERS
         AND FINDING COALS IN PLACE THEREOF, AVOUCHETH THESE LATTER TO BE OF THOSE WHICH ROASTED ST.
         LAWRENCE </p>
-
 
     <p> Each of the company being now quit of his[309] story, Dioneo perceived that it rested with
         him to tell; whereupon, without awaiting more formal commandment, he began on this wise,
@@ -12182,18 +12208,16 @@
         thereof, yet was there none who might conceive what it was that caused her sing thus. But
         the king, who was in a merry mood, calling for Tindaro, bade him bring out his bagpipes, to
         the sound whereof he let dance many dances; after which, a great part of the night being now
-        past, he bade each go sleep. </p>
+        past, he bade each go sleep. </p></story>
 
+     <p>HERE ENDETH THE SIXTH DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE SIXTH DAY 
-     OF THE DECAMERON 
+<div day="Seventh"><p><ch_title>Day the Seventh </ch_title></p>
 
-
-     Day the Seventh 
     <p> Here Beginneth the Seventh Day of the Decameron Wherein Under the Governance of Dioneo Is
         Discoursed of the Tricks Which or for Love or for Their Own Preservation Women Have
         Heretofore Played Their Husbands With or Without the Latter's Cognizance Thereof </p>
-
 
     <p> Every star was already fled from the parts of the East, save only that which we style
         Lucifer and which shone yet in the whitening dawn, when the seneschal, arising, betook
@@ -12224,14 +12248,13 @@
         they had eaten, and all having seated themselves thereon hard by the lake, the king bade
         Emilia begin; whereupon she blithely proceeded to speak, smiling, thus: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
+<p><ch_title>Day the Seventh </ch_title></p>
 
-     THE FIRST STORY 
-     Day the Seventh 
     <p> GIANNI LOTTERINGHI HEARETH KNOCK AT HIS DOOR BY NIGHT AND AWAKENETH HIS WIFE, WHO GIVETH HIM
         TO BELIEVE THAT IT IS A PHANTOM; WHEREUPON THEY GO TO EXORCISE IT WITH A CERTAIN ORISON AND
         THE KNOCKING CEASETH </p>
-
 
     <p> "My Lord, it had been very agreeable to me, were such your pleasure, that other than I
         should have given a beginning to so goodly a matter as is that whereof we are to speak; but,
@@ -12347,15 +12370,16 @@
         exquisite a ninny than the other. Wherefore, dear my ladies, it abideth at your election to
         take whether of the two orisons most pleaseth you, except you will have both. They have
         great virtue in such cases, as you have had proof in the story you have heard; get them,
-        therefore, by heart and they may yet avail you." </p>
+        therefore, by heart and they may yet avail you." </p></story>
 
-     THE SECOND STORY 
-     Day the Seventh 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
+
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> PERONELLA HIDETH A LOVER OF HERS IN A VAT, UPON HER HUSBAND'S UNLOOKED FOR RETURN, AND
         HEARING FROM THE LATTER THAT HE HATH SOLD THE VAT, AVOUCHETH HERSELF TO HAVE SOLD IT TO ONE
         WHO IS PRESENTLY THEREWITHIN, TO SEE IF IT BE SOUND; WHEREUPON THE GALLANT, JUMPING OUT OF
         THE VAT, CAUSETH THE HUSBAND SCRAPE IT OUT FOR HIM AND AFTER CARRY IT HOME TO HIS HOUSE </p>
-
 
     <p> Emilia's story was received with loud laughter and the conjuration commended of all as
         goodly and excellent; and this come to an end, the king bade Filostrato follow on, who
@@ -12463,13 +12487,14 @@
         Peronella withdrawing her head from the mouth of the vat, the husband came forth thereof.
         Then said she to her gallant, 'Take this light, good man, and look if it be clean to thy
         mind.' Giannello looked in and said that it was well and that he was satisfied and giving
-        the husband seven florins, caused carry the vat to his own house." </p>
+        the husband seven florins, caused carry the vat to his own house." </p></story>
 
-     THE THIRD STORY 
-     Day the Seventh 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> FRA RINALDO LIETH WITH HIS GOSSIP AND BEING FOUND OF HER HUSBAND CLOSETED WITH HER IN HER
         CHAMBER, THEY GIVE HIM TO BELIEVE THAT HE WAS IN ACT TO CONJURE WORMS FROM HIS GODSON </p>
-
 
     <p> Filostrato had not known to speak so obscurely of the mares of Parthia but that the roguish
         ladies laughed thereat, making believe to laugh at otherwhat. But, when the king saw that
@@ -12603,16 +12628,16 @@
         the latter's comrade with that whereof they had more need than of aught else. Then,
         attending them to the door, he commended them to God and letting make the waxen image
         without delay, he sent to hang it up with the others[346] before the statue of St. Ambrose,
-        but not that of Milan."[347] </p>
+        but not that of Milan."[347] </p></story>
 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
 
-     THE FOURTH STORY 
-     Day the Seventh 
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> TOFANO ONE NIGHT SHUTTETH HIS WIFE OUT OF DOORS, WHO, AVAILING NOT TO RE-ENTER BY DINT OF
         ENTREATIES, FEIGNETH TO CAST HERSELF INTO A WELL AND CASTETH THEREIN A GREAT STONE. TOFANO
         COMETH FORTH OF THE HOUSE AND RUNNETH THITHER, WHEREUPON SHE SLIPPETH IN AND LOCKING HIM
         OUT, BAWLETH REPROACHES AT HIM FROM THE WINDOW </p>
-
 
     <p> The king no sooner perceived Elisa's story to be ended than, turning without delay to
         Lauretta, he signified to her his pleasure that she should tell; whereupon she, without
@@ -12719,16 +12744,16 @@
         Moreover, he gave her leave to do her every pleasure, provided she wrought so discreetly
         that he should know nothing thereof; and on this wise, like a crack-brained churl as he was,
         he made peace after suffering damage. So long live Love and death to war and all its
-        company!" </p>
+        company!" </p></story>
 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
 
-     THE FIFTH STORY 
-     Day the Seventh 
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> A JEALOUS HUSBAND, IN THE GUISE OF A <roleName type="clerical" subtype="priest">PRIEST</roleName>, CONFESSETH HIS WIFE, WHO GIVETH HIM TO BELIEVE
         THAT SHE LOVETH A <roleName type="clerical" subtype="priest">PRIEST</roleName>, WHO COMETH TO HER EVERY NIGHT; AND WHILST THE HUSBAND SECRETLY
         KEEPETH WATCH AT THE DOOR FOR THE LATTER, THE LADY BRINGETH IN A LOVER OF HERS BY THE ROOF
         AND LIETH WITH HIM </p>
-
 
     <p> Lauretta having made an end of her story and all having commended the lady for that she had
         done aright and even as befitted her wretch of a husband, the king, to lose no time, turned
@@ -12930,15 +12955,16 @@
         lady, being in a manner licensed to do her pleasures, thenceforward no longer caused her
         lover to come to her by the roof, as go the cats, but e'en brought him in at the door, and
         dealing advisedly, many a day thereafter gave herself a good time and led a merry life with
-        him." </p>
+        him." </p></story>
 
-     THE SIXTH STORY 
-     Day the Seventh 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> MADAM ISABELLA, BEING IN COMPANY WITH LEONETTO HER LOVER, IS VISITED BY ONE MESSER
         LAMBERTUCCIO, OF WHOM SHE IS BELOVED; HER HUSBAND RETURNING, [UNEXPECTED,] SHE SENDETH
         LAMBERTUCCIO FORTH OF THE HOUSE, WHINGER IN HAND, AND THE HUSBAND AFTER ESCORTETH LEONETTO
         HOME </p>
-
 
     <p> The company were wonder-well pleased with Fiammetta's story, all affirming that the lady had
         done excellently well and as it behoved unto such a brute of a man, and after it was ended,
@@ -13032,15 +13058,15 @@
         own house. As for Leonetto, that same evening, according as he had been lessoned of the
         lady, he privily bespoke Messer Lambertuccio and took such order with him, albeit there was
         much talk of the matter thereafterward, the husband never for all that became aware of the
-        cheat that had been put on him by his wife." </p>
+        cheat that had been put on him by his wife." </p></story>
 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
 
-     THE SEVENTH STORY 
-     Day the Seventh 
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> LODOVICO DISCOVERETH TO MADAM BEATRICE THE LOVE HE BEARETH HER, WHEREUPON SHE SENDETH EGANO
         HER HUSBAND INTO THE GARDEN, IN HER OWN FAVOUR, AND LIETH MEANWHILE WITH LODOVICO, WHO,
         PRESENTLY ARISING, GOETH AND CUDGELLETH EGANO IN THE GARDEN </p>
-
 
     <p> Madam Isabella's presence of mind, as related by Pampinea, was held admirable by all the
         company; but, whilst they yet marvelled thereat, Filomena, whom the king had appointed to
@@ -13189,17 +13215,17 @@
         made merry more than once with Anichino over this adventure, the latter and his mistress had
         leisure enough of that which belike, but for this, they would not have had, to wit, to do
         that which afforded them pleasance and delight, that while it pleased Anichino abide with
-        Egano in Bologna." </p>
+        Egano in Bologna." </p></story>
 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
 
-     THE EIGHTH STORY 
-     Day the Seventh 
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> A MAN WAXETH JEALOUS OF HIS WIFE, WHO BINDETH A PIECE OF PACKTHREAD TO HER GREAT TOE
         ANIGHTS, SO SHE MAY HAVE NOTICE OF HER LOVER'S COMING. ONE NIGHT HER HUSBAND BECOMETH AWARE
         OF THIS DEVICE AND WHAT WHILE HE PURSUETH THE LOVER, THE LADY PUTTETH ANOTHER WOMAN TO BED
         IN HER ROOM. THIS LATTER THE HUSBAND BEATETH AND CUTTETH OFF HER HAIR, THEN FETCHETH HIS
         WIFE'S BROTHERS, WHO, FINDING HIS STORY [SEEMINGLY] UNTRUE, GIVE HIM HARD WORDS </p>
-
 
     <p> It seemed to them all that Madam Beatrice had been extraordinarily ingenious in cozening her
         husband and all agreed that Anichino's fright must have been very great, whenas, being the
@@ -13399,14 +13425,15 @@
         or whether he had dreamed it; wherefore he made no more words thereof, but left his wife in
         peace. Thus the lady, by her ready wit, not only escaped the imminent peril [that threatened
         her,] but opened herself a way to do her every pleasure in time to come, without evermore
-        having any fear of her husband." </p>
+        having any fear of her husband." </p></story>
 
-     THE NINTH STORY 
-     Day the Seventh 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> LYDIA, WIFE OF NICOSTRATUS, LOVETH PYRRHUS, WHO, SO HE MAY BELIEVE IT, REQUIRETH OF HER
         THREE THINGS, ALL WHICH SHE DOTH. MOREOVER, SHE SOLACETH HERSELF WITH HIM IN THE PRESENCE OF
         NICOSTRATUS AND MAKETH THE LATTER BELIEVE THAT THAT WHICH HE HATH SEEN IS NOT REAL </p>
-
 
     <p> Neifile's story so pleased the ladies that they could neither give over to laugh at nor to
         talk of it, albeit the king, having bidden Pamfilo tell his story, had several times imposed
@@ -13675,14 +13702,15 @@
         should never again happen to him to presume such a thing of her, who loved him better than
         herself. Accordingly, the wretched husband, thus befooled, returned with her and her lover
         to the palace, where many a time thereafterward Pyrrhus took delight and pleasance more at
-        ease of Lydia and she of him. God grant us as much!" </p>
+        ease of Lydia and she of him. God grant us as much!" </p></story>
 
-     THE TENTH STORY 
-     Day the Seventh 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Seventh </ch_title></p>
+
     <p> TWO SIENNESE LOVE A LADY, WHO IS GOSSIP TO ONE OF THEM; THE LATTER DIETH AND RETURNING TO
         HIS COMPANION, ACCORDING TO PROMISE MADE HIM, RELATETH TO HIM HOW FOLK FARE IN THE OTHER
         WORLD </p>
-
 
     <p> It now rested only with the king to tell and he accordingly, as soon as he saw the ladies
         quieted, who lamented the cutting down of the unoffending pear-tree, began, "It is a very
@@ -13866,16 +13894,15 @@
         and the next day we abstain, even as we did a week agone, from our pleasant story-telling,
         recalling to memory that which on those days befell whilere for the salvation of our souls."
         The queen's pious speech was pleasing unto all and a good part of the night being now past,
-        they all, dismissed by her, betook them to repose. </p>
+        they all, dismissed by her, betook them to repose. </p></story>
 
+     <p>HERE ENDETH THE SEVENTH DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE SEVENTH DAY 
-     OF THE DECAMERON 
+<div day="Eighth"><p><ch_title>Day the Eighth </ch_title></p>
 
-     Day the Eighth 
     <p> Here Beginneth the Eighth Day of the Decameron Wherein Under the Governance of Lauretta Is
         Discoursed of the Tricks That All Day Long Women Play Men or Men Women or Men One Another </p>
-
 
     <p> Already on the Sunday morning the rays of the rising light appeared on the summits of the
         higher mountains and every shadow having departed, things might manifestly be discerned,
@@ -13887,13 +13914,13 @@
         near the fair fountain, for the wonted story-telling, and Neifile, by her commandment, began
         thus: </p>
 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
 
-     THE FIRST STORY 
-     Day the Eighth 
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> GULFARDO BORROWETH OF GUASPARRUOLO CERTAIN MONIES, FOR WHICH HE HATH AGREED WITH HIS WIFE
         THAT HE SHALL LIE WITH HER, AND ACCORDINGLY GIVETH THEM TO HER; THEN, IN HER PRESENCE, HE
         TELLETH GUASPARRUOLO THAT HE GAVE THEM TO HER, AND SHE CONFESSETH IT TO BE TRUE </p>
-
 
     <p> "Since God hath so ordered it that I am to give a beginning to the present day's discourses,
         with my story, I am content, and therefore, lovesome ladies, seeing that much hath been said
@@ -13963,14 +13990,15 @@
         quoth Guasparruolo, 'Gulfardo, I am satisfied; get you gone and God go with you: I will
         settle your account aright.' Gulfardo gone, the lady, finding herself cozened, gave her
         husband the dishonourable price of her baseness; and on this wise the crafty lover enjoyed
-        his sordid mistress without cost." </p>
+        his sordid mistress without cost." </p></story>
 
-     THE SECOND STORY 
-     Day the Eighth 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> THE PARISH <roleName type="clerical" subtype="priest">PRIEST</roleName> OF VARLUNGO LIETH WITH MISTRESS BELCOLORE AND LEAVETH HER A CLOAK OF HIS
         IN PLEDGE; THEN, BORROWING A MORTAR OF HER, HE SENDETH IT BACK TO HER, DEMANDING IN RETURN
         THE CLOAK LEFT BY WAY OF TOKEN, WHICH THE GOOD WOMAN GRUDGINGLY GIVETH HIM BACK </p>
-
 
     <p> Men and ladies alike commended that which Gulfardo had done to the sordid Milanese lady, and
         the queen, turning to Pamfilo, smilingly charged him follow on; whereupon quoth he, "Fair
@@ -14102,15 +14130,16 @@
         into the mouth of Lucifer the great devil, for very fear she made her peace with him over
         must and roast chestnuts and they after made merry together time and again. In lieu of the
         five crowns, the <roleName type="clerical" subtype="priest">priest</roleName> let put new parchment to her tabret and string thereto a cast of
-        hawk's bells, and with this she was fain to be content." </p>
+        hawk's bells, and with this she was fain to be content." </p></story>
 
-     THE THIRD STORY 
-     Day the Eighth 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> CALANDRINO, BRUNO AND BUFFALMACCO GO COASTING ALONG THE MUGNONE IN SEARCH OF THE HELIOTROPE
         AND CALANDRINO THINKETH TO HAVE FOUND IT. ACCORDINGLY HE RETURNETH HOME, LADEN WITH STONES,
         AND HIS WIFE CHIDETH HIM; WHEREUPON, FLYING OUT INTO A RAGE, HE BEATETH HER AND RECOUNTETH
         TO HIS COMPANIONS THAT WHICH THEY KNOW BETTER THAN HE </p>
-
 
     <p> Pamfilo having made an end of his story, at which the ladies had laughed so much that they
         laugh yet, the queen bade Elisa follow on, who, still laughing, began, "I know not, charming
@@ -14320,14 +14349,15 @@
         he should have discovered the matter, as soon as he perceived that he had found the stone.
         Brief, after many words, they made peace, not without much ado, between him and the
         woebegone lady and went their ways, leaving him disconsolate, with the house full of
-        stones." </p>
+        stones." </p></story>
 
-     THE FOURTH STORY 
-     Day the Eighth 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> THE RECTOR OF FIESOLE LOVETH A WIDOW LADY, BUT IS NOT LOVED BY HER AND THINKING TO LIE WITH
         HER, LIETH WITH A SERVING-WENCH OF HERS, WHILST THE LADY'S BROTHERS CAUSE THE BISHOP FIND
         HIM IN THIS CASE </p>
-
 
     <p> Elisa being come to the end of her story, which she had related to the no small pleasure of
         all the company, the queen turned to Emilia, and signified to her her wish that she should
@@ -14455,13 +14485,14 @@
         go abroad but the children would point at him and say, 'See, there is he who lay with
         Ciutazza'; the which was so sore an annoy to him that he was like to go mad therefor. On
         such wise did the worthy lady rid herself of the importunity of the malapert rector and
-        Ciutazza gained the shift and a merry night." </p>
+        Ciutazza gained the shift and a merry night." </p></story>
 
-     THE FIFTH STORY 
-     Day the Eighth 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> THREE YOUNG MEN PULL THE BREECHES OFF A MARCHEGAN JUDGE IN FLORENCE, WHAT WHILE HE IS ON THE
         BENCH, ADMINISTERING JUSTICE </p>
-
 
     <p> Emilia having made an end of her story and the widow lady having been commended of all, the
         queen looked to Filostrato and said, "It is now thy turn to tell." He answered promptly that
@@ -14541,16 +14572,16 @@
         him that this had only been done to give him notice that the Florentines right well
         understood how, whereas he should have brought judges, he had brought them sorry patches, to
         have them better cheap, he thought it best to hold his peace, and so the thing went no
-        farther for the nonce." </p>
+        farther for the nonce." </p></story>
 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
 
-     THE SIXTH STORY 
-     Day the Eighth 
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> BRUNO AND BUFFALMACCO, HAVING STOLEN A PIG FROM CALANDRINO, MAKE HIM TRY THE ORDEAL WITH
         GINGER BOLUSES AND SACK AND GIVE HIM (INSTEAD OF THE GINGER) TWO DOG-BALLS COMPOUNDED WITH
         ALOES, WHEREBY IT APPEARETH THAT HE HIMSELF HATH HAD THE PIG AND THEY MAKE HIM PAY
         BLACKMAIL, AN HE WOULD NOT HAVE THEM TELL HIS WIFE </p>
-
 
     <p> No sooner had Filostrato despatched his story, which had given rise to many a laugh, than
         the queen bade Filomena follow on, whereupon she began: "Gracious ladies, even as Filostrato
@@ -14700,15 +14731,16 @@
         believed and himseeming he had had vexation enough, without having his wife's scolding into
         the bargain, gave them two pairs of capons, which they carried off to Florence, after they
         had salted the pig, leaving Calandrino to digest the loss and the flouting as best he
-        might." </p>
+        might." </p></story>
 
-     THE SEVENTH STORY 
-     Day the Eighth 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> A SCHOLAR LOVETH A WIDOW LADY, WHO, BEING ENAMOURED OF ANOTHER, CAUSETH HIM SPEND ONE
         WINTER'S NIGHT IN THE SNOW AWAITING HER, AND HE AFTER CONTRIVETH, BY HIS SLEIGHT, TO HAVE
         HER ABIDE NAKED, ALL ONE MID-JULY DAY, ON THE SUMMIT OF A TOWER, EXPOSED TO FLIES AND GADS
         AND SUN </p>
-
 
     <p> The ladies laughed amain at the unhappy Calandrino and would have laughed yet more, but that
         it irked them to see him fleeced of the capons, to boot, by those who had already robbed him
@@ -15314,14 +15346,15 @@
         the foolish young lady of her pranks, for that she thought to fool it with a scholar as she
         would have done with another, unknowing that scholars,—I will not say all, but the most part
         of them,—know where the devil keepeth his tail. Wherefore, ladies, beware of making mock of
-        folk, and especially of scholars." </p>
+        folk, and especially of scholars." </p></story>
 
-     THE EIGHTH STORY 
-     Day the Eighth 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> TWO MEN CONSORTING TOGETHER, ONE LIETH WITH THE WIFE OF HIS COMRADE, WHO, BECOMING AWARE
         THEREOF, DOTH WITH HER ON SUCH WISE THAT THE OTHER IS SHUT UP IN A CHEST, UPON WHICH HE
         LIETH WITH HIS WIFE, HE BEING INSIDE THE WHILE </p>
-
 
     <p> Elena's troubles had been irksome and grievous to the ladies to hear; natheless, for that
         they deemed them in part justly befallen her, they passed them over with more moderate
@@ -15425,14 +15458,15 @@
         there is nothing unshared between us two but our wives, we have these also in common.' Zeppa
         was content and they all four dined together in the utmost possible harmony; and
         thenceforward each of the two ladies had two husbands and each of the latter two wives,
-        without ever having any strife or grudge anent the matter." </p>
+        without ever having any strife or grudge anent the matter." </p></story>
 
-     THE NINTH STORY 
-     Day the Eighth 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> MASTER SIMONE THE PHYSICIAN, HAVING BEEN INDUCED BY BRUNO AND BUFFALMACCO TO REPAIR TO A
         CERTAIN PLACE BY NIGHT, THERE TO BE MADE A MEMBER OF A COMPANY THAT GOETH A-ROVING, IS CAST
         BY BUFFALMACCO INTO A TRENCH FULL OF ORDURE AND THERE LEFT </p>
-
 
     <p> After the ladies had chatted awhile over the community of wives practised by the two
         Siennese, the queen, with whom alone it rested to tell, so she would not do Dioneo an
@@ -15852,14 +15886,15 @@
         entreated them with honour, from that time forth he honoured them yet more and made much of
         them, entertaining them with banquets and otherwhat, for fear lest they should publish his
         shame. Thus, then, as you have heard, is sense taught to whoso hath learned no great store
-        thereof at Bologna." </p>
+        thereof at Bologna." </p></story>
 
-     THE TENTH STORY 
-     Day the Eighth 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Eighth </ch_title></p>
+
     <p> A CERTAIN WOMAN OF SICILY ARTFULLY DESPOILETH A MERCHANT OF THAT WHICH HE HAD BROUGHT TO
         PALERMO; BUT HE, MAKING BELIEVE TO HAVE RETURNED THITHER WITH MUCH GREATER PLENTY OF
         MERCHANDISE THAN BEFORE, BORROWETH MONEY OF HER AND LEAVETH HER WATER AND TOW IN PAYMENT </p>
-
 
     <p> How much the queen's story in divers places made the ladies laugh, it needed not to ask;
         suffice it to say that there was none of them to whose eyes the tears had not come a dozen
@@ -16235,16 +16270,15 @@
         him, studying to divine that which, as he sang, it behoved him to keep hidden from them; and
         although sundry went imagining various things, nevertheless none happened upon the truth of
         the case.[422] But the queen, seeing that the song was ended and that both young ladies and
-        men would gladly rest themselves, commanded that all should betake themselves to bed. </p>
+        men would gladly rest themselves, commanded that all should betake themselves to bed. </p></story>
 
+     <p>HERE ENDETH THE EIGHTH DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE EIGHTH DAY 
-     OF THE DECAMERON 
+<div day="Ninth"><p><ch_title>Day the Ninth </ch_title></p>
 
-     Day the Ninth 
     <p> Here Beginneth the Ninth Day of the Decameron Wherein Under the Governance of Emilia Each
         Discourseth According As It Pleaseth Him and of That Which Is Most to His Liking </p>
-
 
     <p> The light, from whose resplendence the night fleeth, had already changed all the eighth
         heaven[423] from azure to watchet-colour[424] and the flowerets began to lift their heads
@@ -16270,13 +16304,14 @@
         whereupon the queen, looking at Filomena, bade her give commencement to the stories of that
         day, and she, smiling, began on this wise: </p>
 
-     THE FIRST STORY 
-     Day the Ninth 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
+
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> MADAM FRANCESCA, BEING COURTED BY ONE RINUCCIO PALERMINI AND ONE ALESSANDRO CHIARMONTESI AND
         LOVING NEITHER THE ONE NOR THE OTHER, ADROITLY RIDDETH HERSELF OF BOTH BY CAUSING ONE ENTER
         FOR DEAD INTO A SEPULCHRE AND THE OTHER BRING HIM FORTH THEREOF FOR DEAD, ON SUCH WISE THAT
         THEY CANNOT AVAIL TO ACCOMPLISH THE CONDITION IMPOSED </p>
-
 
     <p> "Since it is your pleasure, madam, I am well pleased to be she who shall run the first ring
         in this open and free field of story-telling, wherein your magnificence hath set us; the
@@ -16421,15 +16456,16 @@
         accomplished her commandment, claimed her favour and her love; but she, making believe to
         credit neither of this, rid herself of them with a curt response to the effect that she
         would never consent to do aught for them, since they had not done that which she had
-        required of them." </p>
+        required of them." </p></story>
 
-     THE SECOND STORY 
-     Day the Ninth 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
+
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> AN ABBESS, ARISING IN HASTE AND IN THE DARK TO FIND ONE OF HER NUNS, WHO HAD BEEN DENOUNCED
         TO HER, IN BED WITH HER LOVER AND THINKING TO COVER HER HEAD WITH HER COIF, DONNETH INSTEAD
         THEREOF THE BREECHES OF A <roleName type="clerical" subtype="priest">PRIEST</roleName> WHO IS ABED WITH HER; THE WHICH THE ACCUSED NUN OBSERVING
         AND MAKING HER AWARE THEREOF, SHE IS ACQUITTED AND HATH LEISURE TO BE WITH HER LOVER </p>
-
 
     <p> Filomena was now silent and the lady's address in ridding herself of those whom she chose
         not to love having been commended of all, whilst, on the other hand, the presumptuous
@@ -16506,15 +16542,15 @@
         setting the young lady free, she went back to sleep with her <roleName type="clerical" subtype="priest">priest</roleName> and Isabetta returned to
         her lover, whom many a time thereafter she let come thither, in despite of those who envied
         her, whilst those of the others who were loverless pushed their fortunes in secret, as best
-        they knew." </p>
+        they knew." </p></story>
 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
 
-     THE THIRD STORY 
-     Day the Ninth 
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> MASTER SIMONE, AT THE INSTANCE OF BRUNO AND BUFFALMACCO AND NELLO, MAKETH CALANDRINO BELIEVE
         THAT HE IS WITH CHILD; WHEREFORE HE GIVETH THEM CAPONS AND MONEY FOR MEDICINES AND
         RECOVERETH WITHOUT BRINGING FORTH </p>
-
 
     <p> After Elisa had finished her story and all the ladies had returned thanks to God, who had
         with a happy issue delivered the young nun from the claws of her envious companions, the
@@ -16620,16 +16656,16 @@
         of him, in that he had unbegotten him with child in three days' time, without any pain;
         whilst Bruno and Buffalmacco and Nello abode well pleased at having contrived with this
         device to overreach his niggardliness, albeit Dame Tessa, smoking the cheat, rated her
-        husband amain thereanent." </p>
+        husband amain thereanent." </p></story>
 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
 
-     THE FOURTH STORY 
-     Day the Ninth 
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> CECCO FORTARRIGO GAMETH AWAY AT BUONCONVENTO ALL HIS GOOD AND THE MONIES OF CECCO ANGIOLIERI
         [HIS MASTER;] MOREOVER, RUNNING AFTER THE LATTER, IN HIS SHIRT, AND AVOUCHING THAT HE HATH
         ROBBED HIM, HE CAUSETH HIM BE TAKEN OF THE COUNTRYFOLK; THEN, DONNING ANGIOLIERI'S CLOTHES
         AND MOUNTING HIS PALFREY, HE MAKETH OFF AND LEAVETH THE OTHER IN HIS SHIRT </p>
-
 
     <p> Calandrino's speech concerning his wife had been hearkened of all the company with the
         utmost laughter; then, Filostrato being silent, Neifile, as the queen willed it, began,
@@ -16734,15 +16770,15 @@
         betook himself to his kinsfolk at Corsignano, with whom he abode till such time as he was
         furnished anew by his father. On this wise Fortarrigo's knavery baffled Angiolieri's fair
         advisement,[431] albeit his villainy was not left by the latter unpunished in due time and
-        place." </p>
+        place." </p></story>
 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
 
-     THE FIFTH STORY 
-     Day the Ninth 
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> CALANDRINO FALLETH IN LOVE WITH A WENCH AND BRUNO WRITETH HIM A TALISMAN, WHEREWITH WHEN HE
         TOUCHETH HER, SHE GOETH WITH HIM; AND HIS WIFE FINDING THEM TOGETHER, THERE BETIDETH HIM
         GRIEVOUS TROUBLE AND ANNOY </p>
-
 
     <p> Neifile's short story being finished and the company having passed it over without overmuch
         talk or laughter, the queen turned to Fiammetta and bade her follow on, to which she replied
@@ -16949,16 +16985,17 @@
         returned to Florence, chapfallen and woebegone, all flayed and scratched, and never ventured
         to go thither again; but, being plagued and harassed night and day with his wife's
         reproaches, he made an end of his fervent love, having given much cause for laughter to his
-        companions, no less than to Niccolosa and Filippo." </p>
+        companions, no less than to Niccolosa and Filippo." </p></story>
 
-     THE SIXTH STORY 
-     Day the Ninth 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> TWO YOUNG GENTLEMEN LODGE THE NIGHT WITH AN INNKEEPER, WHEREOF ONE GOETH TO LIE WITH THE
         HOST'S DAUGHTER, WHILST HIS WIFE UNWITTINGLY COUCHETH WITH THE OTHER; AFTER WHICH HE WHO LAY
         WITH THE GIRL GETTETH HIM TO BED WITH HER FATHER AND TELLETH HIM ALL, THINKING TO BESPEAK
         HIS COMRADE. THEREWITHAL THEY COME TO WORDS, BUT THE WIFE, PERCEIVING HER MISTAKE, ENTERETH
         HER DAUGHTER'S BED AND THENCE WITH CERTAIN WORDS APPEASETH EVERYTHING </p>
-
 
     <p> Calandrino, who had otherwhiles afforded the company matter for laughter, made them laugh
         this time also, and whenas the ladies had left devising of his fashions, the queen bade
@@ -17080,15 +17117,15 @@
         which the thing had betided than with the effect itself thereof. Thereafter Pinuccio found
         other means of foregathering with Niccolosa, who vowed to her mother that he had certainly
         dreamt the thing; wherefore the goodwife, remembering her of Adriano's embracements,
-        inwardly avouched herself alone to have waked." </p>
+        inwardly avouched herself alone to have waked." </p></story>
 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
 
-     THE SEVENTH STORY 
-     Day the Ninth 
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> TALANO DI MOLESE DREAMETH THAT A WOLF MANGLETH ALL HIS WIFE'S NECK AND FACE AND BIDDETH HER
         BEWARE THEREOF; BUT SHE PAYETH NO HEED TO HIS WARNING AND IT BEFALLETH HER EVEN AS HE HAD
         DREAMED </p>
-
 
     <p> Pamfilo's story being ended and the goodwife's presence of mind having been commended of
         all, the queen bade Pampinea tell hers and she thereupon began, "It hath been otherwhile
@@ -17140,13 +17177,14 @@
         her face marred on such wise that, whereas before she was fair, she ever after appeared
         misfeatured and very foul of favour; wherefore, being ashamed to appear whereas she might be
         seen, she many a time bitterly repented her of her frowardness and her perverse denial to
-        put faith, in a matter which cost her nothing, in her husband's true dream." </p>
+        put faith, in a matter which cost her nothing, in her husband's true dream." </p></story>
 
-     THE EIGHTH STORY 
-     Day the Ninth 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> BIONDELLO CHEATETH CIACCO OF A DINNER, WHEREOF THE OTHER CRAFTILY AVENGETH HIMSELF,
         PROCURING HIM TO BE SHAMEFULLY BEATEN </p>
-
 
     <p> The merry company with one accord avouched that which Talano had seen in sleep to have been
         no dream, but a vision, so punctually, without there failing aught thereof, had it come to
@@ -17237,15 +17275,15 @@
         henceforth. Whenever thou goest about to give me to eat as thou didst, I will give thee in
         return to drink after t'other day's fashion.' Biondello, knowing full well that it was
         easier to wish Ciacco ill than to put it in practise, besought God of his peace[437] and
-        thenceforth was careful to affront him no more." </p>
+        thenceforth was careful to affront him no more." </p></story>
 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
 
-     THE NINTH STORY 
-     Day the Ninth 
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> TWO YOUNG MEN SEEK COUNSEL OF SOLOMON, ONE HOW HE MAY BE LOVED AND THE OTHER HOW HE MAY
         AMEND HIS FROWARD WIFE, AND IN ANSWER HE BIDDETH THE ONE LOVE AND THE OTHER GET HIM TO
         GOOSEBRIDGE </p>
-
 
     <p> None other than the queen remaining to tell, so she would maintain Dioneo his privilege,
         she, after the ladies had laughed at the unlucky Biondello, began blithely to speak thus:
@@ -17375,14 +17413,15 @@
         given thee no truer nor better counsel. Thou knowest thou lovest no one, and the honours and
         services thou renderest others, thou dost not for love that thou bearest them, but for pomp
         and ostentation. Love, then, as Solomon bade thee, and thou shalt be loved.' On this wise,
-        then, was the froward wife corrected and the young man, loving, was beloved." </p>
+        then, was the froward wife corrected and the young man, loving, was beloved." </p></story>
 
-     THE TENTH STORY 
-     Day the Ninth 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Ninth </ch_title></p>
+
     <p> DOM GIANNI, AT THE INSTANCE OF HIS GOSSIP PIETRO, PERFORMETH A CONJURATION FOR THE PURPOSE
         OF CAUSING THE LATTER'S WIFE TO BECOME A MARE; BUT, WHENAS HE COMETH TO PUT ON THE TAIL,
         PIETRO MARRETH THE WHOLE CONJURATION, SAYING THAT HE WILL NOT HAVE A TAIL </p>
-
 
     <p> The queen's story made the young men laugh and gave rise to some murmurs on the part of the
         ladies; then, as soon as the latter were quiet, Dioneo began to speak thus, "Sprightly
@@ -17544,18 +17583,16 @@
 
     <p> Neifile's canzonet was much commended both of the king and of the other ladies; after which,
         for that a great part of the night was now spent, the king commanded that all should betake
-        themselves to rest until the day. </p>
+        themselves to rest until the day. </p></story>
 
+     <p>HERE ENDETH THE NINTH DAY 
+     OF THE DECAMERON</p></div> 
 
-     HERE ENDETH THE NINTH DAY 
-     OF THE DECAMERON 
+<div day="Tenth"><p><ch_title>Day the Tenth </ch_title></p>
 
-
-     Day the Tenth 
     <p> Here Beginneth the Tenth and Last Day of the Decameron Wherein Under the Governance of
         Pamfilo Is Discoursed of Whoso Hath Anywise Wrought Generously or Magnificently in Matters
         of Love or Otherwhat </p>
-
 
     <p> Certain cloudlets in the West were yet vermeil, what time those of the East were already at
         their marges grown lucent like unto very gold, when Pamfilo, arising, let call his comrades
@@ -17570,12 +17607,13 @@
         pleased the king and there he called upon Neifile for the first discourse, who blithely
         began thus: </p>
 
-     THE FIRST STORY 
-     Day the Tenth 
+<story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p> 
+
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> A KNIGHT IN THE KING'S SERVICE OF SPAIN THINKING HIMSELF ILL GUERDONED, THE KING BY VERY
         CERTAIN PROOF SHOWETH HIM THAT THIS IS NOT HIS FAULT, BUT THAT OF HIS OWN PERVERSE FORTUNE,
         AND AFTER LARGESSETH HIM MAGNIFICENTLY </p>
-
 
     <p> "Needs, honourable ladies, must I repute it a singular favour to myself that our king hath
         preferred me unto such an honour as it is to be the first to tell of magnificence, the
@@ -17651,14 +17689,15 @@
         will in her despite shall be yours, so you may carry it off to your own country and justly
         glorify yourself of your worth in the sight of your countrymen by the witness of my gifts.'
         Messer Ruggieri accordingly took the coffer and having rendered the king those thanks which
-        sorted with such a gift, joyfully returned therewith to Tuscany." </p>
+        sorted with such a gift, joyfully returned therewith to Tuscany." </p></story>
 
-     THE SECOND STORY 
-     Day the Tenth 
+<story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p> 
+
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> GHINO DI TACCO TAKETH THE ABBOT OF CLUNY AND HAVING CURED HIM OF THE STOMACH-COMPLAINT,
         LETTETH HIM GO; WHEREUPON THE ABBOT, RETURNING TO THE COURT OF ROME, RECONCILETH HIM WITH
         POPE BONIFACE AND MAKETH HIM A PRIOR OF THE HOSPITALLERS </p>
-
 
     <p> The magnificence shown by King Alfonso to the Florentine cavalier having been duly
         commended, the king, who had been mightily pleased therewith, enjoined Elisa to follow on,
@@ -17779,16 +17818,16 @@
         latter reputed him a man of worth and taking him into favour, bestowed on him a grand priory
         of those of the Hospitallers, having first let make him a knight of that order; which office
         he held whilst he lived, still approving himself a loyal friend and servant of Holy <org type="religous" subtype="church">Church</org>
-        and of the Abbot of Cluny." </p>
+        and of the Abbot of Cluny." </p></story>
 
+<story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p> 
 
-     THE THIRD STORY 
-     Day the Tenth 
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> MITHRIDANES, ENVYING NATHAN HIS HOSPITALITY AND GENEROSITY AND GOING TO KILL HIM, FALLETH IN
         WITH HIMSELF, WITHOUT KNOWING HIM, AND IS BY HIM INSTRUCTED OF THE COURSE HE SHALL TAKE TO
         ACCOMPLISH HIS PURPOSE; BY MEANS WHEREOF HE FINDETH HIM, AS HE HIMSELF HAD ORDERED IT, IN A
         COPPICE AND RECOGNIZING HIM, IS ASHAMED AND BECOMETH HIS FRIEND </p>
-
 
     <p> Themseemed all they had heard what was like unto a miracle, to wit, that a churchman should
         have wrought anywhat magnificently; but, as soon as the ladies had left discoursing thereof,
@@ -17960,14 +17999,15 @@
         to the latter's palace, where he entertained Mithridanes with the utmost honour sundry days,
         heartening him in his great and noble purpose with all manner of wit and wisdom. Then,
         Mithridanes desiring to return to his own house with his company, he dismissed him, having
-        throughly given him to know that he might never avail to outdo him in liberality." </p>
+        throughly given him to know that he might never avail to outdo him in liberality." </p></story>
 
-     THE FOURTH STORY 
-     Day the Tenth 
+<story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> MESSER GENTILE DE' CARISENDI, COMING FROM MODONA, TAKETH FORTH OF THE SEPULCHRE A LADY WHOM
         HE LOVETH AND WHO HATH BEEN BURIED FOR DEAD. THE LADY, RESTORED TO LIFE, BEARETH A MALE
         CHILD AND MESSER GENTILE RESTORETH HER AND HER SON TO NICCOLUCCIO CACCIANIMICO, HER HUSBAND </p>
-
 
     <p> It seemed to all a marvellous thing that a man should be lavish of his own blood and they
         declared Nathan's liberality to have verily transcended that of the King of Spain and the
@@ -18155,17 +18195,17 @@
         fortune had taken up, not only honourably tempered his ardour, but, having in his possession
         that which he was still wont with all his thoughts to covet and to seek to steal away,
         freely restored it [to its owner]? Certes, meseemeth none of the magnificences already
-        recounted can compare with this." </p>
+        recounted can compare with this." </p></story>
 
+<story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p> 
 
-     THE FIFTH STORY 
-     Day the Tenth 
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> MADAM DIANORA REQUIRETH OF MESSER ANSALDO A GARDEN AS FAIR IN JANUARY AS IN MAY, AND HE BY
         BINDING HIMSELF [TO PAY A GREAT SUM OF MONEY] TO A NIGROMANCER, GIVETH IT TO HER. HER
         HUSBAND GRANTETH HER LEAVE TO DO MESSER ANSALDO'S PLEASURE, BUT HE, HEARING OF THE FORMER'S
         GENEROSITY, ABSOLVETH HER OF HER PROMISE, WHEREUPON THE NIGROMANCER, IN HIS TURN, ACQUITTETH
         MESSER ANSALDO OF HIS BOND, WITHOUT WILLING AUGHT OF HIS </p>
-
 
     <p> Messer Gentile having by each of the merry company been extolled to the very skies with the
         highest praise, the king charged Emilia follow on, who confidently, as if eager to speak,
@@ -18280,13 +18320,14 @@
         of] the in a manner dead lady and of his love already cooled for hope forspent, before the
         generosity of Messer Ansaldo, whose love was more ardent than ever and who was in a manner
         fired with new hope, holding in his hands the prey so long pursued? Meseemeth it were folly
-        to pretend that this generosity can be evened with that." </p>
+        to pretend that this generosity can be evened with that." </p></story>
 
-     THE SIXTH STORY 
-     Day the Tenth 
+<story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> KING CHARLES THE OLD, THE VICTORIOUS, FALLETH ENAMOURED OF A YOUNG GIRL, BUT AFTER, ASHAMED
         OF HIS FOND THOUGHT, HONOURABLY MARRIETH BOTH HER AND HER SISTER </p>
-
 
     <p> It were over longsome fully to recount the various discourse that had place among the ladies
         of who used the greatest generosity, Gilberto or Messer Ansaldo or the nigromancer, in Madam
@@ -18446,14 +18487,15 @@
         and who married to another her whom he loved, without having gotten or taking of his love
         leaf or flower or fruit. On this wise, then, did this magnanimous king, at once
         magnificently guerdoning the noble gentleman, laudably honouring the young ladies whom he
-        loved and bravely overcoming himself." </p>
+        loved and bravely overcoming himself." </p></story>
 
-     THE SEVENTH STORY 
-     Day the Tenth 
+<story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> KING PEDRO OF ARRAGON, COMING TO KNOW THE FERVENT LOVE BORNE HIM BY LISA, COMFORTETH THE
         LOVE-SICK MAID AND PRESENTLY MARRIETH HER TO A NOBLE YOUNG GENTLEMAN; THEN, KISSING HER ON
         THE BROW, HE EVER AFTER AVOUCHETH HIMSELF HER KNIGHT </p>
-
 
     <p> Fiammetta having made an end of her story and the manful magnanimity of King Charles having
         been much commended, albeit there was one lady there who, being a Ghibelline, was loath to
@@ -18652,18 +18694,18 @@
         arms but he wore none other favour than that which was sent him of her. It is by doing,
         then, on this wise that subjects' hearts are gained, that others are incited to do well and
         that eternal renown is acquired; but this is a mark at which few or none nowadays bend the
-        bow of their understanding, most princes being presently grown cruel and tyrannical." </p>
+        bow of their understanding, most princes being presently grown cruel and tyrannical." </p></story>
 
+<story numbr="Eight"><p><story_numbr>THE EIGHTH STORY</story_numbr></p> 
 
-     THE EIGHTH STORY 
-     Day the Tenth 
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> SOPHRONIA, THINKING TO MARRY GISIPPUS, BECOMETH THE WIFE OF TITUS QUINTIUS FULVUS AND WITH
         HIM BETAKETH HERSELF TO ROME, WHITHER GISIPPUS COMETH IN POOR CASE AND CONCEIVING HIMSELF
         SLIGHTED OF TITUS, DECLARETH, SO HE MAY DIE, TO HAVE SLAIN A MAN. TITUS, RECOGNIZING HIM, TO
         SAVE HIM, AVOUCHETH HIMSELF TO HAVE DONE THE DEED, AND THE TRUE MURDERER, SEEING THIS,
         DISCOVERETH HIMSELF; WHEREUPON THEY ARE ALL THREE LIBERATED BY OCTAVIANUS AND TITUS, GIVING
         GISIPPUS HIS SISTER TO WIFE, HATH ALL HIS GOOD IN COMMON WITH HIM </p>
-
 
     <p> Pampinea having left speaking and all having commended King Pedro, the Ghibelline lady more
         than the rest, Fiammetta, by the king's commandment, began thus, "Illustrious ladies, who is
@@ -19130,10 +19172,12 @@
         galore and add, by dint of monies, to the number of their servitors, considering not that
         every one of these, who and whatsoever he may be, is more fearful of every least danger of
         his own than careful to do away the great[470] from father or brother or master, whereas we
-        see a friend do altogether the contrary." </p>
+        see a friend do altogether the contrary." </p></story>
 
-     THE NINTH STORY 
-     Day the Tenth 
+<story numbr="Nine"><p><story_numbr>THE NINTH STORY</story_numbr></p> 
+
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> SALADIN, IN THE DISGUISE OF A MERCHANT, IS HONOURABLY ENTERTAINED BY MESSER TORELLO
         D'ISTRIA, WHO, PRESENTLY UNDERTAKING THE [THIRD] CRUSADE, APPOINTETH HIS WIFE A TERM FOR HER
         MARRYING AGAIN. HE IS TAKEN [BY THE <faith ref="#Islam">SARACENS</faith>] AND COMETH, BY HIS SKILL IN TRAINING HAWKS,
@@ -19142,7 +19186,6 @@
         MAGICAL ART TRANSPORTED IN ONE NIGHT [FROM ALEXANDRIA] TO PAVIA, WHERE, BEING RECOGNIZED BY
         HIS WIFE AT THE BRIDE-FEAST HELD FOR HER MARRYING AGAIN, HE RETURNETH WITH HER TO HIS OWN
         HOUSE </p>
-
 
     <p> Filomena having made an end of her discourse and the magnificent gratitude of Titus having
         been of all alike commended, the king, reserving the last place unto Dioneo, proceeded to
@@ -19593,11 +19636,12 @@
         cheerful and ready hospitalities, the which many study to practise, who, albeit they have
         the wherewithal, do yet so ill contrive it that they make those on whom they bestow their
         courtesies buy them, ere they have done with them, for more than their worth; wherefore, if
-        no reward ensue to them thereof, neither themselves nor others should marvel thereat." </p>
+        no reward ensue to them thereof, neither themselves nor others should marvel thereat." </p></story>
 
+<story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p> 
 
-     THE TENTH STORY 
-     Day the Tenth 
+<p><ch_title>Day the Tenth </ch_title></p>
+
     <p> THE MARQUESS OF SALUZZO, CONSTRAINED BY THE PRAYERS OF HIS VASSALS TO MARRY, BUT DETERMINED
         TO DO IT AFTER HIS OWN FASHION, TAKETH TO WIFE THE DAUGHTER OF A PEASANT AND HATH OF HER TWO
         CHILDREN, WHOM HE MAKETH BELIEVE TO HER TO PUT TO DEATH; AFTER WHICH, FEIGNING TO BE GROWN
@@ -19605,7 +19649,6 @@
         HOUSE, AS SHE WERE HIS NEW BRIDE, AND TURNETH HIS WIFE AWAY IN HER SHIFT; BUT, FINDING HER
         PATIENT UNDER EVERYTHING, HE FETCHETH HER HOME AGAIN, DEARER THAN EVER, AND SHOWING HER HER
         CHILDREN GROWN GREAT, HONOURETH AND LETTETH HONOUR HER AS MARCHIONESS </p>
-
 
     <p> The king's long story being ended and having, to all appearance, much pleased all, Dioneo
         said, laughing, "The good man,[478] who looked that night to abase the phantom's tail
@@ -19977,5 +20020,5 @@
         they returned, under the guidance of their discreet king, to Florence, where the three young
         men took leave of the seven ladies and leaving them in Santa Maria Novella, whence they had
         set out with them, went about their other pleasures, whilst the ladies, whenas it seemed to
-        them time, returned to their houses. </p>
+        them time, returned to their houses. </p></story></div>
 </root>
