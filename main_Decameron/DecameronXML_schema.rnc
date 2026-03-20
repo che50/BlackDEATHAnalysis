@@ -1,15 +1,18 @@
 start = root
-root = element root {(p | head | title)*}
-    p = element p {(org | faith | roleName | text)*}
-        org = element org {type, subtype, text}
-            type = attribute type {text}
-            subtype = attribute subtype {text}
-        faith = element faith {ref, text}
-            ref = attribute ref {text}
-        roleName = element roleName {role_type, role_subtype, text}
-            role_type = attribute type {text}
-            role_subtype = attribute subtype {text}
-    head = element head {text}
-    title = element title {text}
-#list of faith values
-#faith_list = (#Islam|#Judaism|#Roman Catholic)
+root = element root {divi}
+    divi = element div { day*, mixed{p | intro | story}}
+        day = attribute day {text}
+        p = element p {mixed{main_title | ch_title | org | roleName}*}
+            main_title = element main_title {text}
+            ch_title = element ch_title {text}
+            org = element org {type* | subtype* | text }
+                type = attribute type {text}
+                subtype = attribute subtype {text}
+            roleName = element roleName {type* | subtype* | text}
+        intro = element intro {p_2}
+            p_2 = element p {intro_title}
+                intro_title = element intro_title {text}
+        story = element story {numbr, p_3, text}
+            numbr = attribute numbr {text}
+            p_3 = element p {ch_title, org, roleName, text}
+        
