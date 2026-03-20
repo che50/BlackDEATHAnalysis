@@ -3,9 +3,12 @@ body {
   color: black;
   font-family: Arial;
 }
-
 .list {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
+}
+
+.list > div::before {
+    content: "- ";
 }
