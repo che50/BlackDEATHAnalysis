@@ -1,18 +1,23 @@
 start = root
-root = element root {divi}
-    divi = element div { day*, mixed{p | intro | story}}
+root = element root {divi+}
+    divi = element div { day*, p*, intro*, story*, text}
         day = attribute day {text}
-        p = element p {mixed{main_title | ch_title | org | roleName}*}
+        p = element p {mixed{main_title | ch_title | org | roleName}* | text}
             main_title = element main_title {text}
             ch_title = element ch_title {text}
-            org = element org {type* | subtype* | text }
+            org = element org {mixed{type*, subtype*}}
                 type = attribute type {text}
                 subtype = attribute subtype {text}
-            roleName = element roleName {type* | subtype* | text}
-        intro = element intro {p_2}
-            p_2 = element p {intro_title}
+            roleName = element roleName {mixed{type*, subtype*}}
+        intro = element intro {p_2*}
+            p_2 = element p {intro_title*, text}
                 intro_title = element intro_title {text}
-        story = element story {numbr, p_3, text}
+        story = element story {numbr*, p_3*, text}
             numbr = attribute numbr {text}
-            p_3 = element p {ch_title, org, roleName, text}
+            p_3 = element p {mixed{ch_title | org | roleName | story_numbr | faith}* | text}
+                story_numbr = element story_numbr {text}
+                faith = element faith {ref, text}
+                    ref = attribute ref {text}
+                
+                    
         
