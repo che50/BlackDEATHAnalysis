@@ -1,6 +1,15 @@
 body {
   
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+    
+}
 .list {
     display: flex;
     flex-direction: column;
