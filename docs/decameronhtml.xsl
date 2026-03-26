@@ -18,11 +18,20 @@
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
             </head>
+           
             <body>
+               
                 <header>
                     <h1> The Decameron and Perceptions Around the Black Death   </h1> 
                     
                 </header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="corpus.html">Corpus </a>
+                        </li>
+                    </ul>
+                </nav>
                 
                 <div class="list"/>
                 <h1>Team Members</h1> 
@@ -36,21 +45,30 @@
                     How does The Decameron, and it's censored version, address and discuss the Church and what
                     patterns in the explanations for the plague. We analyed perceptions of the Catholic Church in response to the calamity of the Black Death as exemplified by the Decameron and it's subsequent censorhip
                 </p>
-                <h1> Corpus </h1>
-                <h1>Title</h1>
-                <xsl:apply-templates select="//root//main_title"></xsl:apply-templates>
-              <ul>
-                <h1> Introduction</h1>
-                  <xsl:apply-templates select="//intro"/>
-                  <h1>Story</h1>
-                  <xsl:apply-templates select="//div[@day]"/>
-              </ul>
-               
+                             
                
                 
             </body>
         </html>
         
+        <xsl:result-document href="corpus.html" method="xhtml">
+            <!-- saw this online and i think i can use it to make individual pages for each day? -->
+            <html>
+            <head><title>Corpus</title>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/></head>
+            <body>
+                <h1 id="corpus"> Corpus </h1>
+                <h1>Title</h1>
+                <xsl:apply-templates select="//root//main_title"></xsl:apply-templates>
+                <ul>
+                    <h1> Introduction</h1>
+                    <xsl:apply-templates select="//intro"/>
+                    <h1>Story</h1>
+                    <xsl:apply-templates select="//div[@day]"/>
+                </ul>
+            </body>
+            </html>
+        </xsl:result-document>
 
         
     </xsl:template>
