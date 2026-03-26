@@ -74,7 +74,7 @@
                 </nav>
                 <h1 id="corpus"> Corpus </h1>
                 
-                <h1>Title</h1>
+                
               <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
                 <h1> Introduction</h1>
                 <ul>
