@@ -20,3 +20,7 @@ nav ul{
 .list > div::before {
     content: "- ";
 }
+
+.title {
+    font-style: italic;
+}

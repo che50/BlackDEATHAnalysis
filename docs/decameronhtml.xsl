@@ -20,11 +20,6 @@
             </head>
            
             <body>
-               
-                <header>
-                    <h1> The Decameron and Perceptions Around the Black Death   </h1> 
-                    
-                </header>
                 <nav>
                     <ul>
                         <li>
@@ -35,6 +30,12 @@
                         </li>
                     </ul>
                 </nav>
+               
+                <header>
+                    <h1> The Decameron and Perceptions Around the Black Death   </h1> 
+                    
+                </header>
+               
                 
                 <div class="list"/>
                 <h1>Team Members</h1> 
@@ -61,7 +62,6 @@
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
-                <h1 id="corpus"> Corpus </h1>
                 <nav>
                     <ul>
                         <li>
@@ -72,8 +72,10 @@
                         </li>
                     </ul>
                 </nav>
+                <h1 id="corpus"> Corpus </h1>
+                
                 <h1>Title</h1>
-                <xsl:apply-templates select="//root//main_title"></xsl:apply-templates>
+              <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
                 <h1> Introduction</h1>
                 <ul>
                     
