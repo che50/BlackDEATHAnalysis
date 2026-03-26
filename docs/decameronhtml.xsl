@@ -15,13 +15,13 @@
                 <title>
                     Decameron Analysis
                 </title>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
+                <link rel="stylesheet" href="https://unpkg.com/mvp.css"/> 
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
             </head>
             <body>
                 <header>
                     <h1> The Decameron and Perceptions Around the Black Death   </h1> 
-                    a
+                    
                 </header>
                 
                 <div class="list"/>
