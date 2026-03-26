@@ -51,7 +51,11 @@
             </body>
         </html>
         
+
+        
     </xsl:template>
+    
+    <!-- The following 3 templates pulls the names of Days and Stories and puts them into a list -->
     <xsl:template match="div[@day]">
         <li>
             <xsl:value-of select="@day"/> Day
