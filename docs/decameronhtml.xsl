@@ -28,6 +28,9 @@
                 <nav>
                     <ul>
                         <li>
+                            <a href="index.html">Home Page</a>
+                        </li>
+                        <li>
                             <a href="corpus.html">Corpus </a>
                         </li>
                     </ul>
@@ -52,18 +55,32 @@
         </html>
         
         <xsl:result-document href="corpus.html" method="xhtml">
-            <!-- saw this online and i think i can use it to make individual pages for each day? -->
+            <!-- This section is the XSL to make another page for corpus. It generates another HTML file, which can be navigated to from the top. USES SAME CSS as index document, but can probably be changed --> 
             <html>
             <head><title>Corpus</title>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/></head>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
+                <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
                 <h1 id="corpus"> Corpus </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home Page</a>
+                        </li>
+                        <li>
+                            <a href="corpus.html">Corpus </a>
+                        </li>
+                    </ul>
+                </nav>
                 <h1>Title</h1>
                 <xsl:apply-templates select="//root//main_title"></xsl:apply-templates>
+                <h1> Introduction</h1>
                 <ul>
-                    <h1> Introduction</h1>
+                    
                     <xsl:apply-templates select="//intro"/>
-                    <h1>Story</h1>
+                </ul>
+                <h1>Story</h1>
+                <ul>
                     <xsl:apply-templates select="//div[@day]"/>
                 </ul>
             </body>
