@@ -36,15 +36,42 @@
                     patterns in the explanations for the plague. We analyed perceptions of the Catholic Church in response to the calamity of the Black Death as exemplified by the Decameron and it's subsequent censorhip
                 </p>
                 <h1> Corpus </h1>
-                <xsl:apply-templates select="//root"/> 
+                <h1>Title</h1>
+                <xsl:apply-templates select="//root//main_title"></xsl:apply-templates>
+              <ul>
+                <h1> Introduction</h1>
+                  <xsl:apply-templates select="//intro"/>
+                  <h1>Story</h1>
+                  <xsl:apply-templates select="//div[@day]"/>
+              </ul>
+               
+               
+                
             </body>
         </html>
         
     </xsl:template>
+    <xsl:template match="div[@day]">
+        <li>
+            <xsl:value-of select="@day"/> Day
+            <ul>
+                <xsl:apply-templates select="story"/>
+            </ul>
+        </li>
+    </xsl:template>
+ 
+    <xsl:template match="story">
+        <li>
+            <xsl:value-of select="p/story_numbr"/>
+        </li>
+    </xsl:template>
     
     
-    
-    
+    <xsl:template match="intro">
+        <li>
+            <xsl:value-of select="p/intro_title"/>
+        </li>
+    </xsl:template>
     
     
     
