@@ -78,7 +78,7 @@
               <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
              
                 <ul>
-                    <li>Introduction</li>
+                    <li>Proem</li>  
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </ul>
                 <hr/>
@@ -128,8 +128,8 @@
     <xsl:template match="story" mode="toc">
         <li>
             <xsl:value-of select="p/story_numbr"/>
-            <xsl:text>. </xsl:text>
-            <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>
+            <!--<xsl:text>. </xsl:text>
+            <xsl:value-of select="p[not(story_numbr)--> and not(ch_title)][1]"/>
         </li>
     </xsl:template>
     
