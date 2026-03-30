@@ -129,7 +129,7 @@
         <li>
             <xsl:value-of select="p/story_numbr"/>
             <!--<xsl:text>. </xsl:text>
-            <xsl:value-of select="p[not(story_numbr)--> and not(ch_title)][1]"/>
+            <xsl:value-of select="p[not(story_numbr)and not(ch_title)][1]"/> --> 
         </li>
     </xsl:template>
     
