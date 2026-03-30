@@ -76,15 +76,17 @@
                 
                 
               <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
-                <h1> Introduction</h1>
+             
                 <ul>
-                    
-                    <xsl:apply-templates select="//intro"/>
+                    <li>Introduction</li>
+                    <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </ul>
-                <h1>Story</h1>
-                <ul>
-                    <xsl:apply-templates select="//div[@day]"/>
-                </ul>
+                <hr/>
+                <xsl:apply-templates select="//intro"/>
+               <xsl:apply-templates select="//div[@day]"/>
+           
+               
+               
             </body>
             </html>
         </xsl:result-document>
@@ -92,30 +94,47 @@
         
     </xsl:template>
     
-    <!-- The following 3 templates pulls the names of Days and Stories and puts them into a list -->
+    <!-- main templates -->
     <xsl:template match="div[@day]">
+        <h1><xsl:value-of select="@day"/> Day</h1>
+        <xsl:apply-templates select="story"/>
+    </xsl:template>
+    
+    <xsl:template match="story">
+        <h1><xsl:value-of select="p/story_numbr"/></h1>
+        <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
+    </xsl:template>
+    
+    <xsl:template match="p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="intro">
+        <h2>
+            <xsl:value-of select="p/intro_title"/>
+        </h2>
+        <xsl:apply-templates select="p[not(intro_title)]"/>
+    </xsl:template>
+    
+    <!-- table of contents templates -->
+    <xsl:template match="div[@day]" mode="toc">
         <li>
             <xsl:value-of select="@day"/> Day
             <ul>
-                <xsl:apply-templates select="story"/>
+                <xsl:apply-templates select="story" mode="toc"/>
             </ul>
         </li>
-    </xsl:template>
- 
-    <xsl:template match="story">
+        </xsl:template>
+    <xsl:template match="story" mode="toc">
         <li>
             <xsl:value-of select="p/story_numbr"/>
+            <xsl:text>. </xsl:text>
+            <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>
         </li>
     </xsl:template>
     
     
-    <xsl:template match="intro">
-        <li>
-            <xsl:value-of select="p/intro_title"/>
-        </li>
-    </xsl:template>
-    
-    
+   
     
 </xsl:stylesheet>
 
