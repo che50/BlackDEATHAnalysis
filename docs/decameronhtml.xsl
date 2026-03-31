@@ -78,8 +78,10 @@
               <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
              
                 <ul>
-                    <li>
-                        <li><a href="proem.html">Proem</a></li>
+                    <li>Introduction
+                        <ul>
+                            <li><a href="proem.html">Proem</a></li>
+                        </ul>
                     </li>
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </ul>
