@@ -100,11 +100,27 @@
         <xsl:apply-templates select="story"/>
     </xsl:template>
     
-    <xsl:template match="story">
-        <h1><xsl:value-of select="p/story_numbr"/></h1>
-        <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
+    <xsl:template match="story"> .  <!-- creates new page for every story day -->
+        <xsl:variable name="day" select="parent::div/@day"/>
+        <xsl:result-document href="story-{$day}-{@numbr}.html" method="xhtml">
+            <html>
+                <head><title><xsl:value-of select="p/story_numbr"/></title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
+                    <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                </head>
+                <body>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home Page</a></li>
+                            <li><a href="corpus.html">Corpus</a></li>
+                        </ul>
+                    </nav>
+                    <h2><xsl:value-of select="p/story_numbr"/></h2>
+                    <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
+                </body>
+            </html>
+        </xsl:result-document>
     </xsl:template>
-    
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
@@ -126,10 +142,13 @@
         </li>
         </xsl:template>
     <xsl:template match="story" mode="toc">
+        <xsl:variable name="day" select="parent::div/@day"/>
         <li>
-            <xsl:value-of select="p/story_numbr"/>
-            <!--<xsl:text>. </xsl:text>
-            <xsl:value-of select="p[not(story_numbr)and not(ch_title)][1]"/> --> 
+            <a href="story-{$day}-{@numbr}.html">
+                <xsl:value-of select="p/story_numbr"/>
+                <xsl:text>. </xsl:text>
+                <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>
+            </a>
         </li>
     </xsl:template>
     
