@@ -78,12 +78,14 @@
               <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
              
                 <ul>
-                    <li>Proem</li>  
+                    <li>
+                        <li><a href="proem.html">Proem</a></li>
+                    </li>
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </ul>
                 <hr/>
-               <!-- <xsl:apply-templates select="//intro"/>
-               <xsl:apply-templates select="//div[@day]"/>-->
+                <xsl:apply-templates select="//intro"/>
+               <xsl:apply-templates select="//div[@day]"/>
            
                
                
@@ -130,10 +132,24 @@
     
  
     <xsl:template match="intro">
-        <h2>
-            <xsl:value-of select="p/intro_title"/>
-        </h2>
-        <xsl:apply-templates select="p[not(intro_title)]"/>
+        <xsl:result-document href="proem.html" method="xhtml">
+            <html>
+                <head><title>Proem</title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
+                    <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                </head>
+                <body>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home Page</a></li>
+                            <li><a href="corpus.html">Corpus</a></li>
+                        </ul>
+                    </nav>
+                    <h2><xsl:value-of select="p/intro_title"/></h2>
+                    <xsl:apply-templates select="p[not(intro_title)]"/>
+                </body>
+            </html>
+        </xsl:result-document>
     </xsl:template>
     
     <!-- table of contents templates -->
