@@ -87,7 +87,7 @@
                 </ul>
                 <hr/>
                 <xsl:apply-templates select="//intro"/>
-               <xsl:apply-templates select="//div[@day]"/>
+             <!--  <xsl:apply-templates select="//div[@day]"/>-->
            
                
                
