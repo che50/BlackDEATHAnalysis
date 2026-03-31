@@ -82,8 +82,8 @@
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </ul>
                 <hr/>
-                <xsl:apply-templates select="//intro"/>
-               <xsl:apply-templates select="//div[@day]"/>
+               <!-- <xsl:apply-templates select="//intro"/>
+               <xsl:apply-templates select="//div[@day]"/>-->
            
                
                
@@ -100,7 +100,7 @@
         <xsl:apply-templates select="story"/>
     </xsl:template>
     
-    <xsl:template match="story"> .  <!-- creates new page for every story day -->
+    <xsl:template match="story">   <!-- creates new page for every story day -->
         <xsl:variable name="day" select="parent::div/@day"/>
         <xsl:result-document href="story-{$day}-{@numbr}.html" method="xhtml">
             <html>
@@ -115,6 +115,7 @@
                             <li><a href="corpus.html">Corpus</a></li>
                         </ul>
                     </nav>
+                    <h2> <xsl:value-of select="$day"/> Day</h2>
                     <h2><xsl:value-of select="p/story_numbr"/></h2>
                     <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
                 </body>
@@ -146,8 +147,8 @@
         <li>
             <a href="story-{$day}-{@numbr}.html">
                 <xsl:value-of select="p/story_numbr"/>
-                <xsl:text>. </xsl:text>
-                <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>
+               <!-- <xsl:text>. </xsl:text>
+                <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>-->
             </a>
         </li>
     </xsl:template>
