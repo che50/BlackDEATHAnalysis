@@ -26,8 +26,12 @@
                             <a href="index.html">Home Page</a>
                         </li>
                         <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
                             <a href="corpus.html">Corpus </a>
                         </li>
+                        
                     </ul>
                 </nav>
                
@@ -68,8 +72,12 @@
                             <a href="index.html">Home Page</a>
                         </li>
                         <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
                             <a href="corpus.html">Corpus </a>
                         </li>
+                        
                     </ul>
                 </nav>
                 <h1 id="corpus"> Corpus </h1>
@@ -96,6 +104,35 @@
         </xsl:result-document>
 
         
+        <xsl:result-document href="about.html" method="xhtml">
+            <html>
+                <head>
+                    <title>About</title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
+                    <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                </head>
+                <body>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home Page</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="corpus.html">Corpus </a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <h1>About</h1>
+                    <h2>Author</h2>
+                    <p>Giovanni Boccaccio</p>
+                </body>
+            </html>
+            
+        </xsl:result-document>
     </xsl:template>
     
     <!-- main templates -->
@@ -110,19 +147,34 @@
         <xsl:variable name="day" select="parent::div/@day"/>
         <xsl:result-document href="story-{$day}-{@numbr}.html" method="xhtml">
             <html>
-                <head><title><xsl:value-of select="p/story_numbr"/></title>
+                <head>
+                    <title>
+                        <xsl:value-of select="p/story_numbr"/>
+                            </title>
                     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
                     <nav>
                         <ul>
-                            <li><a href="index.html">Home Page</a></li>
-                            <li><a href="corpus.html">Corpus</a></li>
+                            <li>
+                                <a href="index.html">Home Page</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="corpus.html">Corpus </a>
+                            </li>
+                            
                         </ul>
                     </nav>
-                    <h2> <xsl:value-of select="$day"/> Day</h2>
-                    <h3><xsl:value-of select="p/story_numbr"/></h3>
+                    <h2> <xsl:value-of select="$day"/> 
+                        Day
+                    </h2>
+                    <h3>
+                        <xsl:value-of select="p/story_numbr"/>
+                    </h3>
                     <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
                 </body>
             </html>
@@ -132,6 +184,9 @@
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
+ 
+ 
+
  
     <xsl:template match="intro">
         <xsl:result-document href="proem.html" method="xhtml">
