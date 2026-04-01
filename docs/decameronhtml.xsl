@@ -95,7 +95,7 @@
                 </ul>
                 <hr/>
                 <xsl:apply-templates select="//intro"/>
-             <!--  <xsl:apply-templates select="//div[@day]"/>-->
+               <xsl:apply-templates select="//div[@day]"/>
            
                
                
@@ -198,8 +198,16 @@
                 <body>
                     <nav>
                         <ul>
-                            <li><a href="index.html">Home Page</a></li>
-                            <li><a href="corpus.html">Corpus</a></li>
+                            <li>
+                                <a href="index.html">Home Page</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="corpus.html">Corpus </a>
+                            </li>
+                            
                         </ul>
                     </nav>
                     <h2><xsl:value-of select="p/intro_title"/></h2>
