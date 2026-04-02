@@ -1163,7 +1163,7 @@
                 furnished him with all that he required, and the Soldan after satisfied him in full;
                 moreover, he gave him very great gifts and still had him to friend and maintained
                 him about his own person in high and honourable estate." </p></story>
-        <story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p>
+        <story numbr="Four" status="problematique"><p><story_numbr>THE FOURTH STORY</story_numbr></p>
             <p><ch_title>Day the First </ch_title></p>
             <p> A MONK, HAVING FALLEN INTO A SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY
                 REPROACHING THE SAME FAULT TO HIS ABBOT, QUITTETH HIMSELF OF THE PENALTY </p>
@@ -1805,9 +1805,16 @@
                 going about in the water, bare-armed and shoeless, they fell to taking various
                 diversions among themselves, till supper-time drew near, when they returned to the
                 palace and there supped merrily. Supper ended, the queen called for instruments of
+<<<<<<< HEAD
                 music and bade <person xml:id="lauretta" sex="F">Lauretta</person> lead up a dance, whilst <person xml:id="emilia" sex="F">Emilia</person> sang a song, to the
                 accompaniment of <person xml:id="dioneo" sex="M">Dioneo's</person> lute. Accordingly, <person xml:id="lauretta" sex="F">Lauretta</person> promptly set up a dance and
                 led it off, whilst <person xml:id="emilia" sex="F">Emilia</person> amorously warbled the following song: </p> I burn for mine
+=======
+                music and bade Lauretta lead up a dance, whilst Emilia sang a song, to the
+                accompaniment of Dioneo's lute. Accordingly, Lauretta promptly set up a dance and
+                led it off, whilst Emilia amorously warbled the following song: </p> 
+           <p> I burn for mine
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             own charms with such a fire, Methinketh that I ne'er Of other love shall reck or have
             desire. Whene'er I mirror me, I see therein[75] That good which still contenteth heart
             and spright; Nor fortune new nor thought of old can win To dispossess me of such dear
@@ -1818,7 +1825,11 @@
             Except indeed he burn with like desire. And I, grown more enamoured every hour, The
             straitlier fixed mine eyes upon it be, Give all myself and yield me to its power, E'en
             tasting now of that it promised me, And greater joyance yet I hope to see, Of such a
+<<<<<<< HEAD
             strain as ne'er Was proven here below of love-desire. <p> <person xml:id="lauretta" sex="F">Lauretta</person> having thus made an
+=======
+            strain as ne'er Was proven here below of love-desire.</p> <p> Lauretta having thus made an
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 end of her ballad,[76]—in the burden of which all had blithely joined, albeit the
                 words thereof gave some much matter for thought,—divers other rounds were danced and
                 a part of the short night being now spent, it pleased the queen to give an end to
@@ -4851,7 +4862,11 @@
                 and there, after they had disported themselves awhile, the hour of supper being
                 come, they supped with mirth and pleasance; then, all arising thence and <person xml:id="emilia" sex="F">Emilia</person>, by
                 the queen's commandment, leading the round, the ditty following was sung by
+<<<<<<< HEAD
                 <person xml:id="pampinea" sex="F">Pampinea</person>, whilst the other ladies responded: </p> What lady aye should sing, and if
+=======
+                Pampinea, whilst the other ladies responded: </p> <p>What lady aye should sing, and if
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             not I, Who'm blest with all for which a maid can sigh? Come then, O Love, thou source of
             all my weal, All hope and every issue glad and bright Sing ye awhile yfere Of sighs nor
             bitter pains I erst did feel, That now but sweeten to me thy delight, Nay, but of that
@@ -4863,12 +4878,12 @@
             crowneth my liesse Is that I please him, as he pleaseth me, Thanks to Love debonair;
             Thus in this world my wish I do possess And in the next I trust at peace to be, Through
             that fast faith I bear To him; sure God, who seeth this, will ne'er The kingdom of His
-            bliss to us deny. <p> After this they sang sundry other songs and danced sundry dances
+            bliss to us deny.</p> <p> After this they sang sundry other songs and danced sundry dances
                 and played upon divers instruments of music. Then, the queen deeming it time to go
                 to rest, each betook himself, with torches before him, to his chamber, and all on
                 the two following days, whilst applying themselves to those things whereof the queen
-                had spoken, looked longingly for Sunday. </p></story>
-        <p>HERE ENDETH THE SECOND DAY OF THE DECAMERON</p></div>
+                had spoken, looked longingly for Sunday. </p>
+        <p>HERE ENDETH THE SECOND DAY OF THE DECAMERON</p></story></div>
 
     <div day="Third"><p><ch_title>Day the Third </ch_title></p>
         <p> Here Beginneth the Third Day of the Decameron wherein Under the Governance of <person xml:id="neifile" sex="F">Neifile</person> Is
@@ -4952,8 +4967,13 @@
             with cold water, they came all, at the queen's commandment, to the lawn hard by the
             fountain and there seating themselves, after the wonted fashion, waited to fall to
             story-telling upon the subject proposed by her. The first upon whom she laid this charge
+<<<<<<< HEAD
             was <person xml:id="filostrato" sex="M">Filostrato</person>, who began on this wise: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
+=======
+            was Filostrato, who began on this wise: </p>
+        <story numbr="One" status="problematique"><p><story_numbr>THE FIRST STORY</story_numbr></p>
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             <p><ch_title>Day the Third </ch_title></p>
             <p> MASETTO OF LAMPORECCHIO FEIGNETH HIMSELF DUMB AND BECOMETH GARDENER TO A CONVENT OF
                 WOMEN, WHO ALL FLOCK TO LIE WITH HIM </p>
@@ -7004,7 +7024,7 @@
                 other his vassals who heard the news, he held high festival, not only all that day,
                 but sundry others, and from that day forth still honoured her as his bride and his
                 wife and loved and tendered her over all." </p></story>
-        <story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p>
+        <story numbr="Ten" status="problematique"><p><story_numbr>THE TENTH STORY</story_numbr></p>
             <p><ch_title>Day the Third </ch_title></p>
             <p> ALIBECH, TURNING HERMIT, IS TAUGHT BY RUSTICO, A MONK, TO PUT THE DEVIL IN HELL, AND
                 BEING AFTER BROUGHT AWAY THENCE, BECOMETH NEERBALE HIS WIFE </p>
@@ -7234,8 +7254,13 @@
                 nor have I in mind any of mine own which should best beseem so joyous a company;
                 but, an you choose one of those which I have, I will willingly sing it." Quote the
                 king, "Nothing of thine can be other than goodly and pleasing; wherefore sing us
+<<<<<<< HEAD
                 such as thou hast." <person xml:id="lauretta" sex="F">Lauretta</person>, then, with a sweet voice enough, but in a somewhat
                 plaintive style, began thus, the other ladies answering: </p> No maid disconsolate
+=======
+                such as thou hast." Lauretta, then, with a sweet voice enough, but in a somewhat
+                plaintive style, began thus, the other ladies answering: </p> <p>No maid disconsolate
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             Hath cause as I, alack! Who sigh for love in vain, to mourn her fate. He who moves
             heaven and all the stars in air Made me for His delight Lovesome and sprightly, kind and
             debonair, E'en here below to give each lofty spright Some inkling of that fair That
@@ -7255,7 +7280,11 @@
             pleased was I Whilere past all that be,— Who now before Him sittest in the sky Who
             fashioned us,—have pity upon me Who cannot, though I die, Forget thee for another; cause
             me see The flame that kindled thee For me lives yet unquenched And my recall up
+<<<<<<< HEAD
             thither[210] impetrate. <p> Here <person xml:id="lauretta" sex="F">Lauretta</person> made an end of her song, wherein, albeit
+=======
+            thither[210] impetrate.</p> <p> Here Lauretta made an end of her song, wherein, albeit
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 attentively followed of all, she was diversely apprehended of divers persons, and
                 there were those who would e'en understand, Milan-fashion, that a good hog was
                 better than a handsome wench;[211] but others were of a loftier and better and truer
@@ -7263,8 +7292,8 @@
                 let kindle store of flambeaux upon the grass and among the flowers and caused sing
                 divers other songs, until every star began to decline, that was above the horizon,
                 when, deeming it time for sleep, he bade all with a good night betake themselves to
-                their chambers. </p></story>
-        <p>HERE ENDETH THE THIRD DAY OF THE DECAMERON</p></div>
+                their chambers. </p>
+        <p>HERE ENDETH THE THIRD DAY OF THE DECAMERON</p></story></div>
 
     <div day="Fourth"><p><ch_title>Day the Fourth </ch_title></p>
         <p> Here Beginneth the Fourth Day of the Decameron Wherein Under the Governance of
@@ -7727,7 +7756,7 @@
                 bodies Tancred, after much lamentation, too late repenting him of his cruelty,
                 caused honourably bury in one same sepulchre, amid the general mourning of all the
                 people of Salerno." </p></story>
-        <story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p>
+        <story numbr="Two" status="problematique"><p><story_numbr>THE SECOND STORY</story_numbr></p>
             <p><ch_title>Day the Fourth </ch_title></p>
             <p> FRA ALBERTO GIVETH A LADY TO BELIEVE THAT THE ANGEL GABRIEL IS ENAMOURED OF HER AND
                 IN HIS SHAPE LIETH WITH HER SUNDRY TIMES; AFTER WHICH, FOR FEAR OF HER KINSMEN, HE
@@ -9262,8 +9291,13 @@
                 they have done, so I intend that a song be sung at my commandment; and as I am
                 assured that thy songs are even such as are thy stories, it is our pleasure that, so
                 no more days than this be troubled with thine ill fortunes, thou sing such one
+<<<<<<< HEAD
                 thereof as most pleaseth thee." <person xml:id="filostrato" sex="M">Filostrato</person> replied that he would well and forthright
                 proceeded to sing on this wise: </p> Weeping, I demonstrate How sore with reason
+=======
+                thereof as most pleaseth thee." Filostrato replied that he would well and forthright
+                proceeded to sing on this wise: </p> <p>Weeping, I demonstrate How sore with reason
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             doth my heart complain Of love betrayed and plighted faith in vain. Love, whenas first
             there was of thee imprest Thereon[261] her image for whose sake I sigh, Sans hope of
             succour aye, So full of virtue didst thou her pourtray, That every torment light
@@ -9288,14 +9322,19 @@
             sing thee even as I; One only charge I give thee, ere I die, That thou find Love and
             unto him alone Show fully how undear This bitter life and drear Is to me, craving of his
             might he deign Some better harbourage I may attain. Weeping I demonstrate How sore with
+<<<<<<< HEAD
             reason doth my heart complain Of love betrayed and plighted faith in vain. <p> The words
                 of this song clearly enough discovered the state of <person xml:id="filostrato" sex="M">Filostrato's</person> mind and the cause
+=======
+            reason doth my heart complain Of love betrayed and plighted faith in vain.</p> <p> The words
+                of this song clearly enough discovered the state of Filostrato's mind and the cause
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 thereof, the which belike the countenance of a certain lady who was in the dance had
                 yet plainlier declared, had not the shades of the now fallen night hidden the
                 blushes that rose to her face. But, when he had made an end of his song, many others
                 were sung, till such time as the hour of sleep arrived, whereupon, at the queen's
-                commandment, each of the ladies withdrew to her chamber. </p></story>
-        <p>HERE ENDETH THE FOURTH DAY OF THE DECAMERON</p></div>
+                commandment, each of the ladies withdrew to her chamber. </p>
+        <p>HERE ENDETH THE FOURTH DAY OF THE DECAMERON</p>></story></div>
 
     <div day="Fifth"><p><ch_title>Day the Fifth </ch_title></p>
         <p> Here Beginneth the Fifth Day of the Decameron Wherein Under the Governance of <person xml:id="fiammetta" sex="F">Fiammetta</person>
@@ -9989,7 +10028,7 @@
                 good escort, to Rome, where she found Pietro's kinsfolk sore incensed at that which
                 he had done, but contrived to make his peace with them, and he lived with his
                 Agnolella in all peace and pleasance to a good old age." </p></story>
-        <story numbr="Four"><p><story_numbr>THE FOURTH STORY</story_numbr></p>
+        <story numbr="Four" status="problematique"><p><story_numbr>THE FOURTH STORY</story_numbr></p>
             <p><ch_title>Day the Fifth </ch_title></p>
             <p> RICCIARDO MANARDI, BEING FOUND BY MESSER LIZIO DA VALBONA WITH HIS DAUGHTER,
                 ESPOUSETH HER AND ABIDETH IN PEACE WITH HER FATHER </p>
@@ -11047,7 +11086,7 @@
                 whilst they have it; for thou mayst see how, when we grow old, nor husband nor other
                 will look at us; nay, they send us off to the kitchen to tell tales to the cat and
                 count the pots and pans; and what is worse, they tag rhymes on us and say, </p>
-            "Tidbits for wenches young; Gags[287] for the old wife's tongue." <p> And many another
+            <p>"Tidbits for wenches young; Gags[287] for the old wife's tongue."</p> <p> And many another
                 thing to the like purpose. And that I may hold thee no longer in parley, I tell thee
                 in fine that thou couldst not have discovered thy mind to any one in the world who
                 can be more useful to thee than I, for that there is no man so high and mighty but I
@@ -11232,7 +11271,7 @@
                 Therewithal the queen, somewhat provoked, though all the other ladies laughed, said,
                 "<person xml:id="dioneo" sex="M">Dioneo</person>, leave jesting and sing us a goodly one; else shalt thou prove how I can be
                 angry." Hearing this, he gave over his quips and cranks and forthright fell
-                a-singing after this fashion: </p> O Love, the amorous light That beameth from yon
+                a-singing after this fashion: </p> <p>O Love, the amorous light That beameth from yon
             fair one's lovely eyes Hath made me thine and hers in servant-guise. The splendour of
             her lovely eyes, it wrought That first thy flames were kindled in my breast, Passing
             thereto through mine; Yea, and thy virtue first unto my thought Her visage fair it was
@@ -11245,12 +11284,16 @@
             Discover it to her and cause her taste Some scantling of thy heat To-me-ward,—for thou
             seest that in the fire, Loving, I languish and for torment waste By inches at her feet,—
             And eke in season meet Commend me to her favour on such wise As I would plead for thee,
+<<<<<<< HEAD
             should need arise.[293] <p> <person xml:id="dioneo" sex="M">Dioneo</person>, by his silence, showing that his song was ended, the
+=======
+            should need arise.[293]</p> <p> Dioneo, by his silence, showing that his song was ended, the
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 queen let sing many others, having natheless much commended his. Then, somedele of
                 the night being spent and the queen feeling the heat of the day to be now overcome
                 of the coolness of the night, she bade each at his pleasure betake himself to rest
-                against the ensuing day. </p></story>
-        <p>HERE ENDETH THE FIFTH DAY OF THE DECAMERON</p></div>
+                against the ensuing day. </p>
+        <p>HERE ENDETH THE FIFTH DAY OF THE DECAMERON</p></story></div>
 
     <div day="Sixth"><p><ch_title>Day the Sixth </ch_title></p>
         <p> Here Beginneth the Sixth Day of the Decameron Wherein Under the Governance of <person xml:id="elisa" sex="F">Elisa</person> Is
@@ -12223,8 +12266,13 @@
                 address themselves to dancing. Then, <person xml:id="pamfilo" sex="M">Pamfilo</person> having, at his commandment, set up a
                 dance, the king turned to <person xml:id="elisa" sex="F">Elisa</person> and said courteously to her, "Fair damsel, thou has
                 to-day done me the honour of the crown and I purpose this evening to do thee that of
+<<<<<<< HEAD
                 the song; wherefore look thou sing such an one as most liketh thee." <person xml:id="elisa" sex="F">Elisa</person> answered,
                 smiling, that she would well and with dulcet voice began on this wise: </p> Love,
+=======
+                the song; wherefore look thou sing such an one as most liketh thee." Elisa answered,
+                smiling, that she would well and with dulcet voice began on this wise: </p> <p>Love,
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             from thy clutches could I but win free, Hardly, methinks, again Shall any other hook
             take hold on me. I entered in thy wars a youngling maid, Thinking thy strife was utmost
             peace and sweet, And all my weapons on the ground I laid, As one secure, undoubting of
@@ -12238,13 +12286,18 @@
             heavy cheer; Do that I seek in vain And give him bounden in thy chains to me. An this
             thou wilt not, at the least undo The bonds erewhen of hope that knitted were; Alack, O
             Lord, thereof to thee I sue, For, an thou do it, yet to waxen fair Again I trust, as was
+<<<<<<< HEAD
             my use whilere, And being quit of pain Myself with white flowers and with red besee. <p>
                 <person xml:id="elisa" sex="F">Elisa</person> ended her song with a very plaintive sigh, and albeit all marvelled at the
+=======
+            my use whilere, And being quit of pain Myself with white flowers and with red besee.</p> <p>
+                Elisa ended her song with a very plaintive sigh, and albeit all marvelled at the
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 words thereof, yet was there none who might conceive what it was that caused her
                 sing thus. But the king, who was in a merry mood, calling for Tindaro, bade him
                 bring out his bagpipes, to the sound whereof he let dance many dances; after which,
-                a great part of the night being now past, he bade each go sleep. </p></story>
-        <p>HERE ENDETH THE SIXTH DAY OF THE DECAMERON</p></div>
+                a great part of the night being now past, he bade each go sleep. </p>
+        <p>HERE ENDETH THE SIXTH DAY OF THE DECAMERON</p></story></div>
 
     <div day="Seventh"><p><ch_title>Day the Seventh </ch_title></p>
         <p> Here Beginneth the Seventh Day of the Decameron Wherein Under the Governance of <person xml:id="dioneo" sex="M">Dioneo</person>
@@ -12401,7 +12454,7 @@
                 the two orisons most pleaseth you, except you will have both. They have great virtue
                 in such cases, as you have had proof in the story you have heard; get them,
                 therefore, by heart and they may yet avail you." </p></story>
-        <story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p>
+        <story numbr="Two" status="problematique"><p><story_numbr>THE SECOND STORY</story_numbr></p>
             <p><ch_title>Day the Seventh </ch_title></p>
             <p> PERONELLA HIDETH A LOVER OF HERS IN A VAT, UPON HER HUSBAND'S UNLOOKED FOR RETURN,
                 AND HEARING FROM THE LATTER THAT HE HATH SOLD THE VAT, AVOUCHETH HERSELF TO HAVE
@@ -13911,8 +13964,13 @@
                 having with the coolest of wines and confections done away the fatigues of the
                 little journey, they presently fell to dancing about the fair fountain,
                 carolling[363] now to the sound of Tindaro's bagpipe and anon to that of other
+<<<<<<< HEAD
                 instruments. But, after awhile, the queen bade <person xml:id="filomena" sex="F">Filomena</person> sing a song, whereupon she
                 began thus: </p> Alack, my life forlorn! Will't ever chance I may once more regain
+=======
+                instruments. But, after awhile, the queen bade Filomena sing a song, whereupon she
+                began thus: </p> <p>Alack, my life forlorn! Will't ever chance I may once more regain
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             Th' estate whence sorry fortune hath me torn? Certes, I know not, such a wish of fire I
             carry in my thought To find me where, alas! I was whilere. O dear my treasure, thou my
             sole desire, That holdst my heart distraught. Tell it me, thou; for whom I know nor dare
@@ -13928,7 +13986,7 @@
             scorn. If once again I chance to hold thee aye, I will not be so fond As erst I was to
             suffer thee to fly; Nay, fast I'll hold thee, hap of it what may, And having thee in
             bond, Of thy sweet mouth my lust I'll satisfy. Now of nought else will I Discourse.
-            Quick, to thy bosom come me strain; The sheer thought bids me sing like lark at morn.
+            Quick, to thy bosom come me strain; The sheer thought bids me sing like lark at morn.</p>
                 <p> This song caused all the company conclude that a new and pleasing love held
                 <person xml:id="filomena" sex="F">Filomena</person> in bonds, and as by the words it appeared that she had tasted more thereof
                 than sight alone, she was envied of this by certain who were there and who held her
@@ -13942,8 +14000,8 @@
                 we abstain, even as we did a week agone, from our pleasant story-telling, recalling
                 to memory that which on those days befell whilere for the salvation of our souls."
                 The queen's pious speech was pleasing unto all and a good part of the night being
-                now past, they all, dismissed by her, betook them to repose. </p></story>
-        <p>HERE ENDETH THE SEVENTH DAY OF THE DECAMERON</p></div>
+                now past, they all, dismissed by her, betook them to repose. </p>
+        <p>HERE ENDETH THE SEVENTH DAY OF THE DECAMERON</p></story></div>
 
     <div day="Eighth"><p><ch_title>Day the Eighth </ch_title></p>
         <p> Here Beginneth the Eighth Day of the Decameron Wherein Under the Governance of <person xml:id="lauretta" sex="F">Lauretta</person>
@@ -14037,7 +14095,7 @@
                 account aright.' Gulfardo gone, the lady, finding herself cozened, gave her husband
                 the dishonourable price of her baseness; and on this wise the crafty lover enjoyed
                 his sordid mistress without cost." </p></story>
-        <story numbr="Two"><p><story_numbr>THE SECOND STORY</story_numbr></p>
+        <story numbr="Two" status="problematique"><p><story_numbr>THE SECOND STORY</story_numbr></p>
             <p><ch_title>Day the Eighth </ch_title></p>
             <p> THE PARISH <roleName type="clerical" subtype="priest">PRIEST</roleName> OF VARLUNGO
                 LIETH WITH MISTRESS BELCOLORE AND LEAVETH HER A CLOAK OF HIS IN PLEDGE; THEN,
@@ -14198,7 +14256,7 @@
                 lieu of the five crowns, the <roleName type="clerical" subtype="priest"
                     >priest</roleName> let put new parchment to her tabret and string thereto a cast
                 of hawk's bells, and with this she was fain to be content." </p></story>
-        <story numbr="Three"><p><story_numbr>THE THIRD STORY</story_numbr></p>
+        <story numbr="Three" status="problematique"><p><story_numbr>THE THIRD STORY</story_numbr></p>
             <p><ch_title>Day the Eighth </ch_title></p>
             <p> CALANDRINO, BRUNO AND BUFFALMACCO GO COASTING ALONG THE MUGNONE IN SEARCH OF THE
                 HELIOTROPE AND CALANDRINO THINKETH TO HAVE FOUND IT. ACCORDINGLY HE RETURNETH HOME,
@@ -16365,7 +16423,7 @@
                 diverted themselves with singing and dancing according to the wonted usance. At
                 last, the queen, to ensue the fashion of her predecessors, commanded <person xml:id="pamfilo" sex="M">Pamfilo</person> to sing
                 a song, notwithstanding those which sundry of the company had already sung of their
-                freewill; and he readily began thus: </p> Such is thy pleasure, Love And such the
+                freewill; and he readily began thus: </p> <p>Such is thy pleasure, Love And such the
             allegresse I feel thereby That happy, burning in thy fire, am I. The abounding gladness
             in my heart that glows, For the high joy and dear Whereto thou hast me led, Unable to
             contain there, overflows And in my face's cheer Displays my happihead; For being
@@ -16376,15 +16434,20 @@
             thereof with words to signify. Who might conceive it that these arms of mine Should
             anywise attain Whereas I've held them aye, Or that my face should reach so fair a shrine
             As that, of favour fain And grace, I've won to? Nay, Such fortune ne'er a day Believed
+<<<<<<< HEAD
             me were; whence all afire am I, Hiding the source of my liesse thereby. <p> This was the
                 end of <person xml:id="pamfilo" sex="M">Pamfilo's</person> song, whereto albeit it had been completely responded of all, there
+=======
+            me were; whence all afire am I, Hiding the source of my liesse thereby.</p> <p> This was the
+                end of Pamfilo's song, whereto albeit it had been completely responded of all, there
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 was none but noted the words thereof with more attent solicitude than pertained unto
                 him, studying to divine that which, as he sang, it behoved him to keep hidden from
                 them; and although sundry went imagining various things, nevertheless none happened
                 upon the truth of the case.[422] But the queen, seeing that the song was ended and
                 that both young ladies and men would gladly rest themselves, commanded that all
-                should betake themselves to bed. </p></story>
-        <p>HERE ENDETH THE EIGHTH DAY OF THE DECAMERON</p></div>
+                should betake themselves to bed. </p>
+        <p>HERE ENDETH THE EIGHTH DAY OF THE DECAMERON</p></story></div>
 
     <div day="Ninth"><p><ch_title>Day the Ninth </ch_title></p>
         <p> Here Beginneth the Ninth Day of the Decameron Wherein Under the Governance of <person xml:id="emilia" sex="F">Emilia</person>
@@ -17108,7 +17171,7 @@
                 to go thither again; but, being plagued and harassed night and day with his wife's
                 reproaches, he made an end of his fervent love, having given much cause for laughter
                 to his companions, no less than to Niccolosa and Filippo." </p></story>
-        <story numbr="Six"><p><story_numbr>THE SIXTH STORY</story_numbr></p>
+        <story numbr="Six" status="problematique"><p><story_numbr>THE SIXTH STORY</story_numbr></p>
             <p><ch_title>Day the Ninth </ch_title></p>
             <p> TWO YOUNG GENTLEMEN LODGE THE NIGHT WITH AN INNKEEPER, WHEREOF ONE GOETH TO LIE WITH
                 THE HOST'S DAUGHTER, WHILST HIS WIFE UNWITTINGLY COUCHETH WITH THE OTHER; AFTER
@@ -17538,7 +17601,7 @@
                 for pomp and ostentation. Love, then, as Solomon bade thee, and thou shalt be
                 loved.' On this wise, then, was the froward wife corrected and the young man,
                 loving, was beloved." </p></story>
-        <story numbr="Ten"><p><story_numbr>THE TENTH STORY</story_numbr></p>
+        <story numbr="Ten" status="problematique"><p><story_numbr>THE TENTH STORY</story_numbr></p>
             <p><ch_title>Day the Ninth </ch_title></p>
             <p> DOM GIANNI, AT THE INSTANCE OF HIS GOSSIP PIETRO, PERFORMETH A CONJURATION FOR THE
                 PURPOSE OF CAUSING THE LATTER'S WIFE TO BECOME A MARE; BUT, WHENAS HE COMETH TO PUT
@@ -17668,8 +17731,13 @@
                 of supper, whereunto they came joyously and were served with diligence and fair
                 ordinance. Supper at an end, they arose to the wonted dances, and after they had
                 sung a thousand canzonets, more diverting of words than masterly of music, the king
+<<<<<<< HEAD
                 bade <person xml:id="neifile" sex="F">Neifile</person> sing one in her own name; whereupon, with clear and blithesome voice,
                 she cheerfully and without delay began thus: </p> A youngling maid am I and full of
+=======
+                bade Neifile sing one in her own name; whereupon, with clear and blithesome voice,
+                she cheerfully and without delay began thus: </p> <p>A youngling maid am I and full of
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             glee, Am fain to carol in the new-blown May, Love and sweet thoughts-a-mercy, blithe and
             free. I go about the meads, considering The vermeil flowers and golden and the white,
             Roses thorn-set and lilies snowy-bright, And one and all I fare a-likening Unto his face
@@ -17684,11 +17752,15 @@
             which from out my bosom day nor night Ne'er, as with other ladies, fierce and wild,
             Storm up; nay, thence they issue warm and mild And straight betake them to my loved
             one's sight, Who, hearing, moveth of himself, delight To give me; ay, and when I'm like
+<<<<<<< HEAD
             to say "Ah come, lest I despair," still cometh he. <p> <person xml:id="neifile" sex="F">Neifile's</person> canzonet was much
+=======
+            to say "Ah come, lest I despair," still cometh he.</p> <p> Neifile's canzonet was much
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 commended both of the king and of the other ladies; after which, for that a great
                 part of the night was now spent, the king commanded that all should betake
-                themselves to rest until the day. </p></story>
-        <p>HERE ENDETH THE NINTH DAY OF THE DECAMERON</p></div>
+                themselves to rest until the day. </p>
+        <p>HERE ENDETH THE NINTH DAY OF THE DECAMERON</p></story></div>
 
     <div day="Tenth"><p><ch_title>Day the Tenth </ch_title></p>
         <p> Here Beginneth the Tenth and Last Day of the Decameron Wherein Under the Governance of
@@ -18528,7 +18600,7 @@
                 great silver platters in their hands, full of various fruits, such as the season
                 afforded, and these they set on the table before the king; which done, they withdrew
                 a little apart and fell to singing a canzonet, whereof the words began thus: </p>
-            Whereas I'm come, O Love, It might not be, indeed, at length recounted, etc. <p> This
+            <p>Whereas I'm come, O Love, It might not be, indeed, at length recounted, etc.</p> <p> This
                 song they carolled on such dulcet wise and so delightsomely that to the king, who
                 beheld and hearkened to them with ravishment, it seemed as if all the hierarchies of
                 the angels were lighted there to sing. The song sung, they fell on their knees and
@@ -18670,7 +18742,7 @@
                 Lisa, having anew besought him amain thereof and promised him to take comfort, bade
                 him God speed; whereupon Minuccio, taking his leave, betook himself to one Mico da
                 Siena, a mighty good rhymer of those days, and constrained him with prayers to make
-                the following canzonet: </p> Bestir thee, Love, and get thee to my Sire And tell him
+                the following canzonet: </p> <p>Bestir thee, Love, and get thee to my Sire And tell him
             all the torments I aby; Tell him I'm like to die, For fearfulness concealing my desire.
             Love, with clasped hands I cry thee mercy, so Thou mayst betake thee where my lord doth
             dwell. Say that I love and long for him, for lo, My heart he hath inflamed so sadly
@@ -18686,7 +18758,7 @@
             Unto my lord, for my deliverance I prithee, sweet my master, of thine art Get thee to
             him and give him souvenance Of that fair day I saw him shield and lance Bear with the
             other knights and looking more, Enamoured fell so sore My heart thereof doth perish and
-            expire. <p> These words Minuccio forthwith set to a soft and plaintive air, such as the
+            expire.</p> <p> These words Minuccio forthwith set to a soft and plaintive air, such as the
                 matter thereof required, and on the third day he betook himself to court, where,
                 King Pedro being yet at meat, he was bidden by him sing somewhat to his viol.
                 Thereupon he fell to singing the song aforesaid on such dulcet wise that all who
@@ -20118,8 +20190,13 @@
                 themselves, this to one kind of diversion and that to another, no otherwise than of
                 their wont; and supper-time come, they betook themselves to table with the utmost
                 pleasure and after fell to singing and carolling and making music. Presently,
+<<<<<<< HEAD
                 <person xml:id="lauretta" sex="F">Lauretta</person> leading up a dance, the king bade <person xml:id="fiammetta" sex="F">Fiammetta</person> sing a song, whereupon she very
                 blithely proceeded to sing thus: </p> If love came but withouten jealousy, I know no
+=======
+                Lauretta leading up a dance, the king bade Fiammetta sing a song, whereupon she very
+                blithely proceeded to sing thus: </p> <p>If love came but withouten jealousy, I know no
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
             lady born So blithe as I were, whosoe'er she be. If gladsome youthfulness In a fair
             lover might content a maid, Virtue and worth discreet, Valiance or gentilesse, Wit and
             sweet speech and fashions all arrayed In pleasantness complete, Certes, I'm she for
@@ -20133,8 +20210,13 @@
             doubting torn Who eyes him, lest she bear him off from me. Be, then, each lady prayed By
             God that she in this be not intent 'Gainst me to do amiss; For, sure, if any maid Should
             or with words or becks or blandishment My detriment in this Seek or procure and if I
+<<<<<<< HEAD
             know't, ywis, Be all my charms forsworn But I weill make her rue it bitterly. <p> No
                 sooner had <person xml:id="fiammetta" sex="F">Fiammetta</person> made an end of her song than <person xml:id="dioneo" sex="M">Dioneo</person>, who was beside her, said,
+=======
+            know't, ywis, Be all my charms forsworn But I will make her rue it bitterly.</p> <p> No
+                sooner had Fiammetta made an end of her song than Dioneo, who was beside her, said,
+>>>>>>> 1da327c6886ca0b630e3652c78e2735bc8a27238
                 laughing, "Madam, you would do a great courtesy to let all the ladies know who he
                 is, lest you be ousted of his possession through ignorance, since you would be so
                 sore incensed thereat." After this divers other songs were sung and the night being
