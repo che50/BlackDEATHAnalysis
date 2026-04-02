@@ -15,7 +15,7 @@
                 <title>
                     Decameron Analysis
                 </title>
-                <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> -->
+                 
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
             </head>
            
@@ -63,7 +63,7 @@
             <!-- This section is the XSL to make another page for corpus. It generates another HTML file, which can be navigated to from the top. USES SAME CSS as index document, but can probably be changed --> 
             <html>
             <head><title>Corpus</title>
-                <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> -->
+                 
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
                 <nav>
@@ -95,20 +95,20 @@
                 </ul>
                 <hr/>
                 <xsl:apply-templates select="//intro"/>
-           <!--    <xsl:apply-templates select="//div[@day]"/>
-           -->
+            
                
                
             </body>
             </html>
         </xsl:result-document>
 
+        <xsl:apply-templates select="//div[@day]"/>
         
         <xsl:result-document href="about.html" method="xhtml">
             <html>
                 <head>
                     <title>About</title>
-                    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> -->
+                     
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
@@ -151,7 +151,7 @@
                     <title>
                         <xsl:value-of select="p/story_numbr"/>
                             </title>
-                    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> -->
+                     
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
@@ -192,7 +192,7 @@
         <xsl:result-document href="proem.html" method="xhtml">
             <html>
                 <head><title>Proem</title>
-                    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> -->
+                     
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
