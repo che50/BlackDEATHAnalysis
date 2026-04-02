@@ -1,5 +1,5 @@
 body {
-  
+    background-color: #E5D1A4;
 }
 
 nav ul{
@@ -10,6 +10,19 @@ nav ul{
     padding: 0px;
     margin: 0px;
     
+}
+
+nav ul li a {
+    background-color: #CE793A;
+    color: #E5D1A4;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #B64B12;
 }
 .list {
     display: flex;
