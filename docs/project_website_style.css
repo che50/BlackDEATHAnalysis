@@ -1,7 +1,15 @@
 body {
-  background-color: #949899;
-  color: black;
-  font-family: Arial;
+  
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
 }
 .list {
     display: flex;
@@ -11,4 +19,8 @@ body {
 
 .list > div::before {
     content: "- ";
+}
+
+.title {
+    font-style: italic;
 }
