@@ -30,14 +30,6 @@ nav ul li a:hover {
     align-items: flex-start;
 }
 
-.list a {
-    color: #937A24;
-}
-
-ul ul li a {
-    color: #937A24;
-}
-
 .list > div::before {
     content: "- ";
 }
