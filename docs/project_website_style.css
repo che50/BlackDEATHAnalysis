@@ -34,6 +34,10 @@ nav ul li a:hover {
     color: #937A24;
 }
 
+ul ul li a {
+    color: #937A24;
+}
+
 .list > div::before {
     content: "- ";
 }
