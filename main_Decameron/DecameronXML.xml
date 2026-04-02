@@ -84,7 +84,7 @@
         <p> Here Beginneth the First Day of the Decameron Wherein (After Demonstration Made by the
             Author of the Manner in Which it Came to Pass That the Persons Who Are Hereinafter
             Presented Foregathered for the Purpose of Devising Together) Under the Governance of
-            Pampinea Is Discoursed of That Which Is Most Agreeable Unto Each </p>
+            <person xml:id="pampinea" sex="F">Pampinea</person> Is Discoursed of That Which Is Most Agreeable Unto Each </p>
         <p> As often, most gracious ladies, as, taking thought in myself, I mind me how very pitiful
             you are all by nature, so often do I recognize that this present work will, to your
             thinking, have a grievous and a weariful beginning, inasmuch as the dolorous remembrance
@@ -346,13 +346,13 @@
             unseemly talk. Wherefore, so that which each saith may hereafterward be apprehended
             without confusion, I purpose to denominate them by names altogether or in part sorting
             with each one's quality.[15] The first of them and her of ripest age I shall call
-            Pampinea, the second Fiammetta, the third Filomena and the fourth Emilia. To the fifth
-            we will give the name of Lauretta, to the sixth that of Neifile and the last, not
-            without cause, we will style Elisa.[16] These, then, not drawn of any set purpose, but
+            <person xml:id="pampinea" sex="F">Pampinea</person>, the second <person xml:id="fiammetta" sex="F">Fiammetta</person>, the third <person xml:id="filomena" sex="F">Filomena</person> and the fourth <person xml:id="emilia" sex="F">Emilia</person>. To the fifth
+            we will give the name of <person xml:id="lauretta" sex="F">Lauretta</person>, to the sixth that of <person xml:id="neifile" sex="F">Neifile</person> and the last, not
+            without cause, we will style <person xml:id="elisa" sex="F">Elisa</person>.[16] These, then, not drawn of any set purpose, but
             foregathering by chance in a corner of the <org type="religous" subtype="church"
                 >church</org>, having seated themselves in a ring, after divers sighs, let be the
             saying of paternosters and fell to devising with one another many and various things of
-            the nature of the time. After awhile, the others being silent, Pampinea proceeded to
+            the nature of the time. After awhile, the others being silent, <person xml:id="pampinea" sex="F">Pampinea</person> proceeded to
             speak thus: </p>
         <p> "Dear my ladies, you may, like myself, have many times heard that whoso honestly useth
             his right doth no one wrong; and it is the natural right of every one who is born here
@@ -428,10 +428,10 @@
             (an we be not earlier overtaken of death) as we shall see what issue Heaven reserveth
             unto these things. And I would remind you that it is no more forbidden unto us
             honourably to depart than it is unto many others of our sex to abide in dishonour." </p>
-        <p> The other ladies, having hearkened to Pampinea, not only commended her counsel, but,
+        <p> The other ladies, having hearkened to <person xml:id="pampinea" sex="F">Pampinea</person>, not only commended her counsel, but,
             eager to follow it, had already begun to devise more particularly among themselves of
             the manner, as if, arising from their session there, they were to set off out of hand.
-            But Filomena, who was exceeding discreet, said, "Ladies, albeit that which Pampinea
+            But <person xml:id="filomena" sex="F">Filomena</person>, who was exceeding discreet, said, "Ladies, albeit that which <person xml:id="pampinea" sex="F">Pampinea</person>
             allegeth is excellently well said, yet is there no occasion for running, as meseemeth
             you would do. Remember that we are all women and none of us is child enough not to know
             how [little] reasonable women are among themselves and how [ill], without some man's
@@ -440,7 +440,7 @@
             other guidance than our own, that our company will be far too soon dissolved and with
             less honour to ourselves than were seemly; wherefore we should do well to provide
             ourselves, ere we begin." </p>
-        <p> "Verily," answered Elisa, "men are the head of women, and without their ordinance seldom
+        <p> "Verily," answered <person xml:id="elisa" sex="F">Elisa</person>, "men are the head of women, and without their ordinance seldom
             cometh any emprise of ours to good end; but how may we come by these men? There is none
             of us but knoweth that of her kinsmen the most part are dead and those who abide alive
             are all gone fleeing that which we seek to flee, in divers companies, some here and some
@@ -453,31 +453,31 @@
             the age of the youngest of them was less than five-and-twenty years,—in whom neither the
             perversity of the time nor loss of friends and kinsfolk, no, nor fear for themselves had
             availed to cool, much less to quench, the fire of love. Of these one was called
-            Pamfilo,[19] another Filostrato[20] and the third Dioneo,[21] all very agreeable and
+            <person xml:id="pamfilo" sex="M">Pamfilo</person>,[19] another <person xml:id="filostrato" sex="M">Filostrato</person>[20] and the third <person xml:id="dioneo" sex="M">Dioneo</person>,[21] all very agreeable and
             well-bred, and they went seeking, for their supreme solace, in such a perturbation of
             things, to see their mistresses, who, as it chanced, were all three among the seven
             aforesaid; whilst certain of the other ladies were near kinswomen of one or other of the
             young men. </p>
         <p> No sooner had their eyes fallen on the ladies than they were themselves espied of them;
-            whereupon quoth Pampinea, smiling, "See, fortune is favourable to our beginnings and
+            whereupon quoth <person xml:id="pampinea" sex="F">Pampinea</person>, smiling, "See, fortune is favourable to our beginnings and
             hath thrown in our way young men of worth and discretion, who will gladly be to us both
             guides and servitors, an we disdain not to accept of them in that capacity." But
-            Neifile, whose face was grown all vermeil for shamefastness, for that it was she who was
-            beloved of one of the young men, said, "For God's sake, Pampinea, look what thou sayest!
+            <person xml:id="neifile" sex="F">Neifile</person>, whose face was grown all vermeil for shamefastness, for that it was she who was
+            beloved of one of the young men, said, "For God's sake, <person xml:id="pampinea" sex="F">Pampinea</person>, look what thou sayest!
             I acknowledge most frankly that there can be nought but all good said of which one
             soever of them and I hold them sufficient unto a much greater thing than this, even as I
             opine that they would bear, not only ourselves, but far fairer and nobler dames than we,
             good and honourable company. But, for that it is a very manifest thing that they are
             enamoured of certain of us who are here, I fear lest, without our fault or theirs,
-            scandal and blame ensue thereof, if we carry them with us." Quoth Filomena, "That
+            scandal and blame ensue thereof, if we carry them with us." Quoth <person xml:id="filomena" sex="F">Filomena</person>, "That
             skilleth nought; so but I live honestly and conscience prick me not of aught, let who
             will speak to the contrary; God and the truth will take up arms for me. Wherefore, if
-            they be disposed to come, verily we may say with Pampinea that fortune is favourable to
+            they be disposed to come, verily we may say with <person xml:id="pampinea" sex="F">Pampinea</person> that fortune is favourable to
             our going." </p>
         <p> The other ladies, hearing her speak thus absolutely, not only held their peace, but all
             with one accord agreed that the young men should be called and acquainted with their
             project and bidden to be pleased bear them company in their expedition. Accordingly,
-            without more words, Pampinea, who was knit by kinship to one of them, rising to her
+            without more words, <person xml:id="pampinea" sex="F">Pampinea</person>, who was knit by kinship to one of them, rising to her
             feet, made for the three young men, who stood fast, looking upon them, and saluting them
             with a cheerful countenance, discovered to them their intent and prayed them, on behalf
             of herself and her companions, that they would be pleased to bear them company in a pure
@@ -500,14 +500,14 @@
             to their no little pleasure, found the place all swept and the beds made in the chambers
             and every thing full of such flowers as might be had at that season and strewn with
             rushes. </p>
-        <p> As soon as they had seated themselves, Dioneo, who was the merriest springald in the
+        <p> As soon as they had seated themselves, <person xml:id="dioneo" sex="M">Dioneo</person>, who was the merriest springald in the
             world and full of quips and cranks, said, "Ladies, your wit, rather than our foresight,
             hath guided us hither, and I know not what you purpose to do with your cares; as for my
             own, I left them within the city gates, whenas I issued thence with you awhile agone;
             wherefore, do you either address yourselves to make merry and laugh and sing together
             with me (in so far, I mean, as pertaineth to your dignity) or give me leave to go back
-            for my cares and abide in the afflicted city." Whereto Pampinea, no otherwise than as if
-            in like manner she had banished all her own cares, answered blithely, "Dioneo, thou
+            for my cares and abide in the afflicted city." Whereto <person xml:id="pampinea" sex="F">Pampinea</person>, no otherwise than as if
+            in like manner she had banished all her own cares, answered blithely, "<person xml:id="dioneo" sex="M">Dioneo</person>, thou
             sayst well; it behoveth us live merrily, nor hath any other occasion caused us flee from
             yonder miseries. But, for that things which are without measure may not long endure, I,
             who began the discourse wherethrough this so goodly company came to be made, taking
@@ -522,32 +522,32 @@
             governor of the day to appoint, whenas the hour of vespers draweth near, and let each in
             turn, at his or her discretion, order and dispose of the place and manner wherein we are
             to live, for such time as his or her seignory shall endure." </p>
-        <p> Pampinea's words pleased mightily, and with one voice they elected her chief of the
-            first day; whereupon Filomena, running nimbly to a laurel-tree—for that she had many a
+        <p> <person xml:id="pampinea" sex="F">Pampinea's</person> words pleased mightily, and with one voice they elected her chief of the
+            first day; whereupon <person xml:id="filomena" sex="F">Filomena</person>, running nimbly to a laurel-tree—for that she had many a
             time heard speak of the honour due to the leaves of this plant and how worship-worth
             they made whoso was deservedly crowned withal—and plucking divers sprays therefrom, made
             her thereof a goodly and honourable wreath, which, being set upon her head, was
             thenceforth, what while their company lasted, a manifest sign unto every other of the
             royal office and seignory. </p>
-        <p> Pampinea, being made queen, commanded that every one should be silent; then, calling the
+        <p> <person xml:id="pampinea" sex="F">Pampinea</person>, being made queen, commanded that every one should be silent; then, calling the
             serving-men of the three young gentlemen and her own and the other ladies' women, who
             were four in number, before herself and all being silent, she spoke thus: "In order that
             I may set you a first example, by which, proceeding from good to better, our company may
             live and last in order and pleasance and without reproach so long as it is agreeable to
-            us, I constitute, firstly, Parmeno, Dioneo's servant, my seneschal and commit unto him
+            us, I constitute, firstly, Parmeno, <person xml:id="dioneo" sex="M">Dioneo's</person> servant, my seneschal and commit unto him
             the care and ordinance of all our household and [especially] that which pertaineth to
-            the service of the saloon. Sirisco, Pamfilo's servant, I will shall be our purveyor and
+            the service of the saloon. Sirisco, <person xml:id="pamfilo" sex="M">Pamfilo's</person> servant, I will shall be our purveyor and
             treasurer and ensue the commandments of Parmeno. Tindaro shall look to the service of
-            Filostrato and the other two gentlemen in their bed chambers, what time the others,
+            <person xml:id="filostrato" sex="M">Filostrato</person> and the other two gentlemen in their bed chambers, what time the others,
             being occupied about their respective offices, cannot attend thereto. Misia, my woman,
-            and Filomena's Licisca shall still abide in the kitchen and there diligently prepare
-            such viands as shall be appointed them of Parmeno. Lauretta's Chimera and Fiammetta's
+            and <person xml:id="filomena" sex="F">Filomena's</person> Licisca shall still abide in the kitchen and there diligently prepare
+            such viands as shall be appointed them of Parmeno. <person xml:id="lauretta" sex="F">Lauretta's</person> Chimera and <person xml:id="fiammetta" sex="F">Fiammetta's</person>
             Stratilia it is our pleasure shall occupy themselves with the ordinance of the ladies'
             chambers and the cleanliness of the places where we shall abide; and we will and command
             all and several, as they hold our favour dear, to have a care that, whithersoever they
             go or whencesoever they return and whatsoever they hear or see, they bring us from
             without no news other than joyous." These orders summarily given and commended of all,
-            Pampinea, rising blithely to her feet, said, "Here be gardens, here be meadows, here be
+            <person xml:id="pampinea" sex="F">Pampinea</person>, rising blithely to her feet, said, "Here be gardens, here be meadows, here be
             store of other delectable places, wherein let each go a-pleasuring at will; and when
             tierce[24] soundeth, let all be here, so we may eat in the cool." </p>
         <p> The merry company, being thus dismissed by the new queen, went straying with slow steps,
@@ -564,7 +564,7 @@
             were fair and orderly done, ate joyously and with store of merry talk, and the tables
             being cleared away,[25] the queen bade bring instruments of music, for that all the
             ladies knew how to dance, as also the young men, and some of them could both play and
-            sing excellent well. Accordingly, by her commandment, Dioneo took a lute and Fiammetta a
+            sing excellent well. Accordingly, by her commandment, <person xml:id="dioneo" sex="M">Dioneo</person> took a lute and <person xml:id="fiammetta" sex="F">Fiammetta</person> a
             viol and began softly to sound a dance; whereupon the queen and the other ladies,
             together with the other two young men, having sent the serving-men to eat, struck up a
             round and began with a slow pace to dance a brawl; which ended, they fell to singing
@@ -592,7 +592,7 @@
             do it; and if it please you not, let each until the hour of vespers do what most liketh
             him." Ladies and men alike all approved the story-telling, whereupon, "Then," said the
             queen, "since this pleaseth you, I will that this first day each be free to tell of such
-            matters as are most to his liking." Then, turning to Pamfilo, who sat on her right hand,
+            matters as are most to his liking." Then, turning to <person xml:id="pamfilo" sex="M">Pamfilo</person>, who sat on her right hand,
             she smilingly bade him give beginning to the story-telling with one of his; and he,
             hearing the commandment, forthright began thus, whilst all gave ear to him. </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
@@ -955,11 +955,11 @@
                 CHEVIGNÉ, GOETH TO THE COURT OF ROME AND SEEING THE DEPRAVITY OF THE CLERGY,
                 RETURNETH TO PARIS AND THERE BECOMETH A <faith ref="#Roman Catholic">CHRISTIAN
                 </faith></p>
-            <p> Pamfilo's story was in part laughed at and altogether commended by the ladies, and
-                it being come to its end, after being diligently hearkened, the queen bade Neifile,
+            <p> <person xml:id="pamfilo" sex="M">Pamfilo's</person> story was in part laughed at and altogether commended by the ladies, and
+                it being come to its end, after being diligently hearkened, the queen bade <person xml:id="neifile" sex="F">Neifile</person>,
                 who sat next him, ensue the ordinance of the commenced diversion by telling one[41]
-                of her fashion. Neifile, who was distinguished no less by courteous manners than by
-                beauty, answered blithely that she would well and began on this wise: "Pamfilo hath
+                of her fashion. <person xml:id="neifile" sex="F">Neifile</person>, who was distinguished no less by courteous manners than by
+                beauty, answered blithely that she would well and began on this wise: "<person xml:id="pamfilo" sex="M">Pamfilo</person> hath
                 shown us in his story that God's benignness regardeth not our errors, when they
                 proceed from that which is beyond our ken; and I, in mine, purpose to show you how
                 this same benignness,—patiently suffering the defaults of those who, being
@@ -1085,8 +1085,8 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> MELCHIZEDEK THE <faith ref="#Judaism">JEW,</faith> WITH A STORY OF THREE RINGS,
                 ESCAPETH A PARLOUS SNARE SET FOR HIM BY SALADIN </p>
-            <p> Neifile having made an end of her story, which was commended of all, Filomena, by
-                the queen's good pleasure, proceeded to speak thus: "The story told by Neifile
+            <p> <person xml:id="neifile" sex="F">Neifile</person> having made an end of her story, which was commended of all, <person xml:id="filomena" sex="F">Filomena</person>, by
+                the queen's good pleasure, proceeded to speak thus: "The story told by <person xml:id="neifile" sex="F">Neifile</person>
                 bringeth to my mind a parlous case the once betided a <faith ref="#Judaism"
                     >Jew;</faith> and for that, it having already been excellent well spoken both of
                 God and of the verity of our faith, it should not henceforth be forbidden us to
@@ -1167,7 +1167,7 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> A MONK, HAVING FALLEN INTO A SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY
                 REPROACHING THE SAME FAULT TO HIS ABBOT, QUITTETH HIMSELF OF THE PENALTY </p>
-            <p> Filomena, having despatched her story, was now silent, whereupon Dioneo, who sat
+            <p> <person xml:id="filomena" sex="F">Filomena</person>, having despatched her story, was now silent, whereupon <person xml:id="dioneo" sex="M">Dioneo</person>, who sat
                 next her, knowing already, by the ordinance begun, that it fell to his turn to tell,
                 proceeded, without awaiting farther commandment from the queen, to speak on this
                 wise: "Lovesome ladies, if I have rightly apprehended the intention of you all, we
@@ -1270,12 +1270,12 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> THE MARCHIONESS OF MONFERRATO, WITH A DINNER OF HENS AND CERTAIN SPRIGHTLY WORDS,
                 CURBETH THE EXTRAVAGANT PASSION OF THE KING OF FRANCE </p>
-            <p> The story told by Dioneo at first pricked the hearts of the listening ladies with
+            <p> The story told by <person xml:id="dioneo" sex="M">Dioneo</person> at first pricked the hearts of the listening ladies with
                 somewhat of shamefastness, whereof a modest redness appearing in their faces gave
                 token; but after, looking one at other and being scarce able to keep their
                 countenance, they listened, laughing in their sleeves. The end thereof being come,
                 after they had gently chidden him, giving him to understand that such tales were not
-                fit to be told among ladies, the queen, turning to Fiammetta, who sat next him on
+                fit to be told among ladies, the queen, turning to <person xml:id="fiammetta" sex="F">Fiammetta</person>, who sat next him on
                 the grass, bade her follow on the ordinance. Accordingly, she began with a good
                 grace and a cheerful countenance, "It hath occurred to my mind, fair my ladies,—at
                 once because it pleaseth me that we have entered upon showing by stories how great
@@ -1350,7 +1350,7 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> AN HONEST MAN, WITH A CHANCE PLEASANTRY, PUTTETH TO SHAME THE PERVERSE HYPOCRISY OF
                 THE RELIGIOUS ORDERS </p>
-            <p> Emilia, who sat next after Fiammetta,—the courage of the marchioness and the quaint
+            <p> <person xml:id="emilia" sex="F">Emilia</person>, who sat next after <person xml:id="fiammetta" sex="F">Fiammetta</person>,—the courage of the marchioness and the quaint
                 rebuke administered by her to the King of France having been commended of all the
                 ladies,—began, by the queen's pleasure, boldly to speak as follows: "I also, I will
                 not keep silence of a biting reproof given by an honest layman to a covetous monk
@@ -1423,9 +1423,9 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> BERGAMINO, WITH A STORY OF PRIMASSO AND THE ABBOT OF CLUNY, COURTEOUSLY REBUKETH A
                 FIT OF PARSIMONY NEWLY COME TO MESSER CANE DELLA SCALA </p>
-            <p> Emilia's pleasantness and her story moved the queen and all the rest to laugh and
+            <p> <person xml:id="emilia" sex="F">Emilia's</person> pleasantness and her story moved the queen and all the rest to laugh and
                 applaud the rare conceit of this new-fangled crusader. Then, after the laughter had
-                subsided and all were silent again, Filostrato, whose turn it was to tell, began to
+                subsided and all were silent again, <person xml:id="filostrato" sex="M">Filostrato</person>, whose turn it was to tell, began to
                 speak on this wise: "It is a fine thing, noble ladies, to hit a mark that never
                 stirreth; but it is well-nigh miraculous if, when some unwonted thing appeareth of a
                 sudden, it be forthright stricken of an archer. The lewd and filthy life of the
@@ -1551,7 +1551,7 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> GUGLIELMO BORSIERE WITH SOME QUAINT WORDS REBUKETH THE NIGGARDLINESS OF MESSER
                 ERMINO DE' GRIMALDI </p>
-            <p> Next Filostrato sat Lauretta, who, after she had heard Bergamino's address
+            <p> Next <person xml:id="filostrato" sex="M">Filostrato</person> sat <person xml:id="lauretta" sex="F">Lauretta</person>, who, after she had heard Bergamino's address
                 commended, perceiving that it behoved her tell somewhat, began, without awaiting any
                 commandment, blithely to speak thus: "The foregoing story, dear companions,[64]
                 bringeth me in mind to tell how an honest minstrel on like wise and not without
@@ -1621,11 +1621,11 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> THE KING OF CYPRUS, TOUCHED TO THE QUICK BY A GASCON LADY, FROM A MEAN-SPIRITED
                 PRINCE BECOMETH A MAN OF WORTH AND VALIANCE </p>
-            <p> The Queen's last commandment rested with Elisa, who, without awaiting it, began all
+            <p> The Queen's last commandment rested with <person xml:id="elisa" sex="F">Elisa</person>, who, without awaiting it, began all
                 blithely, "Young ladies, it hath often chanced that what all manner reproofs and
                 many pains[68] bestowed upon a man have not availed to bring about in him hath been
                 effected by a word more often spoken at hazard than of purpose aforethought. This is
-                very well shown in the story related by Lauretta and I, in my turn, purpose to prove
+                very well shown in the story related by <person xml:id="lauretta" sex="F">Lauretta</person> and I, in my turn, purpose to prove
                 to you the same thing by means of another and a very short one; for that, since good
                 things may still serve, they should be received with a mind attent, whoever be the
                 sayer thereof. </p>
@@ -1655,7 +1655,7 @@
             <p><ch_title>Day the First </ch_title></p>
             <p> MASTER ALBERTO OF BOLOGNA CIVILLY PUTTETH A LADY TO THE BLUSH WHO THOUGHT TO HAVE
                 SHAMED HIM OF BEING ENAMOURED OF HER </p>
-            <p> Elisa being now silent, the last burden of the story-telling rested with the queen,
+            <p> <person xml:id="elisa" sex="F">Elisa</person> being now silent, the last burden of the story-telling rested with the queen,
                 who, with womanly grace beginning to speak, said, "Noble damsels, like as in the
                 lucid nights the stars are the ornament of the sky and as in Spring-time the flowers
                 of the green meadows, even so are commendable manners and pleasing discourse adorned
@@ -1749,24 +1749,24 @@
                 of time in advance cannot, meseemeth, so well provide for the future and in order
                 that what the new queen shall deem needful for the morrow may be
                 prepared,—methinketh the ensuing days should commence at this hour. Wherefore, in
-                reverence of Him unto whom all things live and for our own solacement, Filomena, a
+                reverence of Him unto whom all things live and for our own solacement, <person xml:id="filomena" sex="F">Filomena</person>, a
                 right discreet damsel, shall, as queen, govern our kingdom for the coming day." So
                 saying, she rose to her feet and putting off the laurel-wreath, set it reverently on
-                the head of Filomena, whom first herself and after all the other ladies and the
+                the head of <person xml:id="filomena" sex="F">Filomena</person>, whom first herself and after all the other ladies and the
                 young men likewise saluted as queen, cheerfully submitting themselves to her
                 governance. </p>
-            <p> Filomena blushed somewhat to find herself invested with the queendom, but, calling
-                to mind the words a little before spoken by Pampinea,[73]—in order that she might
+            <p> <person xml:id="filomena" sex="F">Filomena</person> blushed somewhat to find herself invested with the queendom, but, calling
+                to mind the words a little before spoken by <person xml:id="pampinea" sex="F">Pampinea</person>,[73]—in order that she might
                 not appear witless, she resumed her assurance and in the first place confirmed all
-                the offices given by Pampinea; then, having declared that they should abide whereas
+                the offices given by <person xml:id="pampinea" sex="F">Pampinea</person>; then, having declared that they should abide whereas
                 they were, she appointed that which was to do against the ensuing morning, as well
                 as for that night's supper, and after proceeded to speak thus: </p>
-            <p> "Dearest companions, albeit Pampinea, more of her courtesy than for any worth of
+            <p> "Dearest companions, albeit <person xml:id="pampinea" sex="F">Pampinea</person>, more of her courtesy than for any worth of
                 mine, hath made me queen of you all, I am not therefore disposed to follow my
                 judgment alone in the manner of our living, but yours together with mine; and that
                 you may know that which meseemeth is to do and consequently at your pleasure add
                 thereto or abate thereof, I purpose briefly to declare it to you. </p>
-            <p> If I have well noted the course this day held by Pampinea, meseemeth I have found it
+            <p> If I have well noted the course this day held by <person xml:id="pampinea" sex="F">Pampinea</person>, meseemeth I have found it
                 alike praiseworthy and delectable; wherefore till such time as, for overlong
                 continuance or other reason, it grow irksome to us, I judge it not to be changed.
                 Order, then, being taken for [the continuance of] that which we have already begun
@@ -1778,7 +1778,7 @@
                 hour come back to eat; after which we will dance and when we arise from sleep, as
                 to-day we have done, we will return hither to our story-telling, wherein meseemeth a
                 very great measure to consist alike of pleasance and of profit. Moreover, that which
-                Pampinea had indeed no opportunity of doing, by reason of her late election to the
+                <person xml:id="pampinea" sex="F">Pampinea</person> had indeed no opportunity of doing, by reason of her late election to the
                 governance, I purpose now to enter upon, to wit, to limit within some bound that
                 whereof we are to tell and to declare it[74] to you beforehand, so each of you may
                 have leisure to think of some goodly story to relate upon the theme proposed, the
@@ -1788,7 +1788,7 @@
                 BEING BAFFLED BY DIVERS CHANCES HAVE WON AT LAST TO A JOYFUL ISSUE BEYOND THEIR
                 HOPE." </p>
             <p> Ladies and men alike all commended this ordinance and declared themselves ready to
-                ensue it. Only Dioneo, the others all being silent, said, "Madam, as all the rest
+                ensue it. Only <person xml:id="dioneo" sex="M">Dioneo</person>, the others all being silent, said, "Madam, as all the rest
                 have said, so say I, to wit that the ordinance given by you is exceeding pleasant
                 and commendable; but of especial favour I crave you a boon, which I would have
                 confirmed to me for such time as our company shall endure, to wit, that I may not be
@@ -1805,9 +1805,9 @@
                 going about in the water, bare-armed and shoeless, they fell to taking various
                 diversions among themselves, till supper-time drew near, when they returned to the
                 palace and there supped merrily. Supper ended, the queen called for instruments of
-                music and bade Lauretta lead up a dance, whilst Emilia sang a song, to the
-                accompaniment of Dioneo's lute. Accordingly, Lauretta promptly set up a dance and
-                led it off, whilst Emilia amorously warbled the following song: </p> I burn for mine
+                music and bade <person xml:id="lauretta" sex="F">Lauretta</person> lead up a dance, whilst <person xml:id="emilia" sex="F">Emilia</person> sang a song, to the
+                accompaniment of <person xml:id="dioneo" sex="M">Dioneo's</person> lute. Accordingly, <person xml:id="lauretta" sex="F">Lauretta</person> promptly set up a dance and
+                led it off, whilst <person xml:id="emilia" sex="F">Emilia</person> amorously warbled the following song: </p> I burn for mine
             own charms with such a fire, Methinketh that I ne'er Of other love shall reck or have
             desire. Whene'er I mirror me, I see therein[75] That good which still contenteth heart
             and spright; Nor fortune new nor thought of old can win To dispossess me of such dear
@@ -1818,7 +1818,7 @@
             Except indeed he burn with like desire. And I, grown more enamoured every hour, The
             straitlier fixed mine eyes upon it be, Give all myself and yield me to its power, E'en
             tasting now of that it promised me, And greater joyance yet I hope to see, Of such a
-            strain as ne'er Was proven here below of love-desire. <p> Lauretta having thus made an
+            strain as ne'er Was proven here below of love-desire. <p> <person xml:id="lauretta" sex="F">Lauretta</person> having thus made an
                 end of her ballad,[76]—in the burden of which all had blithely joined, albeit the
                 words thereof gave some much matter for thought,—divers other rounds were danced and
                 a part of the short night being now spent, it pleased the queen to give an end to
@@ -1828,7 +1828,7 @@
         OF THE DECAMERON</div>
 
     <div day="Second"><p><ch_title>Day the Second </ch_title></p>
-        <p> Here Beginneth the Second Day of the Decameron Wherein Under the Governance of Filomena
+        <p> Here Beginneth the Second Day of the Decameron Wherein Under the Governance of <person xml:id="filomena" sex="F">Filomena</person>
             Is Discoursed of Those Who After Being Baffled by Divers Chances Have Won at Last to a
             Joyful Issue Beyond Their Hope </p>
         <p> The sun had already everywhere brought on the new day with its light and the birds,
@@ -1841,7 +1841,7 @@
             command of their queen, into the fresh meadows, where they seated themselves round about
             her. Then she, who was fair of favour and exceeding pleasant of aspect, having sat
             awhile, crowned with her laurel wreath, and looked all her company in the face, bade
-            Neifile give beginning to the day's stories by telling one of her fashion; whereupon the
+            <person xml:id="neifile" sex="F">Neifile</person> give beginning to the day's stories by telling one of her fashion; whereupon the
             latter, without making any excuse, blithely began to speak thus: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Second </ch_title></p>
@@ -1982,9 +1982,9 @@
             <p> RINALDO D'ASTI, HAVING BEEN ROBBED, MAKETH HIS WAY TO CASTEL GUGLIELMO, WHERE HE IS
                 HOSPITABLY ENTERTAINED BY A WIDOW LADY AND HAVING MADE GOOD HIS LOSS, RETURNETH TO
                 HIS OWN HOUSE, SAFE AND SOUND </p>
-            <p> The ladies laughed immoderately at Martellino's misfortunes narrated by Neifile, as
-                did also the young men and especially Filostrato, whom, for that he sat next
-                Neifile, the queen bade follow her in story-telling. Accordingly he began without
+            <p> The ladies laughed immoderately at Martellino's misfortunes narrated by <person xml:id="neifile" sex="F">Neifile</person>, as
+                did also the young men and especially <person xml:id="filostrato" sex="M">Filostrato</person>, whom, for that he sat next
+                <person xml:id="neifile" sex="F">Neifile</person>, the queen bade follow her in story-telling. Accordingly he began without
                 delay, "Fair ladies, needs must I tell you a story[79] of things <faith
                     ref="#Roman Catholic">Catholic</faith>,[80] in part mingled with misadventures
                 and love-matters, which belike will not be other than profitable to hear, especially
@@ -2161,7 +2161,7 @@
                 succoured him in his utmost need. Nor yet (though this was said half aside) was the
                 lady reputed foolish, who had known how to take the good God had sent her in her own
                 house. But, whilst they discoursed, laughing in their sleeves, of the pleasant night
-                she had had, Pampinea, seeing herself beside Filostrato and deeming, as indeed it
+                she had had, <person xml:id="pampinea" sex="F">Pampinea</person>, seeing herself beside <person xml:id="filostrato" sex="M">Filostrato</person> and deeming, as indeed it
                 befell, that the next turn would rest with her, began to collect her thoughts and
                 take counsel with herself what she should say; after which, having received the
                 queen's commandment, she proceeded to speak thus, no less resolutely than blithely,
@@ -2394,10 +2394,10 @@
             <p> LANDOLFO RUFFOLO, GROWN POOR, TURNETH CORSAIR AND BEING TAKEN BY THE GENOESE, IS
                 WRECKED AT SEA, BUT SAVETH HIMSELF UPON A COFFER FULL OF JEWELS OF PRICE AND BEING
                 ENTERTAINED IN CORFU BY A WOMAN, RETURNETH HOME RICH </p>
-            <p> Lauretta, who sat next Pampinea, seeing her come to the glorious ending of her
+            <p> <person xml:id="lauretta" sex="F">Lauretta</person>, who sat next <person xml:id="pampinea" sex="F">Pampinea</person>, seeing her come to the glorious ending of her
                 story, began, without awaiting more, to speak on this wise: "Most gracious ladies,
                 there can, to my judgment, be seen no greater feat of fortune than when we behold
-                one raised from the lowest misery to royal estate, even as Pampinea's story hath
+                one raised from the lowest misery to royal estate, even as <person xml:id="pampinea" sex="F">Pampinea's</person> story hath
                 shown it to have betided her Alessandro. And for that from this time forth whosoever
                 relateth of the appointed matter must of necessity speak within these limits,[91] I
                 shall think no shame to tell a story, which, albeit it compriseth in itself yet
@@ -2536,9 +2536,9 @@
             <p><ch_title>Day the Second </ch_title></p>
             <p> ANDREUCCIO OF PERUGIA, COMING TO NAPLES TO BUY HORSES, IS IN ONE NIGHT OVERTAKEN
                 WITH THREE GRIEVOUS ACCIDENTS, BUT ESCAPETH THEM ALL AND RETURNETH HOME WITH A RUBY </p>
-            <p> "The stones found by Landolfo," began Fiammetta, to whose turn it came to tell,
+            <p> "The stones found by Landolfo," began <person xml:id="fiammetta" sex="F">Fiammetta</person>, to whose turn it came to tell,
                 "have brought to my mind a story scarce less full of perilous scapes than that
-                related by Lauretta, but differing therefrom inasmuch as the adventures comprised in
+                related by <person xml:id="lauretta" sex="F">Lauretta</person>, but differing therefrom inasmuch as the adventures comprised in
                 the latter befell in the course of belike several years and these of which I have to
                 tell in the space of a single night, as you shall hear. </p>
             <p> There was once in Perugia, as I have heard tell aforetime, a young man, a
@@ -2890,7 +2890,7 @@
                 ESPOUSETH HIS LORD'S DAUGHTER, AND HIS BROTHER BEING LIKEWISE FOUND, THEY ARE ALL
                 THREE RESTORED TO HIGH ESTATE </p>
             <p> Ladies and young men alike laughed heartily at Andreuccio's adventures, as related
-                by Fiammetta, and Emilia, seeing the story ended, began, by the queen's commandment,
+                by <person xml:id="fiammetta" sex="F">Fiammetta</person>, and <person xml:id="emilia" sex="F">Emilia</person>, seeing the story ended, began, by the queen's commandment,
                 to speak thus: "Grievous things and woeful are the various shifts of Fortune,
                 whereof,—for that, whenassoever it is discoursed of them, it is an awakenment for
                 our minds, which lightly fall asleep under her blandishments,—methinketh it should
@@ -3258,9 +3258,9 @@
                 ALGARVE, AND SHE, BY DIVERS CHANCES, IN THE SPACE OF FOUR YEARS COMETH TO THE HANDS
                 OF NINE MEN IN VARIOUS PLACES. ULTIMATELY, BEING RESTORED TO HER FATHER FOR A MAID,
                 SHE GOETH TO THE KING OF ALGARVE TO WIFE, AS FIRST SHE DID </p>
-            <p> Had Emilia's story been much longer protracted, it is like the compassion had by the
+            <p> Had <person xml:id="emilia" sex="F">Emilia's</person> story been much longer protracted, it is like the compassion had by the
                 young ladies on the misfortunes of Madam Beritola would have brought them to tears;
-                but, an end being now made thereof, it pleased the queen that Pamfilo should follow
+                but, an end being now made thereof, it pleased the queen that <person xml:id="pamfilo" sex="M">Pamfilo</person> should follow
                 on with his story, and accordingly he, who was very obedient, began thus, "Uneath,
                 charming ladies, is it for us to know that which is meet for us, for that, as may
                 oftentimes have been seen, many, imagining that, were they but rich, they might
@@ -3852,8 +3852,8 @@
                     >Saracen</faith>; but who knoweth what gave rise to those sighs? Maybe there
                 were some of them who sighed no less for envy of such frequent nuptials than for
                 pity of Alatiel. But, leaving that be for the present, after they had laughed at
-                Pamfilo's last words, the queen, seeing his story ended, turned to Elisa and bade
-                her follow on with one of hers. Elisa cheerfully obeyed and began as follows: "A
+                <person xml:id="pamfilo" sex="M">Pamfilo's</person> last words, the queen, seeing his story ended, turned to <person xml:id="elisa" sex="F">Elisa</person> and bade
+                her follow on with one of hers. <person xml:id="elisa" sex="F">Elisa</person> cheerfully obeyed and began as follows: "A
                 most ample field is that wherein we go to-day a-ranging, nor is there any of us but
                 could lightly enough run, not one, but half a score courses there, so abounding hath
                 Fortune made it in her strange and grievous chances; wherefore, to come to tell of
@@ -4279,9 +4279,9 @@
                 HERE SHE LIGHTETH UPON THE DECEIVER OF HER HUSBAND AND BRINGETH THE LATTER TO
                 ALEXANDRIA, WHERE, HER TRADUCER BEING PUNISHED, SHE RESUMETH WOMAN'S APPAREL AND
                 RETURNETH TO GENOA WITH HER HUSBAND, RICH </p>
-            <p> Elisa having furnished her due with her pitiful story, Filomena the queen, who was
+            <p> <person xml:id="elisa" sex="F">Elisa</person> having furnished her due with her pitiful story, <person xml:id="filomena" sex="F">Filomena</person> the queen, who was
                 tall and goodly of person and smiling and agreeable of aspect beyond any other of
-                her sex, collecting herself, said, "Needs must the covenant with Dioneo be observed,
+                her sex, collecting herself, said, "Needs must the covenant with <person xml:id="dioneo" sex="M">Dioneo</person> be observed,
                 wherefore, there remaining none other to tell than he and I, I will tell my story
                 first, and he, for that he asked it as a favour, shall be the last to speak." So
                 saying, she began thus, "There is a proverb oftentimes cited among the common folk
@@ -4622,7 +4622,7 @@
                 AGAIN OF HIM. THE LATTER CONCEDETH HER TO HIM, AN SHE WILL; BUT SHE REFUSETH TO
                 RETURN WITH HIM AND MESSER RICCIARDO DYING, SHE BECOMETH THE WIFE OF PAGANINO </p>
             <p> Each of the honourable company highly commended for goodly the story told by their
-                queen, especially Dioneo, with whom alone for that present day it now rested to
+                queen, especially <person xml:id="dioneo" sex="M">Dioneo</person>, with whom alone for that present day it now rested to
                 tell, and who, after many praises bestowed upon the preceding tale, said, "Fair
                 ladies, one part of the queen's story hath caused me change counsel of telling you
                 one that was in my mind, and determine to tell you another,—and that is the
@@ -4806,12 +4806,12 @@
                 his dispute with Ambrogiuolo, rode the she-goat down the steep."[145] </p>
             <p> This story gave such occasion for laughter to all the company that there was none
                 whose jaws ached not therefor, and all the ladies avouched with one accord that
-                Dioneo spoke sooth and that Bernabo had been an ass. But, after the story was ended
+                <person xml:id="dioneo" sex="M">Dioneo</person> spoke sooth and that Bernabo had been an ass. But, after the story was ended
                 and the laughter abated, the queen, observing that the hour was now late and that
                 all had told and seeing that the end of her seignory was come, according to the
                 ordinance commenced, took the wreath from her own head and set it on that of
-                Neifile, saying, with a blithe aspect, "Henceforth, companion dear, be thine the
-                governance of this little people"; and reseated herself. Neifile blushed a little at
+                <person xml:id="neifile" sex="F">Neifile</person>, saying, with a blithe aspect, "Henceforth, companion dear, be thine the
+                governance of this little people"; and reseated herself. <person xml:id="neifile" sex="F">Neifile</person> blushed a little at
                 the honour received and became in countenance like as showeth a new-blown rose of
                 April or of May in the breaking of the day, with lovesome eyes some little downcast,
                 sparkling no otherwise than the morning-star. But, after the courteous murmur of the
@@ -4842,16 +4842,16 @@
                 of fortune,—that our discourse shall be OF SUCH AS HAVE, BY DINT OF DILIGENCE,[148]
                 ACQUIRED SOME MUCH DESIRED THING OR RECOVERED SOME LOST GOOD. Whereupon let each
                 think to tell somewhat that may be useful or at least entertaining to the company,
-                saving always Dioneo his privilege." All commended the speech and disposition of the
+                saving always <person xml:id="dioneo" sex="M">Dioneo</person> his privilege." All commended the speech and disposition of the
                 queen and ordained that it should be as she had said. Then, calling for her
                 seneschal, she particularly instructed him where he should set the tables that
                 evening and after of what he should do during all the time of her seignory; and this
                 done, rising to her feet, she gave the company leave to do that which was most
                 pleasing unto each. Accordingly, ladies and men betook themselves to a little garden
                 and there, after they had disported themselves awhile, the hour of supper being
-                come, they supped with mirth and pleasance; then, all arising thence and Emilia, by
+                come, they supped with mirth and pleasance; then, all arising thence and <person xml:id="emilia" sex="F">Emilia</person>, by
                 the queen's commandment, leading the round, the ditty following was sung by
-                Pampinea, whilst the other ladies responded: </p> What lady aye should sing, and if
+                <person xml:id="pampinea" sex="F">Pampinea</person>, whilst the other ladies responded: </p> What lady aye should sing, and if
             not I, Who'm blest with all for which a maid can sigh? Come then, O Love, thou source of
             all my weal, All hope and every issue glad and bright Sing ye awhile yfere Of sighs nor
             bitter pains I erst did feel, That now but sweeten to me thy delight, Nay, but of that
@@ -4871,7 +4871,7 @@
         <p>HERE ENDETH THE SECOND DAY OF THE DECAMERON</p></div>
 
     <div day="Third"><p><ch_title>Day the Third </ch_title></p>
-        <p> Here Beginneth the Third Day of the Decameron wherein Under the Governance of Neifile Is
+        <p> Here Beginneth the Third Day of the Decameron wherein Under the Governance of <person xml:id="neifile" sex="F">Neifile</person> Is
             Discoursed of Such as Have by Dint of Diligence Acquired Some Much Desired Thing or
             Recovered Some Lost Good </p>
         <p> The dawn from vermeil began to grow orange-tawny, at the approach of the sun, when on
@@ -4952,7 +4952,7 @@
             with cold water, they came all, at the queen's commandment, to the lawn hard by the
             fountain and there seating themselves, after the wonted fashion, waited to fall to
             story-telling upon the subject proposed by her. The first upon whom she laid this charge
-            was Filostrato, who began on this wise: </p>
+            was <person xml:id="filostrato" sex="M">Filostrato</person>, who began on this wise: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Third </ch_title></p>
             <p> MASETTO OF LAMPORECCHIO FEIGNETH HIMSELF DUMB AND BECOMETH GARDENER TO A CONVENT OF
@@ -5131,8 +5131,8 @@
             <p> A HORSEKEEPER LIETH WITH THE WIFE OF KING AGILULF, WHO, BECOMING AWARE THEREOF,
                 WITHOUT WORD SAID, FINDETH HIM OUT AND POLLETH HIM; BUT THE POLLED MAN POLLETH ALL
                 HIS FELLOWS ON LIKE WISE AND SO ESCAPETH ILL HAP </p>
-            <p> The end of Filostrato's story, whereat whiles the ladies had some little blushed and
-                other whiles laughed, being come, it pleased the queen that Pampinea should follow
+            <p> The end of <person xml:id="filostrato" sex="M">Filostrato's</person> story, whereat whiles the ladies had some little blushed and
+                other whiles laughed, being come, it pleased the queen that <person xml:id="pampinea" sex="F">Pampinea</person> should follow
                 on with a story, and she accordingly, beginning with a smiling countenance, said,
                 "Some are so little discreet in seeking at all hazards to show that they know and
                 apprehend that which it concerneth them not to know, that whiles, rebuking to this
@@ -5270,9 +5270,9 @@
             <p> UNDER COLOUR OF CONFESSION AND OF EXCEEDING NICENESS OF CONSCIENCE, A LADY, BEING
                 ENAMOURED OF A YOUNG MAN, BRINGETH A GRAVE FRIAR, WITHOUT HIS MISDOUBTING HIM
                 THEREOF, TO AFFORD A MEANS OF GIVING ENTIRE EFFECT TO HER PLEASURE </p>
-            <p> Pampinea being now silent and the daring and subtlety of the horsekeeper having been
+            <p> <person xml:id="pampinea" sex="F">Pampinea</person> being now silent and the daring and subtlety of the horsekeeper having been
                 extolled by several of the company, as also the king's good sense, the queen,
-                turning to Filomena, charged her follow on; whereupon she blithely began to speak
+                turning to <person xml:id="filomena" sex="F">Filomena</person>, charged her follow on; whereupon she blithely began to speak
                 thus, "I purpose to recount to you a cheat which was in very deed put by a fair lady
                 upon a grave friar and which should be so much the more pleasing to every layman as
                 these [—friars, to wit—], albeit for the most part very dull fools and men of
@@ -5518,10 +5518,10 @@
             <p> DOM FELICE TEACHETH FRA PUCCIO HOW HE MAY BECOME BEATIFIED BY PERFORMING A CERTAIN
                 PENANCE OF HIS FASHION, WHICH THE OTHER DOTH, AND DOM FELICE MEANWHILE LEADETH A
                 MERRY LIFE OF IT WITH THE GOOD MAN'S WIFE </p>
-            <p> Filomena, having made an end of her story, was silent and Dioneo having with dulcet
+            <p> <person xml:id="filomena" sex="F">Filomena</person>, having made an end of her story, was silent and <person xml:id="dioneo" sex="M">Dioneo</person> having with dulcet
                 speech mightily commended the lady's shrewdness and eke the prayer with which
-                Filomena had concluded, the queen turned with a smile to Pamfilo and said, "Come,
-                Pamfilo, continue our diversion with some pleasant trifle." Pamfilo promptly
+                <person xml:id="filomena" sex="F">Filomena</person> had concluded, the queen turned with a smile to <person xml:id="pamfilo" sex="M">Pamfilo</person> and said, "Come,
+                <person xml:id="pamfilo" sex="M">Pamfilo</person>, continue our diversion with some pleasant trifle." <person xml:id="pamfilo" sex="M">Pamfilo</person> promptly
                 answered that he would well and began thus: "Madam, there are many persons who, what
                 while they study to enter Paradise, unwittingly send others thither; the which
                 happened, no great while since, to a neighbour of ours, as you shall hear. </p>
@@ -5659,8 +5659,8 @@
                 HATH THEREFOR HIS LEAVE TO SPEAK WITH HIS WIFE. SHE KEEPING SILENCE, HE IN HER
                 PERSON REPLIETH UNTO HIMSELF, AND THE EFFECT AFTER ENSUETH IN ACCORDANCE WITH HIS
                 ANSWER </p>
-            <p> Pamfilo having made an end, not without laughter on the part of the ladies, of the
-                story of Fra Puccio, the queen with a commanding air bade Elisa follow on. She,
+            <p> <person xml:id="pamfilo" sex="M">Pamfilo</person> having made an end, not without laughter on the part of the ladies, of the
+                story of Fra Puccio, the queen with a commanding air bade <person xml:id="elisa" sex="F">Elisa</person> follow on. She,
                 rather tartly than otherwise, not out of malice, but of old habit, began to speak
                 thus, "Many folk, knowing much, imagine that others know nothing, and so ofttimes,
                 what while they think to overreach others, find, after the event, that they
@@ -5815,11 +5815,11 @@
                 ENSUING DAY TO BE WITH HIS OWN WIFE IN A BAGNIO, TO BRING HER TO THE LATTER PLACE,
                 WHERE, THINKING TO BE WITH HER HUSBAND, SHE FINDETH THAT SHE HATH ABIDDEN WITH
                 RICCIARDO </p>
-            <p> Elisa having no more to say, the queen, after commending the sagacity of Il Zima,
-                bade Fiammetta proceed with a story, who answered, all smilingly, "Willingly,
+            <p> <person xml:id="elisa" sex="F">Elisa</person> having no more to say, the queen, after commending the sagacity of Il Zima,
+                bade <person xml:id="fiammetta" sex="F">Fiammetta</person> proceed with a story, who answered, all smilingly, "Willingly,
                 Madam," and began thus: "It behoveth somedele to depart our city (which, like as it
                 aboundeth in all things else, is fruitful in instances of every subject) and as
-                Elisa hath done, to recount somewhat of the things that have befallen in other parts
+                <person xml:id="elisa" sex="F">Elisa</person> hath done, to recount somewhat of the things that have befallen in other parts
                 of the world; wherefore, passing over to Naples, I shall tell how one of those
                 she-saints, who feign themselves so shy of love, was by the ingenuity of a lover of
                 hers brought to taste the fruits of love, ere she had known its flowers; the which
@@ -6045,8 +6045,8 @@
                 MAKETH HER COGNISANT OF HER ERROR; AFTER WHICH HE DELIVERETH HER HUSBAND, WHO HAD
                 BEEN CONVICTED OF MURDERING HIM, FROM DEATH AND RECONCILING HIM WITH HIS BRETHREN,
                 THENCEFORWARD DISCREETLY ENJOYETH HIMSELF WITH HIS MISTRESS </p>
-            <p> Fiammetta being now silent, commended of all, the queen, to lose no time, forthright
-                committed the burden of discourse to Emilia, who began thus: "It pleaseth me to
+            <p> <person xml:id="fiammetta" sex="F">Fiammetta</person> being now silent, commended of all, the queen, to lose no time, forthright
+                committed the burden of discourse to <person xml:id="emilia" sex="F">Emilia</person>, who began thus: "It pleaseth me to
                 return to our city, whence it pleased the last two speakers to depart, and to show
                 you how a townsman of ours regained his lost mistress. </p>
             <p> There was, then, in Florence a noble youth, whose name was Tedaldo Elisei and who,
@@ -6492,10 +6492,10 @@
                 FORTH OF THE SEPULCHRE BY THE ABBOT, WHO ENJOYETH HIS WIFE THE WHILE, IS PUT IN
                 PRISON AND GIVEN TO BELIEVE THAT HE IS IN PURGATORY; AFTER WHICH, BEING RAISED UP
                 AGAIN, HE REARETH FOR HIS OWN A CHILD BEGOTTEN OF THE ABBOT ON HIS WIFE </p>
-            <p> The end being come of Emilia's long story,—which had not withal for its length been
+            <p> The end being come of <person xml:id="emilia" sex="F">Emilia's</person> long story,—which had not withal for its length been
                 unpleasing to any of the company, nay, but was held of all the ladies to have been
                 briefly narrated, having regard to the number and diversity of the incidents therein
-                recounted,—the queen, having with a mere sign intimated her pleasure to Lauretta,
+                recounted,—the queen, having with a mere sign intimated her pleasure to <person xml:id="lauretta" sex="F">Lauretta</person>,
                 gave her occasion to begin thus: "Dearest ladies, there occurreth to me to tell you
                 a true story which hath much more semblance of falsehood than of that which it
                 indeed is and which hath been recalled to my mind by hearing one to have been bewept
@@ -6754,10 +6754,10 @@
                 HIM FOR DESPITE TO FLORENCE, WHERE, HE PAYING COURT TO A YOUNG LADY, GILLETTE, IN
                 THE PERSON OF THE LATTER, LIETH WITH HIM AND HATH BY HIM TWO SONS; WHEREFORE AFTER,
                 HOLDING HER DEAR, HE ENTERTAINETH HER FOR HIS WIFE </p>
-            <p> Lauretta's story being now ended, it rested but with the queen to tell, an she would
-                not infringe upon Dioneo's privilege; wherefore, without waiting to be solicited by
+            <p> <person xml:id="lauretta" sex="F">Lauretta's</person> story being now ended, it rested but with the queen to tell, an she would
+                not infringe upon <person xml:id="dioneo" sex="M">Dioneo's</person> privilege; wherefore, without waiting to be solicited by
                 her companions, she began all blithesomely to speak thus: "Who shall tell a story
-                that may appear goodly, now we have heard that of Lauretta? Certes, it was well for
+                that may appear goodly, now we have heard that of <person xml:id="lauretta" sex="F">Lauretta</person>? Certes, it was well for
                 us that hers was not the first, for that few of the others would have pleased after
                 it, as I misdoubt me[199] will betide of those which are yet to tell this day.
                 Natheless, be that as it may, I will e'en recount to you that which occurreth to me
@@ -7008,7 +7008,7 @@
             <p><ch_title>Day the Third </ch_title></p>
             <p> ALIBECH, TURNING HERMIT, IS TAUGHT BY RUSTICO, A MONK, TO PUT THE DEVIL IN HELL, AND
                 BEING AFTER BROUGHT AWAY THENCE, BECOMETH NEERBALE HIS WIFE </p>
-            <p> Dioneo, who had diligently hearkened to the queen's story, seeing that it was ended
+            <p> <person xml:id="dioneo" sex="M">Dioneo</person>, who had diligently hearkened to the queen's story, seeing that it was ended
                 and that it rested with him alone to tell, without awaiting commandment, smilingly
                 began to speak as follows: "Charming ladies, maybe you have never heard tell how one
                 putteth the devil in hell; wherefore, without much departing from the tenor of that
@@ -7190,19 +7190,19 @@
                 hither, is yet current here. Wherefore do all you young ladies, who have need of
                 God's grace, learn to put the devil in hell, for that this is highly acceptable to
                 Him and pleasing to both parties and much good may grow and ensue thereof." </p>
-            <p> A thousand times or more had Dioneo's story moved the modest ladies to laughter, so
+            <p> A thousand times or more had <person xml:id="dioneo" sex="M">Dioneo's</person> story moved the modest ladies to laughter, so
                 quaint and comical did his words appear to them; then, whenas he had made an end
                 thereof, the queen, knowing the term of her sovranty to be come, lifted the laurel
-                from her head and set it merrily on that of Filostrato, saying: "We shall presently
+                from her head and set it merrily on that of <person xml:id="filostrato" sex="M">Filostrato</person>, saying: "We shall presently
                 see if the wolf will know how to govern the ewes better than the ewes have governed
-                the wolves." Filostrato, hearing this, said, laughing, "An I were hearkened to, the
+                the wolves." <person xml:id="filostrato" sex="M">Filostrato</person>, hearing this, said, laughing, "An I were hearkened to, the
                 wolves had taught the ewes to put the devil in hell, no worse than Rustico taught
                 Alibech; wherefore do ye not style us wolven, since you yourselves have not been
                 ewen. Algates, I will govern the kingdom committed to me to the best of my power."
-                "Harkye, Filostrato," rejoined Neifile, "in seeking to teach us, you might have
+                "Harkye, <person xml:id="filostrato" sex="M">Filostrato</person>," rejoined <person xml:id="neifile" sex="F">Neifile</person>, "in seeking to teach us, you might have
                 chanced to learn sense, even as did Masetto of Lamporecchio of the nuns, and find
                 your tongue what time your bones should have learnt to whistle without a master." </p>
-            <p> Filostrato, finding that he still got a Roland for his Oliver,[205] gave over
+            <p> <person xml:id="filostrato" sex="M">Filostrato</person>, finding that he still got a Roland for his Oliver,[205] gave over
                 pleasantry and addressed himself to the governance of the kingdom committed to him.
                 Wherefore, letting call the seneschal, he was fain to know at what point things
                 stood all and after discreetly ordained that which he judged would be well and would
@@ -7223,18 +7223,18 @@
                 grown mild, making it nowise irksome to give chase to the fawns and kids and rabbits
                 and other beasts which were thereabout and which, as they sat, had come maybe an
                 hundred times to disturb them by skipping through their midst, some addressed
-                themselves to pursue them. Dioneo and Fiammetta fell to singing of Messer Guglielmo
-                and the Lady of Vergiu,[207] whilst Filomena and Pamfilo sat down to chess; and so,
+                themselves to pursue them. <person xml:id="dioneo" sex="M">Dioneo</person> and <person xml:id="fiammetta" sex="F">Fiammetta</person> fell to singing of Messer Guglielmo
+                and the Lady of Vergiu,[207] whilst <person xml:id="filomena" sex="F">Filomena</person> and <person xml:id="pamfilo" sex="M">Pamfilo</person> sat down to chess; and so,
                 some doing one thing and some another, the time passed on such wise that the hour of
                 supper came well nigh unlooked for; whereupon, the tables being set round about the
                 fair fountain, they supped there in the evening with the utmost delight. </p>
-            <p> As soon as the tables were taken away, Filostrato, not to depart from the course
-                holden of those who had been queens before him, commanded Lauretta to lead up a
+            <p> As soon as the tables were taken away, <person xml:id="filostrato" sex="M">Filostrato</person>, not to depart from the course
+                holden of those who had been queens before him, commanded <person xml:id="lauretta" sex="F">Lauretta</person> to lead up a
                 dance and sing a song. "My lord," answered she, "I know none of other folk's songs,
                 nor have I in mind any of mine own which should best beseem so joyous a company;
                 but, an you choose one of those which I have, I will willingly sing it." Quote the
                 king, "Nothing of thine can be other than goodly and pleasing; wherefore sing us
-                such as thou hast." Lauretta, then, with a sweet voice enough, but in a somewhat
+                such as thou hast." <person xml:id="lauretta" sex="F">Lauretta</person>, then, with a sweet voice enough, but in a somewhat
                 plaintive style, began thus, the other ladies answering: </p> No maid disconsolate
             Hath cause as I, alack! Who sigh for love in vain, to mourn her fate. He who moves
             heaven and all the stars in air Made me for His delight Lovesome and sprightly, kind and
@@ -7255,7 +7255,7 @@
             pleased was I Whilere past all that be,— Who now before Him sittest in the sky Who
             fashioned us,—have pity upon me Who cannot, though I die, Forget thee for another; cause
             me see The flame that kindled thee For me lives yet unquenched And my recall up
-            thither[210] impetrate. <p> Here Lauretta made an end of her song, wherein, albeit
+            thither[210] impetrate. <p> Here <person xml:id="lauretta" sex="F">Lauretta</person> made an end of her song, wherein, albeit
                 attentively followed of all, she was diversely apprehended of divers persons, and
                 there were those who would e'en understand, Milan-fashion, that a good hog was
                 better than a handsome wench;[211] but others were of a loftier and better and truer
@@ -7268,7 +7268,7 @@
 
     <div day="Fourth"><p><ch_title>Day the Fourth </ch_title></p>
         <p> Here Beginneth the Fourth Day of the Decameron Wherein Under the Governance of
-            Filostrato Is Discoursed of Those Whose Loves Have Had Unhappy Endings </p>
+            <person xml:id="filostrato" sex="M">Filostrato</person> Is Discoursed of Those Whose Loves Have Had Unhappy Endings </p>
         <p> Dearest ladies, as well by words of wise men heard as by things many a time both seen
             and read of myself, I had conceived that the boisterous and burning blast of envy was
             apt to smite none but lofty towers or the highest summits of the trees; but I find
@@ -7438,12 +7438,12 @@
             appointed me. But now, fair ladies, for that we have strayed enough, needs must we
             return whence we set out and ensue the ordinance commenced. </p>
         <p> The sun had already banished every star from the sky and had driven from the earth the
-            humid vapours of the night, when Filostrato, arising, caused all his company arise and
+            humid vapours of the night, when <person xml:id="filostrato" sex="M">Filostrato</person>, arising, caused all his company arise and
             with them betook himself to the fair garden, where they all proceeded to disport
             themselves, and the eating-hour come, they dined whereas they had supped on the
             foregoing evening. Then, after having slept, what time the sun was at its highest, they
-            seated themselves, after the wonted fashion, hard by the fair fountain, and Filostrato
-            bade Fiammetta give beginning to the story-telling; whereupon, without awaiting further
+            seated themselves, after the wonted fashion, hard by the fair fountain, and <person xml:id="filostrato" sex="M">Filostrato</person>
+            bade <person xml:id="fiammetta" sex="F">Fiammetta</person> give beginning to the story-telling; whereupon, without awaiting further
             commandment, she began with womanly grace as follows: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Fourth </ch_title></p>
@@ -7735,17 +7735,17 @@
                 A POOR MAN, WHO ON THE MORROW CARRIETH HIM, IN THE GUISE OF A WILD MAN OF THE WOODS,
                 TO THE PIAZZA, WHERE, BEING RECOGNIZED, HE IS TAKEN BY HIS BRETHREN AND PUT IN
                 PRISON </p>
-            <p> The story told by Fiammetta had more than once brought the tears to the eyes of the
+            <p> The story told by <person xml:id="fiammetta" sex="F">Fiammetta</person> had more than once brought the tears to the eyes of the
                 ladies her companions; but, it being now finished, the king with a stern countenance
                 said, "My life would seem to me a little price to give for half the delight that
                 Guiscardo had with Ghismonda, nor should any of you ladies marvel thereat, seeing
                 that every hour of my life I suffer a thousand deaths, nor for all that is a single
                 particle of delight vouchsafed me. But, leaving be my affairs for the present, it is
-                my pleasure that Pampinea follow on the order of the discourse with some story of
+                my pleasure that <person xml:id="pampinea" sex="F">Pampinea</person> follow on the order of the discourse with some story of
                 woeful chances and fortunes in part like to mine own; which if she ensue like as
-                Fiammetta hath begun, I shall doubtless begin to feel some dew fallen upon my fire."
-                Pampinea, hearing the order laid upon her, more by her affection apprehended the
-                mind of the ladies her companions than that of Filostrato by his words,[224]
+                <person xml:id="fiammetta" sex="F">Fiammetta</person> hath begun, I shall doubtless begin to feel some dew fallen upon my fire."
+                <person xml:id="pampinea" sex="F">Pampinea</person>, hearing the order laid upon her, more by her affection apprehended the
+                mind of the ladies her companions than that of <person xml:id="filostrato" sex="M">Filostrato</person> by his words,[224]
                 wherefore, being more disposed to give them some diversion than to content the king,
                 farther than in the mere letter of his commandment, she bethought herself to tell a
                 story, that should, without departing from the proposed theme, give occasion for
@@ -7997,11 +7997,11 @@
                 WITH THE ELDEST SISTER. MEANWHILE THE THIRD LOVER AND THE YOUNGEST SISTER ARE
                 ACCUSED OF THE NEW MURDER AND BEING TAKEN, CONFESS IT; THEN, FOR FEAR OF DEATH, THEY
                 CORRUPT THEIR KEEPERS WITH MONEY AND FLEE TO RHODES, WHERE THEY DIE IN POVERTY </p>
-            <p> Filostrato, having heard the end of Pampinea's story, bethought himself awhile and
+            <p> <person xml:id="filostrato" sex="M">Filostrato</person>, having heard the end of <person xml:id="pampinea" sex="F">Pampinea's</person> story, bethought himself awhile and
                 presently, turning to her, said, "There was some little that was good and that
                 pleased me in the ending of your story; but there was overmuch before that which
                 gave occasion for laughter and which I would not have had there." Then, turning to
-                Lauretta, "Lady," said he, "ensue you with a better, and it may be." Quoth she,
+                <person xml:id="lauretta" sex="F">Lauretta</person>, "Lady," said he, "ensue you with a better, and it may be." Quoth she,
                 laughing, "You are too cruel towards lovers, an you desire of them only an ill
                 end;[231] but, to obey you, I will tell a story of three who all ended equally ill,
                 having had scant enjoyment of their loves." So saying, she began thus: "Young
@@ -8184,10 +8184,10 @@
             <p> GERBINO, AGAINST THE PLIGHTED FAITH OF HIS GRANDFATHER, KING GUGLIELMO OF SICILY,
                 ATTACKETH A SHIP OF THE KING OF TUNIS, TO CARRY OFF A DAUGHTER OF HIS, WHO BEING PUT
                 TO DEATH OF THOSE ON BOARD, HE SLAYETH THESE LATTER AND IS AFTER HIMSELF BEHEADED </p>
-            <p> Lauretta, having made an end of her story, was silent, whilst the company bewailed
+            <p> <person xml:id="lauretta" sex="F">Lauretta</person>, having made an end of her story, was silent, whilst the company bewailed
                 the illhap of the lovers, some blaming Ninetta's anger and one saying one thing and
                 another another, till presently the king, raising his head, as if aroused from deep
-                thought, signed to Elisa to follow on; whereupon she began modestly, "Charming
+                thought, signed to <person xml:id="elisa" sex="F">Elisa</person> to follow on; whereupon she began modestly, "Charming
                 ladies, there are many who believe that Love launcheth his shafts only when
                 enkindled of the eyes and make mock of those who hold that one may fall in love by
                 hearsay; but that these are mistaken will very manifestly appear in a story that I
@@ -8324,10 +8324,10 @@
                 SHOWETH HER WHERE HE IS BURIED, WHEREUPON SHE PRIVILY DISINTERRETH HIS HEAD AND
                 SETTETH IT IN A POT OF BASIL. THEREOVER MAKING MOAN A GREAT WHILE EVERY DAY, HER
                 BROTHERS TAKE IT FROM HER AND SHE FOR GRIEF DIETH A LITTLE THEREAFTERWARD </p>
-            <p> Elisa's tale being ended and somedele commended of the king, Filomena was bidden to
+            <p> <person xml:id="elisa" sex="F">Elisa's</person> tale being ended and somedele commended of the king, <person xml:id="filomena" sex="F">Filomena</person> was bidden to
                 discourse, who, full of compassion for the wretched Gerbino and his mistress, after
                 a piteous sigh, began thus: "My story, gracious ladies, will not treat of folk of so
-                high condition as were those of whom Elisa hath told, yet peradventure it will be no
+                high condition as were those of whom <person xml:id="elisa" sex="F">Elisa</person> hath told, yet peradventure it will be no
                 less pitiful; and what brought me in mind of it was the mention, a little before, of
                 Messina, where the case befell. </p>
             <p> There were then in Messina three young brothers, merchants and left very rich by
@@ -8435,7 +8435,7 @@
                 BECOMETH A NUN </p>
             <p> Filomela's story was very welcome to the ladies, for that they had many a time heard
                 sing this song, yet could never, for asking, learn the occasion of its making. But
-                the king, having heard the end thereof, charged Pamfilo follow on the ordinance;
+                the king, having heard the end thereof, charged <person xml:id="pamfilo" sex="M">Pamfilo</person> follow on the ordinance;
                 whereupon quoth he, "The dream in the foregoing story giveth me occasion to recount
                 one wherein is made mention of two dreams, which were of a thing to come, even as
                 the former was of a thing [already] betided, and scarce were they finished telling
@@ -8451,7 +8451,7 @@
                 foreshown. Of these,[245] I approve neither the one nor other, for that dreams are
                 neither always true nor always false. That they are not all true, each one of us
                 must often enough have had occasion to know; and that they are not all false hath
-                been already shown in Filomena her story, and I also purpose, as I said before, to
+                been already shown in <person xml:id="filomena" sex="F">Filomena</person> her story, and I also purpose, as I said before, to
                 show it in mine. Wherefore I am of opinion that, in the matter of living and doing
                 virtuously, one should have no fear of any dream contrary thereto nor forego good
                 intentions by reason thereof; as for perverse and wicked things, on the other hand,
@@ -8629,10 +8629,10 @@
                 LEAF OF SAGE AGAINST HIS TEETH AND DIETH. SHE, BEING TAKEN AND THINKING TO SHOW THE
                 JUDGE HOW HER LOVER DIED, RUBBETH ONE OF THE SAME LEAVES AGAINST HER TEETH AND DIETH
                 ON LIKE WISE </p>
-            <p> Pamfilo having delivered himself of his story, the king, showing no compassion for
-                Andrevuola, looked at Emilia and signed to her that it was his pleasure she should
+            <p> <person xml:id="pamfilo" sex="M">Pamfilo</person> having delivered himself of his story, the king, showing no compassion for
+                Andrevuola, looked at <person xml:id="emilia" sex="F">Emilia</person> and signed to her that it was his pleasure she should
                 with a story follow on those who had already told; whereupon she, without delay,
-                began as follows: "Dear companions, the story told by Pamfilo putteth me in mind to
+                began as follows: "Dear companions, the story told by <person xml:id="pamfilo" sex="M">Pamfilo</person> putteth me in mind to
                 tell you one in nothing like unto his save that like as Andrevuola lost her beloved
                 in a garden, even so did she of whom I have to tell, and being taken in like manner
                 as was Andrevuola, freed herself from the court, not by dint of fortitude nor
@@ -8744,7 +8744,7 @@
                 PARIS, RETURNETH AND FINDETH HIS MISTRESS MARRIED; WHEREUPON HE ENTERETH HER HOUSE
                 BY STEALTH AND DIETH BY HER SIDE; AND HE BEING CARRIED TO A <org type="religous"
                     subtype="church">CHURCH</org>, SALVESTRA DIETH BESIDE HIM </p>
-            <p> Emilia's story come to an end, Neifile, by the king's commandment, began thus:
+            <p> <person xml:id="emilia" sex="F">Emilia's</person> story come to an end, <person xml:id="neifile" sex="F">Neifile</person>, by the king's commandment, began thus:
                 "There are some, noble ladies, who believe themselves to know more than other folk,
                 albeit, to my thinking, they know less, and who, by reason thereof, presume to
                 oppose their judgment not only to the counsels of men, but even to set it up against
@@ -8894,8 +8894,8 @@
             <p> SIR GUILLAUME DE ROUSSILLON GIVETH HIS WIFE TO EAT THE HEART OF SIR GUILLAUME DE
                 GUARDESTAING BY HIM SLAIN AND LOVED OF HER, WHICH SHE AFTER COMING TO KNOW, CASTETH
                 HERSELF FROM A HIGH CASEMENT TO THE GROUND AND DYING, IS BURIED WITH HER LOVER </p>
-            <p> Neifile having made an end of her story, which had awakened no little compassion in
-                all the ladies her companions, the king, who purposed not to infringe Dioneo his
+            <p> <person xml:id="neifile" sex="F">Neifile</person> having made an end of her story, which had awakened no little compassion in
+                all the ladies her companions, the king, who purposed not to infringe <person xml:id="dioneo" sex="M">Dioneo</person> his
                 privilege, there being none else to tell but they twain, began, "Gentle ladies,
                 since you have such compassion upon ill-fortuned loves, it hath occurred to me to
                 tell you a story whereof it will behove you have no less pity than of the last, for
@@ -8993,7 +8993,7 @@
                 AVOUCHETH TO THE SEIGNORY THAT SHE HERSELF HAD PUT HIM INTO THE CHEST STOLEN BY THE
                 TWO USURERS, WHEREBY HE ESCAPETH THE GALLOWS AND THE THIEVES ARE AMERCED IN CERTAIN
                 MONIES </p>
-            <p> Filostrato having made an end of his telling, it rested only with Dioneo to
+            <p> <person xml:id="filostrato" sex="M">Filostrato</person> having made an end of his telling, it rested only with <person xml:id="dioneo" sex="M">Dioneo</person> to
                 accomplish his task, who, knowing this and it being presently commanded him of the
                 king, began as follows: 'The sorrows that have been this day related of ill fortuned
                 loves have saddened not only your eyes and hearts, ladies, but mine also; wherefore
@@ -9229,22 +9229,22 @@
                 their disport from good to better; the which I would well might so betide myself,
                 save always the being put in the chest." </p>
             <p> If the former stories had saddened the hearts of the lovesome ladies, this last one
-                of Dioneo's made them laugh heartily, especially when he spoke of the prefect
+                of <person xml:id="dioneo" sex="M">Dioneo's</person> made them laugh heartily, especially when he spoke of the prefect
                 casting his grapnel aboard the maid, that they were able thus to recover themselves
                 of the melancholy caused by the others. But the king, seeing that the sun began to
                 grow yellow and that the term of his seignory was come, with very courteous speech
                 excused himself to the fair ladies for that which he had done, to wit, that he had
                 caused discourse of so sorrowful a matter as that of lovers' infelicity; which done,
                 he rose to his feet and taking from his head the laurel wreath, whilst the ladies
-                waited to see on whom he should bestow it, set it daintily on Fiammetta's fair head,
+                waited to see on whom he should bestow it, set it daintily on <person xml:id="fiammetta" sex="F">Fiammetta's</person> fair head,
                 saying, "I make over this crown to thee, as to her who will, better than any other,
                 know how with to-morrow's pleasance to console these ladies our companions of
                 to-day's woefulness." </p>
-            <p> Fiammetta, whose locks were curled and long and golden and fell over her white and
+            <p> <person xml:id="fiammetta" sex="F">Fiammetta</person>, whose locks were curled and long and golden and fell over her white and
                 delicate shoulders and whose soft-rounded face was all resplendent with white lilies
                 and vermeil roses commingled, with two eyes in her head as they were those of a
                 peregrine falcon and a dainty little mouth, the lips whereof seemed twin rubies,
-                answered, smiling, "And I, Filostrato, I take it willingly, and that thou mayst be
+                answered, smiling, "And I, <person xml:id="filostrato" sex="M">Filostrato</person>, I take it willingly, and that thou mayst be
                 the better cognizant of that which thou hast done, I presently will and command that
                 each prepare to discourse to-morrow of THAT WHICH HATH HAPPILY BETIDED LOVERS AFTER
                 SUNDRY CRUEL AND MISFORTUNATE ADVENTURES." Her proposition[260] was pleasing unto
@@ -9257,12 +9257,12 @@
                 hour of supper, which being come, they all foregathered, as of their wont, anigh the
                 fair fountain and there supped with exceeding pleasance and well served. Presently,
                 arising thence, they addressed themselves, as of their wont, to dancing and singing,
-                and Filomena leading off the dance, the queen said, "Filostrato, I purpose not to
+                and <person xml:id="filomena" sex="F">Filomena</person> leading off the dance, the queen said, "<person xml:id="filostrato" sex="M">Filostrato</person>, I purpose not to
                 depart from the usance of those who have foregone me in the sovranty, but, like as
                 they have done, so I intend that a song be sung at my commandment; and as I am
                 assured that thy songs are even such as are thy stories, it is our pleasure that, so
                 no more days than this be troubled with thine ill fortunes, thou sing such one
-                thereof as most pleaseth thee." Filostrato replied that he would well and forthright
+                thereof as most pleaseth thee." <person xml:id="filostrato" sex="M">Filostrato</person> replied that he would well and forthright
                 proceeded to sing on this wise: </p> Weeping, I demonstrate How sore with reason
             doth my heart complain Of love betrayed and plighted faith in vain. Love, whenas first
             there was of thee imprest Thereon[261] her image for whose sake I sigh, Sans hope of
@@ -9289,7 +9289,7 @@
             unto him alone Show fully how undear This bitter life and drear Is to me, craving of his
             might he deign Some better harbourage I may attain. Weeping I demonstrate How sore with
             reason doth my heart complain Of love betrayed and plighted faith in vain. <p> The words
-                of this song clearly enough discovered the state of Filostrato's mind and the cause
+                of this song clearly enough discovered the state of <person xml:id="filostrato" sex="M">Filostrato's</person> mind and the cause
                 thereof, the which belike the countenance of a certain lady who was in the dance had
                 yet plainlier declared, had not the shades of the now fallen night hidden the
                 blushes that rose to her face. But, when he had made an end of his song, many others
@@ -9298,11 +9298,11 @@
         <p>HERE ENDETH THE FOURTH DAY OF THE DECAMERON</p></div>
 
     <div day="Fifth"><p><ch_title>Day the Fifth </ch_title></p>
-        <p> Here Beginneth the Fifth Day of the Decameron Wherein Under the Governance of Fiammetta
+        <p> Here Beginneth the Fifth Day of the Decameron Wherein Under the Governance of <person xml:id="fiammetta" sex="F">Fiammetta</person>
             Is Discoursed of That Which Hath Happily Betided Lovers After Sundry Cruel and
             Misfortunate Adventures </p>
         <p> The East was already all white and the rays of the rising sun had made it light through
-            all our hemisphere, when Fiammetta, allured by the sweet song of the birds that blithely
+            all our hemisphere, when <person xml:id="fiammetta" sex="F">Fiammetta</person>, allured by the sweet song of the birds that blithely
             chanted the first hour of the day upon the branches, arose and let call all the other
             ladies and the three young men; then, with leisured pace descending into the fields, she
             went a-pleasuring with her company about the ample plain upon the dewy grasses,
@@ -9319,7 +9319,7 @@
             their diversion about the fair garden; but all, according to the wonted fashion,
             assembled together again, a little after none, near the fair fountain, whereas it
             pleased the queen. Then she, having seated herself in the chief room, looked towards
-            Pamfilo and smilingly charged him make a beginning with the fair-fortuned stories;
+            <person xml:id="pamfilo" sex="M">Pamfilo</person> and smilingly charged him make a beginning with the fair-fortuned stories;
             whereto he willingly addressed himself and spoke as follows: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Fifth </ch_title></p>
@@ -9633,8 +9633,8 @@
                 ALONE IN A BOAT, WHICH IS CARRIED BY THE WIND TO SUSA. FINDING HER LOVER ALIVE AT
                 TUNIS, SHE DISCOVERETH HERSELF TO HIM AND HE, BEING GREAT IN FAVOUR WITH THE KING
                 FOR COUNSELS GIVEN, ESPOUSETH HER AND RETURNETH RICH WITH HER TO LIPARI </p>
-            <p> The queen, seeing Pamfilo's story at an end, after she had much commended it,
-                enjoined Emilia to follow on, telling another, and she accordingly began thus:
+            <p> The queen, seeing <person xml:id="pamfilo" sex="M">Pamfilo's</person> story at an end, after she had much commended it,
+                enjoined <person xml:id="emilia" sex="F">Emilia</person> to follow on, telling another, and she accordingly began thus:
                 "Every one must naturally delight in those things wherein he seeth rewards ensue
                 according to the affections;[267] and for that love in the long run deserveth rather
                 happiness than affliction, I shall, intreating of the present theme, obey the queen
@@ -9803,8 +9803,8 @@
                 THROUGH A WOOD AND IS LED [BY FORTUNE] TO A CASTLE, WHILST PIETRO IS TAKEN BY THE
                 THIEVES, BUT PRESENTLY, ESCAPING FROM THEIR HANDS, WINNETH, AFTER DIVERS ADVENTURES,
                 TO THE CASTLE WHERE HIS MISTRESS IS AND ESPOUSING HER, RETURNETH WITH HER TO ROME </p>
-            <p> There was none among all the company but commended Emilia's story, which the queen
-                seeing to be finished, turned to Elisa and bade her follow on. Accordingly, studious
+            <p> There was none among all the company but commended <person xml:id="emilia" sex="F">Emilia's</person> story, which the queen
+                seeing to be finished, turned to <person xml:id="elisa" sex="F">Elisa</person> and bade her follow on. Accordingly, studious
                 to obey, she began: "There occurreth to my mind, charming ladies, an ill night
                 passed by a pair of indiscreet young lovers; but, for that many happy days ensued
                 thereon, it pleaseth me to tell the story, as one that conformeth to our
@@ -9993,8 +9993,8 @@
             <p><ch_title>Day the Fifth </ch_title></p>
             <p> RICCIARDO MANARDI, BEING FOUND BY MESSER LIZIO DA VALBONA WITH HIS DAUGHTER,
                 ESPOUSETH HER AND ABIDETH IN PEACE WITH HER FATHER </p>
-            <p> Elisa holding her peace and hearkening to the praises bestowed by the ladies her
-                companions upon her story, the Queen charged Filostrato tell one of his own,
+            <p> <person xml:id="elisa" sex="F">Elisa</person> holding her peace and hearkening to the praises bestowed by the ladies her
+                companions upon her story, the Queen charged <person xml:id="filostrato" sex="M">Filostrato</person> tell one of his own,
                 whereupon he began, laughing, "I have been so often rated by so many of you ladies
                 for having imposed on you matter for woeful discourse and such as tended to make you
                 weep, that methinketh I am beholden, an I would in some measure requite you that
@@ -10139,12 +10139,12 @@
                 AND COME TO BLOWS ON HER ACCOUNT. ULTIMATELY SHE IS PROVED TO BE GIANNOLE'S SISTER
                 AND IS GIVEN TO MINGHINO TO WIFE </p>
             <p> All the ladies, hearkening to the story of the nightingale, had laughed so much
-                that, though Filostrato had made an end of telling, they could not yet give over
-                laughing. But, after they had laughed awhile, the queen said to Filostrato,
+                that, though <person xml:id="filostrato" sex="M">Filostrato</person> had made an end of telling, they could not yet give over
+                laughing. But, after they had laughed awhile, the queen said to <person xml:id="filostrato" sex="M">Filostrato</person>,
                 "Assuredly, if thou afflictedest us ladies yesterday, thou hast so tickled us to-day
                 that none of us can deservedly complain of thee." Then, addressing herself to
-                Neifile, she charged her tell, and she blithely began to speak thus: "Since
-                Filostrato, discoursing, hath entered into Romagna, it pleaseth me on like wise to
+                <person xml:id="neifile" sex="F">Neifile</person>, she charged her tell, and she blithely began to speak thus: "Since
+                <person xml:id="filostrato" sex="M">Filostrato</person>, discoursing, hath entered into Romagna, it pleaseth me on like wise to
                 go ranging awhile therein with mine own story. </p>
             <p> I say, then, that there dwelt once in the city of Fano two Lombards, whereof the one
                 was called Guidotto da Cremona and the other Giacomino da Pavia, both men advanced
@@ -10294,8 +10294,8 @@
             <p> GIANNI DI PROCIDA BEING FOUND WITH A YOUNG LADY, WHOM HE LOVED AND WHO HAD BEEN
                 GIVEN TO KING FREDERICK OF SICILY, IS BOUND WITH HER TO A STAKE TO BE BURNT; BUT,
                 BEING RECOGNIZED BY RUGGIERI DELL' ORIA, ESCAPETH AND BECOMETH HER HUSBAND </p>
-            <p> Neifile's story, which had much pleased the ladies, being ended, the queen bade
-                Pampinea address herself to tell another, and she accordingly, raising her bright
+            <p> <person xml:id="neifile" sex="F">Neifile's</person> story, which had much pleased the ladies, being ended, the queen bade
+                <person xml:id="pampinea" sex="F">Pampinea</person> address herself to tell another, and she accordingly, raising her bright
                 face, began: "Exceeding great, charming ladies, is the might of Love and exposeth
                 lovers to sore travails, ay, and to excessive and unforeseen perils, as may be
                 gathered from many a thing that hath been related both to-day and otherwhiles;
@@ -10450,7 +10450,7 @@
                 TAKETH VIOLANTE TO WIFE </p>
             <p> The ladies, who abode all fearful in suspense to know if the lovers should be burnt,
                 hearing of their escape, praised God and were glad; whereupon the queen, seeing that
-                Pampinea had made an end of her story, imposed on Lauretta the charge of following
+                <person xml:id="pampinea" sex="F">Pampinea</person> had made an end of her story, imposed on <person xml:id="lauretta" sex="F">Lauretta</person> the charge of following
                 on, who blithely proceeded to say: "Fairest ladies, in the days when good King
                 William[282] ruled over Sicily, there was in that island a gentleman hight Messer
                 Amerigo Abate of Trapani, who, among other worldly goods, was very well furnished
@@ -10644,7 +10644,7 @@
                 DAMSEL AND SLAY HER AND CAUSE HER BE DEVOURED OF TWO DOGS. THEREWITHAL HE BIDDETH
                 HIS KINSFOLK AND THE LADY WHOM HE LOVETH TO A DINNER, WHERE HIS MISTRESS SEETH THE
                 SAME DAMSEL TORN IN PIECES AND FEARING A LIKE FATE, TAKETH NASTAGIO TO HUSBAND </p>
-            <p> No sooner was Lauretta silent than Filomena, by the queen's commandment, began thus:
+            <p> No sooner was <person xml:id="lauretta" sex="F">Lauretta</person> silent than <person xml:id="filomena" sex="F">Filomena</person>, by the queen's commandment, began thus:
                 "Lovesome ladies, even as pity is in us commended, so also is cruelty rigorously
                 avenged by Divine justice; the which that I may prove to you and so engage you
                 altogether to purge yourselves therefrom, it pleaseth me tell you a story no less
@@ -10802,8 +10802,8 @@
                 PRODIGAL HOSPITALITY TILL THERE IS LEFT HIM BUT ONE SOLE FALCON, WHICH, HAVING
                 NOUGHT ELSE, HE GIVETH HIS MISTRESS TO EAT, ON HER COMING TO HIS HOUSE; AND SHE,
                 LEARNING THIS, CHANGETH HER MIND AND TAKING HIM TO HUSBAND, MAKETH HIM RICH AGAIN </p>
-            <p> Filomena having ceased speaking, the queen, seeing that none remained to tell save
-                only herself and Dioneo, whose privilege entitled him to speak last, said, with
+            <p> <person xml:id="filomena" sex="F">Filomena</person> having ceased speaking, the queen, seeing that none remained to tell save
+                only herself and <person xml:id="dioneo" sex="M">Dioneo</person>, whose privilege entitled him to speak last, said, with
                 blithe aspect, "It pertaineth now to me to tell and I, dearest ladies, will
                 willingly do it, relating a story like in part to the foregoing, to the intent that
                 not only may you know how much the love of you[285] can avail in gentle hearts, but
@@ -10976,7 +10976,7 @@
                 AND ESPYING HIM, DISCOVERETH HIS WIFE'S UNFAITH, BUT ULTIMATELY COMETH TO AN ACCORD
                 WITH HER FOR HIS OWN LEWD ENDS </p>
             <p> The queen's story come to an end and all having praised God for that He had rewarded
-                Federigo according to his desert, Dioneo, who never waited for commandment, began on
+                Federigo according to his desert, <person xml:id="dioneo" sex="M">Dioneo</person>, who never waited for commandment, began on
                 this wise: "I know not whether to say if it be a casual vice, grown up in mankind
                 through perversity of manners and usances, or a defect inherent in our nature, that
                 we laugh rather at things ill than at good works, especially when they concern us
@@ -11194,11 +11194,11 @@
                 more been that night, wife or husband. Wherefore, dear my ladies, this will I say to
                 you, 'Whoso doth it to you, do you it to him'; and if you cannot presently, keep it
                 in mind till such time as you can, so he may get as good as he giveth." </p>
-            <p> Dioneo having made an end of his story, which had been less laughed at by the ladies
+            <p> <person xml:id="dioneo" sex="M">Dioneo</person> having made an end of his story, which had been less laughed at by the ladies
                 [than usual], more for shamefastness than for the little delight they took therein,
                 the queen, seeing the end of her sovranty come, rose to her feet and putting off the
-                laurel crown, set it blithely on Elisa's head, saying, "With you, madam, henceforth
-                it resteth to command." Elisa, accepting the honour, did even as it had been done
+                laurel crown, set it blithely on <person xml:id="elisa" sex="F">Elisa's</person> head, saying, "With you, madam, henceforth
+                it resteth to command." <person xml:id="elisa" sex="F">Elisa</person>, accepting the honour, did even as it had been done
                 before her, in that, having first, to the satisfaction of the company, taken order
                 with the seneschal for that whereof there was need for the time of her governance,
                 she said, "We have many a time heard how, by dint of smart sayings and ready
@@ -11213,24 +11213,24 @@
                 and each, according to the wonted fashion, applied himself to that which was most
                 agreeable to him. But, the crickets having now given over singing, the queen let
                 call every one and they betook themselves to supper, which being despatched with
-                merry cheer, they all gave themselves to singing and making music, and Emilia
-                having, at the queen's commandment, set up a dance, Dioneo was bidden sing a song,
+                merry cheer, they all gave themselves to singing and making music, and <person xml:id="emilia" sex="F">Emilia</person>
+                having, at the queen's commandment, set up a dance, <person xml:id="dioneo" sex="M">Dioneo</person> was bidden sing a song,
                 whereupon he straightway struck up with "Mistress Aldruda, come lift up your fud-a,
                 for I bring you, I bring you, good tidings." Whereat all the ladies fell a-laughing
-                and especially the queen, who bade him leave that and sing another. Quoth Dioneo,
+                and especially the queen, who bade him leave that and sing another. Quoth <person xml:id="dioneo" sex="M">Dioneo</person>,
                 "Madam, had I a tabret, I would sing 'Come truss your coats, I prithee, Mistress
                 Burdock,' or 'Under the olive the grass is'; or will you have me say 'The waves of
                 the sea do great evil to me'? But I have no tabret, so look which you will of these
                 others. Will it please you have 'Come forth unto us, so it may be cut down, like a
                 May in the midst of the meadows'?" "Nay," answered the queen; "give us another."
-                "Then," said Dioneo, "shall I sing, 'Mistress Simona, embarrel, embarrel! It is not
+                "Then," said <person xml:id="dioneo" sex="M">Dioneo</person>, "shall I sing, 'Mistress Simona, embarrel, embarrel! It is not
                 the month of October'?" Quoth the queen, laughing, "Ill luck to thee, sing us a
-                goodly one, an thou wilt, for we will none of these." "Nay, madam," rejoined Dioneo,
+                goodly one, an thou wilt, for we will none of these." "Nay, madam," rejoined <person xml:id="dioneo" sex="M">Dioneo</person>,
                 "fash not yourself; but which then like you better? I know more than a thousand.
                 Will you have 'This my shell an I prick it not well,' or 'Fair and softly, husband
                 mine' or 'I'll buy me a cock, a cock of an hundred pounds sterling'?"[292]
                 Therewithal the queen, somewhat provoked, though all the other ladies laughed, said,
-                "Dioneo, leave jesting and sing us a goodly one; else shalt thou prove how I can be
+                "<person xml:id="dioneo" sex="M">Dioneo</person>, leave jesting and sing us a goodly one; else shalt thou prove how I can be
                 angry." Hearing this, he gave over his quips and cranks and forthright fell
                 a-singing after this fashion: </p> O Love, the amorous light That beameth from yon
             fair one's lovely eyes Hath made me thine and hers in servant-guise. The splendour of
@@ -11245,7 +11245,7 @@
             Discover it to her and cause her taste Some scantling of thy heat To-me-ward,—for thou
             seest that in the fire, Loving, I languish and for torment waste By inches at her feet,—
             And eke in season meet Commend me to her favour on such wise As I would plead for thee,
-            should need arise.[293] <p> Dioneo, by his silence, showing that his song was ended, the
+            should need arise.[293] <p> <person xml:id="dioneo" sex="M">Dioneo</person>, by his silence, showing that his song was ended, the
                 queen let sing many others, having natheless much commended his. Then, somedele of
                 the night being spent and the queen feeling the heat of the day to be now overcome
                 of the coolness of the night, she bade each at his pleasure betake himself to rest
@@ -11253,7 +11253,7 @@
         <p>HERE ENDETH THE FIFTH DAY OF THE DECAMERON</p></div>
 
     <div day="Sixth"><p><ch_title>Day the Sixth </ch_title></p>
-        <p> Here Beginneth the Sixth Day of the Decameron Wherein Under the Governance of Elisa Is
+        <p> Here Beginneth the Sixth Day of the Decameron Wherein Under the Governance of <person xml:id="elisa" sex="F">Elisa</person> Is
             Discoursed of Whoso Being Assailed With Some Jibing Speech Hath Vindicated Himself or
             Hath With Some Ready Reply or Advisement Escaped Loss, Peril or Shame </p>
         <p> The moon, being now in the middest heaven, had lost its radiance and every part of our
@@ -11268,8 +11268,8 @@
             herbs and fair flowers, they addressed themselves to eat, ere the heat should grow
             greater. This being joyously accomplished, ere they did otherwhat, they sang divers
             goodly and pleasant canzonets, after which some went to sleep, whilst some sat down to
-            play at chess and other some at tables and Dioneo fell to singing, in concert with
-            Lauretta, of Troilus and Cressida. Then, the hour come for their reassembling after the
+            play at chess and other some at tables and <person xml:id="dioneo" sex="M">Dioneo</person> fell to singing, in concert with
+            <person xml:id="lauretta" sex="F">Lauretta</person>, of Troilus and Cressida. Then, the hour come for their reassembling after the
             wonted fashion,[294] they all, being summoned on the part of the queen, seated
             themselves, as of their usance, about the fountain; but, as she was about to call for
             the first story, there befell a thing that had not yet befallen there, to wit, that a
@@ -11299,7 +11299,7 @@
         <p> What while Licisca spoke, the ladies kept up such a laughing that you might have drawn
             all their teeth; and the queen imposed silence upon her a good half dozen times, but to
             no purpose; she stinted not till she had said her say. When she had at last made an end
-            of her talk, the queen turned to Dioneo and said, laughing, "Dioneo, this is a matter
+            of her talk, the queen turned to <person xml:id="dioneo" sex="M">Dioneo</person> and said, laughing, "<person xml:id="dioneo" sex="M">Dioneo</person>, this is a matter
             for thy jurisdiction; wherefore, when we shall have made an end of our stories, thou
             shalt proceed to give final judgment thereon." Whereto he answered promptly, "Madam, the
             judgment is already given, without hearing more of the matter; and I say that Licisca is
@@ -11310,7 +11310,7 @@
             had not the queen with an angry air imposed silence on her and sent her and Tindaro
             away, bidding her make no more words or clamour, an she would not be flogged, they had
             had nought to do all that day but attend to her. When they were gone, the queen called
-            on Filomena to make a beginning with the day's stories and she blithely began thus: </p>
+            on <person xml:id="filomena" sex="F">Filomena</person> to make a beginning with the day's stories and she blithely began thus: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> A GENTLEMAN ENGAGETH TO MADAM ORETTA TO CARRY HER A-HORSEBACK WITH A STORY, BUT,
@@ -11325,7 +11325,7 @@
                 nowadays few or no women left who know how to say a witty word in due season or who,
                 an it be said to them, know how to apprehend it as it behoveth; the which is a
                 general reproach to our whole sex. However, for that enough hath been said aforetime
-                on the subject by Pampinea,[299] I purpose to say no more thereof; but, to give you
+                on the subject by <person xml:id="pampinea" sex="F">Pampinea</person>,[299] I purpose to say no more thereof; but, to give you
                 to understand how much goodliness there is in witty sayings, when spoken in due
                 season, it pleaseth me to recount to you the courteous fashion in which a lady
                 imposed silence upon a gentleman. </p>
@@ -11360,7 +11360,7 @@
             <p> CISTI THE BAKER WITH A WORD OF HIS FASHION MAKETH MESSER GERI SPINA SENSIBLE OF AN
                 INDISCREET REQUEST OF HIS </p>
             <p> Madam Oretta's saying was greatly commended of all, ladies and men, and the queen
-                bidding Pampinea follow on, she began thus: "Fair ladies, I know not of mine own
+                bidding <person xml:id="pampinea" sex="F">Pampinea</person> follow on, she began thus: "Fair ladies, I know not of mine own
                 motion to resolve me which is the more at fault, whether nature in fitting to a
                 noble soul a mean body or fortune in imposing a mean condition upon a body endowed
                 with a noble soul, as in one our townsman Cisti and in many another we may have seen
@@ -11453,10 +11453,10 @@
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> MADAM NONNA DE' PULCI, WITH A READY RETORT TO A NOT ALTOGETHER SEEMLY PLEASANTRY,
                 IMPOSETH SILENCE ON THE BISHOP OF FLORENCE </p>
-            <p> Pampinea having made an end of her story and both Cisti's reply and his liberality
+            <p> <person xml:id="pampinea" sex="F">Pampinea</person> having made an end of her story and both Cisti's reply and his liberality
                 having been much commended of all, it pleased the queen that the next story should
-                be told by Lauretta, who blithely began as follows, "Jocund ladies, first Pampinea
-                and now Filomena have spoken truly enough touching our little worth and the
+                be told by <person xml:id="lauretta" sex="F">Lauretta</person>, who blithely began as follows, "Jocund ladies, first <person xml:id="pampinea" sex="F">Pampinea</person>
+                and now <person xml:id="filomena" sex="F">Filomena</person> have spoken truly enough touching our little worth and the
                 excellence of pithy sayings, whereto that there may be no need now to return, I
                 would fain remind you, over and above that which hath been said on the subject, that
                 the nature of smart sayings is such that they should bite upon the hearer, not as
@@ -11504,8 +11504,8 @@
             <p> CHICHIBIO, COOK TO CURRADO GIANFIGLIAZZI, WITH A READY WORD SPOKEN TO SAVE HIMSELF,
                 TURNETH HIS MASTER'S ANGER INTO LAUGHTER AND ESCAPETH THE PUNISHMENT THREATENED HIM
                 BY THE LATTER </p>
-            <p> Lauretta being silent and Nonna having been mightily commended of all, the queen
-                charged Neifile to follow on, and she said, "Although, lovesome ladies, a ready wit
+            <p> <person xml:id="lauretta" sex="F">Lauretta</person> being silent and Nonna having been mightily commended of all, the queen
+                charged <person xml:id="neifile" sex="F">Neifile</person> to follow on, and she said, "Although, lovesome ladies, a ready wit
                 doth often furnish folk with words both prompt and useful and goodly, according to
                 the circumstances, yet fortune whiles cometh to the help of the fearful and putteth
                 of a sudden into their mouths such answers as might never of malice aforethought be
@@ -11569,10 +11569,10 @@
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> MESSER FORESE DA RABATTA AND MASTER GIOTTO THE PAINTER COMING FROM MUGELLO, EACH
                 JESTINGLY RALLIETH THE OTHER ON HIS SCURVY FAVOUR </p>
-            <p> Neifile being silent and the ladies having taken much pleasure in Chichibio's reply,
-                Pamfilo, by the queen's desire, spoke thus: "Dearest ladies, it chanceth often that,
+            <p> <person xml:id="neifile" sex="F">Neifile</person> being silent and the ladies having taken much pleasure in Chichibio's reply,
+                <person xml:id="pamfilo" sex="M">Pamfilo</person>, by the queen's desire, spoke thus: "Dearest ladies, it chanceth often that,
                 like as fortune whiles hideth very great treasures of worth and virtue under mean
-                conditions, as hath been a little before shown by Pampinea, even so, under the
+                conditions, as hath been a little before shown by <person xml:id="pampinea" sex="F">Pampinea</person>, even so, under the
                 sorriest of human forms are marvellous wits found to have been lodged by nature; and
                 this very plainly appeared in two townsmen of ours, of whom I purpose briefly to
                 entertain you. For that the one, who was called Messer Forese da Rabatta, though
@@ -11624,8 +11624,8 @@
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> MICHELE SCALZA PROVETH TO CERTAIN YOUNG MEN THAT THE CADGERS OF FLORENCE ARE THE
                 BEST GENTLEMEN OF THE WORLD OR THE MAREMMA AND WINNETH A SUPPER </p>
-            <p> The ladies yet laughed at Giotto's prompt retort, when the queen charged Fiammetta
-                follow on and she proceeded to speak thus: "Young ladies, the mention by Pamfilo of
+            <p> The ladies yet laughed at Giotto's prompt retort, when the queen charged <person xml:id="fiammetta" sex="F">Fiammetta</person>
+                follow on and she proceeded to speak thus: "Young ladies, the mention by <person xml:id="pamfilo" sex="M">Pamfilo</person> of
                 the cadgers of Florence, whom peradventure you know not as doth he, hath brought to
                 my mind a story, wherein, without deviating from our appointed theme, it is
                 demonstrated how great is their nobility; and it pleaseth me, therefore, to relate
@@ -11678,15 +11678,15 @@
                 all a-laughing and affirmed that he was in the right and had won the supper, for
                 that the Cadgers were assuredly the noblest and most ancient gentlemen that were to
                 be found not in Florence alone, but in the world or the Maremma. Wherefore it was
-                very justly said of Pamfilo, seeking to show the foulness of Messer Forese's
+                very justly said of <person xml:id="pamfilo" sex="M">Pamfilo</person>, seeking to show the foulness of Messer Forese's
                 visnomy, that it would have showed notably ugly on one of the Cadgers." </p></story>
         <story numbr="Seven"><p><story_numbr>THE SEVENTH STORY</story_numbr></p>
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> MADAM FILIPPA, BEING FOUND BY HER HUSBAND WITH A LOVER OF HERS AND BROUGHT TO
                 JUSTICE, DELIVERETH HERSELF WITH A PROMPT AND PLEASANT ANSWER AND CAUSETH MODIFY THE
                 STATUTE </p>
-            <p> Fiammetta was now silent and all laughed yet at the novel argument used by Scalza
-                for the ennoblement over all of the Cadgers, when the queen enjoined Filostrato to
+            <p> <person xml:id="fiammetta" sex="F">Fiammetta</person> was now silent and all laughed yet at the novel argument used by Scalza
+                for the ennoblement over all of the Cadgers, when the queen enjoined <person xml:id="filostrato" sex="M">Filostrato</person> to
                 tell and he accordingly began to say, "It is everywise a fine thing, noble ladies,
                 to know how to speak well, but I hold it yet goodlier to know how to do it whereas
                 necessity requireth it, even as a gentlewoman, of whom I purpose to entertain you,
@@ -11760,11 +11760,11 @@
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> FRESCO EXHORTETH HIS NIECE NOT TO MIRROR HERSELF IN THE GLASS, IF, AS SHE SAITH, IT
                 IRKETH HER TO SEE DISAGREEABLE FOLK </p>
-            <p> The story told by Filostrato at first touched the hearts of the listening ladies
+            <p> The story told by <person xml:id="filostrato" sex="M">Filostrato</person> at first touched the hearts of the listening ladies
                 with some little shamefastness and they gave token thereof by a modest redness that
                 appeared upon their faces; but, after looking one at another, they hearkened
                 thereto, tittering the while and scarce able to abstain from laughing. As soon as he
-                was come to the end thereof, the queen turned to Emilia and bade her follow on,
+                was come to the end thereof, the queen turned to <person xml:id="emilia" sex="F">Emilia</person> and bade her follow on,
                 whereupon, sighing no otherwise than as she had been aroused from a dream, she
                 began, "Lovesome lasses, for that long thought hath held me far from here, I shall,
                 to obey our queen content myself with [relating] a story belike much slighter than
@@ -11801,7 +11801,7 @@
             <p><ch_title>Day the Sixth </ch_title></p>
             <p> GUIDO CAVALCANTI WITH A PITHY SPEECH COURTEOUSLY FLOUTETH CERTAIN FLORENTINE
                 GENTLEMEN WHO HAD TAKEN HIM BY SURPRISE </p>
-            <p> The queen, seeing Emilia delivered of her story and that it rested with none other
+            <p> The queen, seeing <person xml:id="emilia" sex="F">Emilia</person> delivered of her story and that it rested with none other
                 than herself to tell, saving him who was privileged to speak last, began thus,
                 "Although, sprightly ladies, you have this day taken out of my mouth at the least
                 two stories, whereof I had purposed to relate one, I have yet one left to tell, the
@@ -11866,7 +11866,7 @@
             <p> FRA CIPOLLA PROMISETH CERTAIN COUNTRY FOLK TO SHOW THEM ONE OF THE ANGEL GABRIEL'S
                 FEATHERS AND FINDING COALS IN PLACE THEREOF, AVOUCHETH THESE LATTER TO BE OF THOSE
                 WHICH ROASTED ST. LAWRENCE </p>
-            <p> Each of the company being now quit of his[309] story, Dioneo perceived that it
+            <p> Each of the company being now quit of his[309] story, <person xml:id="dioneo" sex="M">Dioneo</person> perceived that it
                 rested with him to tell; whereupon, without awaiting more formal commandment, he
                 began on this wise, silence having first been imposed on those who commended Guido's
                 pregnant retort: "Charming ladies, albeit I am privileged to speak of that which
@@ -12093,10 +12093,10 @@
                 it was much laughed of all at Fra Cipolla, and particularly of his pilgrimage and
                 the relics seen and brought back by him. The queen, seeing the story and likewise
                 her sovantry at an end, rose to her feet and put off the crown, which she set
-                laughingly on Dioneo's head, saying, "It is time, Dioneo, that thou prove awhile
+                laughingly on <person xml:id="dioneo" sex="M">Dioneo's</person> head, saying, "It is time, <person xml:id="dioneo" sex="M">Dioneo</person>, that thou prove awhile
                 what manner charge it is to have ladies to govern and guide; be thou, then, king and
                 rule on such wise that, in the end, we may have reason to give ourselves joy of thy
-                governance." Dioneo took the crown and answered, laughing, "You may often enough
+                governance." <person xml:id="dioneo" sex="M">Dioneo</person> took the crown and answered, laughing, "You may often enough
                 have seen much better kings than I, I mean chess-kings; but, an you obey me as a
                 king should in truth be obeyed, I will cause you enjoy that without which assuredly
                 no entertainment is ever complete in its gladness. But let that talk be; I will rule
@@ -12141,7 +12141,7 @@
                 When the ladies heard this, they said it should be as he pleased; whereupon he gave
                 them all leave to do their several pleasures until supper-time. </p>
             <p> The sun was yet high, for that the discoursement[337] had been brief; wherefor
-                Dioneo having addressed himself to play at tables with the other young men, Elisa
+                <person xml:id="dioneo" sex="M">Dioneo</person> having addressed himself to play at tables with the other young men, <person xml:id="elisa" sex="F">Elisa</person>
                 called the other ladies apart and said to them, "Since we have been here, I have
                 still wished to carry you to a place very near at hand, whither methinketh none of
                 you hath ever been and which is called the Ladies' Valley, but have never yet found
@@ -12202,8 +12202,8 @@
                 more than they had already done and themseeming time to turn homeward, they set out,
                 with soft step, upon their way, discoursing much of the goodliness of the valley. </p>
             <p> They reached the palace betimes and there found the young men yet at play where they
-                had left them; to whom quoth Pampinea, laughing. "We have e'en stolen a march on you
-                to-day." "How?" asked Dioneo. "Do you begin to do deeds ere you come to say
+                had left them; to whom quoth <person xml:id="pampinea" sex="F">Pampinea</person>, laughing. "We have e'en stolen a march on you
+                to-day." "How?" asked <person xml:id="dioneo" sex="M">Dioneo</person>. "Do you begin to do deeds ere you come to say
                 words?"[339] "Ay, my lord," answered she and related to him at large whence they
                 came and how the place was fashioned and how far distant thence and that which they
                 had done. The king, hearing tell of the goodliness of the place and desirous of
@@ -12213,17 +12213,17 @@
                 of them had ever been there before, extolled it for one of the goodliest things in
                 the world. Then, for that it grew late, after they had bathed and donned their
                 clothes, they returned home, where they found the ladies dancing a round, to the
-                accompaniment of a song sung by Fiammetta. </p>
+                accompaniment of a song sung by <person xml:id="fiammetta" sex="F">Fiammetta</person>. </p>
             <p> The dance ended, they entered with them into a discourse of the Ladies' Valley and
                 said much in praise and commendation thereof. Moreover, the king, sending for the
                 seneschal, bade him look that the dinner be made ready there on the following
                 morning and have sundry beds carried thither, in case any should have a mind to lie
                 or sleep there for nooning; after which he let bring lights and wine and confections
                 and the company having somedele refreshed themselves, he commanded that all should
-                address themselves to dancing. Then, Pamfilo having, at his commandment, set up a
-                dance, the king turned to Elisa and said courteously to her, "Fair damsel, thou has
+                address themselves to dancing. Then, <person xml:id="pamfilo" sex="M">Pamfilo</person> having, at his commandment, set up a
+                dance, the king turned to <person xml:id="elisa" sex="F">Elisa</person> and said courteously to her, "Fair damsel, thou has
                 to-day done me the honour of the crown and I purpose this evening to do thee that of
-                the song; wherefore look thou sing such an one as most liketh thee." Elisa answered,
+                the song; wherefore look thou sing such an one as most liketh thee." <person xml:id="elisa" sex="F">Elisa</person> answered,
                 smiling, that she would well and with dulcet voice began on this wise: </p> Love,
             from thy clutches could I but win free, Hardly, methinks, again Shall any other hook
             take hold on me. I entered in thy wars a youngling maid, Thinking thy strife was utmost
@@ -12239,7 +12239,7 @@
             thou wilt not, at the least undo The bonds erewhen of hope that knitted were; Alack, O
             Lord, thereof to thee I sue, For, an thou do it, yet to waxen fair Again I trust, as was
             my use whilere, And being quit of pain Myself with white flowers and with red besee. <p>
-                Elisa ended her song with a very plaintive sigh, and albeit all marvelled at the
+                <person xml:id="elisa" sex="F">Elisa</person> ended her song with a very plaintive sigh, and albeit all marvelled at the
                 words thereof, yet was there none who might conceive what it was that caused her
                 sing thus. But the king, who was in a merry mood, calling for Tindaro, bade him
                 bring out his bagpipes, to the sound whereof he let dance many dances; after which,
@@ -12247,7 +12247,7 @@
         <p>HERE ENDETH THE SIXTH DAY OF THE DECAMERON</p></div>
 
     <div day="Seventh"><p><ch_title>Day the Seventh </ch_title></p>
-        <p> Here Beginneth the Seventh Day of the Decameron Wherein Under the Governance of Dioneo
+        <p> Here Beginneth the Seventh Day of the Decameron Wherein Under the Governance of <person xml:id="dioneo" sex="M">Dioneo</person>
             Is Discoursed of the Tricks Which or for Love or for Their Own Preservation Women Have
             Heretofore Played Their Husbands With or Without the Latter's Cognizance Thereof </p>
         <p> Every star was already fled from the parts of the East, save only that which we style
@@ -12278,7 +12278,7 @@
             arisen and the hour come when they should assemble together for story-telling, carpets
             were, at the king's commandment, spread upon the grass, not far from the place where
             they had eaten, and all having seated themselves thereon hard by the lake, the king bade
-            Emilia begin; whereupon she blithely proceeded to speak, smiling, thus: </p>
+            <person xml:id="emilia" sex="F">Emilia</person> begin; whereupon she blithely proceeded to speak, smiling, thus: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Seventh </ch_title></p>
             <p> GIANNI LOTTERINGHI HEARETH KNOCK AT HIS DOOR BY NIGHT AND AWAKENETH HIS WIFE, WHO
@@ -12408,8 +12408,8 @@
                 SOLD IT TO ONE WHO IS PRESENTLY THEREWITHIN, TO SEE IF IT BE SOUND; WHEREUPON THE
                 GALLANT, JUMPING OUT OF THE VAT, CAUSETH THE HUSBAND SCRAPE IT OUT FOR HIM AND AFTER
                 CARRY IT HOME TO HIS HOUSE </p>
-            <p> Emilia's story was received with loud laughter and the conjuration commended of all
-                as goodly and excellent; and this come to an end, the king bade Filostrato follow
+            <p> <person xml:id="emilia" sex="F">Emilia's</person> story was received with loud laughter and the conjuration commended of all
+                as goodly and excellent; and this come to an end, the king bade <person xml:id="filostrato" sex="M">Filostrato</person> follow
                 on, who accordingly began, "Dearest ladies, so many are the tricks that men, and
                 particularly husbands, play you, that, if some woman chance whiles to put a cheat
                 upon her husband, you should not only be blithe that this hath happened and take
@@ -12525,10 +12525,10 @@
             <p> FRA RINALDO LIETH WITH HIS GOSSIP AND BEING FOUND OF HER HUSBAND CLOSETED WITH HER
                 IN HER CHAMBER, THEY GIVE HIM TO BELIEVE THAT HE WAS IN ACT TO CONJURE WORMS FROM
                 HIS GODSON </p>
-            <p> Filostrato had not known to speak so obscurely of the mares of Parthia but that the
+            <p> <person xml:id="filostrato" sex="M">Filostrato</person> had not known to speak so obscurely of the mares of Parthia but that the
                 roguish ladies laughed thereat, making believe to laugh at otherwhat. But, when the
-                king saw that his story was ended, he bade Elisa tell, who accordingly, with
-                obedient readiness, began, "Charming ladies, Emilia's conjuration of the phantom
+                king saw that his story was ended, he bade <person xml:id="elisa" sex="F">Elisa</person> tell, who accordingly, with
+                obedient readiness, began, "Charming ladies, <person xml:id="emilia" sex="F">Emilia's</person> conjuration of the phantom
                 hath brought to my memory the story of another conjuration, which latter, though it
                 be not so goodly as hers, nevertheless, for that none other bearing upon our subject
                 occurreth to me at this present, I will proceed to relate. </p>
@@ -12670,8 +12670,8 @@
                 DINT OF ENTREATIES, FEIGNETH TO CAST HERSELF INTO A WELL AND CASTETH THEREIN A GREAT
                 STONE. TOFANO COMETH FORTH OF THE HOUSE AND RUNNETH THITHER, WHEREUPON SHE SLIPPETH
                 IN AND LOCKING HIM OUT, BAWLETH REPROACHES AT HIM FROM THE WINDOW </p>
-            <p> The king no sooner perceived Elisa's story to be ended than, turning without delay
-                to Lauretta, he signified to her his pleasure that she should tell; whereupon she,
+            <p> The king no sooner perceived <person xml:id="elisa" sex="F">Elisa's</person> story to be ended than, turning without delay
+                to <person xml:id="lauretta" sex="F">Lauretta</person>, he signified to her his pleasure that she should tell; whereupon she,
                 without hesitation, began thus, "O Love, how great and how various is thy might! How
                 many thy resources and thy devices! What philosopher, what craftsman[348] could ever
                 have availed or might avail to teach those shifts, those feints, those subterfuges
@@ -12787,9 +12787,9 @@
                 LOVETH A <roleName type="clerical" subtype="priest">PRIEST</roleName>, WHO COMETH TO
                 HER EVERY NIGHT; AND WHILST THE HUSBAND SECRETLY KEEPETH WATCH AT THE DOOR FOR THE
                 LATTER, THE LADY BRINGETH IN A LOVER OF HERS BY THE ROOF AND LIETH WITH HIM </p>
-            <p> Lauretta having made an end of her story and all having commended the lady for that
+            <p> <person xml:id="lauretta" sex="F">Lauretta</person> having made an end of her story and all having commended the lady for that
                 she had done aright and even as befitted her wretch of a husband, the king, to lose
-                no time, turned to Fiammetta and courteously imposed on her the burden of the
+                no time, turned to <person xml:id="fiammetta" sex="F">Fiammetta</person> and courteously imposed on her the burden of the
                 story-telling; whereupon she began thus, "Most noble ladies, the foregoing story
                 moveth me to tell you, on like wise, of a jealous husband, accounting, as I do, all
                 that their wives do unto such,—particularly whenas they are jealous without
@@ -13022,9 +13022,9 @@
                 LAMBERTUCCIO, OF WHOM SHE IS BELOVED; HER HUSBAND RETURNING, [UNEXPECTED,] SHE
                 SENDETH LAMBERTUCCIO FORTH OF THE HOUSE, WHINGER IN HAND, AND THE HUSBAND AFTER
                 ESCORTETH LEONETTO HOME </p>
-            <p> The company were wonder-well pleased with Fiammetta's story, all affirming that the
+            <p> The company were wonder-well pleased with <person xml:id="fiammetta" sex="F">Fiammetta's</person> story, all affirming that the
                 lady had done excellently well and as it behoved unto such a brute of a man, and
-                after it was ended, the king bade Pampinea follow on, who proceeded to say, "There
+                after it was ended, the king bade <person xml:id="pampinea" sex="F">Pampinea</person> follow on, who proceeded to say, "There
                 are many who, speaking ignorantly, avouch that love bereaveth folk of their senses
                 and causeth whoso loveth to become witless. Meseemeth this is a foolish opinion, as
                 hath indeed been well enough shown by the things already related, and I purpose yet
@@ -13125,8 +13125,8 @@
             <p> LODOVICO DISCOVERETH TO MADAM BEATRICE THE LOVE HE BEARETH HER, WHEREUPON SHE
                 SENDETH EGANO HER HUSBAND INTO THE GARDEN, IN HER OWN FAVOUR, AND LIETH MEANWHILE
                 WITH LODOVICO, WHO, PRESENTLY ARISING, GOETH AND CUDGELLETH EGANO IN THE GARDEN </p>
-            <p> Madam Isabella's presence of mind, as related by Pampinea, was held admirable by all
-                the company; but, whilst they yet marvelled thereat, Filomena, whom the king had
+            <p> Madam Isabella's presence of mind, as related by <person xml:id="pampinea" sex="F">Pampinea</person>, was held admirable by all
+                the company; but, whilst they yet marvelled thereat, <person xml:id="filomena" sex="F">Filomena</person>, whom the king had
                 appointed to follow on, said, "Lovesome ladies, and I mistake not, methinketh I can
                 tell you no less goodly a story on the same subject, and that forthright. </p>
             <p> You must know, then, that there was once in Paris a Florentine gentleman, who was
@@ -13289,7 +13289,7 @@
             <p> It seemed to them all that Madam Beatrice had been extraordinarily ingenious in
                 cozening her husband and all agreed that Anichino's fright must have been very
                 great, whenas, being the while held fast by the lady, he heard her say that he had
-                required her of love. But the king, seeing Filomena silent, turned to Neifile and
+                required her of love. But the king, seeing <person xml:id="filomena" sex="F">Filomena</person> silent, turned to <person xml:id="neifile" sex="F">Neifile</person> and
                 said to her, "Do you tell"; whereupon she, smiling first a little, began, "Fair
                 ladies, I have a hard task before me if I desire to pleasure you with a goodly
                 story, as those of you have done, who have already told; but, with God's aid, I
@@ -13495,10 +13495,10 @@
                 HER THREE THINGS, ALL WHICH SHE DOTH. MOREOVER, SHE SOLACETH HERSELF WITH HIM IN THE
                 PRESENCE OF NICOSTRATUS AND MAKETH THE LATTER BELIEVE THAT THAT WHICH HE HATH SEEN
                 IS NOT REAL </p>
-            <p> Neifile's story so pleased the ladies that they could neither give over to laugh at
-                nor to talk of it, albeit the king, having bidden Pamfilo tell his story, had
+            <p> <person xml:id="neifile" sex="F">Neifile's</person> story so pleased the ladies that they could neither give over to laugh at
+                nor to talk of it, albeit the king, having bidden <person xml:id="pamfilo" sex="M">Pamfilo</person> tell his story, had
                 several times imposed silence upon them. However, after they had held their peace,
-                Pamfilo began thus: "I do not believe, worshipful ladies, that there is anything,
+                <person xml:id="pamfilo" sex="M">Pamfilo</person> began thus: "I do not believe, worshipful ladies, that there is anything,
                 how hard and doubtful soever it be, that whoso loveth passionately will not dare to
                 do; the which, albeit it hath already been demonstrated in many stories, methinketh,
                 nevertheless, I shall be able yet more plainly to show forth to you in one which I
@@ -13797,7 +13797,7 @@
                 transgress against the law made by myself, I declare myself in advance ready, as one
                 deserving of punishment, to submit to any forfeit which may be imposed on me, and so
                 have recourse to my wonted privilege. Accordingly, dearest ladies, I say that
-                Elisa's story of Fra Rinaldo and his gossip and eke the simplicity of the Siennese
+                <person xml:id="elisa" sex="F">Elisa's</person> story of Fra Rinaldo and his gossip and eke the simplicity of the Siennese
                 have such efficacy that they induce me, letting be the cheats put upon foolish
                 husbands by their wily wives, to tell you a slight story of them,[357] which though
                 it have in it no little of that which must not be believed, will natheless in part,
@@ -13879,14 +13879,14 @@
                 pleasure." </p>
             <p> Zephyr was now arisen, for the sun that drew near unto the setting, when the king,
                 having made an end of his story and there being none other left to tell, put off the
-                crown from his own head and set it on that of Lauretta, saying, "Madam, with
+                crown from his own head and set it on that of <person xml:id="lauretta" sex="F">Lauretta</person>, saying, "Madam, with
                 yourself[360] I crown you queen of our company; do you then, from this time forth,
                 as sovereign lady, command that which you may deem shall be for the pleasure and
-                solacement of all." This said, he reseated himself, whereupon Lauretta, become
+                solacement of all." This said, he reseated himself, whereupon <person xml:id="lauretta" sex="F">Lauretta</person>, become
                 queen, let call the seneschal and bade him look that the tables be set in the
                 pleasant valley somewhat earlier than of wont, so they might return to the palace at
                 their leisure; after which she instructed him what he should do what while her
-                sovranty lasted. Then, turning to the company, she said, "Dioneo willed yesterday
+                sovranty lasted. Then, turning to the company, she said, "<person xml:id="dioneo" sex="M">Dioneo</person> willed yesterday
                 that we should discourse to-day of the tricks that women play their husbands and but
                 that I am loath to show myself of the tribe of snappish curs, which are fain
                 incontinent to avenge themselves of any affront done them, I would say that
@@ -13897,7 +13897,7 @@
                 So saying, she rose to her feet and dismissed the company till supper-time. </p>
             <p> Accordingly, they all, ladies and men alike, arose and some began to go barefoot
                 through the clear water, whilst others went a-pleasuring upon the greensward among
-                the straight and goodly trees. Dioneo and Fiammetta sang together a great while of
+                the straight and goodly trees. <person xml:id="dioneo" sex="M">Dioneo</person> and <person xml:id="fiammetta" sex="F">Fiammetta</person> sang together a great while of
                 Arcite and Palemon, and on this wise, taking various and divers delights, they
                 passed the time with the utmost satisfaction until the hour of supper; which being
                 come, they seated themselves at table beside the lakelet and there, to the song of a
@@ -13911,7 +13911,7 @@
                 having with the coolest of wines and confections done away the fatigues of the
                 little journey, they presently fell to dancing about the fair fountain,
                 carolling[363] now to the sound of Tindaro's bagpipe and anon to that of other
-                instruments. But, after awhile, the queen bade Filomena sing a song, whereupon she
+                instruments. But, after awhile, the queen bade <person xml:id="filomena" sex="F">Filomena</person> sing a song, whereupon she
                 began thus: </p> Alack, my life forlorn! Will't ever chance I may once more regain
             Th' estate whence sorry fortune hath me torn? Certes, I know not, such a wish of fire I
             carry in my thought To find me where, alas! I was whilere. O dear my treasure, thou my
@@ -13930,15 +13930,15 @@
             bond, Of thy sweet mouth my lust I'll satisfy. Now of nought else will I Discourse.
             Quick, to thy bosom come me strain; The sheer thought bids me sing like lark at morn.
                 <p> This song caused all the company conclude that a new and pleasing love held
-                Filomena in bonds, and as by the words it appeared that she had tasted more thereof
+                <person xml:id="filomena" sex="F">Filomena</person> in bonds, and as by the words it appeared that she had tasted more thereof
                 than sight alone, she was envied of this by certain who were there and who held her
                 therefor so much the happier. But, after her song was ended, the queen, remembering
                 her that the ensuing day was Friday, thus graciously bespoke all, "You know, noble
                 ladies and you also, young men, that to-morrow is the day consecrated to the passion
-                of our Lord, the which, an you remember aright, what time Neifile was queen, we
+                of our Lord, the which, an you remember aright, what time <person xml:id="neifile" sex="F">Neifile</person> was queen, we
                 celebrated devoutly and therein gave pause to our delightsome discoursements, and on
                 like wise we did with the following Saturday. Wherefore, being minded to follow the
-                good example given us by Neifile, I hold it seemly that to-morrow and the next day
+                good example given us by <person xml:id="neifile" sex="F">Neifile</person>, I hold it seemly that to-morrow and the next day
                 we abstain, even as we did a week agone, from our pleasant story-telling, recalling
                 to memory that which on those days befell whilere for the salvation of our souls."
                 The queen's pious speech was pleasing unto all and a good part of the night being
@@ -13946,7 +13946,7 @@
         <p>HERE ENDETH THE SEVENTH DAY OF THE DECAMERON</p></div>
 
     <div day="Eighth"><p><ch_title>Day the Eighth </ch_title></p>
-        <p> Here Beginneth the Eighth Day of the Decameron Wherein Under the Governance of Lauretta
+        <p> Here Beginneth the Eighth Day of the Decameron Wherein Under the Governance of <person xml:id="lauretta" sex="F">Lauretta</person>
             Is Discoursed of the Tricks That All Day Long Women Play Men or Men Women or Men One
             Another </p>
         <p> Already on the Sunday morning the rays of the rising light appeared on the summits of
@@ -13957,7 +13957,7 @@
             returning home, they ate with mirth and joyance and after sang and danced awhile till
             the queen dismissed them, so whoso would might go rest himself. But, whenas the sun had
             passed the meridian, they all seated themselves, according as it pleased the queen, near
-            the fair fountain, for the wonted story-telling, and Neifile, by her commandment, began
+            the fair fountain, for the wonted story-telling, and <person xml:id="neifile" sex="F">Neifile</person>, by her commandment, began
             thus: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Eighth </ch_title></p>
@@ -13979,7 +13979,7 @@
                 is not always possible as fully as should be, I affirm that she who consenteth to
                 her own dishonour for a price is worthy of the fire, whereas she who yieldeth for
                 Love's sake, knowing his exceeding great puissance, meriteth forgiveness from a
-                judge not too severe, even as, a few days agone, Filostrato showed it to have been
+                judge not too severe, even as, a few days agone, <person xml:id="filostrato" sex="M">Filostrato</person> showed it to have been
                 observed towards Madam Filippa at Prato. </p>
             <p> There was, then, aforetime at Milan a German, by name Gulfardo, in the pay of the
                 state, a stout fellow of his person and very loyal to those in whose service he
@@ -14044,7 +14044,7 @@
                 BORROWING A MORTAR OF HER, HE SENDETH IT BACK TO HER, DEMANDING IN RETURN THE CLOAK
                 LEFT BY WAY OF TOKEN, WHICH THE GOOD WOMAN GRUDGINGLY GIVETH HIM BACK </p>
             <p> Men and ladies alike commended that which Gulfardo had done to the sordid Milanese
-                lady, and the queen, turning to Pamfilo, smilingly charged him follow on; whereupon
+                lady, and the queen, turning to <person xml:id="pamfilo" sex="M">Pamfilo</person>, smilingly charged him follow on; whereupon
                 quoth he, "Fair ladies, it occurreth to me to tell you a little story against those
                 who continually offend against us, without being open to retaliation on our part, to
                 wit, the clergy, who have proclaimed a crusade against our wives and who, whenas
@@ -14204,10 +14204,10 @@
                 HELIOTROPE AND CALANDRINO THINKETH TO HAVE FOUND IT. ACCORDINGLY HE RETURNETH HOME,
                 LADEN WITH STONES, AND HIS WIFE CHIDETH HIM; WHEREUPON, FLYING OUT INTO A RAGE, HE
                 BEATETH HER AND RECOUNTETH TO HIS COMPANIONS THAT WHICH THEY KNOW BETTER THAN HE </p>
-            <p> Pamfilo having made an end of his story, at which the ladies had laughed so much
-                that they laugh yet, the queen bade Elisa follow on, who, still laughing, began, "I
+            <p> <person xml:id="pamfilo" sex="M">Pamfilo</person> having made an end of his story, at which the ladies had laughed so much
+                that they laugh yet, the queen bade <person xml:id="elisa" sex="F">Elisa</person> follow on, who, still laughing, began, "I
                 know not, charming ladies, if with a little story of mine, no less true than
-                pleasant, I shall succeed in making you laugh as much as Pamfilo hath done with his;
+                pleasant, I shall succeed in making you laugh as much as <person xml:id="pamfilo" sex="M">Pamfilo</person> hath done with his;
                 but I will do my endeavor thereof. </p>
             <p> In our city, then, which hath ever abounded in various fashions and strange folk,
                 there was once, no great while since, a painter called Calandrino, a simple-witted
@@ -14427,8 +14427,8 @@
             <p> THE RECTOR OF FIESOLE LOVETH A WIDOW LADY, BUT IS NOT LOVED BY HER AND THINKING TO
                 LIE WITH HER, LIETH WITH A SERVING-WENCH OF HERS, WHILST THE LADY'S BROTHERS CAUSE
                 THE BISHOP FIND HIM IN THIS CASE </p>
-            <p> Elisa being come to the end of her story, which she had related to the no small
-                pleasure of all the company, the queen turned to Emilia, and signified to her her
+            <p> <person xml:id="elisa" sex="F">Elisa</person> being come to the end of her story, which she had related to the no small
+                pleasure of all the company, the queen turned to <person xml:id="emilia" sex="F">Emilia</person>, and signified to her her
                 wish that she should follow after with her story, whereupon she promptly began thus:
                 "I have not forgotten, noble ladies, that it hath already been shown, in sundry of
                 the foregoing stories, how much we women are exposed to the importunities of the
@@ -14571,10 +14571,10 @@
             <p><ch_title>Day the Eighth </ch_title></p>
             <p> THREE YOUNG MEN PULL THE BREECHES OFF A MARCHEGAN JUDGE IN FLORENCE, WHAT WHILE HE
                 IS ON THE BENCH, ADMINISTERING JUSTICE </p>
-            <p> Emilia having made an end of her story and the widow lady having been commended of
-                all, the queen looked to Filostrato and said, "It is now thy turn to tell." He
+            <p> <person xml:id="emilia" sex="F">Emilia</person> having made an end of her story and the widow lady having been commended of
+                all, the queen looked to <person xml:id="filostrato" sex="M">Filostrato</person> and said, "It is now thy turn to tell." He
                 answered promptly that he was ready and began, "Delightsome ladies, the mention by
-                Elisa a little before of a certain young man, to wit, Maso del Saggio, hath caused
+                <person xml:id="elisa" sex="F">Elisa</person> a little before of a certain young man, to wit, Maso del Saggio, hath caused
                 me leave a story I purposed to tell you, so I may relate to you one of him and
                 certain companions of his, which, if (albeit it is nowise unseemly) it offer certain
                 expressions which you think shame to use, is natheless so laughable that I will e'en
@@ -14660,9 +14660,9 @@
                 WITH GINGER BOLUSES AND SACK AND GIVE HIM (INSTEAD OF THE GINGER) TWO DOG-BALLS
                 COMPOUNDED WITH ALOES, WHEREBY IT APPEARETH THAT HE HIMSELF HATH HAD THE PIG AND
                 THEY MAKE HIM PAY BLACKMAIL, AN HE WOULD NOT HAVE THEM TELL HIS WIFE </p>
-            <p> No sooner had Filostrato despatched his story, which had given rise to many a laugh,
-                than the queen bade Filomena follow on, whereupon she began: "Gracious ladies, even
-                as Filostrato was led by the mention of Maso to tell the story which you have just
+            <p> No sooner had <person xml:id="filostrato" sex="M">Filostrato</person> despatched his story, which had given rise to many a laugh,
+                than the queen bade <person xml:id="filomena" sex="F">Filomena</person> follow on, whereupon she began: "Gracious ladies, even
+                as <person xml:id="filostrato" sex="M">Filostrato</person> was led by the mention of Maso to tell the story which you have just
                 heard from him, so neither more nor less am I moved by that of Calandrino and his
                 friends to tell you another of them, which methinketh will please you. </p>
             <p> Who Calandrino, Bruno and Buffalmacco were I need not explain to you, for that you
@@ -14828,7 +14828,7 @@
             <p> The ladies laughed amain at the unhappy Calandrino and would have laughed yet more,
                 but that it irked them to see him fleeced of the capons, to boot, by those who had
                 already robbed him of the pig. But, as soon as the end of the story was come, the
-                queen charged Pampinea tell hers, and she promptly began thus: "It chanceth oft,
+                queen charged <person xml:id="pampinea" sex="F">Pampinea</person> tell hers, and she promptly began thus: "It chanceth oft,
                 dearest ladies, that craft is put to scorn by craft and it is therefore a sign of
                 little wit to delight in making mock of others. We have, for several stories,
                 laughed amain at tricks that have been played upon folk and whereof no vengeance is
@@ -15466,8 +15466,8 @@
             <p> Elena's troubles had been irksome and grievous to the ladies to hear; natheless, for
                 that they deemed them in part justly befallen her, they passed them over with more
                 moderate compassion, albeit they held the scholar to have been terribly stern and
-                obdurate, nay, cruel. But, Pampinea being now come to the end of her story, the
-                queen charged Fiammetta follow on, who, nothing loath to obey, said, "Charming
+                obdurate, nay, cruel. But, <person xml:id="pampinea" sex="F">Pampinea</person> being now come to the end of her story, the
+                queen charged <person xml:id="fiammetta" sex="F">Fiammetta</person> follow on, who, nothing loath to obey, said, "Charming
                 ladies, for that meseemeth the severity of the offended scholar hath somedele
                 distressed you, I deem it well to solace your ruffled spirits with somewhat more
                 diverting; wherefore I purpose to tell you a little story of a young man who
@@ -15577,10 +15577,10 @@
                 TO A CERTAIN PLACE BY NIGHT, THERE TO BE MADE A MEMBER OF A COMPANY THAT GOETH
                 A-ROVING, IS CAST BY BUFFALMACCO INTO A TRENCH FULL OF ORDURE AND THERE LEFT </p>
             <p> After the ladies had chatted awhile over the community of wives practised by the two
-                Siennese, the queen, with whom alone it rested to tell, so she would not do Dioneo
+                Siennese, the queen, with whom alone it rested to tell, so she would not do <person xml:id="dioneo" sex="M">Dioneo</person>
                 an unright, began on this wise: "Right well, lovesome ladies, did Spinelloccio
                 deserve the cheat put upon him by Zeppa; wherefore meseemeth he is not severely to
-                be blamed (as Pampinea sought awhile ago to show), who putteth a cheat on those who
+                be blamed (as <person xml:id="pampinea" sex="F">Pampinea</person> sought awhile ago to show), who putteth a cheat on those who
                 go seeking it or deserve it. Now Spinelloccio deserved it, and I mean to tell you of
                 one who went seeking it for himself. Those who tricked him, I hold not to be
                 blameworthy, but rather commendable, and he to whom it was done was a physician,
@@ -16020,7 +16020,7 @@
                 WATER AND TOW IN PAYMENT </p>
             <p> How much the queen's story in divers places made the ladies laugh, it needed not to
                 ask; suffice it to say that there was none of them to whose eyes the tears had not
-                come a dozen times for excess of laughter: but, after it had an end, Dioneo, knowing
+                come a dozen times for excess of laughter: but, after it had an end, <person xml:id="dioneo" sex="M">Dioneo</person>, knowing
                 that it was come to his turn to tell, said, "Gracious ladies, it is a manifest thing
                 that sleights and devices are the more pleasing, the subtler the trickster who is
                 thereby artfully outwitted. Wherefore, albeit you have related very fine stories, I
@@ -16329,14 +16329,14 @@
                 with a Tuscan hath to do, Must nor be blind nor see askew.' On this wise, having
                 gotten nothing for her pains but loss and scorn, she found, to her cost, that some
                 folk know as much as others." </p>
-            <p> No sooner had Dioneo made an end of his story than Lauretta, knowing the term to be
+            <p> No sooner had <person xml:id="dioneo" sex="M">Dioneo</person> made an end of his story than <person xml:id="lauretta" sex="F">Lauretta</person>, knowing the term to be
                 come beyond which she was not to reign and having commended Canigiano's counsel
                 (which was approved good by its effect) and Salabaetto's shrewdness (which was no
                 less commendable) in carrying it into execution, lifted the laurel from her own head
-                and set it on that of Emilia, saying, with womanly grace, "Madam, I know not how
+                and set it on that of <person xml:id="emilia" sex="F">Emilia</person>, saying, with womanly grace, "Madam, I know not how
                 pleasant a queen we shall have of you; but, at the least, we shall have a fair one.
                 Look, then, that your actions be conformable to your beauties." So saying, she
-                returned to her seat, whilst Emilia, a thought abashed, not so much at being made
+                returned to her seat, whilst <person xml:id="emilia" sex="F">Emilia</person>, a thought abashed, not so much at being made
                 queen as to see herself publicly commended of that which women use most to covet,
                 waxed such in face as are the new-blown roses in the dawning. However, after she had
                 kept her eyes awhile lowered, till the redness had given place, she took order with
@@ -16363,7 +16363,7 @@
                 gaming and singing. On this wise they passed the time until the supper-hour, which
                 being come, they supped with mirth and good cheer about the fair fountain and after
                 diverted themselves with singing and dancing according to the wonted usance. At
-                last, the queen, to ensue the fashion of her predecessors, commanded Pamfilo to sing
+                last, the queen, to ensue the fashion of her predecessors, commanded <person xml:id="pamfilo" sex="M">Pamfilo</person> to sing
                 a song, notwithstanding those which sundry of the company had already sung of their
                 freewill; and he readily began thus: </p> Such is thy pleasure, Love And such the
             allegresse I feel thereby That happy, burning in thy fire, am I. The abounding gladness
@@ -16377,7 +16377,7 @@
             anywise attain Whereas I've held them aye, Or that my face should reach so fair a shrine
             As that, of favour fain And grace, I've won to? Nay, Such fortune ne'er a day Believed
             me were; whence all afire am I, Hiding the source of my liesse thereby. <p> This was the
-                end of Pamfilo's song, whereto albeit it had been completely responded of all, there
+                end of <person xml:id="pamfilo" sex="M">Pamfilo's</person> song, whereto albeit it had been completely responded of all, there
                 was none but noted the words thereof with more attent solicitude than pertained unto
                 him, studying to divine that which, as he sang, it behoved him to keep hidden from
                 them; and although sundry went imagining various things, nevertheless none happened
@@ -16387,11 +16387,11 @@
         <p>HERE ENDETH THE EIGHTH DAY OF THE DECAMERON</p></div>
 
     <div day="Ninth"><p><ch_title>Day the Ninth </ch_title></p>
-        <p> Here Beginneth the Ninth Day of the Decameron Wherein Under the Governance of Emilia
+        <p> Here Beginneth the Ninth Day of the Decameron Wherein Under the Governance of <person xml:id="emilia" sex="F">Emilia</person>
             Each Discourseth According As It Pleaseth Him and of That Which Is Most to His Liking </p>
         <p> The light, from whose resplendence the night fleeth, had already changed all the eighth
             heaven[423] from azure to watchet-colour[424] and the flowerets began to lift their
-            heads along the meads, when Emilia, uprising, let call the ladies her comrades and on
+            heads along the meads, when <person xml:id="emilia" sex="F">Emilia</person>, uprising, let call the ladies her comrades and on
             like wise the young men, who, being come, fared forth, ensuing the slow steps of the
             queen, and betook themselves to a coppice but little distant from the palace. Therein
             entering, they saw the animals, wild goats and deer and others, as if assured of
@@ -16411,7 +16411,7 @@
             Rising thence, they gave themselves awhile to dancing and music-making, and after, by
             the queen's commandment, whoso would betook himself to rest. But presently, the wonted
             hour being come, all in the accustomed place assembled to discourse, whereupon the
-            queen, looking at Filomena, bade her give commencement to the stories of that day, and
+            queen, looking at <person xml:id="filomena" sex="F">Filomena</person>, bade her give commencement to the stories of that day, and
             she, smiling, began on this wise: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Ninth </ch_title></p>
@@ -16579,10 +16579,10 @@
                     subtype="priest">PRIEST</roleName> WHO IS ABED WITH HER; THE WHICH THE ACCUSED
                 NUN OBSERVING AND MAKING HER AWARE THEREOF, SHE IS ACQUITTED AND HATH LEISURE TO BE
                 WITH HER LOVER </p>
-            <p> Filomena was now silent and the lady's address in ridding herself of those whom she
+            <p> <person xml:id="filomena" sex="F">Filomena</person> was now silent and the lady's address in ridding herself of those whom she
                 chose not to love having been commended of all, whilst, on the other hand, the
                 presumptuous hardihood of the two gallants was held of them to be not love, but
-                madness, the queen said gaily to Elisa, "Elisa, follow on." Accordingly, she
+                madness, the queen said gaily to <person xml:id="elisa" sex="F">Elisa</person>, "<person xml:id="elisa" sex="F">Elisa</person>, follow on." Accordingly, she
                 promptly began, "Adroitly, indeed, dearest ladies, did Madam Francesca contrive to
                 rid herself of her annoy, as hath been told; but a young nun, fortune aiding her,
                 delivered herself with an apt speech from an imminent peril. As you know, there be
@@ -16664,9 +16664,9 @@
             <p> MASTER SIMONE, AT THE INSTANCE OF BRUNO AND BUFFALMACCO AND NELLO, MAKETH CALANDRINO
                 BELIEVE THAT HE IS WITH CHILD; WHEREFORE HE GIVETH THEM CAPONS AND MONEY FOR
                 MEDICINES AND RECOVERETH WITHOUT BRINGING FORTH </p>
-            <p> After Elisa had finished her story and all the ladies had returned thanks to God,
+            <p> After <person xml:id="elisa" sex="F">Elisa</person> had finished her story and all the ladies had returned thanks to God,
                 who had with a happy issue delivered the young nun from the claws of her envious
-                companions, the queen bade Filostrato follow on, and he, without awaiting further
+                companions, the queen bade <person xml:id="filostrato" sex="M">Filostrato</person> follow on, and he, without awaiting further
                 commandment, began, "Fairest ladies, the unmannerly lout of a Marchegan judge, of
                 whom I told you yesterday, took out of my mouth a story of Calandrino and his
                 companions, which I was about to relate; and for that, albeit it hath been much
@@ -16780,7 +16780,7 @@
                 DONNING ANGIOLIERI'S CLOTHES AND MOUNTING HIS PALFREY, HE MAKETH OFF AND LEAVETH THE
                 OTHER IN HIS SHIRT </p>
             <p> Calandrino's speech concerning his wife had been hearkened of all the company with
-                the utmost laughter; then, Filostrato being silent, Neifile, as the queen willed it,
+                the utmost laughter; then, <person xml:id="filostrato" sex="M">Filostrato</person> being silent, <person xml:id="neifile" sex="F">Neifile</person>, as the queen willed it,
                 began, "Noble ladies, were it not uneather for men to show forth unto others their
                 wit and their worth than it is for them to exhibit their folly and their vice, many
                 would weary themselves in vain to put a bridle on their tongues; and this hath right
@@ -16892,8 +16892,8 @@
             <p> CALANDRINO FALLETH IN LOVE WITH A WENCH AND BRUNO WRITETH HIM A TALISMAN, WHEREWITH
                 WHEN HE TOUCHETH HER, SHE GOETH WITH HIM; AND HIS WIFE FINDING THEM TOGETHER, THERE
                 BETIDETH HIM GRIEVOUS TROUBLE AND ANNOY </p>
-            <p> Neifile's short story being finished and the company having passed it over without
-                overmuch talk or laughter, the queen turned to Fiammetta and bade her follow on, to
+            <p> <person xml:id="neifile" sex="F">Neifile's</person> short story being finished and the company having passed it over without
+                overmuch talk or laughter, the queen turned to <person xml:id="fiammetta" sex="F">Fiammetta</person> and bade her follow on, to
                 which she replied all blithely that she would well and began, "Gentlest ladies,
                 there is, as methinketh you may know, nothing, how much soever it may have been
                 talked thereof, but will still please, provided whoso is minded to speak of it know
@@ -16904,7 +16904,7 @@
                 discoursed thereof, it should natheless be none the less pleasing, though one speak
                 of it as much again. Wherefore, notwithstanding it hath been many times spoken among
                 us of the sayings and doings of Calandrino, I will make bold, considering, as
-                Filostrato said awhile ago, that these are all diverting, to tell you yet another
+                <person xml:id="filostrato" sex="M">Filostrato</person> said awhile ago, that these are all diverting, to tell you yet another
                 story thereof, wherein were I minded to swerve from the fact, I had very well known
                 to disguise and recount it under other names; but, for that, in the telling of a
                 story, to depart from the truth of things betided detracteth greatly from the
@@ -17118,7 +17118,7 @@
                 APPEASETH EVERYTHING </p>
             <p> Calandrino, who had otherwhiles afforded the company matter for laughter, made them
                 laugh this time also, and whenas the ladies had left devising of his fashions, the
-                queen bade Pamfilo tell, whereupon quoth he, "Laudable ladies, the name of
+                queen bade <person xml:id="pamfilo" sex="M">Pamfilo</person> tell, whereupon quoth he, "Laudable ladies, the name of
                 Niccolosa, Calandrino's mistress, hath brought me back to mind a story of another
                 Niccolosa, which it pleaseth me to tell you, for that therein you shall see how a
                 goodwife's ready wit did away a great scandal. </p>
@@ -17246,8 +17246,8 @@
             <p> TALANO DI MOLESE DREAMETH THAT A WOLF MANGLETH ALL HIS WIFE'S NECK AND FACE AND
                 BIDDETH HER BEWARE THEREOF; BUT SHE PAYETH NO HEED TO HIS WARNING AND IT BEFALLETH
                 HER EVEN AS HE HAD DREAMED </p>
-            <p> Pamfilo's story being ended and the goodwife's presence of mind having been
-                commended of all, the queen bade Pampinea tell hers and she thereupon began, "It
+            <p> <person xml:id="pamfilo" sex="M">Pamfilo's</person> story being ended and the goodwife's presence of mind having been
+                commended of all, the queen bade <person xml:id="pampinea" sex="F">Pampinea</person> tell hers and she thereupon began, "It
                 hath been otherwhile discoursed among us, charming ladies, of the truths foreshown
                 by dreams, the which many of our sex scoff at; wherefore, notwithstanding that which
                 hath been said thereof, I shall not scruple to tell you, in a very few words, that
@@ -17306,10 +17306,10 @@
                 PROCURING HIM TO BE SHAMEFULLY BEATEN </p>
             <p> The merry company with one accord avouched that which Talano had seen in sleep to
                 have been no dream, but a vision, so punctually, without there failing aught
-                thereof, had it come to pass. But, all being silent the queen charged Lauretta
+                thereof, had it come to pass. But, all being silent the queen charged <person xml:id="lauretta" sex="F">Lauretta</person>
                 follow on, who said, "Like as those, most discreet ladies, who have to-day foregone
                 me in speech, have been well nigh all moved to discourse by something already said,
-                even so the stern vengeance wreaked by the scholar, of whom Pampinea told us
+                even so the stern vengeance wreaked by the scholar, of whom <person xml:id="pampinea" sex="F">Pampinea</person> told us
                 yesterday, moveth me to tell of a piece of revenge, which, without being so
                 barbarous as the former, was nevertheless grievous unto him who brooked it. </p>
             <p> I must tell you, then, that there was once in Florence a man whom all called
@@ -17402,7 +17402,7 @@
             <p> TWO YOUNG MEN SEEK COUNSEL OF SOLOMON, ONE HOW HE MAY BE LOVED AND THE OTHER HOW HE
                 MAY AMEND HIS FROWARD WIFE, AND IN ANSWER HE BIDDETH THE ONE LOVE AND THE OTHER GET
                 HIM TO GOOSEBRIDGE </p>
-            <p> None other than the queen remaining to tell, so she would maintain Dioneo his
+            <p> None other than the queen remaining to tell, so she would maintain <person xml:id="dioneo" sex="M">Dioneo</person> his
                 privilege, she, after the ladies had laughed at the unlucky Biondello, began
                 blithely to speak thus: "Lovesome ladies, if the ordinance of created things be
                 considered with a whole mind, it will lightly enough be seen that the general
@@ -17422,7 +17422,7 @@
                 therefore, it behoveth us submit ourselves, honouring them supremely; and whoso
                 departeth from this, I hold her deserving, not only of grave reprehension, but of
                 severe punishment. To these considerations I was lead, though not for the first
-                time, by that which Pampinea told us a while ago of Talano's froward wife, upon whom
+                time, by that which <person xml:id="pampinea" sex="F">Pampinea</person> told us a while ago of Talano's froward wife, upon whom
                 God sent that chastisement which her husband had not known to give her; wherefore,
                 as I have already said, all those women who depart from being loving, compliant and
                 amenable, as nature, usance and law will it, are, in my judgment, worthy of stern
@@ -17545,7 +17545,7 @@
                 ON THE TAIL, PIETRO MARRETH THE WHOLE CONJURATION, SAYING THAT HE WILL NOT HAVE A
                 TAIL </p>
             <p> The queen's story made the young men laugh and gave rise to some murmurs on the part
-                of the ladies; then, as soon as the latter were quiet, Dioneo began to speak thus,
+                of the ladies; then, as soon as the latter were quiet, <person xml:id="dioneo" sex="M">Dioneo</person> began to speak thus,
                 "Sprightly ladies, a black crow amongst a multitude of white doves addeth more
                 beauty than would a snow-white swan, and in like manner among many sages one less
                 wise is not only an augmentation of splendour and goodliness to their maturity, but
@@ -17639,20 +17639,20 @@
                 as he was used, betook himself, in company with Dom Gianni, to the Bitonto fair, nor
                 ever again required him of such a service." </p>
             <p> How much the company laughed at this story, which was better understood of the
-                ladies than Dioneo willed, let her who shall yet laugh thereat imagine for herself.
+                ladies than <person xml:id="dioneo" sex="M">Dioneo</person> willed, let her who shall yet laugh thereat imagine for herself.
                 But, the day's stories being now ended and the sun beginning to abate of its heat,
                 the queen, knowing the end of her seignory to be come, rose to her feet and putting
-                off the crown, set it on the head of Pamfilo, whom alone it remained to honour after
+                off the crown, set it on the head of <person xml:id="pamfilo" sex="M">Pamfilo</person>, whom alone it remained to honour after
                 such a fashion, and said, smiling, "My lord, there devolveth on thee a great burden,
                 inasmuch as with thee it resteth, thou being the last, to make amends for my default
                 and that of those who have foregone me in the dignity which thou presently holdest;
                 whereof God lend thee grace, even as He hath vouchsafed it unto me to make thee
-                king." Pamfilo blithely received the honour done him and answered, "Your merit and
+                king." <person xml:id="pamfilo" sex="M">Pamfilo</person> blithely received the honour done him and answered, "Your merit and
                 that of my other subjects will do on such wise that I shall be adjudged deserving of
                 commendation, even as the others have been." Then, having, according to the usance
                 of his predecessors, taken order with the seneschal of the things that were needful,
                 he turned to the expectant ladies and said to them, "Lovesome ladies, it was the
-                pleasure of Emilia, who hath this day been our queen, to give you, for the purpose
+                pleasure of <person xml:id="emilia" sex="F">Emilia</person>, who hath this day been our queen, to give you, for the purpose
                 of affording some rest to your powers, license to discourse of that which should
                 most please you; wherefore, you being now rested, I hold it well to return to the
                 wonted ordinance, and accordingly I will that each of you bethink herself to
@@ -17668,7 +17668,7 @@
                 of supper, whereunto they came joyously and were served with diligence and fair
                 ordinance. Supper at an end, they arose to the wonted dances, and after they had
                 sung a thousand canzonets, more diverting of words than masterly of music, the king
-                bade Neifile sing one in her own name; whereupon, with clear and blithesome voice,
+                bade <person xml:id="neifile" sex="F">Neifile</person> sing one in her own name; whereupon, with clear and blithesome voice,
                 she cheerfully and without delay began thus: </p> A youngling maid am I and full of
             glee, Am fain to carol in the new-blown May, Love and sweet thoughts-a-mercy, blithe and
             free. I go about the meads, considering The vermeil flowers and golden and the white,
@@ -17684,7 +17684,7 @@
             which from out my bosom day nor night Ne'er, as with other ladies, fierce and wild,
             Storm up; nay, thence they issue warm and mild And straight betake them to my loved
             one's sight, Who, hearing, moveth of himself, delight To give me; ay, and when I'm like
-            to say "Ah come, lest I despair," still cometh he. <p> Neifile's canzonet was much
+            to say "Ah come, lest I despair," still cometh he. <p> <person xml:id="neifile" sex="F">Neifile's</person> canzonet was much
                 commended both of the king and of the other ladies; after which, for that a great
                 part of the night was now spent, the king commanded that all should betake
                 themselves to rest until the day. </p></story>
@@ -17692,19 +17692,19 @@
 
     <div day="Tenth"><p><ch_title>Day the Tenth </ch_title></p>
         <p> Here Beginneth the Tenth and Last Day of the Decameron Wherein Under the Governance of
-            Pamfilo Is Discoursed of Whoso Hath Anywise Wrought Generously or Magnificently in
+            <person xml:id="pamfilo" sex="M">Pamfilo</person> Is Discoursed of Whoso Hath Anywise Wrought Generously or Magnificently in
             Matters of Love or Otherwhat </p>
         <p> Certain cloudlets in the West were yet vermeil, what time those of the East were already
-            at their marges grown lucent like unto very gold, when Pamfilo, arising, let call his
+            at their marges grown lucent like unto very gold, when <person xml:id="pamfilo" sex="M">Pamfilo</person>, arising, let call his
             comrades and the ladies, who being all come, he took counsel with them of whither they
-            should go for their diversion and fared forth with slow step, accompanied by Filomena
-            and Fiammetta, whilst all the others followed after. On this wise, devising and telling
+            should go for their diversion and fared forth with slow step, accompanied by <person xml:id="filomena" sex="F">Filomena</person>
+            and <person xml:id="fiammetta" sex="F">Fiammetta</person>, whilst all the others followed after. On this wise, devising and telling
             and answering many things of their future life together, they went a great while
             a-pleasuring; then, having made a pretty long circuit and the sun beginning to wax
             overhot, they returned to the palace. There they let rinse the beakers in the clear
             fountain and whoso would drank somewhat; after which they went frolicking among the
             pleasant shades of the garden until the eating-hour. Then, having eaten and slept, as of
-            their wont, they assembled whereas it pleased the king and there he called upon Neifile
+            their wont, they assembled whereas it pleased the king and there he called upon <person xml:id="neifile" sex="F">Neifile</person>
             for the first discourse, who blithely began thus: </p>
         <story numbr="One"><p><story_numbr>THE FIRST STORY</story_numbr></p>
             <p><ch_title>Day the Tenth </ch_title></p>
@@ -17795,7 +17795,7 @@
                 STOMACH-COMPLAINT, LETTETH HIM GO; WHEREUPON THE ABBOT, RETURNING TO THE COURT OF
                 ROME, RECONCILETH HIM WITH POPE BONIFACE AND MAKETH HIM A PRIOR OF THE HOSPITALLERS </p>
             <p> The magnificence shown by King Alfonso to the Florentine cavalier having been duly
-                commended, the king, who had been mightily pleased therewith, enjoined Elisa to
+                commended, the king, who had been mightily pleased therewith, enjoined <person xml:id="elisa" sex="F">Elisa</person> to
                 follow on, and she straightway began thus: "Dainty dames, it cannot be denied that
                 for a king to be munificent and to have shown his munificence to him who had served
                 him is a great and a praiseworthy thing; but what shall we say if a churchman be
@@ -17929,7 +17929,7 @@
                 HIS FRIEND </p>
             <p> Themseemed all they had heard what was like unto a miracle, to wit, that a churchman
                 should have wrought anywhat magnificently; but, as soon as the ladies had left
-                discoursing thereof, the king bade Filostrato proceed, who forthright began, "Noble
+                discoursing thereof, the king bade <person xml:id="filostrato" sex="M">Filostrato</person> proceed, who forthright began, "Noble
                 ladies, great was the magnificence of the King of Spain and that of the Abbot of
                 Cluny a thing belike never yet heard of; but maybe it will seem to you no less
                 marvellous a thing to hear how a man, that he might do generosity to another who
@@ -18113,7 +18113,7 @@
             <p> It seemed to all a marvellous thing that a man should be lavish of his own blood and
                 they declared Nathan's liberality to have verily transcended that of the King of
                 Spain and the Abbot of Cluny. But, after enough to one and the other effect had been
-                said thereof, the king, looking towards Lauretta, signed to her that he would have
+                said thereof, the king, looking towards <person xml:id="lauretta" sex="F">Lauretta</person>, signed to her that he would have
                 her tell, whereupon she straightway began, "Young ladies, magnificent and goodly are
                 the things that have been recounted, nor meseemeth is there aught left unto us who
                 have yet to tell, wherethrough we may range a story-telling, so throughly have they
@@ -18313,7 +18313,7 @@
                 OF THE FORMER'S GENEROSITY, ABSOLVETH HER OF HER PROMISE, WHEREUPON THE NIGROMANCER,
                 IN HIS TURN, ACQUITTETH MESSER ANSALDO OF HIS BOND, WITHOUT WILLING AUGHT OF HIS </p>
             <p> Messer Gentile having by each of the merry company been extolled to the very skies
-                with the highest praise, the king charged Emilia follow on, who confidently, as if
+                with the highest praise, the king charged <person xml:id="emilia" sex="F">Emilia</person> follow on, who confidently, as if
                 eager to speak, began as follows: "Dainty dames, none can with reason deny that
                 Messer Gentile wrought magnificently; but, if it be sought to say that his
                 magnanimity might not be overpassed, it will not belike be uneath to show that more
@@ -18438,7 +18438,7 @@
             <p> It were over longsome fully to recount the various discourse that had place among
                 the ladies of who used the greatest generosity, Gilberto or Messer Ansaldo or the
                 nigromancer, in Madam Dianora's affairs; but, after the king had suffered them
-                debate awhile, he looked at Fiammetta and bade her, telling a story, put an end to
+                debate awhile, he looked at <person xml:id="fiammetta" sex="F">Fiammetta</person> and bade her, telling a story, put an end to
                 their contention; whereupon she, without hesitation, began as follows: "Illustrious
                 ladies, I was ever of opinion that, in companies such as ours, it should still be
                 discoursed so much at large that the overstraitness[456] of intent of the things
@@ -18604,9 +18604,9 @@
             <p> KING PEDRO OF ARRAGON, COMING TO KNOW THE FERVENT LOVE BORNE HIM BY LISA, COMFORTETH
                 THE LOVE-SICK MAID AND PRESENTLY MARRIETH HER TO A NOBLE YOUNG GENTLEMAN; THEN,
                 KISSING HER ON THE BROW, HE EVER AFTER AVOUCHETH HIMSELF HER KNIGHT </p>
-            <p> Fiammetta having made an end of her story and the manful magnanimity of King Charles
+            <p> <person xml:id="fiammetta" sex="F">Fiammetta</person> having made an end of her story and the manful magnanimity of King Charles
                 having been much commended, albeit there was one lady there who, being a Ghibelline,
-                was loath to praise him, Pampinea, by the king's commandment, began thus, "There is
+                was loath to praise him, <person xml:id="pampinea" sex="F">Pampinea</person>, by the king's commandment, began thus, "There is
                 no one of understanding, worshipful ladies, but would say that which you say of good
                 King Charles, except she bear him ill-will for otherwhat; but, for that there
                 occurreth to my memory a thing, belike no less commendable than this, done of one
@@ -18795,8 +18795,8 @@
                 THE TRUE MURDERER, SEEING THIS, DISCOVERETH HIMSELF; WHEREUPON THEY ARE ALL THREE
                 LIBERATED BY OCTAVIANUS AND TITUS, GIVING GISIPPUS HIS SISTER TO WIFE, HATH ALL HIS
                 GOOD IN COMMON WITH HIM </p>
-            <p> Pampinea having left speaking and all having commended King Pedro, the Ghibelline
-                lady more than the rest, Fiammetta, by the king's commandment, began thus,
+            <p> <person xml:id="pampinea" sex="F">Pampinea</person> having left speaking and all having commended King Pedro, the Ghibelline
+                lady more than the rest, <person xml:id="fiammetta" sex="F">Fiammetta</person>, by the king's commandment, began thus,
                 "Illustrious ladies, who is there knoweth not that kings, when they will, can do
                 everything great and that it is, to boot, especially required of them that they be
                 magnificent? Whoso, then, having the power, doth that which pertaineth unto him,
@@ -19298,9 +19298,9 @@
                 TRANSPORTED IN ONE NIGHT [FROM ALEXANDRIA] TO PAVIA, WHERE, BEING RECOGNIZED BY HIS
                 WIFE AT THE BRIDE-FEAST HELD FOR HER MARRYING AGAIN, HE RETURNETH WITH HER TO HIS
                 OWN HOUSE </p>
-            <p> Filomena having made an end of her discourse and the magnificent gratitude of Titus
-                having been of all alike commended, the king, reserving the last place unto Dioneo,
-                proceeded to speak thus: "Assuredly, lovesome ladies, Filomena speaketh sooth in
+            <p> <person xml:id="filomena" sex="F">Filomena</person> having made an end of her discourse and the magnificent gratitude of Titus
+                having been of all alike commended, the king, reserving the last place unto <person xml:id="dioneo" sex="M">Dioneo</person>,
+                proceeded to speak thus: "Assuredly, lovesome ladies, <person xml:id="filomena" sex="F">Filomena</person> speaketh sooth in
                 that which she saith of friendship and with reason complaineth, in concluding her
                 discourse, of its being so little in favour with mankind. If we were here for the
                 purpose of correcting the defaults of the age or even of reprehending them, I might
@@ -19790,7 +19790,7 @@
                 HOME AGAIN, DEARER THAN EVER, AND SHOWING HER HER CHILDREN GROWN GREAT, HONOURETH
                 AND LETTETH HONOUR HER AS MARCHIONESS </p>
             <p> The king's long story being ended and having, to all appearance, much pleased all,
-                Dioneo said, laughing, "The good man,[478] who looked that night to abase the
+                <person xml:id="dioneo" sex="M">Dioneo</person> said, laughing, "The good man,[478] who looked that night to abase the
                 phantom's tail upright,[479] had not given a brace of farthings of all the praises
                 that you bestow on Messer Torello." Then, knowing that it rested with him alone to
                 tell, he proceeded: "Gentle ladies mine, it appeareth to me that this day hath been
@@ -20081,7 +20081,7 @@
                 latter had not belike been ill requited, had he happened upon one who, when he
                 turned her out of doors in her shift, had let jumble her furbelows of another to
                 such purpose that a fine gown had come of it." </p>
-            <p> Dioneo's story being finished and the ladies having discoursed amain thereof, some
+            <p> <person xml:id="dioneo" sex="M">Dioneo's</person> story being finished and the ladies having discoursed amain thereof, some
                 inclining to one side and some to another, this blaming one thing and that
                 commending it, the king, lifting his eyes to heaven and seeing that the sun was now
                 low and the hour of vespers at hand, proceeded, without arising from session, to
@@ -20118,7 +20118,7 @@
                 themselves, this to one kind of diversion and that to another, no otherwise than of
                 their wont; and supper-time come, they betook themselves to table with the utmost
                 pleasure and after fell to singing and carolling and making music. Presently,
-                Lauretta leading up a dance, the king bade Fiammetta sing a song, whereupon she very
+                <person xml:id="lauretta" sex="F">Lauretta</person> leading up a dance, the king bade <person xml:id="fiammetta" sex="F">Fiammetta</person> sing a song, whereupon she very
                 blithely proceeded to sing thus: </p> If love came but withouten jealousy, I know no
             lady born So blithe as I were, whosoe'er she be. If gladsome youthfulness In a fair
             lover might content a maid, Virtue and worth discreet, Valiance or gentilesse, Wit and
@@ -20133,8 +20133,8 @@
             doubting torn Who eyes him, lest she bear him off from me. Be, then, each lady prayed By
             God that she in this be not intent 'Gainst me to do amiss; For, sure, if any maid Should
             or with words or becks or blandishment My detriment in this Seek or procure and if I
-            know't, ywis, Be all my charms forsworn But I will make her rue it bitterly. <p> No
-                sooner had Fiammetta made an end of her song than Dioneo, who was beside her, said,
+            know't, ywis, Be all my charms forsworn But I weill make her rue it bitterly. <p> No
+                sooner had <person xml:id="fiammetta" sex="F">Fiammetta</person> made an end of her song than <person xml:id="dioneo" sex="M">Dioneo</person>, who was beside her, said,
                 laughing, "Madam, you would do a great courtesy to let all the ladies know who he
                 is, lest you be ousted of his possession through ignorance, since you would be so
                 sore incensed thereat." After this divers other songs were sung and the night being
