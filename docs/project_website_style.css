@@ -37,3 +37,7 @@ nav ul li a:hover {
 .title {
     font-style: italic;
 }
+
+ul ul li a {
+    color: #670626;
+}
