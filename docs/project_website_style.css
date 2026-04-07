@@ -39,5 +39,5 @@ nav ul li a:hover {
 }
 
 ul ul li a {
-    color: #670626;
+    color: #670626 !important;
 }
