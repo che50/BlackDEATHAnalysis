@@ -41,3 +41,7 @@ nav ul li a:hover {
 ul ul li a {
     color: #670626 !important;
 }
+
+ul ul li a:hover {
+    color: #FFEDAC !important;
+}

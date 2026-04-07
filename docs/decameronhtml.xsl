@@ -29,9 +29,11 @@
                             <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="corpus.html">Corpus </a>
+                            <a href="corpus.html">Corpus</a>
                         </li>
-                        
+                        <li>
+                            <a href="censorship.html">Censorship</a>
+                        </li>
                     </ul>
                 </nav>
                
@@ -75,9 +77,11 @@
                             <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="corpus.html">Corpus </a>
+                            <a href="corpus.html">Corpus</a>
                         </li>
-                        
+                        <li>
+                            <a href="censorship.html">Censorship</a>
+                        </li>
                     </ul>
                 </nav>
                 <h1 id="corpus"> Corpus </h1>
@@ -121,9 +125,11 @@
                                 <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="corpus.html">Corpus </a>
+                                <a href="corpus.html">Corpus</a>
                             </li>
-                            
+                            <li>
+                                <a href="censorship.html">Censorship</a>
+                            </li>
                         </ul>
                     </nav>
                     <h1>About</h1>
@@ -164,9 +170,14 @@
                                 <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="corpus.html">Corpus </a>
+                                <a href="corpus.html">Corpus</a>
                             </li>
-                            
+                            <li>
+                                <a href="censorship.html">Censorship</a>
+                            </li>
+                            <li>
+                                <a href="themes.html">Themes</a>
+                            </li>
                         </ul>
                     </nav>
                     <h2> <xsl:value-of select="$day"/> 
@@ -205,9 +216,11 @@
                                 <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="corpus.html">Corpus </a>
+                                <a href="corpus.html">Corpus</a>
                             </li>
-                            
+                            <li>
+                                <a href="censorship.html">Censorship</a>
+                            </li>
                         </ul>
                     </nav>
                     <h2><xsl:value-of select="p/intro_title"/></h2>
