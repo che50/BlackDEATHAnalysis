@@ -1,5 +1,8 @@
 body {
     background-color: #E5D1A4;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 nav ul{
