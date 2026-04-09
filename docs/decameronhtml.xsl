@@ -9,7 +9,7 @@
     
     
     <xsl:template match="/" >
-        
+      <xsl:result-document href="index.html" method="xhtml"> 
         <html>
             <head>
                 <title>
@@ -34,6 +34,9 @@
                         <li>
                             <a href="censorship.html">Censorship</a>
                         </li>
+                        <li>
+                            <a href="themes.html">Themes</a>
+                        </li>
                     </ul>
                 </nav>
                
@@ -43,12 +46,13 @@
                 </header>
                
                 
-                <div class="list"/>
+                <div class="list">
                 <h1>Team Members</h1> 
                 <div>Ingrid Lewis </div>
                 <div>Charlie Erdos </div>
                 <div>Hayden Conely </div>
                 <div>Nora Broering </div>
+                </div>
                 <h2> Research Question
                 </h2>
                 <p>
@@ -60,7 +64,7 @@
                 
             </body>
         </html>
-        
+      </xsl:result-document> 
         <xsl:result-document href="corpus.html" method="xhtml">
             <!-- This section is the XSL to make another page for corpus. It generates another HTML file, which can be navigated to from the top. USES SAME CSS as index document, but can probably be changed --> 
             <html>
@@ -82,6 +86,9 @@
                         <li>
                             <a href="censorship.html">Censorship</a>
                         </li>
+                        <li>
+                            <a href="themes.html">Themes</a>
+                        </li>
                     </ul>
                 </nav>
                 <h1 id="corpus"> Corpus </h1>
@@ -98,15 +105,18 @@
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </ul>
                 <hr/>
-                <xsl:apply-templates select="//intro"/>
+               
             
                
                
             </body>
             </html>
         </xsl:result-document>
-
-        <xsl:apply-templates select="//div[@day]"/>
+        
+        <xsl:result-document href="dummy-document.html" method="xhtml">  <!-- need to call these templates, but dont want them in the base root document -->
+            <xsl:apply-templates select="//intro"/>
+            <xsl:apply-templates select="//div[@day]"/>
+        </xsl:result-document>
         
         <xsl:result-document href="about.html" method="xhtml">
             <html>
@@ -130,6 +140,9 @@
                             <li>
                                 <a href="censorship.html">Censorship</a>
                             </li>
+                            <li>
+                                <a href="themes.html">Themes</a>
+                            </li>
                         </ul>
                     </nav>
                     <h1>About</h1>
@@ -139,6 +152,9 @@
             </html>
             
         </xsl:result-document>
+        
+        
+        
     </xsl:template>
     
     <!-- main templates -->
@@ -221,6 +237,9 @@
                             <li>
                                 <a href="censorship.html">Censorship</a>
                             </li>
+                            <li>
+                                <a href="themes.html">Themes</a>
+                            </li>
                         </ul>
                     </nav>
                     <h2><xsl:value-of select="p/intro_title"/></h2>
@@ -228,8 +247,88 @@
                 </body>
             </html>
         </xsl:result-document>
+        <xsl:result-document href="themes.html" method="xhtml">
+            <html>
+                <head><title>themes</title>
+                    
+                    <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                </head>
+                
+                
+                <body>
+                    
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home Page</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="corpus.html">Corpus</a>
+                                </li>
+                                <li>
+                                    <a href="censorship.html">Censorship</a>
+                                </li>
+                                <li>
+                                    <a href="themes.html">Themes</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    <h1>
+                        test
+                    </h1>
+                </body>
+            </html>
+            
+            
+            
+        </xsl:result-document>
+        
+        <xsl:result-document href="censorship.html"  method="xhtml">  <!--Censorship test page -->
+            <html>
+                <head><title>censorship</title>
+                    
+                    <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                </head>
+                
+                
+                <body>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home Page</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="corpus.html">Corpus</a>
+                            </li>
+                            <li>
+                                <a href="censorship.html">Censorship</a>
+                            </li>
+                            <li>
+                                <a href="themes.html">Themes</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h1>
+                        test
+                    </h1>
+                </body>
+            </html>
+            
+            
+        </xsl:result-document>
+        
     </xsl:template>
     
+    
+    
+   
+   
     <!-- table of contents templates -->
     <xsl:template match="div[@day]" mode="toc">
         <li>
@@ -251,7 +350,7 @@
     </xsl:template>
     
     
-   
+  
     
 </xsl:stylesheet>
 
