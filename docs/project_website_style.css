@@ -48,3 +48,28 @@ ul ul li a {
 ul ul li a:hover {
     color: #FFEDAC !important;
 }
+
+
+
+/*This section is for the nav buttons 
+*/
+
+.prev, .next {
+    background-color: #CE793A;
+    color: #E5D1A4;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+.prev:hover, .next:hover {
+    background-color: #B64B12;
+}
+
+
+.prev {
+left: 32px; 
+}
+.next { 
+right: 32px; 
+}

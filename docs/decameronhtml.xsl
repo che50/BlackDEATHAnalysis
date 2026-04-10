@@ -167,6 +167,11 @@
     
     <xsl:template match="story">   <!-- creates new page for every story day -->
         <xsl:variable name="day" select="parent::div/@day"/>
+        
+        <!-- creating variables for buttons to bring to next page when in the story -->
+        <xsl:variable name="next-story" select="following-sibling::story[1]"/>
+        <xsl:variable name="prev-story" select="preceding-sibling::story[1]"/> 
+        
         <xsl:result-document href="story-{$day}-{@numbr}.html" method="xhtml">
             <html>
                 <head>
@@ -203,9 +208,21 @@
                         <xsl:value-of select="p/story_numbr"/>
                     </h3>
                     <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
+                    
+                    
+                    <!-- buttons to take to next story -->
+                    <xsl:if test="$prev-story">
+                        <a class="prev" href="story-{$day}-{$prev-story/@numbr}.html">Previous</a>
+                    </xsl:if>
+                    
+                    <xsl:if test="$next-story">
+                        <a class="next" href="story-{$day}-{$next-story/@numbr}.html">Next</a>
+                    </xsl:if>
                 </body>
             </html>
         </xsl:result-document>
+        
+        
     </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
