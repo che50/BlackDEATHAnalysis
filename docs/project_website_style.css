@@ -60,6 +60,7 @@ ul ul li a:hover {
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
+    position: fixed;
     
 }
 .prev:hover, .next:hover {
