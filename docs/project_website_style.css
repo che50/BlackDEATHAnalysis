@@ -61,7 +61,7 @@ ul ul li a:hover {
     padding: 10px 15px;
     border-radius: 5px;
     position: fixed;
-    
+    bottom: 32px; 
 }
 .prev:hover, .next:hover {
     background-color: #B64B12;
