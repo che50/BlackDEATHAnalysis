@@ -37,6 +37,9 @@
                         <li>
                             <a href="themes.html">Themes</a>
                         </li>
+                        <li>
+                            <a hred="statistics.html">Stats</a>
+                        </li>
                     </ul>
                 </nav>
                
@@ -89,6 +92,9 @@
                         <li>
                             <a href="themes.html">Themes</a>
                         </li>
+                        <li>
+                            <a hred="statistics.html">Stats</a>
+                        </li>
                     </ul>
                 </nav>
                 <h1 id="corpus"> Corpus </h1>
@@ -127,24 +133,27 @@
                 </head>
                 <body>
                     <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home Page</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="corpus.html">Corpus</a>
-                            </li>
-                            <li>
-                                <a href="censorship.html">Censorship</a>
-                            </li>
-                            <li>
-                                <a href="themes.html">Themes</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home Page</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="corpus.html">Corpus</a>
+                        </li>
+                        <li>
+                            <a href="censorship.html">Censorship</a>
+                        </li>
+                        <li>
+                            <a href="themes.html">Themes</a>
+                        </li>
+                        <li>
+                            <a hred="statistics.html">Stats</a>
+                        </li>
+                    </ul>
+                </nav>
                     <h1>About</h1>
                     <h2>Author</h2>
                     <p>Giovanni Boccaccio</p>
@@ -153,7 +162,41 @@
             
         </xsl:result-document>
         
-        
+        <xsl:result-document href="statistics.html" method="xhtml" >
+            <head>
+                <title> Stats </title>
+                <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+            </head>
+            <body>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home Page</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="corpus.html">Corpus</a>
+                        </li>
+                        <li>
+                            <a href="censorship.html">Censorship</a>
+                        </li>
+                        <li>
+                            <a href="themes.html">Themes</a>
+                        </li>
+                        <li>
+                            <a hred="statistics.html">Stats</a>
+                        </li>
+                    </ul>
+                </nav>
+                <header>Statistics</header>
+                <h2>Statistics of <em>The Decameron</em></h2>
+                <h2>Main Cast</h2>
+                
+            </body>
+            
+        </xsl:result-document>
         
     </xsl:template>
     
@@ -198,6 +241,9 @@
                             </li>
                             <li>
                                 <a href="themes.html">Themes</a>
+                            </li>
+                            <li>
+                                <a hred="statistics.html">Stats</a>
                             </li>
                         </ul>
                     </nav>
@@ -257,6 +303,9 @@
                             <li>
                                 <a href="themes.html">Themes</a>
                             </li>
+                            <li>
+                                <a hred="statistics.html">Stats</a>
+                            </li>
                         </ul>
                     </nav>
                     <h2><xsl:value-of select="p/intro_title"/></h2>
@@ -274,25 +323,28 @@
                 
                 <body>
                     
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home Page</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">About</a>
-                                </li>
-                                <li>
-                                    <a href="corpus.html">Corpus</a>
-                                </li>
-                                <li>
-                                    <a href="censorship.html">Censorship</a>
-                                </li>
-                                <li>
-                                    <a href="themes.html">Themes</a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home Page</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="corpus.html">Corpus</a>
+                            </li>
+                            <li>
+                                <a href="censorship.html">Censorship</a>
+                            </li>
+                            <li>
+                                <a href="themes.html">Themes</a>
+                            </li>
+                            <li>
+                                <a hred="statistics.html">Stats</a>
+                            </li>
+                        </ul>
+                    </nav>
                     <h1>
                         test
                     </h1>
@@ -328,6 +380,9 @@
                             </li>
                             <li>
                                 <a href="themes.html">Themes</a>
+                            </li>
+                            <li>
+                                <a hred="statistics.html">Stats</a>
                             </li>
                         </ul>
                     </nav>
@@ -366,7 +421,11 @@
         </li>
     </xsl:template>
     
-    
+    <xsl:template match="person"> <!-- template for person, just bolds it in the text for now-->
+        <strong>
+            <xsl:apply-templates/>
+        </strong>
+    </xsl:template>
   
     
 </xsl:stylesheet>
