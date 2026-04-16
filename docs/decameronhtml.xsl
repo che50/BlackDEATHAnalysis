@@ -169,6 +169,13 @@
                 <title> Stats </title>
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
             </head>
+            <xsl:variable name="count-judaism" select="count(//faith[@ref='#Judaism'])"/>
+            <xsl:variable name="count-islam" select="count(//faith[@ref='#Islam'])"/>
+            <xsl:variable name="count-christianity" select="count(//faith[@ref='#Roman Catholic'])"/>
+            <xsl:variable name="bar-width" select="80"/>
+            <xsl:variable name="bar-spacing" select="40"/>
+            <xsl:variable name="religion-x" select="(position() - 1) * ($bar-width + $bar-spacing)"/>
+            <xsl:variable name="scale" select="8"/>
             <body>
                 <nav>
                     <ul>
@@ -194,10 +201,39 @@
                 </nav>
                 
                 <h1>Statistics of <em>The Decameron</em></h1>
-                <h2>Main Cast</h2>
+                <h2><em>Religious References</em></h2>
+                <!-- creates graph -->
+                <svg width="1400" height="500" viewBox="-50 -400 1200 450">
+                    <line x1="0" y1="0" x2="360" y2="0" stroke="black"/>
+                    <line x1="0" y1="0" x2="0" y2="-320" stroke="black"/>
+                    <xsl:for-each select="(0, 10, 20, 30, 40)">
+                        <text x="-35" y="{-. * $scale}" >
+                            <xsl:value-of select="."/>
+                        </text>
+                
+                    </xsl:for-each>
+                    <!-- variables for heights for religion -->
+                    <xsl:variable name="height-islam" select="$count-islam * $scale"/>
+                    <xsl:variable name="height-christianity" select="$count-christianity * $scale"/>
+                    <xsl:variable name="height-judaism" select="$count-judaism * $scale"/>
+                    <!-- rectangles -->
+                    <!-- islam rectangle -->
+                    <rect x="0" y="{-$height-islam}" width="{$bar-width}" height="{$height-islam}" fill="green" />            
+                    <!-- judaism -->
+                    <rect x="religion-x" y="{-$height-judaism}" width="{$bar-width}" height="{$height-judaism}" fill="blue" />            
+                    
+                    <!-- christianity -->
+                    <rect x="religion-x" y="{-$height-christianity}" width="{$bar-width}" height="{$height-christianity}" fill="yellow" />            
+                    
+                    
+                </svg>
+                
+               
                 
             </body>
-            
+            <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
+           
+         
         </xsl:result-document>
         
     </xsl:template>

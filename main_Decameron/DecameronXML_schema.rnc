@@ -22,7 +22,7 @@ p = element p {mixed{main_title | ch_title | org | roleName |
                 faith = element faith {ref, text}
                     ref = attribute ref {text}
         person = element person {
-    attribute xml:id { text },
+    attribute name { text },
     attribute sex { text },
     (text | p_3)*
 }
