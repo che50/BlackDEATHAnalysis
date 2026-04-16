@@ -729,7 +729,7 @@
                 leave the rest to me, for that I will assuredly order your affairs and mine own on
                 such wise that all shall go well and you shall have good cause to be satisfied.' </p>
             <p> The two brothers, albeit they conceived no great hope of this, nevertheless betook
-                themselves to a brotherhood of <roleName type="clerical" subtype="monk">monks</roleName> and demanded some holy and learned man to hear
+                themselves to a brotherhood of <roleName type="clerical" subtype="monk"> monks </roleName> and demanded some holy and learned man to hear
                 the confession of a Lombard who lay sick in their house. There was given them a
                 venerable brother of holy and good life and a past master in Holy Writ, a very
                 reverend man, for whom all the townsfolk had a very great and special regard, and
@@ -757,7 +757,7 @@
                 for never did one sin by telling the truth, whether in confession or otherwise.'
                 'Then,' said Master Ciappelletto, 'since you certify me of this, I will tell you; I
                 am yet a virgin, even as I came forth of my mother's body.' 'O blessed be thou of
-                God!' cried the monk. 'How well hast thou done! And doing thus, thou hast the more
+                God!' cried the <roleName type="clerical" subtype="monk"> monk </roleName>. 'How well hast thou done! And doing thus, thou hast the more
                 deserved, inasmuch as, an thou wouldst, thou hadst more leisure to do the contrary
                 than we and whatsoever others are limited by any rule.' </p>
             <p> After this he asked him if he had ever offended against God in the sin of gluttony;
@@ -1165,7 +1165,7 @@
                 him about his own person in high and honourable estate." </p></story>
         <story numbr="Four" status="problematique"><p><story_numbr>THE FOURTH STORY</story_numbr></p>
             <p><ch_title>Day the First </ch_title></p>
-            <p> A MONK, HAVING FALLEN INTO A SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY
+            <p> A <roleName type="clerical" subtype="monk"> MONK </roleName>, HAVING FALLEN INTO A SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY
                 REPROACHING THE SAME FAULT TO HIS <roleName type="clerical" subtype="abbot">ABBOT</roleName>, QUITTETH HIMSELF OF THE PENALTY </p>
             <p> <person xml:id="filomena" sex="F">Filomena</person>, having despatched her story, was now silent, whereupon <person xml:id="dioneo" sex="M">Dioneo</person>, who sat
                 next her, knowing already, by the ordinance begun, that it fell to his turn to tell,
@@ -1177,11 +1177,11 @@
                 Accordingly having heard how, by the good counsels of Jehannot de Chevigné, Abraham
                 had his soul saved and how Melchizedek, by his good sense, defended his riches from
                 Saladin's ambushes, I purpose, without looking for reprehension from you, briefly to
-                relate with what address a monk delivered his body from a very grievous punishment. </p>
+                relate with what address a <roleName type="clerical" subtype="monk"> monk </roleName> delivered his body from a very grievous punishment. </p>
             <p> There was in Lunigiana, a country not very far hence, a monastery whilere more
-                abounding in sanctity and <roleName type="clerical" subtype="monk">monks</roleName> than it is nowadays, and therein, among others, was
-                a young monk, whose vigour and lustiness neither fasts nor vigils availed to
-                mortify. It chanced one day, towards noontide, when all the other <roleName type="clerical" subtype="monk">monks</roleName> slept, that,
+                abounding in sanctity and <roleName type="clerical" subtype="monk"> monks </roleName> than it is nowadays, and therein, among others, was
+                a young <roleName type="clerical" subtype="monk"> monk </roleName>, whose vigour and lustiness neither fasts nor vigils availed to
+                mortify. It chanced one day, towards noontide, when all the other <roleName type="clerical" subtype="monk"> monks </roleName> slept, that,
                 as he went all alone round about the convent, which stood in a very solitary
                 place, he espied a very well-favoured lass, belike some husbandman's daughter of the
                 country, who went about the fields culling certain herbs, and no sooner had he set
@@ -1190,11 +1190,11 @@
                 came to an accord with her and brought her to his cell, unperceived of any; but
                 whilst, carried away by overmuch ardour, he disported himself with her less
                 cautiously than was prudent, it chanced that the <roleName type="clerical" subtype="abbot">abbot</roleName> arose from sleep and softly
-                passing by the monk's cell, heard the racket that the twain made together; whereupon
+                passing by the <roleName type="clerical" subtype="monk"> monk's </roleName> cell, heard the racket that the twain made together; whereupon
                 he came stealthily up to the door to listen, that he might the better recognize the
                 voices, and manifestly perceiving that there was a woman in the cell, was at first
                 minded to cause open to him, but after bethought himself to hold another course in
-                the matter and, returning to his chamber, awaited the monk's coming forth. </p>
+                the matter and, returning to his chamber, awaited the <roleName type="clerical" subtype="monk"> monk's </roleName> coming forth. </p>
             <p> The latter, all taken up as he was with the wench and his exceeding pleasure and
                 delight in her company, was none the less on his guard and himseeming he heard some
                 scuffling of feet in the dormitory, he set his eye to a crevice and plainly saw the
@@ -1208,25 +1208,25 @@
                 cast about for a means how thou mayest win forth hence, without being seen;
                 wherefore do thou abide quietly until my return.' </p>
             <p> Then, going forth and locking the cell door on her, he betook himself straight to
-                the <roleName type="clerical" subtype="abbot">abbot</roleName>'s chamber and presenting him with the key, according as each monk did,
+                the <roleName type="clerical" subtype="abbot">abbot</roleName>'s chamber and presenting him with the key, according as each <roleName type="clerical" subtype="monk"> monk </roleName> did,
                 whenas he went abroad, said to him, with a good countenance, 'Sir, I was unable to
                 make an end this morning of bringing off all the faggots I had cut; wherefore with
                 your leave I will presently go to the wood and fetch them away.' The <roleName type="clerical" subtype="abbot">abbot</roleName>, deeming
-                the monk unaware that he had been seen of him, was glad of such an opportunity to
+                the <roleName type="clerical" subtype="monk"> monk </roleName> unaware that he had been seen of him, was glad of such an opportunity to
                 inform himself more fully of the offence committed by him and accordingly took the
                 key and gave him the leave he sought. Then, as soon as he saw him gone, he fell to
                 considering which he should rather do, whether open his cell in the presence of all
-                the other <roleName type="clerical" subtype="monk">monks</roleName> and cause them to see his default, so they might after have no
+                the other <roleName type="clerical" subtype="monk"> monks </roleName> and cause them to see his default, so they might after have no
                 occasion to murmur against himself, whenas he should punish the offender, or seek
                 first to learn from the girl herself how the thing had passed; and bethinking
                 himself that she might perchance be the wife or daughter of such a man that he would
-                be loath to have done her the shame of showing her to all the <roleName type="clerical" subtype="monk">monks</roleName>, he determined
+                be loath to have done her the shame of showing her to all the <roleName type="clerical" subtype="monk"> monks </roleName>, he determined
                 first to see her and after come to a conclusion; wherefore, betaking himself to the
                 cell, he opened it and, entering, shut the door after him. </p>
             <p> The girl, seeing the <roleName type="clerical" subtype="abbot">abbot</roleName> enter, was all aghast and fell a-weeping for fear of
                 shame; but my lord <roleName type="clerical" subtype="abbot">abbot</roleName>, casting his eyes upon her and seeing her young and
                 handsome, old as he was, suddenly felt the pricks of the flesh no less importunate
-                than his young monk had done and fell a-saying in himself, 'Marry, why should I not
+                than his young <roleName type="clerical" subtype="monk"> monk </roleName> had done and fell a-saying in himself, 'Marry, why should I not
                 take somewhat of pleasure, whenas I may, more by token that displeasance and annoy
                 are still at hand, whenever I have a mind to them? This is a handsome wench and is
                 here unknown of any in the world. If I can bring her to do my pleasure, I know not
@@ -1238,30 +1238,30 @@
                 passing from one word to another, he ended by discovering to her his desire. The
                 girl, who was neither iron nor adamant, readily enough lent herself to the pleasure
                 of the <roleName type="clerical" subtype="abbot">abbot</roleName>, who, after he had clipped and kissed her again and again, mounted upon
-                the monk's pallet and having belike regard to the grave burden of his dignity and
+                the <roleName type="clerical" subtype="monk"> monk's </roleName> pallet and having belike regard to the grave burden of his dignity and
                 the girl's tender age and fearful of irking her for overmuch heaviness, bestrode not
                 her breast, but set her upon his own and so a great while disported himself with
                 her. </p>
-            <p> Meanwhile, the monk, who had only made believe to go to the wood and had hidden
+            <p> Meanwhile, the <roleName type="clerical" subtype="monk"> monk </roleName>, who had only made believe to go to the wood and had hidden
                 himself in the dormitory, was altogether reassured, whenas he saw the <roleName type="clerical" subtype="abbot">abbot</roleName> enter
                 his cell alone, doubting not but his device should have effect, and when he saw him
                 lock the door from within, he held it for certain. Accordingly, coming forth of his
                 hiding-place, he stealthily betook himself to a crevice, through which he both heard
                 and saw all that the <roleName type="clerical" subtype="abbot">abbot</roleName> did and said. When it seemed to the latter that he had
                 tarried long enough with the damsel, he locked her in the cell and returned to his
-                own chamber, whence, after awhile, he heard the monk stirring and deeming him
+                own chamber, whence, after awhile, he heard the <roleName type="clerical" subtype="monk"> monk </roleName> stirring and deeming him
                 returned from the wood, thought to rebuke him severely and cast him into prison, so
                 himself might alone possess the prey he had gotten; wherefore, sending for him, he
                 very grievously rebuked him and with a stern countenance and commanded that he
                 should be put in prison. </p>
-            <p> The monk very readily answered, 'Sir, I have not yet pertained long enough to the
+            <p> The <roleName type="clerical" subtype="monk"> monk </roleName> very readily answered, 'Sir, I have not yet pertained long enough to the
                 order of St. Benedict to have been able to learn every particular thereof, and you
-                had not yet shown me that <roleName type="clerical" subtype="monk">monks</roleName> should make of women a means of mortification,
+                had not yet shown me that <roleName type="clerical" subtype="monk"> monks </roleName> should make of women a means of mortification,
                 as of fasts and vigils; but, now that you have shown it me, I promise you, so you
                 will pardon me this default, never again to offend therein, but still to do as I
                 have seen you do.' The <roleName type="clerical" subtype="abbot">abbot</roleName>, who was a quick-witted man, readily understood that
-                the monk not only knew more than himself, but had seen what he did; wherefore, his
-                conscience pricking him for his own default, he was ashamed to inflict on the monk a
+                the <roleName type="clerical" subtype="monk"> monk </roleName> not only knew more than himself, but had seen what he did; wherefore, his
+                conscience pricking him for his own default, he was ashamed to inflict on the <roleName type="clerical" subtype="monk"> monk </roleName> a
                 punishment which he himself had merited even as he. Accordingly, pardoning him and
                 charging him keep silence of that which he had seen, they privily put the girl out
                 of doors and it is believed that they caused her return thither more than once
@@ -1353,7 +1353,7 @@
             <p> <person xml:id="emilia" sex="F">Emilia</person>, who sat next after <person xml:id="fiammetta" sex="F">Fiammetta</person>,—the courage of the marchioness and the quaint
                 rebuke administered by her to the King of France having been commended of all the
                 ladies,—began, by the queen's pleasure, boldly to speak as follows: "I also, I will
-                not keep silence of a biting reproof given by an honest layman to a covetous monk
+                not keep silence of a biting reproof given by an honest layman to a covetous <roleName type="clerical" subtype="monk"> monk </roleName>
                 with a speech no less laughable than commendable. </p>
             <p> There was, then, dear lasses, no great while agone, in our city, a Minor friar and
                 inquisitor of heretical pravity, who, for all he studied hard to appear a devout and
@@ -2243,11 +2243,11 @@
                 it came not and himseeming that not only was his tarrying there in vain, but that he
                 went in danger of his life, determined to return to Italy. Accordingly, he set out
                 all alone and as chance would have it, coming out of Bruges, he saw an <roleName type="clerical" subtype="abbot">abbot</roleName> of
-                white friars likewise issuing thence, accompanied by many <roleName type="clerical" subtype="monk">monks</roleName> and with a numerous
+                white friars likewise issuing thence, accompanied by many <roleName type="clerical" subtype="monk"> monks </roleName> and with a numerous
                 household and a great baggage-train in his van. After him came two old knights,
                 kinsmen of the King, whom Alessandro accosted as acquaintances and was gladly
                 admitted into their company. As he journeyed with them, he asked them softly who
-                were the <roleName type="clerical" subtype="monk">monks</roleName> that rode in front with so great a train and whither they were bound;
+                were the <roleName type="clerical" subtype="monk"> monks </roleName> that rode in front with so great a train and whither they were bound;
                 and one of them answered, 'He who rideth yonder is a young gentleman of our kindred,
                 who hath been newly elected <roleName type="clerical" subtype="abbot">abbot</roleName> of one of the most considerable abbeys of England,
                 and for that he is younger than is suffered by the laws for such a dignity, we go
@@ -2287,8 +2287,8 @@
                 bring thee and spread thee thereon some small matter of bed, and there, an it please
                 thee, thou shalt lie this night, as best thou mayst.' Quoth Alessandro, 'How shall I
                 go into the <roleName type="clerical" subtype="abbot">abbot</roleName>'s chamber, seeing thou knowest it is little and of its straitness
-                none of his <roleName type="clerical" subtype="monk">monks</roleName> might lie there? Had I bethought me of this, ere the curtains were
-                drawn, I would have let his <roleName type="clerical" subtype="monk">monks</roleName> lie on the grain-sacks and have lodged myself
+                none of his <roleName type="clerical" subtype="monk"> monks </roleName> might lie there? Had I bethought me of this, ere the curtains were
+                drawn, I would have let his <roleName type="clerical" subtype="monk"> monks </roleName> lie on the grain-sacks and have lodged myself
                 where they sleep.' 'Nay,' answered the host, 'the case standeth thus; but, an
                 thou wilt, thou mayst lie whereas I tell thee with all the ease in the world. The
                 <roleName type="clerical" subtype="abbot">abbot</roleName> is asleep and his curtains are drawn; I will quickly lay thee a pallet-bed
@@ -5491,7 +5491,7 @@
                     subtype="church">church</org> when up came the gentleman and was called by the
                 friar, who, taking him apart, gave him the soundest rating ever man had, calling him
                 disloyal and forsworn and traitor. The other, who had already twice had occasion to
-                know to what the monk's reprimands amounted, abode expectant and studied with
+                know to what the <roleName type="clerical" subtype="monk"> monk's </roleName> reprimands amounted, abode expectant and studied with
                 embarrassed answers to make him speak out, saying, at the first, 'Why all this
                 passion, Sir? Have I crucified Christ?' Whereupon, 'Mark this shameless fellow!'
                 cried the friar. 'Hear what he saith! He speaketh as if a year or two were passed
@@ -5553,14 +5553,14 @@
                 age of her husband, much longer and more frequent fasts than she could have wished,
                 and when she would have slept or maybe frolicked with him, he recounted to her the
                 life of Christ and the preachments of Fra Nastagio or the Complaint of Mary
-                Magdalene or the like. Meantime there returned home from Paris a monk hight Dom
+                Magdalene or the like. Meantime there returned home from Paris a <roleName type="clerical" subtype="monk"> monk </roleName> hight Dom
                 Felice, Conventual of San Pancrazio, who was young and comely enough of person,
                 keen of wit and a profound scholar, and with him Fra Puccio contracted a strait
                 friendship. And for that this Dom Felice right well resolved him his every doubt and
                 knowing his pious turn of mind, made him a show of exceeding devoutness, Fra Puccio
                 fell to carrying him home bytimes and giving him to dine and sup, as the occasion
                 offered; and the lady also, for her husband's sake, became familiar with him and
-                willingly did him honour. The monk, then, continuing to frequent Fra Puccio's house
+                willingly did him honour. The <roleName type="clerical" subtype="monk"> monk </roleName>, then, continuing to frequent Fra Puccio's house
                 and seeing the latter's wife so fresh and plump, guessed what should be the thing
                 whereof she suffered the most default and bethought himself, an he might, to go
                 about to furnish her withal himself, and so spare Fra Puccio fatigue. Accordingly,
@@ -5570,7 +5570,7 @@
                 disposed to give effect to the work, he could find no means thereunto, for that she
                 would on nowise trust herself to be with him in any place in the world save her own
                 house, and there it might not be, seeing that Fra Puccio never went without the
-                town. At this the monk was sore chagrined; but, after much consideration, he hit
+                town. At this the <roleName type="clerical" subtype="monk"> monk </roleName> was sore chagrined; but, after much consideration, he hit
                 upon a device whereby he might avail to foregather with the lady in her own house,
                 without suspect, for all Fra Puccio should be at home. Accordingly, the latter
                 coming one day to visit him, he bespoke him thus, 'I have many a time understood,
@@ -5585,7 +5585,7 @@
                 thing, began straightway to entreat him with the utmost instancy that he would teach
                 it him and then to swear that never, save in so far as it should please him, would
                 he tell it to any, engaging, an if it were such as he might avail to follow, to
-                address himself thereunto. Whereupon quoth the monk, 'Since thou promisest me this,
+                address himself thereunto. Whereupon quoth the <roleName type="clerical" subtype="monk"> monk </roleName>, 'Since thou promisest me this,
                 I will e'en discover it to thee. Thou must know that the doctors of the <org
                     type="religous" subtype="church">church</org> hold that it behoveth whoso would
                 become blessed to perform the penance which thou shalt hear; but understand me
@@ -5623,17 +5623,17 @@
                 Fra Puccio, 'This is no very burdensome matter, nor yet overlong, and may very well
                 be done; wherefore I purpose in God's name to begin on Sunday.' Then, taking leave
                 of him and returning home, he related everything in due order to his wife, having
-                the other's permission therefor. The lady understood very well what the monk meant
+                the other's permission therefor. The lady understood very well what the <roleName type="clerical" subtype="monk"> monk </roleName> meant
                 by bidding him stand fast without stirring till matins; wherefore, the device
                 seeming to her excellent, she replied that she was well pleased therewith and with
                 every other good work that he did for the health of his soul and that, so God might
                 make the penance profitable to him, she would e'en fast with him, but do no more.
                 They being thus of accord and Sunday come, Fra Puccio began his penance and my lord
-                monk, having agreed with the lady, came most evenings to sup with her, bringing with
+                <roleName type="clerical" subtype="monk"> monk </roleName>, having agreed with the lady, came most evenings to sup with her, bringing with
                 him store of good things to eat and drink, and after lay with her till matinsong,
                 when he arose and took himself off, whilst Fra Puccio returned to bed. Now the place
                 which Fra Puccio had chosen for his penance adjoined the chamber where the lady lay
-                and was parted therefrom but by a very slight wall, wherefore, Master Monk wantoning
+                and was parted therefrom but by a very slight wall, wherefore, Master <roleName type="clerical" subtype="monk"> Monk </roleName> wantoning
                 it one night overfreely with the lady and she with him, it seemed to Fra Puccio that
                 he felt a shaking of the floor of the house. Accordingly, having by this said an
                 hundred of his Paternosters, he made a stop there and without moving, called to his
@@ -5650,20 +5650,20 @@
                 rest; thou givest such vaults about the bed that thou makest all in the place
                 shake.' 'Have no care for that,' answered the lady; 'I know what I am about; do you
                 but well, you, and I will do as well as I may.' Fra Puccio, accordingly, held his
-                peace and betook himself anew to his Paternosters; and after that night my lord monk
+                peace and betook himself anew to his Paternosters; and after that night my lord <roleName type="clerical" subtype="monk"> monk </roleName>
                 and the lady let make a bed in another part of the house, wherein they abode in the
                 utmost joyance what while Fra Puccio's penance lasted. At one and the same hour the
-                monk took himself off and the lady returned to her own bed, whereto a little after
+                <roleName type="clerical" subtype="monk"> monk </roleName> took himself off and the lady returned to her own bed, whereto a little after
                 came Fra Puccio from his penance; and on this wise the latter continued to do
-                penance, whilst his wife did her delight with the monk, to whom quoth she merrily,
+                penance, whilst his wife did her delight with the <roleName type="clerical" subtype="monk"> monk </roleName>, to whom quoth she merrily,
                 now and again, 'Thou hast put Fra Puccio upon performing a penance, whereby we have
                 gotten Paradise.' Indeed, the lady, finding herself in good case, took such a liking
-                to the monk's fare, having been long kept on low diet by her husband, that, whenas
+                to the <roleName type="clerical" subtype="monk"> monk's </roleName> fare, having been long kept on low diet by her husband, that, whenas
                 Fra Puccio's penance was accomplished, she still found means to feed her fill with
                 him elsewhere and using discretion, long took her pleasure thereof. Thus, then, that
                 my last words may not be out of accord with my first, it came to pass that, whereas
                 Fra Puccio, by doing penance, thought to win Paradise for himself, he put therein
-                the monk, who had shown him the speedy way thither, and his wife, who lived with him
+                the <roleName type="clerical" subtype="monk"> monk </roleName>, who had shown him the speedy way thither, and his wife, who lived with him
                 in great lack of that whereof Dom Felice, like a charitable man as he was,
                 vouchsafed her great plenty." </p></story>
         <story numbr="Five"><p><story_numbr>THE FIFTH STORY</story_numbr></p>
@@ -6206,7 +6206,7 @@
                 another; nay, and it pleaseth me to speak of them, so you may henceforward know them
                 better than you appear to have done in the past. </p>
             <p> Friars of old were very pious and worthy men, but those who nowadays style
-                themselves friars and would be held such have nothing of the monk but the gown; nor
+                themselves friars and would be held such have nothing of the <roleName type="clerical" subtype="monk"> monk </roleName> but the gown; nor
                 is this latter even that of a true friar, for that,—whereas of the founders of the
                 monastic orders they were ordained strait and poor and of coarse stuff and
                 demonstrative of the spirit of the wearers, who testified that they held things
@@ -6242,7 +6242,7 @@
                 discharge of every grave burden, as if it were possible for the sheep to be more
                 constant and stouter to resist temptation than the shepherds. And how many
                 there be of those to whom they make such a reply who apprehend it not after the
-                fashion in which they say it, the most part of them know. The <roleName type="clerical" subtype="monk">monks</roleName> of our day
+                fashion in which they say it, the most part of them know. The <roleName type="clerical" subtype="monk"> monks </roleName> of our day
                 would have you do as they say, to wit, fill their purses with money, trust your
                 secrets to them, observe chastity, practise patience and forgiveness of injuries and
                 keep yourselves from evil speaking,—all things good, seemly and righteous; but why
@@ -6517,7 +6517,7 @@
                 sepulchre as one raised from the dead, by reason whereof he was adored as a
                 saint who should rather have been condemned as a criminal. </p>
             <p> There was, then, and yet is, in Tuscany, an abbey situate, like as we see many
-                thereof, in a place not overmuch frequented of men, whereof a monk was made <roleName type="clerical" subtype="abbot">abbot</roleName>,
+                thereof, in a place not overmuch frequented of men, whereof a <roleName type="clerical" subtype="monk"> monk </roleName> was made <roleName type="clerical" subtype="abbot">abbot</roleName>,
                 who was a very holy man in everything, save in the matter of women, and in this he
                 contrived to do so warily that well nigh none, not to say knew, but even suspected
                 him thereof, for that he was holden exceeding godly and just in everything. It
@@ -6617,7 +6617,7 @@
                 took as much as might suffice to make a man sleep three days and putting it in a
                 beaker of wine, that was not yet well cleared, gave it to Ferondo to drink in his
                 cell, without the latter suspecting aught; after which he carried him into the
-                cloister and there with some of his <roleName type="clerical" subtype="monk">monks</roleName> fell to making sport of him and his
+                cloister and there with some of his <roleName type="clerical" subtype="monk"> monks </roleName> fell to making sport of him and his
                 dunceries; nor was it long before, the powder working, Ferondo was taken with so
                 sudden and overpowering a drowsiness, that he slumbered as yet he stood afoot and
                 presently fell down fast asleep. </p>
@@ -6625,7 +6625,7 @@
                 caused fetch cold water and cast it in his face and essay many other remedies of his
                 fashion, as if he would recall the strayed life and senses from [the oppression of]
                 some fumosity of the stomach or what not like affection that had usurped them. The
-                <roleName type="clerical" subtype="monk">monks</roleName>, seeing that for all this he came not to himself and feeling his pulse, but
+                <roleName type="clerical" subtype="monk"> monks </roleName>, seeing that for all this he came not to himself and feeling his pulse, but
                 finding no sign of life in him, all held it for certain that he was dead.
                 Accordingly, they sent to tell his wife and his kinsfolk, who all came thither
                 forthright, and the lady having bewept him awhile with her kinswomen, the <roleName type="clerical" subtype="abbot">abbot</roleName>
@@ -6633,21 +6633,21 @@
                 giving out that she meant never to part from a little son, whom she had had by her
                 husband, abode at home and occupied herself with the governance of the child and of
                 the wealth which had been Ferondo's. Meanwhile, the <roleName type="clerical" subtype="abbot">abbot</roleName> arose stealthily in the
-                night and with the aid of a Bolognese monk, in whom he much trusted and who was that
+                night and with the aid of a Bolognese <roleName type="clerical" subtype="monk"> monk </roleName>, in whom he much trusted and who was that
                 day come thither from Bologna, took up Ferondo out of the tomb and carried him into
                 a vault, in which there was no light to be seen and which had been made for prison
-                of such of the <roleName type="clerical" subtype="monk">monks</roleName> as should make default in aught. There they pulled off his
-                garments and clothing him monk-fashion, laid him on a truss of straw and there left
-                him against he should recover his senses, whilst the Bolognese monk, having been
+                of such of the <roleName type="clerical" subtype="monk"> monks </roleName> as should make default in aught. There they pulled off his
+                garments and clothing him <roleName type="clerical" subtype="monk"> monk </roleName>-fashion, laid him on a truss of straw and there left
+                him against he should recover his senses, whilst the Bolognese <roleName type="clerical" subtype="monk"> monk </roleName>, having been
                 instructed by the <roleName type="clerical" subtype="abbot">abbot</roleName> of that which he had to do, without any else knowing aught
                 thereof, proceeded to await his coming to himself. </p>
-            <p> On the morrow, the <roleName type="clerical" subtype="abbot">abbot</roleName>, accompanied by sundry of his <roleName type="clerical" subtype="monk">monks</roleName>, betook himself, by way
+            <p> On the morrow, the <roleName type="clerical" subtype="abbot">abbot</roleName>, accompanied by sundry of his <roleName type="clerical" subtype="monk"> monks </roleName>, betook himself, by way
                 of visitation, to the house of the lady, whom he found clad in black and in great
                 tribulation, and having comforted her awhile, he softly required her of her promise.
                 The lady, finding herself free and unhindered of Ferondo or any other and seeing on
                 his finger another fine ring, replied that she was ready and appointed him to come
                 to her that same night. Accordingly, night come, the <roleName type="clerical" subtype="abbot">abbot</roleName>, disguised in Ferondo's
-                clothes and accompanied by the monk his confidant, repaired thither and lay with her
+                clothes and accompanied by the <roleName type="clerical" subtype="monk"> monk </roleName> his confidant, repaired thither and lay with her
                 in the utmost delight and pleasance till the morning, when he returned to the abbey.
                 After this he very often made the same journey on a like errand and being whiles
                 encountered, coming or going, of one or another of the villagers, it was believed he
@@ -6655,14 +6655,14 @@
                 strange stories were after bruited about among the simple countryfolk, and this was
                 more than once reported to Ferondo's wife, who well knew what it was. </p>
             <p> As for Ferondo, when he recovered his senses and found himself he knew not where,
-                the Bolognese monk came in to him with a horrible noise and laying hold of him, gave
+                the Bolognese <roleName type="clerical" subtype="monk"> monk </roleName> came in to him with a horrible noise and laying hold of him, gave
                 him a sound drubbing with a rod he had in his hand. Ferondo, weeping and crying out,
-                did nought but ask, 'Where am I?' To which the monk answered, 'Thou art in
+                did nought but ask, 'Where am I?' To which the <roleName type="clerical" subtype="monk"> monk </roleName> answered, 'Thou art in
                 purgatory.' 'How?' cried Ferondo. 'Am I then dead?' 'Ay, certes,' replied the other;
                 whereupon Ferondo fell to bemoaning himself and his wife and child, saying the
-                oddest things in the world. Presently the monk brought him somewhat of meat and
+                oddest things in the world. Presently the <roleName type="clerical" subtype="monk"> monk </roleName> brought him somewhat of meat and
                 drink, which Ferondo seeing, 'What!' cried he. 'Do the dead eat?' 'Ay do they,'
-                answered the monk. 'This that I bring thee is what the woman, thy wife that was,
+                answered the <roleName type="clerical" subtype="monk"> monk </roleName>. 'This that I bring thee is what the woman, thy wife that was,
                 sent this morning to the <org type="religous" subtype="church">church</org> to let
                 say masses for thy soul, and God the Lord willeth that it be made over to thee.'
                 Quoth Ferondo, 'God grant her a good year! I still cherished her ere I died,
@@ -6671,30 +6671,30 @@
                 fell to eating and drinking and himseeming the wine was not overgood, 'Lord confound
                 her!' quoth he. 'Why did not she give the <roleName type="clerical" subtype="priest"
                     >priest</roleName> wine of the cask against the wall?' </p>
-            <p> After he had eaten, the monk laid hold of him anew and gave him another sound
+            <p> After he had eaten, the <roleName type="clerical" subtype="monk"> monk </roleName> laid hold of him anew and gave him another sound
                 beating with the same rod; whereat Ferondo roared out lustily and said, 'Alack, why
-                dost thou this to me?' Quoth the monk, 'Because thus hath God the Lord ordained that
+                dost thou this to me?' Quoth the <roleName type="clerical" subtype="monk"> monk </roleName>, 'Because thus hath God the Lord ordained that
                 it be done unto thee twice every day.' 'And for what cause?' asked Ferondo.
-                'Because,' answered the monk, 'thou wast jealous, having the best woman in the
+                'Because,' answered the <roleName type="clerical" subtype="monk"> monk </roleName>, 'thou wast jealous, having the best woman in the
                 country to wife.' 'Alas!' said Ferondo. 'Thou sayst sooth, ay, and the kindest
                 creature; she was sweeter than syrup; but I knew not that God the Lord held it for
-                ill that a man should be jealous; else had I not been so.' Quoth the monk, 'Thou
+                ill that a man should be jealous; else had I not been so.' Quoth the <roleName type="clerical" subtype="monk"> monk </roleName>, 'Thou
                 shouldst have bethought thyself of that, whenas thou wast there below, and have
                 amended thee thereof; and should it betide that thou ever return thither, look thou
                 so have in mind that which I do unto thee at this present that thou be nevermore
                 jealous.' 'What?' said Ferondo. 'Do the dead ever return thither?' 'Ay,' answered
-                the monk; 'whom God willeth.' 'Marry,' cried Ferondo, 'and I ever return thither, I
+                the <roleName type="clerical" subtype="monk"> monk </roleName>; 'whom God willeth.' 'Marry,' cried Ferondo, 'and I ever return thither, I
                 will be the best husband in the world; I will never beat her nor give her an ill
                 word, except it be anent the wine she sent hither this morning and for that she sent
-                no candles, so it behoved me to eat in the dark.' 'Nay,' said the monk, 'she sent
+                no candles, so it behoved me to eat in the dark.' 'Nay,' said the <roleName type="clerical" subtype="monk"> monk </roleName>, 'she sent
                 candles enough, but they were all burnt for the masses.' 'True,' rejoined Ferondo;
                 'and assuredly, an I return thither, I will let her do what she will. But tell me,
-                who art thou that usest me thus?' Quoth the monk, 'I also am dead. I was of Sardinia
+                who art thou that usest me thus?' Quoth the <roleName type="clerical" subtype="monk"> monk </roleName>, 'I also am dead. I was of Sardinia
                 and for that aforetime I much commended a master of mine of being jealous, I have
                 been doomed of God to this punishment, that I must give thee to eat and drink and
                 beat thee thus, till such time as God shall ordain otherwhat of thee and of me.'
                 Then said Ferondo, 'Is there none here other than we twain?' 'Ay,' answered the
-                monk, 'there be folk by the thousands; but thou canst neither see nor hear them, nor
+                <roleName type="clerical" subtype="monk"> monk </roleName>, 'there be folk by the thousands; but thou canst neither see nor hear them, nor
                 they thee.' Quoth Ferondo, 'And how far are we from our own countries?' 'Ecod,'
                 replied the other, 'we are distant thence more miles than we can well cack at a
                 bout.' 'Faith,' rejoined the farmer, 'that is far enough; meseemeth we must be out
@@ -6714,13 +6714,13 @@
                 well, Lord grant a good year to Seignior God Almighty and to the <roleName type="clerical" subtype="abbot">abbot</roleName> and St.
                 Benedict and my cheesy sweet honey wife.' The <roleName type="clerical" subtype="abbot">abbot</roleName> let give him, in the wine
                 that he sent him, so much of the powder aforesaid as should cause him sleep maybe
-                four hours and with the aid of his monk, having put his own clothes on him, restored
+                four hours and with the aid of his <roleName type="clerical" subtype="monk"> monk </roleName>, having put his own clothes on him, restored
                 him privily to the tomb wherein he had been buried. </p>
             <p> Next morning, at break of day, Ferondo came to himself and espying light,—a thing
                 which he had not seen for good ten months,—through some crevice of the tomb, doubted
                 not but he was alive again. Accordingly, he fell to bawling out, 'Open to me! Open
                 to me!' and heaving so lustily at the lid of the tomb with his head that he stirred
-                it, for that it was eath to move, and had begun to move it away, when the <roleName type="clerical" subtype="monk">monks</roleName>,
+                it, for that it was eath to move, and had begun to move it away, when the <roleName type="clerical" subtype="monk"> monks </roleName>,
                 having now made an end of saying matins, ran thither and knew Ferondo's voice and
                 saw him in act to come forth of the sepulchre; whereupon, all aghast for the
                 strangeness of the case, they took to their heels and ran to the <roleName type="clerical" subtype="abbot">abbot</roleName>, who made a
@@ -6738,7 +6738,7 @@
                 friend and servant of God.' 'Sir,' replied Ferondo, 'so hath it indeed been said to
                 me; only leave me do; for, as soon as I find her, I shall buss her, such goodwill do
                 I bear her.' </p>
-            <p> The <roleName type="clerical" subtype="abbot">abbot</roleName>, left alone with his <roleName type="clerical" subtype="monk">monks</roleName>, made a great show of wonderment at this
+            <p> The <roleName type="clerical" subtype="abbot">abbot</roleName>, left alone with his <roleName type="clerical" subtype="monk"> monks </roleName>, made a great show of wonderment at this
                 miracle and caused devoutly sing Miserere therefor. As for Ferondo, he returned to
                 his village, where all who saw him fled, as men use to do from things frightful; but
                 he called them back and avouched himself to be raised up again. His wife on like
@@ -7019,7 +7019,7 @@
                 wife and loved and tendered her over all." </p></story>
         <story numbr="Ten" status="problematique"><p><story_numbr>THE TENTH STORY</story_numbr></p>
             <p><ch_title>Day the Third </ch_title></p>
-            <p> ALIBECH, TURNING HERMIT, IS TAUGHT BY RUSTICO, A MONK, TO PUT THE DEVIL IN HELL, AND
+            <p> ALIBECH, TURNING HERMIT, IS TAUGHT BY RUSTICO, A <roleName type="clerical" subtype="monk"> MONK </roleName>, TO PUT THE DEVIL IN HELL, AND
                 BEING AFTER BROUGHT AWAY THENCE, BECOMETH NEERBALE HIS WIFE </p>
             <p> <person xml:id="dioneo" sex="M">Dioneo</person>, who had diligently hearkened to the queen's story, seeing that it was ended
                 and that it rested with him alone to tell, without awaiting commandment, smilingly
@@ -7835,7 +7835,7 @@
                 God's sake pardon me that which I said to you last Sunday, whenas you bespoke me of
                 your beauty, for that the following night I was so cruelly chastised there that I
                 have not since been able to rise from my bed till to-day.' Quoth Mistress
-                Featherbrain, 'And who chastised you thus?' 'I will tell you,' replied the monk.
+                Featherbrain, 'And who chastised you thus?' 'I will tell you,' replied the <roleName type="clerical" subtype="monk"> monk </roleName>.
                 'Being that night at my orisons, as I still use to be, I saw of a sudden a great
                 light in my cell and ere I could turn me to see what it might be, I beheld over
                 against me a very fair youth with a stout cudgel in his hand, who took me by the
@@ -7883,7 +7883,7 @@
                 requital of the buffets he gave you on my account.' Then said Fra Alberto, 'Look
                 that he find the door of your house open to-night, so he may come in thereat, for
                 that, coming in human form, as he will, he might not enter save by the door.' The
-                lady replied that it should be done, whereupon the monk took his leave and she abode
+                lady replied that it should be done, whereupon the <roleName type="clerical" subtype="monk"> monk </roleName> took his leave and she abode
                 in such a transport of exultation that her breech touched not her shift and
                 herseemed a thousand years till the angel Gabriel should come to her. </p>
             <p> Meanwhile, Fra Alberto, bethinking him that it behoved him play the cavalier, not
@@ -7965,7 +7965,7 @@
                 Rialto, heard how the angel Gabriel had gone that night to lie with Madam Lisetta
                 and being surprised by her kinsmen, had cast himself for fear into the canal, nor
                 was it known what was come of him, and concluded forthright that this was he whom he
-                had at home. Accordingly, he returned thither and recognizing the monk, found means
+                had at home. Accordingly, he returned thither and recognizing the <roleName type="clerical" subtype="monk"> monk </roleName>, found means
                 after much parley, to make him fetch him fifty ducats, an he would not have him give
                 him up to the lady's kinsmen. Having gotten the money and Fra Alberto offering to
                 depart thence, the good man said to him, 'There is no way of escape for you, an it
@@ -7991,7 +7991,7 @@
                 this?' till he came to the place, where, what with those who had followed after
                 them and those who, hearing the proclamation, were come thither from the Rialto,
                 were folk without end. There he tied his wild man to a column in a raised and high
-                place, making a show of awaiting the hunt, whilst the flies and gads gave the monk
+                place, making a show of awaiting the hunt, whilst the flies and gads gave the <roleName type="clerical" subtype="monk"> monk </roleName>
                 exceeding annoy, for that he was besmeared with honey. But, when he saw the place
                 well filled, making as he would unchain his wild man, he pulled off Fra Alberto's
                 mask and said, 'Gentlemen, since the bear cometh not and there is no hunt toward, I
@@ -12585,13 +12585,13 @@
                 profit him, although the lady was nothing displeased to have heard him. </p>
             <p> Not long after, whatever might have been the reason, it came to pass that Rinaldo
                 turned friar and whether or not he found the pasturage to his liking, he persevered
-                in that way of life; and albeit, in the days of his becoming a monk, he had for
+                in that way of life; and albeit, in the days of his becoming a <roleName type="clerical" subtype="monk"> monk </roleName>, he had for
                 awhile laid on one side the love he bore his gossip, together with sundry other
-                vanities of his, yet, in process of time, without quitting the monk's habit, he
+                vanities of his, yet, in process of time, without quitting the <roleName type="clerical" subtype="monk"> monk's </roleName> habit, he
                 resumed them and began to delight in making a show and wearing fine stuffs and
                 being dainty and elegant in all his fashions and making canzonets and sonnets and
                 ballads and in singing and all manner other things of the like sort. But what say I
-                of our Fra Rinaldo, of whom we speak? What <roleName type="clerical" subtype="monk">monks</roleName> are there that do not thus? Alack,
+                of our Fra Rinaldo, of whom we speak? What <roleName type="clerical" subtype="monk"> monks </roleName> are there that do not thus? Alack,
                 shame that they are of the corrupt world, they blush not to appear fat and ruddy in
                 the face, dainty in their garb and in all that pertaineth unto them, and strut
                 along, not like doves, but like very turkey-cocks, with crest erect and breast
@@ -12618,9 +12618,9 @@
                 herself hard pressed and Fra Rinaldo seeming to her belike goodlier than she had
                 thought him aforetime, being one day sore importuned of him, had recourse to that
                 argument which all women use who have a mind to yield that which is asked of them
-                and said, 'How now, Fra Rinaldo? Do <roleName type="clerical" subtype="monk">monks</roleName> such things?' 'Madam,' answered he, 'when
+                and said, 'How now, Fra Rinaldo? Do <roleName type="clerical" subtype="monk"> monks </roleName> such things?' 'Madam,' answered he, 'when
                 as I shall have this gown off my back,—and I can put it off mighty easily,—I shall
-                appear to you a man fashioned like other men and not a monk.' The lady pulled a
+                appear to you a man fashioned like other men and not a <roleName type="clerical" subtype="monk"> monk </roleName>.' The lady pulled a
                 demure face and said, 'Alack, wretched me! You are my gossip; how can I do this? It
                 were sadly ill, and I have heard many a time that it is a very great sin; but,
                 certes, were it not for this, I would do that which you wish.' Quoth Fra Rinaldo,
@@ -13482,7 +13482,7 @@
                 this he hath told you hath verily befallen him and that he hath done as he saith;
                 and you shall hear how. This worthy man, to whom in an ill hour for me you gave me
                 to wife, who calleth himself a merchant and would be thought a man of credit, this
-                fellow, forsooth, who should be more temperate than a monk and chaster than a maid,
+                fellow, forsooth, who should be more temperate than a <roleName type="clerical" subtype="monk"> monk </roleName> and chaster than a maid,
                 there be few nights but he goeth fuddling himself about the taverns, foregathering
                 now with this lewd woman and now with that and keeping me waiting for him, on such
                 wise as you find me, half the night and whiles even till morning. I doubt not but
@@ -15320,7 +15320,7 @@
                 true witness. Themseemeth they are worthy to be worshipped and caressed of their
                 mistresses and they have no greater glory than to vaunt them of those whom they have
                 had; the which default of theirs hath aforetime cast many a woman into the arms of
-                the <roleName type="clerical" subtype="monk">monks</roleName>, who tell no tales. Albeit thou sayst that never did any know of thine
+                the <roleName type="clerical" subtype="monk"> monks </roleName>, who tell no tales. Albeit thou sayst that never did any know of thine
                 amours, save thy maid and myself, thou knowest it ill and believest awry, an thou
                 think thus. His quarter talketh well nigh of nothing else, and thine likewise;
                 but most times the last to whose ears such things come is he to whom they pertain.
@@ -19732,22 +19732,22 @@
                 having sounded, the sacristan of the <org type="religous" subtype="church"
                     >church</org> entered, with a light in his hand, and chancing suddenly to espy
                 the rich bed, not only marvelled, but, seized with a terrible fright, turned and
-                fled. The <roleName type="clerical" subtype="abbot">abbot</roleName> and the <roleName type="clerical" subtype="monk">monks</roleName>, seeing him flee, marvelled and questioned him of the
+                fled. The <roleName type="clerical" subtype="abbot">abbot</roleName> and the <roleName type="clerical" subtype="monk"> monks </roleName>, seeing him flee, marvelled and questioned him of the
                 cause, which he told them; whereupon quoth the <roleName type="clerical" subtype="abbot">abbot</roleName>, 'Marry, thou art no child nor
                 art thou new to the <org type="religous" subtype="church">church</org> that thou
                 shouldst thus lightly take fright; let us go see who hath played the bugbear with
-                thee.' Accordingly, kindling several lights, the <roleName type="clerical" subtype="abbot">abbot</roleName> and all his <roleName type="clerical" subtype="monk">monks</roleName> entered the
+                thee.' Accordingly, kindling several lights, the <roleName type="clerical" subtype="abbot">abbot</roleName> and all his <roleName type="clerical" subtype="monk"> monks </roleName> entered the
                     <org type="religous" subtype="church">church</org> and saw that wonder-rich and
                 goodly bed and thereon the gentleman asleep; and what while, misdoubting and
                 fearful, they gazed upon the noble jewels, without drawing anywise near to the bed,
                 it befell that, the virtue of the draught being spent, Messer Torello awoke and
-                heaved a great sigh, which when the <roleName type="clerical" subtype="monk">monks</roleName> saw and heard, they took to flight, <roleName type="clerical" subtype="abbot">abbot</roleName>
+                heaved a great sigh, which when the <roleName type="clerical" subtype="monk"> monks </roleName> saw and heard, they took to flight, <roleName type="clerical" subtype="abbot">abbot</roleName>
                 and all, affrighted and crying, 'Lord aid us!' Messer Torello opened his eyes and
                 looking about him, plainly perceived himself to be whereas he had asked Saladin to
                 have him carried, at which he was mightily content. Then, sitting up, he
                 particularly examined that which he had about him, and for all he had before known
                 of the magnificence of Saladin, it seemed to him now greater and he knew it more.
-                Nevertheless, without moving farther, seeing the <roleName type="clerical" subtype="monk">monks</roleName> flee and divining why, he
+                Nevertheless, without moving farther, seeing the <roleName type="clerical" subtype="monk"> monks </roleName> flee and divining why, he
                 proceeded to call the <roleName type="clerical" subtype="abbot">abbot</roleName> by name, praying him be not afraid, for that he was
                 Torello his nephew. The <roleName type="clerical" subtype="abbot">abbot</roleName>, hearing this, waxed yet more fearful, as holding him
                 as dead many months before; but, after awhile, taking assurance by true arguments
@@ -19763,7 +19763,7 @@
                 against her own will, is married again and is this morning to go to her new husband;
                 ay, and the bride-feast and all that pertaineth unto the nuptial festivities is
                 prepared.' Therewithal Messer Torello arose from off the rich bed and greeting the
-                <roleName type="clerical" subtype="abbot">abbot</roleName> and the <roleName type="clerical" subtype="monk">monks</roleName> with marvellous joyance, prayed them all to speak with none of
+                <roleName type="clerical" subtype="abbot">abbot</roleName> and the <roleName type="clerical" subtype="monk"> monks </roleName> with marvellous joyance, prayed them all to speak with none of
                 that his return, against he should have despatched an occasion of his; after which,
                 having caused lay up the costly jewels in safety, he recounted to his uncle all that
                 had befallen him up to that moment. The <roleName type="clerical" subtype="abbot">abbot</roleName> rejoiced in his happy fortunes and
