@@ -174,7 +174,7 @@
             <xsl:variable name="count-christianity" select="count(//faith[@ref='#Roman Catholic'])"/>
             <xsl:variable name="bar-width" select="80"/>
             <xsl:variable name="bar-spacing" select="40"/>
-            <xsl:variable name="religion-x" select="(position() - 1) * ($bar-width + $bar-spacing)"/>
+            <!--<xsl:variable name="religion-x" select="(position() - 1) * ($bar-width + $bar-spacing)"/>-->
             <xsl:variable name="scale" select="8"/>
             <body>
                 <nav>
@@ -220,12 +220,13 @@
                     <!-- islam rectangle -->
                     <rect x="0" y="{-$height-islam}" width="{$bar-width}" height="{$height-islam}" fill="green" />            
                     <!-- judaism -->
-                    <rect x="religion-x" y="{-$height-judaism}" width="{$bar-width}" height="{$height-judaism}" fill="blue" />            
+                    <rect x="{$bar-spacing + $bar-width}" y="{-$height-judaism}" width="{$bar-width}" height="{$height-judaism}" fill="blue" />            
                     
                     <!-- christianity -->
-                    <rect x="religion-x" y="{-$height-christianity}" width="{$bar-width}" height="{$height-christianity}" fill="yellow" />            
+                    <rect x="{2 * ($bar-spacing + $bar-width)}" y="{-$height-christianity}" width="{$bar-width}" height="{$height-christianity}" fill="yellow" />            
                     
-                    
+                    <!-- the name of religion -->
+                        
                 </svg>
                 
                
