@@ -216,7 +216,6 @@
         <!-- creating variables for buttons to bring to next page when in the story -->
         <xsl:variable name="next-story" select="following-sibling::story[1]"/>
         <xsl:variable name="prev-story" select="preceding-sibling::story[1]"/> 
-        
         <xsl:result-document href="story-{$day}-{@numbr}.html" method="xhtml">
             <html>
                 <head>
@@ -251,11 +250,14 @@
                     </nav>
                     
                     <h2> <xsl:value-of select="$day"/> 
-                        Day
+                        Day 
                     </h2>
                     <h3>
                         <xsl:value-of select="p/story_numbr"/>
                     </h3>
+                    <h4>
+                        <xsl:apply-templates select="story[@status]"/>
+                    </h4>
                     <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
                     
                     
@@ -272,11 +274,15 @@
         </xsl:result-document>
         
         
+        
     </xsl:template>
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
     
+    <xsl:template match="story[@status]">
+        <a href="censorship.html"> Censorship Analysis </a>
+    </xsl:template>
  
  
 
