@@ -155,11 +155,61 @@
                             </li>
                         </ul>
                     </nav>
-                    
+                    <!-- hard coded about page from google doc, will have to manually update to change -->
                     <h1>About</h1>
-                    <h2>Author</h2>
+                    <h2><strong>Author</strong></h2>
                     <p>Giovanni Boccaccio</p>
+                   <h2><em>The Decameron</em></h2>
+                    <p>As the Black Death swept through Europe, Giovanni Boccaccio witnessed the horrors that such an apocalyptic event could cause. 
+                        Witnessing the death of up to 60% of his fellow Florentines, he turned the horror into a catalyst for creativity. 
+                        Writing in Italian for the sake of the common man, Boccaccio created The Decameron, a collection of 100 witty and often indecent stories designed to provide an escape from the horrors of the plague. 
+                    </p>
+                    <p>
+                        
+                        The book is built around a simple "frame" story: ten young Florentines flee the plague-ridden city for a secluded villa in the countryside.  
+                        To maintain sanity in this period of extreme suffering they spend ten days telling the stories that make up the bulk of the text. 
+                        While the world around them was falling into chaos and despair, Boccaccio’s characters used storytelling to rebuild a sense of structure and bring joy to the often bleak reality of fourteenth century life.  
+                        Through his satirical style, Boccaccio made pointed criticisms of powerful institutions such as the Church, establishing The Decameron as a target for future censorship.
+                        
+                    </p>
+                    <h2> <strong>Catholic Church Struggles (Avignon, Reformation)</strong></h2>
+                    <p>The Renaissance was an especially turbulent period for the Catholic Church, making The Decameron just another thorn in the side of the already fractured institution.  
+                        Both The Black Plague and the writing of the Decameron occurred during what would come to be known as the Avignon papacy.  
+                        This period of ‘Babylonian Captivity’, sparked by the violent end of the papacy of Pope Boniface VIII, created a crisis of legitimacy over the authority of the Pope. 
+                        Over the next 70 years, including the height of the plague, seven consecutive French popes would be elected and choose to keep the papacy in Avignon, making the pontiff seem more like a political tool of the French crown than a divine authority.
+                        For Boccaccio this made the Catholic Church a perfect target for pointed political satire. 
+                        We see in The Decameron that members of the clergy are not depicted as holy men, rather Boccaccio depicts a distinct aura of hedonism around the men of faith.
+                    </p>
+                    <p>However, what began as a witty fourteenth century critique ultimately became a liability two centuries later. 
+                        Following the outbreak of the Protestant Reformation the Catholic Church could no longer afford to allow this overt criticism. 
+                        The church saw the critiques of Boccaccio as additional ammunition for figures like Martin Luther to attack along with his 95 theses. 
+                        The invention of the printing press and the subsequent mass production of The Decameron only served to add more fuel to this fire of anxiety. 
+                        This added threat changed the attitude of the Catholic Church from one of tolerance to that of aggressive defense. 
+                        This ultimately led to the codification of their anxieties into the Tridentine Index in 1564, a rigid list of rules set to guide future church censorship (see below).
+                    </p>
+                    <h2><strong>Research Methodology</strong></h2>
+                    <p>By using Boccaccio's Decameron as an exemplar text of the time period, we analyzed the perceptions around the Catholic Church in late Medieval Europe in the wake of the Black Plague.
+                        In 1564 the Catholic Church published the aforementioned list of ten rules to guide their process of censorship:</p>
+                    <ul>
+                        <li>1. All books condemned by popes or councils before 1515 will remain prohibited.</li>
+                        <li>2. All books by “heresiarchs” (heretical leaders) and theological books by heretics are prohibited.</li>
+                        <li>3. Heretics’ Bible translations are banned; heretics’ translations of other texts require approval.</li>
+                        <li>4. Vernacular translations of the Bible by Catholic scholars require approval.</li>
+                        <li>5. Compilations of earlier works edited by heretics require correction and approval.</li>
+                        <li>6. Theological writings in vernacular languages require correction and approval..</li>
+                        <li>7. Obscene or immoral works are prohibited; Classical works may be read by adults.</li>
+                        <li>8. Books that are generally sound, but which contain isolated heresies must be corrected.</li>
+                        <li>9. All books treating magic, superstition, astrology, or occult practices are prohibited.</li>
+                        <li>10. The bishop and the inquisitor require all books to be licensed prior to publication.</li>
+                    </ul>
+                    
+                    <p>
+                        We utilized this as a guide to flag certain stories in the text as problematic in the eyes of the church, based on our modern sensibilities and interpretations. 
+                        Then using a 1620 censored translation of the stories by John Florio, we were able to compare our evaluation of certain stories to the actual revisions that were made by the early seventeenth century.
+                        
+                    </p>
                 </body>
+                
             </html>
             
         </xsl:result-document>
@@ -202,6 +252,8 @@
                 
                 <h1>Statistics of <em>The Decameron</em></h1>
                 <h2><em>Religious References</em></h2>
+                <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
+                
                 <!-- creates graph -->
                 <svg width="1400" height="500" viewBox="-50 -400 1200 450">
                     <line x1="0" y1="0" x2="360" y2="0" stroke="black"/>
@@ -232,7 +284,6 @@
                
                 
             </body>
-            <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
            
          
         </xsl:result-document>
