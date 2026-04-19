@@ -345,7 +345,7 @@
                         <xsl:value-of select="p/story_numbr"/>
                     </h3>
                     <!-- adds link on story pages with censorship -->
-                    <xsl:if test="@status='problematique'">
+                    <xsl:if test="normalize-space(@status)='problematique'">
                         <div class="censorship-link">
                             <a href="censorship.html#story-{$day}-{@numbr}">
                                 This story was censored - see the Censorship page for details
