@@ -491,7 +491,7 @@
                     <h1>Censorship</h1>
                     <p>The following stories were identified as censored or problematic. Details on each will be added below.</p>
                     
-                    <!-- creates an entry for each censored story -->
+                    <!-- creates an entry for each censored story--> 
                     <xsl:for-each select="//story[@status='problematique']">
                         <xsl:variable name='day' as='xs:string' select='parent::div/@day'/>
                         <div class="censorship-entry">
@@ -500,6 +500,9 @@
                             </h2>
                             <!-- placeholder for information on censorship details -->
                             <p class="placeholder">Censorship details for this story coming soon.</p>
+                            
+                            <!-- use this line for when we add the actual censorship data -->
+                            <!--<p><xsl:value-of select="censorship_note"/></p>-->
                         </div>    
                         
                     </xsl:for-each>
