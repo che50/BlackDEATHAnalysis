@@ -344,6 +344,14 @@
                     <h3>
                         <xsl:value-of select="p/story_numbr"/>
                     </h3>
+                    <!-- adds link on story pages with censorship -->
+                    <xsl:if test="@status='problematique'">
+                        <div class="censorship-link">
+                            <a href="censorship.html#story-{$day}-{@numbr}">
+                                This story was censored - see the Censorship page for details
+                            </a>
+                        </div>
+                    </xsl:if>
                     <xsl:apply-templates select="p[not(story_numbr) and not(ch_title)]"/>
                     
                     
@@ -480,9 +488,21 @@
                         </ul>
                     </nav>
                     
-                    <h1>
-                        test
-                    </h1>
+                    <h1>Censorship</h1>
+                    <p>The following stories were identified as censored or problematic. Details on each will be added below.</p>
+                    
+                    <!-- creates an entry for each censored story -->
+                    <xsl:for-each select="//story[@status='problematique']">
+                        <xsl:variable name='day' as='xs:string' select='parent::div/@day'/>
+                        <div class="censorship-entry">
+                            <h2 id="story-{$day}-{@numbr}">
+                                <xsl:value-of select="$day"/> Day - <xsl:value-of select="p/story_numbr"/>
+                            </h2>
+                            <!-- placeholder for information on censorship details -->
+                            <p class="placeholder">Censorship details for this story coming soon.</p>
+                        </div>    
+                        
+                    </xsl:for-each>
                 </body>
             </html>
             
