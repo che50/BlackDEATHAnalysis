@@ -502,7 +502,7 @@
                             <p class="placeholder">Censorship details for this story coming soon.</p>
                             
                             <!-- use this line for when we add the actual censorship data -->
-                            <!--<p><xsl:value-of select="censorship_note"/></p>-->
+                            <p><xsl:value-of select="censorship_note"/></p>
                         </div>    
                         
                     </xsl:for-each>
