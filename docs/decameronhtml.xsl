@@ -495,9 +495,11 @@
                     <xsl:for-each select="//story[@status='problematique']">
                         <xsl:variable name='day' as='xs:string' select='parent::div/@day'/>
                         <div class="censorship-entry">
+                            <a href="story-{$day}-{@numbr}.html">
                             <h2 id="story-{$day}-{@numbr}">
                                 <xsl:value-of select="$day"/> Day - <xsl:value-of select="p/story_numbr"/>
                             </h2>
+                                </a>
                             <!-- placeholder for information on censorship details -->
                             <p class="placeholder">Censorship details for this story coming soon.</p>
                             

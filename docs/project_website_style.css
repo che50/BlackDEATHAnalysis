@@ -24,7 +24,7 @@ nav ul li a {
     display: inline-block;
 }
 
-nav ul li a:hover {
+       a:hover {
     background-color: #B64B12;
 }
 .list {
@@ -41,11 +41,11 @@ nav ul li a:hover {
     font-style: italic;
 }
 
-ul ul li a {
+     a {
     color: #670626 !important;
 }
 
-ul ul li a:hover {
+     a:hover {
     color: #FFEDAC !important;
 }
 
