@@ -506,7 +506,7 @@
                     
                     <h1>Censorship</h1>
                     <p>The following stories were identified as censored or problematic. Details on each will be added below.</p>
-      
+      <!-- test -->
                     
                      <!--creates an entry for each censored story--> 
                     <xsl:for-each select="//story[@status='problematique']">
