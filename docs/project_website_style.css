@@ -11,8 +11,10 @@ nav {
     margin-bottom: 2rem;
     border-bottom: 3px solid #FFEDAC;
     /* pull nav outside of padding for body - make it go full width */
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    width: 100vw;
+    padding-left: calc(50vw - 600px);
 }
 
 nav ul{
