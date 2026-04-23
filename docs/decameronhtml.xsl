@@ -229,16 +229,16 @@
             
             <!-- variables for person count -->
             
-            <xsl:variable name="count-pampinea" select="count(//person[@ref='pampinea'])"/>
-            <xsl:variable name="count-fiammetta" select="count(//person[@ref='fiammetta'])"/>
-            <xsl:variable name="count-filomena" select="count(//person[@ref='filomena'])"/>
-            <xsl:variable name="count-emilia" select="count(//person[@ref='emilia'])"/>
-            <xsl:variable name="count-lauretta" select="count(//person[@ref='lauretta'])"/>
-            <xsl:variable name="count-neifile" select="count(//person[@ref='neifile'])"/>
-            <xsl:variable name="count-elisa" select="count(//person[@ref='elisa'])"/>
-            <xsl:variable name="count-pamfilo" select="count(//person[@ref='pamfilo'])"/>
-            <xsl:variable name="count-filostrato" select="count(//person[@ref='filostrato'])"/>
-            <xsl:variable name="count-dioneo" select="count(//person[@ref='dioneo'])"/>
+            <xsl:variable name="count-pampinea" select="count(//person[@name='pampinea'])"/>
+            <xsl:variable name="count-fiammetta" select="count(//person[@name='fiammetta'])"/>
+            <xsl:variable name="count-filomena" select="count(//person[@name='filomena'])"/>
+            <xsl:variable name="count-emilia" select="count(//person[@name='emilia'])"/>
+            <xsl:variable name="count-lauretta" select="count(//person[@name='lauretta'])"/>
+            <xsl:variable name="count-neifile" select="count(//person[@name='neifile'])"/>
+            <xsl:variable name="count-elisa" select="count(//person[@name='elisa'])"/>
+            <xsl:variable name="count-pamfilo" select="count(//person[@name='pamfilo'])"/>
+            <xsl:variable name="count-filostrato" select="count(//person[@name='filostrato'])"/>
+            <xsl:variable name="count-dioneo" select="count(//person[@name='dioneo'])"/>
             <xsl:variable name="bar-width-2" select="40"/>
             <xsl:variable name="bar-spacing-2" select="20"/>
             
