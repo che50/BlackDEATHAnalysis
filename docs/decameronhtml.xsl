@@ -309,7 +309,7 @@
           <h3> <em>The Decameron</em> primaryily follows the stories of ten main characters.</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-50 -400 1200 450">
                     <line x1="0" y1="0" x2="360" y2="0" stroke="black"/>
-                    <line x1="0" y1="0" x2="0" y2="-380" stroke="black"/>
+                    <line x1="0" y1="0" x2="620" y2="0" stroke="black"/>
                     <xsl:for-each select="(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55)">
                         <text x="-35" y="{-. * $scale}" >
                             <xsl:value-of select="."/>
@@ -341,6 +341,18 @@
                     <rect x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="green" />
                     <rect x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="green" />
                     <rect x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="green" />
+                    
+                    <!-- text for rectanlge -->
+                    <text x="0" y="20">Pampinea</text>
+                    <text x="{1 * ($bar-spacing-2 + $bar-width-2)}" y="20">Fiammetta</text>
+                    <text x="{2 * ($bar-spacing-2 + $bar-width-2)}" y="20">Emilia</text>
+                    <text x="{3 * ($bar-spacing-2 + $bar-width-2)}" y="20">Lauretta</text>
+                    <text x="{4 * ($bar-spacing-2 + $bar-width-2)}" y="20">Neifile</text>
+                    <text x="{5 * ($bar-spacing-2 + $bar-width-2)}" y="20">Elisa</text>
+                    <text x="{6 * ($bar-spacing-2 + $bar-width-2)}" y="20">Pamfilo</text>
+                    <text x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="20">Filostrato</text>
+                    <text x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="20">Dioneo</text>
+                    <text x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="20">Filomena</text>
                 </svg>
             </body>
         </xsl:result-document>
