@@ -5,6 +5,13 @@ body {
     padding: 0 40px;
 }
 
+nav {
+    background-color: #34150F;
+    padding: 12px 20px;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #FFEDAC;
+}
+
 nav ul{
     display: flex;
     flex-direction: row;
