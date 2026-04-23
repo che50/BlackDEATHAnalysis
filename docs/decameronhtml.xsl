@@ -274,7 +274,7 @@
                 <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
                 
                 <!-- creates graph -->
-                <svg width="1400" height="500" viewBox="-50 -400 1200 450">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-50 -400 1200 450">
                     <line x1="0" y1="0" x2="360" y2="0" stroke="black"/>
                     <line x1="0" y1="0" x2="0" y2="-320" stroke="black"/>
                     <xsl:for-each select="(0, 10, 20, 30, 40)">
@@ -298,26 +298,16 @@
                     
                     <!-- the name of religion -->
                         
-                    <text x="{$height-christianity}" y="20" >
-                        Christianity
-                    </text>
-                    
-                    <text x="{$height-islam}" y="20" >
-                        Islam
-                    </text>
-                    
-                    
-                    <text x="{$height-judaism}" y="20" >
-                        Judaism                    
-
-                    </text>
+                    <text x="0" y="20">Islam</text>
+                    <text x="{$bar-spacing-1 + $bar-width-1}" y="20">Judaism</text>
+                    <text x="{2 * ($bar-spacing-1 + $bar-width-1)}" y="20">Christianity</text>
                 
                 </svg>
                 
                
                <h2><em>Character Frequency</em></h2>
           <h3> <em>The Decameron</em> primaryily follows the stories of ten main characters.</h3>
-                <svg width="1400" height="500" viewBox="-50 -400 1200 450">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-50 -400 1200 450">
                     <line x1="0" y1="0" x2="360" y2="0" stroke="black"/>
                     <line x1="0" y1="0" x2="0" y2="-380" stroke="black"/>
                     <xsl:for-each select="(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55)">
@@ -336,21 +326,21 @@
                     <xsl:variable name="height-elisa" select="$count-elisa * $scale"/>
                     <xsl:variable name="height-pamfilo" select="$count-pamfilo * $scale"/>
                     <xsl:variable name="height-filostrato" select="$count-filostrato * $scale"/>
-                    <xsl:variable name="height-dioneo" select="$count-filomena * $scale"/>
+                    <xsl:variable name="height-dioneo" select="$count-dioneo * $scale"/>
                     <xsl:variable name="height-filomena" select="$count-filomena * $scale"/>
                   
                   
                   <!-- rectangle creation, again probably not most efficient -->
-                    <rect x="0" y="{-$height-pampinea}" width="{$bar-width-2}" height="{height-pampinea}" fill="green" />
-                    <rect x="{$bar-spacing-2 + $bar-width-2}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="green" />
-                    <rect x="(2 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="green" />
-                    <rect x="(3 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="green" />
-                    <rect x="(4 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="green" />
-                    <rect x="(5 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="green" />
-                    <rect x="(6 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="green" />
-                    <rect x="(7 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="green" />
-                    <rect x="(8 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="green" />
-                    <rect x="(9 * {$bar-spacing-2 + $bar-width-2})" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="green" />
+                    <rect x="0" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="green" />
+                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="green" />
+                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="green" />
+                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="green" />
+                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="green" />
+                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="green" />
+                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="green" />
+                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="green" />
+                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="green" />
+                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="green" />
                 </svg>
             </body>
         </xsl:result-document>
