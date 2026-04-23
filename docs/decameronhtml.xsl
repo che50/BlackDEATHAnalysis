@@ -240,7 +240,7 @@
             <xsl:variable name="count-filostrato" select="count(//person[@name='filostrato'])"/>
             <xsl:variable name="count-dioneo" select="count(//person[@name='dioneo'])"/>
             <xsl:variable name="bar-width-2" select="40"/>
-            <xsl:variable name="bar-spacing-2" select="20"/>
+            <xsl:variable name="bar-spacing-2" select="50"/>
             
             
             <!--<xsl:variable name="religion-x" select="(position() - 1) * ($bar-width + $bar-spacing)"/>-->
@@ -328,31 +328,53 @@
                     <xsl:variable name="height-filostrato" select="$count-filostrato * $scale"/>
                     <xsl:variable name="height-dioneo" select="$count-dioneo * $scale"/>
                     <xsl:variable name="height-filomena" select="$count-filomena * $scale"/>
-                  
+                  <!-- charachters sex variables, not efficent again-->
+                    <xsl:variable name="sex-pampinea" select="(//person[@name='pampinea'])[1]/@sex"/>
+                    <xsl:variable name="sex-fiammetta" select="(//person[@name='fiammetta'])[1]/@sex"/>
+                    <xsl:variable name="sex-emilia" select="(//person[@name='emilia'])[1]/@sex"/>
+                    <xsl:variable name="sex-lauretta" select="(//person[@name='lauretta'])[1]/@sex"/>
+                    <xsl:variable name="sex-neifile" select="(//person[@name='neifile'])[1]/@sex"/>
+                    <xsl:variable name="sex-elisa" select="(//person[@name='elisa'])[1]/@sex"/>
+                    <xsl:variable name="sex-pamfilo" select="(//person[@name='pamfilo'])[1]/@sex"/>
+                    <xsl:variable name="sex-filostrato" select="(//person[@name='filostrato'])[1]/@sex"/>
+                    <xsl:variable name="sex-dioneo" select="(//person[@name='dioneo'])[1]/@sex"/>
+                    <xsl:variable name="sex-filomena" select="(//person[@name='filomena'])[1]/@sex"/>
                   
                   <!-- rectangle creation, again probably not most efficient -->
                     <rect x="0" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="green" />
-                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="green" />
-                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="green" />
-                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="green" />
-                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="green" />
-                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="green" />
-                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="green" />
-                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="green" />
-                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="green" />
-                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="green" />
+                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="black" />
+                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="black" />
+                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="black" />
+                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="black" />
+                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="black" />
+                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="black" />
+                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="black" />
+                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="black" />
+                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="black" />
                     
                     <!-- text for rectanlge -->
-                    <text x="0" y="20">Pampinea</text>
-                    <text x="{1 * ($bar-spacing-2 + $bar-width-2)}" y="20">Fiammetta</text>
-                    <text x="{2 * ($bar-spacing-2 + $bar-width-2)}" y="20">Emilia</text>
-                    <text x="{3 * ($bar-spacing-2 + $bar-width-2)}" y="20">Lauretta</text>
-                    <text x="{4 * ($bar-spacing-2 + $bar-width-2)}" y="20">Neifile</text>
-                    <text x="{5 * ($bar-spacing-2 + $bar-width-2)}" y="20">Elisa</text>
-                    <text x="{6 * ($bar-spacing-2 + $bar-width-2)}" y="20">Pamfilo</text>
-                    <text x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="20">Filostrato</text>
-                    <text x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="20">Dioneo</text>
-                    <text x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="20">Filomena</text>
+                    <text x="{0 + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Pampinea</text>
+                    <text x="{1 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Fiammetta</text>
+                    <text x="{2 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Emilia</text>
+                    <text x="{3 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Lauretta</text>
+                    <text x="{4 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Neifile</text>
+                    <text x="{5 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Elisa</text>
+                    <text x="{6 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Pamfilo</text>
+                    <text x="{7 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Filostrato</text>
+                    <text x="{8 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Dioneo</text>
+                    <text x="{9 * ($bar-spacing-2 + $bar-width-2) + $bar-width-2 div 2}" y="30" font-size="10" text-anchor="middle">Filomena</text>
+                    
+                    <!-- sex labels -->
+                    <text x="0" y="35"><xsl:value-of select="$sex-pampinea"/></text>
+                    <text x="{1 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-fiammetta"/></text>
+                    <text x="{2 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-emilia"/></text>
+                    <text x="{3 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-lauretta"/></text>
+                    <text x="{4 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-neifile"/></text>
+                    <text x="{5 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-elisa"/></text>
+                    <text x="{6 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-pamfilo"/></text>
+                    <text x="{7 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-filostrato"/></text>
+                    <text x="{8 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-dioneo"/></text>
+                    <text x="{9 * ($bar-spacing-2 + $bar-width-2)}" y="35"><xsl:value-of select="$sex-filomena"/></text>
                 </svg>
             </body>
         </xsl:result-document>
