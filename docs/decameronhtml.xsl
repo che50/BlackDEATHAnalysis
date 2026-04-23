@@ -289,9 +289,9 @@
                     
                     
                     <text x="{$height-judaism}" y="20" >
-                        Judaism
+                        Judaism                    
+
                     </text>
-                    
                     
                         
                         
