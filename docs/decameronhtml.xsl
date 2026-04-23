@@ -289,11 +289,11 @@
                     <xsl:variable name="height-judaism" select="$count-judaism * $scale"/>
                     <!-- rectangles -->
                     <!-- islam rectangle -->
-                    <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="green" />
+                    <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="#4A7C4E" />
                     <!-- judaism -->
-                    <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="blue" />
+                    <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="#2E5E8E" />
                     <!-- christianity -->
-                    <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="yellow" />
+                    <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="#D4A017" />
                     
                     <!-- the name of religion -->
                     <text x="{20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Islam</text>
