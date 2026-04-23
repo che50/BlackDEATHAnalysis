@@ -109,7 +109,7 @@ h1, h2{
     
 }
 
-h3, ul, p{
+h3, ul:not(nav ul), p{
     font-family: 'EB Garamond', serif;
     background-color: #f0dfa0;
     color: #271814;
