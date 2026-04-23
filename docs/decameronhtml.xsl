@@ -279,6 +279,22 @@
                     
                     <!-- the name of religion -->
                         
+                    <text x="{$height-christianity}" y="20" >
+                        Christianity
+                    </text>
+                    
+                    <text x="{$height-islam}" y="20" >
+                        Islam
+                    </text>
+                    
+                    
+                    <text x="{$height-judaism}" y="20" >
+                        Judaism
+                    </text>
+                    
+                    
+                        
+                        
                 </svg>
                 
                
