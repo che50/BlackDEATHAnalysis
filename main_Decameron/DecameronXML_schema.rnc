@@ -19,13 +19,14 @@ p = element p {mixed{main_title | ch_title | org | roleName |
             censorship_note = element censorship_note {p_4*, text}
                 p_4 = element p {text}
             status = attribute status {text}
-            p_3 = element p {mixed{ch_title | org | roleName | story_numbr | faith | person | p_3 | italian | note | song}* | text}
+            p_3 = element p {mixed{ch_title | org | roleName | story_numbr | faith | person | p_3 | italian | note | song | scandalous}* | text}
                 story_numbr = element story_numbr {text}
                 faith = element faith {ref, text}
                     ref = attribute ref {text}
                 italian = element italian {text}
                 note = element note {text}
                 song = element song {text}
+                scandalous = element scandalous {mixed {faith | roleName}* | text}
         person = element person {
     attribute name { text },
     attribute sex { text },
