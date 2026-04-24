@@ -1192,36 +1192,34 @@
         <story numbr="Four" status="problematique"><p><story_numbr>THE FOURTH
                 STORY</story_numbr></p>
             <censorship_note>
-                <p>Although much of this story was left the same, there are some
-                    distinct passages that were subtly changed in order to distance the crude
-                    behavior of the Abbot from the moral righteousness of the Catholic Church. One
-                    such example of these changes are the passage in paragraphs 2 and 3 which
-                    describe the monk discovering the young girl and taking her to his
-                    bedchamber.</p>
+                <p>Although much of this story was left the same, there are some distinct passages
+                    that were subtly changed in order to distance the crude behavior of the Abbot
+                    from the moral righteousness of the Catholic Church. One such example of these
+                    changes are the passage in paragraphs 2 and 3 which describe the monk
+                    discovering the young girl and taking her to his bedchamber.</p>
                 <p>In Boccaccio’s original, the description is relatively neutral and only makes
                     moral comment on the actions in an appropriately ironic tone for the subject
                     matter: “Wherefore, accosting her, he entered into parley with her and so led on
                     from one thing to another that he came to an accord with her and brought her to
                     his cell, unperceived of any.” Very obviously, there is a certain disregard for
                     the supposed moral authority of the Clergy, and the Monk is treated as an
-                    unfortunately, but not surprisingly, sinful fool.</p> 
-                <p>Florio’s censored version
-                from 1620 explicitly moralizes this passage. In a somewhat clumsy manner, a
-                substantial preamble is made to emphasize the aberrant behavior of this particular
-                monk: “Lascivious desire, and no religious devotion, made him draw neere her, and
-                whether under shrift … or some other as close conference, to as pernicious and vile
-                a purpose, I know not: but so farre he prevailed upon her frailety, and such a
-                bargaine passed betweene them, that … he wonne her to his Chamber, before any person
-                could perceive it.”</p> 
-                <p>In another section of the story, (paragraph 6) an obvious edit
-                is made to the description of the Abbot’s transgressions. Where Boccaccio provides a
-                (mildly) scandalous description of sexual acts, Florio omits most of the
-                suggestiveness and instead simply says: “ The Maide … was easily wonne to the Abbots
-                will, which caused him to embrace and kisse her often.”</p> 
-                <p>This story seems to violate
-                numbers 7 and 8 in the Church’s rules of censorship. Parts of the work are “obscene”
-                or “immoral”, and Florio treats these passages as “isolated heresies” that are then
-                corrected.</p> </censorship_note>
+                    unfortunately, but not surprisingly, sinful fool.</p>
+                <p>Florio’s censored version from 1620 explicitly moralizes this passage. In a
+                    somewhat clumsy manner, a substantial preamble is made to emphasize the aberrant
+                    behavior of this particular monk: “Lascivious desire, and no religious devotion,
+                    made him draw neere her, and whether under shrift … or some other as close
+                    conference, to as pernicious and vile a purpose, I know not: but so farre he
+                    prevailed upon her frailety, and such a bargaine passed betweene them, that … he
+                    wonne her to his Chamber, before any person could perceive it.”</p>
+                <p>In another section of the story, (paragraph 6) an obvious edit is made to the
+                    description of the Abbot’s transgressions. Where Boccaccio provides a (mildly)
+                    scandalous description of sexual acts, Florio omits most of the suggestiveness
+                    and instead simply says: “ The Maide … was easily wonne to the Abbots will,
+                    which caused him to embrace and kisse her often.”</p>
+                <p>This story seems to violate numbers 7 and 8 in the Church’s rules of censorship.
+                    Parts of the work are “obscene” or “immoral”, and Florio treats these passages
+                    as “isolated heresies” that are then corrected.</p>
+            </censorship_note>
             <p><ch_title>Day the First </ch_title></p>
             <p> A <roleName type="clerical" subtype="monk"> MONK </roleName>, HAVING FALLEN INTO A
                 SIN DESERVING OF VERY GRIEVOUS PUNISHMENT, ADROITLY REPROACHING THE SAME FAULT TO
@@ -1251,18 +1249,18 @@
                 solitary place, he espied a very well-favoured lass, belike some husbandman's
                 daughter of the country, who went about the fields culling certain herbs, and no
                 sooner had he set eyes on her than he was violently assailed by carnal appetite.
-                <scandalous>Wherefore, accosting her, he entered into parley with her and so led on from one
-                thing to another that he came to an accord with her and brought her to his cell,
-                unperceived of any;</scandalous> but whilst, carried away by overmuch ardour, he disported
-                himself with her less cautiously than was prudent, it chanced that the <roleName
-                    type="clerical" subtype="abbot">abbot</roleName> arose from sleep and softly
-                passing by the <roleName type="clerical" subtype="monk"> monk's </roleName> cell,
-                heard the racket that the twain made together; whereupon he came stealthily up to
-                the door to listen, that he might the better recognize the voices, and manifestly
-                perceiving that there was a woman in the cell, was at first minded to cause open to
-                him, but after bethought himself to hold another course in the matter and, returning
-                to his chamber, awaited the <roleName type="clerical" subtype="monk"> monk's
-                </roleName> coming forth. </p>
+                    <scandalous>Wherefore, accosting her, he entered into parley with her and so led
+                    on from one thing to another that he came to an accord with her and brought her
+                    to his cell, unperceived of any;</scandalous> but whilst, carried away by
+                overmuch ardour, he disported himself with her less cautiously than was prudent, it
+                chanced that the <roleName type="clerical" subtype="abbot">abbot</roleName> arose
+                from sleep and softly passing by the <roleName type="clerical" subtype="monk">
+                    monk's </roleName> cell, heard the racket that the twain made together;
+                whereupon he came stealthily up to the door to listen, that he might the better
+                recognize the voices, and manifestly perceiving that there was a woman in the cell,
+                was at first minded to cause open to him, but after bethought himself to hold
+                another course in the matter and, returning to his chamber, awaited the <roleName
+                    type="clerical" subtype="monk"> monk's </roleName> coming forth. </p>
             <p> The latter, all taken up as he was with the wench and his exceeding pleasure and
                 delight in her company, was none the less on his guard and himseeming he heard some
                 scuffling of feet in the dormitory, he set his eye to a crevice and plainly saw the
@@ -1310,14 +1308,16 @@
                 avail ourselves of a good, whenas God the Lord sendeth us thereof.' </p>
             <p> So saying and having altogether changed purpose from that wherewith he came, he drew
                 near to the girl and began gently to comfort her, praying her not to weep, and
-                passing from one word to another, he ended by discovering to her his desire. <scandalous>The
-                girl, who was neither iron nor adamant, readily enough lent herself to the pleasure
-                of the <roleName type="clerical" subtype="abbot">abbot</roleName>, who, after he had
-                clipped and kissed her again and again, mounted upon the <roleName type="clerical"
-                    subtype="monk"> monk's </roleName> pallet and having belike regard to the grave
-                burden of his dignity and the girl's tender age and fearful of irking her for
-                overmuch heaviness, bestrode not her breast, but set her upon his own and so a great
-                while disported himself with her.</scandalous> </p>
+                passing from one word to another, he ended by discovering to her his desire.
+                    <scandalous>The girl, who was neither iron nor adamant, readily enough lent
+                    herself to the pleasure of the <roleName type="clerical" subtype="abbot"
+                        >abbot</roleName>, who, after he had clipped and kissed her again and again,
+                    mounted upon the <roleName type="clerical" subtype="monk"> monk's </roleName>
+                    pallet and having belike regard to the grave burden of his dignity and the
+                    girl's tender age and fearful of irking her for overmuch heaviness, bestrode not
+                    her breast, but set her upon his own and so a great while disported himself with
+                    her.</scandalous>
+            </p>
             <p> Meanwhile, the <roleName type="clerical" subtype="monk"> monk </roleName>, who had
                 only made believe to go to the wood and had hidden himself in the dormitory, was
                 altogether reassured, whenas he saw the <roleName type="clerical" subtype="abbot"
@@ -7221,7 +7221,30 @@
                 but sundry others, and from that day forth still honoured her as his bride and his
                 wife and loved and tendered her over all." </p></story>
         <story numbr="Ten" status="problematique"><p><story_numbr>THE TENTH STORY</story_numbr></p>
-            <censorship_note>This story was censored because...</censorship_note>
+            <censorship_note><p>Possibly the most egregious example of censorship and editing is
+                displayed in this story. The original seems to have been so offensive that it was
+                not deemed salvageable by the Church’s standards, and so an entirely different story
+                was put in its place. This new story has a very deliberate and reactionary moral
+                overtone that seeks to undo the influence of the original.</p> 
+                <p>The replacement story
+                tells a saccharine tale of a princess so dutiful and pure that she will not look a
+                man in the eye. This is a far cry from the original in which another young girl is
+                manipulated into performing sexual acts with a monk who she believes is teaching her
+                how to serve God. It is not at all surprising that this change was made, seeing as
+                there is almost no way to redeem the clergy depicted in the original. However, one
+                aspect of the changed version is interesting for a different reason.</p> 
+                <p>While the
+                original story depicts a young girl supposedly pursuing Christianity (even in a
+                satirical way), the revision is set in Denmark and mentions the Norse Gods without
+                relying on Christianity as a moral compass. Given the precarious position the
+                Catholic Church was in during the ongoing Reformation, it is surprising that the
+                revisions they implemented favored a “pagan” tale taken from a French Renaissance
+                author: François de Belleforest. This implies that it was seen as more important to
+                omit the obscene depictions of the clergy, even if the more modest story failed to
+                promote the Church outright.</p> 
+                <p>Heavily violating the 7th rule of censorship, this
+                story was always destined to be changed if not fully removed in any Church-approved
+                revisions.</p> </censorship_note>
             <p><ch_title>Day the Third </ch_title></p>
             <p> ALIBECH, TURNING HERMIT, IS TAUGHT BY RUSTICO, A <roleName type="clerical"
                     subtype="monk"> MONK </roleName>, TO PUT THE DEVIL IN HELL, AND BEING AFTER
@@ -7343,59 +7366,63 @@
                     private circulation only:</note>
             </p>
             <p>
-                <note>Matters standing thus and Rustico being more than ever inflamed in his desires
-                    to see her so fair, there came the resurrection of the flesh, which Alibech
-                    observing and marvelling, 'Rustico,' quoth she, 'what is that I see on thee
-                    which thrusteth forth thus and which I have not?' 'Faith, daughter mine,'
-                    answered he, 'this is the devil whereof I bespoke thee; and see now, he giveth
-                    me such sore annoy that I can scarce put up with it.' Then said the girl, 'Now
-                    praised be God! I see I fare better than thou, in that I have none of yonder
-                    devil.' 'True,' rejoined Rustico; 'but thou hast otherwhat that I have not, and
-                    thou hast it instead of this.' 'What is that?' asked Alibech; and he, 'Thou hast
-                    hell, and I tell thee methinketh God hath sent thee hither for my soul's health,
-                    for that, whenas this devil doth me this annoy, an it please thee have so much
-                    compassion on me as to suffer me put him back into hell, thou wilt give me the
-                    utmost solacement and wilt do God a very great pleasure and service, so indeed
-                    thou be come into these parts to do as thou sayst.'</note>
+                <note><scandalous>Matters standing thus and Rustico being more than ever inflamed in
+                        his desires to see her so fair, there came the resurrection of the flesh,
+                        which Alibech observing and marvelling, 'Rustico,' quoth she, 'what is that
+                        I see on thee which thrusteth forth thus and which I have not?' 'Faith,
+                        daughter mine,' answered he, 'this is the devil whereof I bespoke thee; and
+                        see now, he giveth me such sore annoy that I can scarce put up with it.'
+                        Then said the girl, 'Now praised be God! I see I fare better than thou, in
+                        that I have none of yonder devil.' 'True,' rejoined Rustico; 'but thou hast
+                        otherwhat that I have not, and thou hast it instead of this.' 'What is
+                        that?' asked Alibech; and he, 'Thou hast hell, and I tell thee methinketh
+                        God hath sent thee hither for my soul's health, for that, whenas this devil
+                        doth me this annoy, an it please thee have so much compassion on me as to
+                        suffer me put him back into hell, thou wilt give me the utmost solacement
+                        and wilt do God a very great pleasure and service, so indeed thou be come
+                        into these parts to do as thou sayst.'</scandalous></note>
             </p>
             <p>
-                <note>The girl answered in good faith, 'Marry, father mine, since I have hell, be it
-                    whensoever it pleaseth thee;' whereupon quoth Rustico, 'Daughter, blessed be
-                    thou; let us go then and put him back there, so he may after leave me in peace.'
-                    So saying, he laid her on one of their little beds and taught her how she should
-                    do to imprison that accursed one of God. The girl, who had never yet put any
-                    devil in hell, for the first time felt some little pain; wherefore she said to
-                    Rustico, 'Certes, father mine, this same devil must be an ill thing and an enemy
-                    in very deed of God, for that it irketh hell itself, let be otherwhat, when he
-                    is put back therein.' 'Daughter,' answered Rustico, 'it will not always happen
-                    thus;' and to the end that this should not happen, six times, or ever they
-                    stirred from the bed, they put him in hell again, insomuch that for the nonce
-                    they so took the conceit out of his head that he willingly abode at peace. But,
-                    it returning to him again and again the ensuing days and the obedient girl still
-                    lending herself to take it out of him, it befell that the sport began to please
-                    her and she said to Rustico, 'I see now that those good people in Capsa spoke
-                    sooth, when they avouched that it was so sweet a thing to serve God; for,
-                    certes, I remember me not to have ever done aught that afforded me such
-                    pleasance and delight as putting the devil in hell; wherefore methinketh that
-                    whoso applieth himself unto aught other than God His service is a fool.'</note>
+                <note><scandalous>The girl answered in good faith, 'Marry, father mine, since I have
+                        hell, be it whensoever it pleaseth thee;' whereupon quoth Rustico,
+                        'Daughter, blessed be thou; let us go then and put him back there, so he may
+                        after leave me in peace.' So saying, he laid her on one of their little beds
+                        and taught her how she should do to imprison that accursed one of God. The
+                        girl, who had never yet put any devil in hell, for the first time felt some
+                        little pain; wherefore she said to Rustico, 'Certes, father mine, this same
+                        devil must be an ill thing and an enemy in very deed of God, for that it
+                        irketh hell itself, let be otherwhat, when he is put back therein.'
+                        'Daughter,' answered Rustico, 'it will not always happen thus;' and to the
+                        end that this should not happen, six times, or ever they stirred from the
+                        bed, they put him in hell again, insomuch that for the nonce they so took
+                        the conceit out of his head that he willingly abode at peace. But, it
+                        returning to him again and again the ensuing days and the obedient girl
+                        still lending herself to take it out of him, it befell that the sport began
+                        to please her and she said to Rustico, 'I see now that those good people in
+                        Capsa spoke sooth, when they avouched that it was so sweet a thing to serve
+                        God; for, certes, I remember me not to have ever done aught that afforded me
+                        such pleasance and delight as putting the devil in hell; wherefore
+                        methinketh that whoso applieth himself unto aught other than God His service
+                        is a fool.'</scandalous></note>
             </p>
             <p>
-                <note>Accordingly, she came ofttimes to Rustico and said to him, 'Father mine, I
-                    came here to serve God and not to abide idle; let us go put the devil in hell.'
-                    Which doing, she said whiles, 'Rustico, I know not why the devil fleeth away
-                    from hell; for, an he abode there as willingly as hell receiveth him and holdeth
-                    him, he would never come forth therefrom.' The girl, then, on this wise often
-                    inviting Rustico and exhorting him to the service of God, so took the bombast
-                    out of his doublet that he felt cold what time another had sweated; wherefore he
-                    fell to telling her that the devil was not to be chastised nor put into hell,
-                    save whenas he should lift up his head for pride; 'and we,' added he, 'by God's
-                    grace, have so baffled him that he prayeth our Lord to suffer him abide in
-                    peace;' and on this wise he for awhile imposed silence on her. However, when she
-                    saw that he required her not of putting the devil in hell, she said to him one
-                    day, 'Rustico, an thy devil be chastened and give thee no more annoy, my hell
-                    letteth me not be; wherefore thou wilt do well to aid me with thy devil in
-                    abating the raging of my hell, even as with my hell I have helped thee take the
-                    conceit out of thy devil.'</note>
+                <note><scandalous>Accordingly, she came ofttimes to Rustico and said to him, 'Father
+                        mine, I came here to serve God and not to abide idle; let us go put the
+                        devil in hell.' Which doing, she said whiles, 'Rustico, I know not why the
+                        devil fleeth away from hell; for, an he abode there as willingly as hell
+                        receiveth him and holdeth him, he would never come forth therefrom.' The
+                        girl, then, on this wise often inviting Rustico and exhorting him to the
+                        service of God, so took the bombast out of his doublet that he felt cold
+                        what time another had sweated; wherefore he fell to telling her that the
+                        devil was not to be chastised nor put into hell, save whenas he should lift
+                        up his head for pride; 'and we,' added he, 'by God's grace, have so baffled
+                        him that he prayeth our Lord to suffer him abide in peace;' and on this wise
+                        he for awhile imposed silence on her. However, when she saw that he required
+                        her not of putting the devil in hell, she said to him one day, 'Rustico, an
+                        thy devil be chastened and give thee no more annoy, my hell letteth me not
+                        be; wherefore thou wilt do well to aid me with thy devil in abating the
+                        raging of my hell, even as with my hell I have helped thee take the conceit
+                        out of thy devil.'</scandalous></note>
             </p>
             <p> Rustico, who lived on roots and water, could ill avail to answer her calls and told
                 her that it would need overmany devils to appease hell, but he would do what he
