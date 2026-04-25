@@ -299,6 +299,8 @@
                     <text x="{20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Islam</text>
                     <text x="{$bar-spacing-1 + $bar-width-1 + 20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Judaism</text>
                     <text x="{2 * ($bar-spacing-1 + $bar-width-1) + 20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Christianity</text>
+                    <text x="170" y="-340" font-size="20" text-anchor="middle" font-weight="bold">Religious References in The Decameron</text>
+                    
                 </svg>
                 
                
@@ -371,6 +373,8 @@
                     <text x="{7 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-filostrato"/></text>
                     <text x="{8 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-dioneo"/></text>
                     <text x="{9 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-filomena"/></text>
+                    <text x="550" y="-440" font-size="20" text-anchor="middle" font-weight="bold">Character Mention Frequency in The Decameron</text>
+                    
                 </svg>
             </body>
         </xsl:result-document>
