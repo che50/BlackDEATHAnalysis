@@ -271,6 +271,7 @@
                 
                 <h1>Statistics of <em>The Decameron</em></h1>
                 <h2><em>Religious References</em></h2>
+                <p><em>The Decameron</em> as a text has a heavy focus on religion. This graph counts the frequency as they appear in the text. </p>
                 <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
                 
                 <!-- creates graph -->
@@ -299,13 +300,13 @@
                     <text x="{20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Islam</text>
                     <text x="{$bar-spacing-1 + $bar-width-1 + 20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Judaism</text>
                     <text x="{2 * ($bar-spacing-1 + $bar-width-1) + 20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Christianity</text>
-                    <text x="170" y="-340" font-size="20" text-anchor="middle" font-weight="bold">Religious References in The Decameron</text>
+                    <text x="170" y="-340" font-size="20" text-anchor="middle" font-weight="bold">Religious References in <em>The Decameron</em></text>
                     
                 </svg>
                 
                
                <h2><em>Character Frequency</em></h2>
-          <h3> <em>The Decameron</em> primaryily follows the stories of ten main characters.</h3>
+          <h3> <em>The Decameron</em> primarily follows the stories of ten main characters. This graph tracks the frequency which their names appear in the text.</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-100 -460 1400 560">
                     <line x1="0" y1="0" x2="0" y2="-450" stroke="black" />
                     <line x1="0" y1="0" x2="850" y2="0" stroke="black"/>
@@ -373,7 +374,7 @@
                     <text x="{7 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-filostrato"/></text>
                     <text x="{8 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-dioneo"/></text>
                     <text x="{9 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-filomena"/></text>
-                    <text x="550" y="-440" font-size="20" text-anchor="middle" font-weight="bold">Character Mention Frequency in The Decameron</text>
+                    <text x="550" y="-440" font-size="20" text-anchor="middle" font-weight="bold">Character Mention Frequency in <em>The Decameron</em></text>
                     
                 </svg>
             </body>
