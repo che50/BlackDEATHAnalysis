@@ -271,7 +271,7 @@
                 
                 <h1>Statistics of <em>The Decameron</em></h1>
                 <h2><em>Religious References</em></h2>
-                <p><em>The Decameron</em> as a text has a heavy focus on religion. This graph counts the frequency as they appear in the text. </p>
+                <h3><em>The Decameron</em> as a text has a heavy focus on religion. This graph counts the frequency as they appear in the text. </h3>
                 <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
                 
                 <!-- creates graph -->
