@@ -461,6 +461,16 @@
         
         
     </xsl:template>
+    
+    <!-- template for styling of scandalous lines -->
+    <xsl:template match="scandalous">
+        <!-- span creates an inline container that can be used in styling later -->
+        <span class="scandalous">
+            <!-- uses <p> template -->
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
