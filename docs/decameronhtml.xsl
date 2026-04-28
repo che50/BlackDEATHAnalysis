@@ -439,8 +439,8 @@
                     
                     <!-- creates legend at the top of every story page  -->
                     <div class="legend">
-                        <span class="scandalous">Problematic Text</span>
-                        <strong>Person</strong>
+                        <div><span class="scandalous">Problematic Text</span></div>
+                        <div><strong>Person</strong></div>
                     </div>
                     
                     <!-- adds link on story pages with censorship -->
