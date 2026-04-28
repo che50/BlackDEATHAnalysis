@@ -121,7 +121,7 @@ h3, ul:not(nav ul), p{
 
 /* stlying for highlight on scandalous text */
 .scandalous {
-   background-color: #A6979C;
+   background-color: rgba(225, 182, 193, 0.4);
    padding: 2px 4px;
    border-radius: 4px;
 }
