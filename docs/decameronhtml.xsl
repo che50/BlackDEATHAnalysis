@@ -101,7 +101,7 @@
                 <h1 id="corpus"> Corpus </h1>
                 
                 
-              <h1 class="title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
+              <h1 class="main_title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
              
                 <ul>
                     <li>Introduction
@@ -436,6 +436,13 @@
                     <h3>
                         <xsl:value-of select="p/story_numbr"/>
                     </h3>
+                    
+                    <!-- creates legend at the top of every story page  -->
+                    <div class="legend">
+                        <span class="scandalous">Problematic Text</span>
+                        <strong>Person</strong>
+                    </div>
+                    
                     <!-- adds link on story pages with censorship -->
                     <xsl:if test="normalize-space(@status)='problematique'">
                         <div class="censorship-link">
