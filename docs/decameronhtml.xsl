@@ -646,20 +646,22 @@
    
    
     <!-- table of contents templates -->
+    <xsl:template match="div[@day]" mode="toc">
+        <li>
+            <strong><xsl:value-of select="@day"/> Day</strong>
+            <ul>
+                <xsl:apply-templates select="story" mode="toc"/>
+            </ul>
+        </li>
+    </xsl:template>
     <xsl:template match="story" mode="toc">
         <xsl:variable name="day" select="parent::div/@day"/>
-        <xsl:variable name="story-title" 
-            select="normalize-space(p/ch_title)"/>
-        <xsl:variable name="snippet" 
-            select="substring(normalize-space(p[not(story_numbr) and not(ch_title)][1]), 1, 140)"/>
         <xsl:variable name="hover-text" 
-            select="if ($story-title != '') 
-            then $story-title 
-            else concat($snippet, '…')"/>
+            select="normalize-space(string-join(p[not(story_numbr) and not(ch_title)][1]//text(), ' '))"/>
         <li class="{if (@status='problematique') then 'censored-story' else ''}">
             <a href="story-{$day}-{@numbr}.html"
                 class="story-link"
-                data-title="{$hover-text}">
+                data-title="{substring($hover-text, 1, 200)}…">
                 <span class="story-num"><xsl:value-of select="p/story_numbr"/></span>
                 <xsl:if test="@status='problematique'">
                     <span class="censor-badge">⚠</span>
