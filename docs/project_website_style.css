@@ -245,3 +245,29 @@ figure.author-portrait figcaption {
     color: #B64B12;
     font-size: 0.85rem;
 }
+
+
+/* table of contents style */
+
+.story-link {
+    display: inline-block;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.story-num {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 600;
+    color: #34150F;
+    margin-right: 6px;
+}
+
+.censor-badge {
+    color: #B64B12;
+    margin-left: 6px;
+}
+
+.censored-story {
+    border-left: 3px solid #B64B12;
+    padding-left: 8px;
+}

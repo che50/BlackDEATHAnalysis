@@ -58,6 +58,7 @@
                  
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
+                <div id="tooltip"></div>
                  <xsl:call-template name="nav"/>
                 
                 <h1 id="corpus"> Corpus </h1>
@@ -77,8 +78,23 @@
                
             
                
+                <script type="text/javascript">
+                    var tooltip = document.getElementById("tooltip");
+                    document.querySelectorAll(".story-link").forEach(function(link) {
+                    link.addEventListener("mousemove", function(e) {
+                    tooltip.style.display = "block";
+                    tooltip.style.left = (e.clientX + 12) + "px";
+                    tooltip.style.top = (e.clientY - 28) + "px";
+                    tooltip.textContent = this.getAttribute("data-title");
+                    });
+                    link.addEventListener("mouseleave", function() {
+                    tooltip.style.display = "none";
+                    });
+                    });
+                </script>
                
             </body>
+                
             </html>
         </xsl:result-document>
         
@@ -630,21 +646,24 @@
    
    
     <!-- table of contents templates -->
-    <xsl:template match="div[@day]" mode="toc">
-        <li>
-            <xsl:value-of select="@day"/> Day
-            <ul>
-                <xsl:apply-templates select="story" mode="toc"/>
-            </ul>
-        </li>
-        </xsl:template>
     <xsl:template match="story" mode="toc">
         <xsl:variable name="day" select="parent::div/@day"/>
-        <li>
-            <a href="story-{$day}-{@numbr}.html">
-                <xsl:value-of select="p/story_numbr"/>
-               <!-- <xsl:text>. </xsl:text>
-                <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>-->
+        <xsl:variable name="story-title" 
+            select="normalize-space(p/ch_title)"/>
+        <xsl:variable name="snippet" 
+            select="substring(normalize-space(p[not(story_numbr) and not(ch_title)][1]), 1, 140)"/>
+        <xsl:variable name="hover-text" 
+            select="if ($story-title != '') 
+            then $story-title 
+            else concat($snippet, '…')"/>
+        <li class="{if (@status='problematique') then 'censored-story' else ''}">
+            <a href="story-{$day}-{@numbr}.html"
+                class="story-link"
+                data-title="{$hover-text}">
+                <span class="story-num"><xsl:value-of select="p/story_numbr"/></span>
+                <xsl:if test="@status='problematique'">
+                    <span class="censor-badge">⚠</span>
+                </xsl:if>
             </a>
         </li>
     </xsl:template>
