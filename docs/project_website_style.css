@@ -271,3 +271,35 @@ figure.author-portrait figcaption {
     border-left: 3px solid #B64B12;
     padding-left: 8px;
 }
+
+
+/* index picute */
+
+figure.intropic {
+    display: block;
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 12px;
+    background-color: #f0dfa0;
+    border: 3px solid #34150F;
+    outline: 2px solid #D39858;
+    outline-offset: -8px;
+    box-shadow: 4px 4px 0px #D39858, 8px 8px 0px #34150F;
+}
+
+figure.intropic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure.intropic figcaption {
+    margin-top: 0.75rem;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #271814;
+    background-color: #f0dfa0;
+    padding: 4px;
+}

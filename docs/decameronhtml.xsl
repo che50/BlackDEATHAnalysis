@@ -26,7 +26,14 @@
                     <h1> The Decameron and Perceptions Around the Black Death   </h1> 
                     
                 </header>
-               
+                <figure class="intropic">
+                    <img src="images/triumph-of-death.jpg"
+                        alt="The Triumph of Death by Pieter Bruegel the Elder, c. 1562"/>
+                    <figcaption>
+                        Pieter Bruegel the Elder, <em>The Triumph of Death</em>, c. 1562.
+                        Public domain via Wikimedia Commons.
+                    </figcaption>
+                </figure>
                 
                 <div class="list">
                 <h1>Team Members</h1> 
@@ -666,7 +673,6 @@
         <xsl:variable name="day" select="parent::div/@day"/>
         <xsl:variable name="hover-text" 
             select="normalize-space(string-join(p[not(story_numbr) and not(ch_title)][1]//text(), ' '))"/>
-        <li class="{if (@status='problematique') then 'censored-story' else ''}">
             <a href="story-{$day}-{@numbr}.html"
                 class="story-link"
                 data-title="{substring($hover-text, 1, 200)}…">
@@ -675,7 +681,6 @@
                     <span class="censor-badge">⚠</span>
                 </xsl:if>
             </a>
-        </li>
     </xsl:template>
     
     <xsl:template match="person"> <!-- template for person, just bolds it in the text for now-->
