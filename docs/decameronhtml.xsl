@@ -290,11 +290,17 @@
                     <xsl:variable name="height-judaism" select="$count-judaism * $scale"/>
                     <!-- rectangles -->
                     <!-- islam rectangle -->
-                    <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="#4A7C4E" />
+                    <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="#4A7C4E" >
+                        <title><xsl:value-of select="$count-islam"/></title>
+                    </rect>
                     <!-- judaism -->
-                    <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="#2E5E8E" />
+                    <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="#2E5E8E" >
+                        <title><xsl:value-of select="$count-judaism"/></title>
+                    </rect>
                     <!-- christianity -->
-                    <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="#D4A017" />
+                    <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="#D4A017" >
+                        <title><xsl:value-of select="$count-christianity"/></title>
+                    </rect>
                     
                     <!-- the name of religion -->
                     <text x="{20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Islam</text>
@@ -304,9 +310,9 @@
                     
                 </svg>
                 
-               
-               <h2><em>Character Frequency</em></h2>
-          <h3> <em>The Decameron</em> primarily follows the stories of ten main characters. This graph tracks the frequency which their names appear in the text.</h3>
+                
+                <h2><em>Character Frequency</em></h2>
+                <h3> <em>The Decameron</em> primarily follows the stories of ten main characters. This graph tracks the frequency which their names appear in the text.</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-100 -460 1400 560">
                     <line x1="0" y1="0" x2="0" y2="-450" stroke="black" />
                     <line x1="0" y1="0" x2="850" y2="0" stroke="black"/>
@@ -314,10 +320,8 @@
                         <text x="-35" y="{-. * $scale}" >
                             <xsl:value-of select="."/>
                         </text>
-                
-        
-            </xsl:for-each>
-                   <!-- name variables, probaly not the most efficent way of doing this -->
+                    </xsl:for-each>
+                    <!-- name variables, probaly not the most efficent way of doing this -->
                     <xsl:variable name="height-pampinea" select="$count-pampinea * $scale"/>
                     <xsl:variable name="height-fiammetta" select="$count-fiammetta * $scale"/>
                     <xsl:variable name="height-emilia" select="$count-emilia * $scale"/>
@@ -328,7 +332,7 @@
                     <xsl:variable name="height-filostrato" select="$count-filostrato * $scale"/>
                     <xsl:variable name="height-dioneo" select="$count-dioneo * $scale"/>
                     <xsl:variable name="height-filomena" select="$count-filomena * $scale"/>
-                  <!-- charachters sex variables, not efficent again-->
+                    <!-- charachters sex variables, not efficent again-->
                     <xsl:variable name="sex-pampinea" select="(//person[@name='pampinea'])[1]/@sex"/>
                     <xsl:variable name="sex-fiammetta" select="(//person[@name='fiammetta'])[1]/@sex"/>
                     <xsl:variable name="sex-emilia" select="(//person[@name='emilia'])[1]/@sex"/>
@@ -339,18 +343,38 @@
                     <xsl:variable name="sex-filostrato" select="(//person[@name='filostrato'])[1]/@sex"/>
                     <xsl:variable name="sex-dioneo" select="(//person[@name='dioneo'])[1]/@sex"/>
                     <xsl:variable name="sex-filomena" select="(//person[@name='filomena'])[1]/@sex"/>
-                  
-                  <!-- rectangle creation, again probably not most efficient -->
-                    <rect x="20" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="black" />
-                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="black" />
-                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="black" />
-                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="black" />
-                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="black" />
-                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="black" />
-                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="black" />
-                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="black" />
-                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="black" />
-                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="black" />
+                    
+                    <!-- rectangle creation, again probably not most efficient -->
+                    <rect x="20" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="black" >
+                        <title><xsl:value-of select="$count-pampinea"/></title>
+                    </rect>
+                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="black" >
+                        <title><xsl:value-of select="$count-fiammetta"/></title>
+                    </rect>
+                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="black" >
+                        <title><xsl:value-of select="$count-emilia"/></title>
+                    </rect>
+                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="black" >
+                        <title><xsl:value-of select="$count-lauretta"/></title>
+                    </rect>
+                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="black" >
+                        <title><xsl:value-of select="$count-neifile"/></title>
+                    </rect>
+                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="black" >
+                        <title><xsl:value-of select="$count-elisa"/></title>
+                    </rect>
+                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="black" >
+                        <title><xsl:value-of select="$count-pamfilo"/></title>
+                    </rect>
+                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="black" >
+                        <title><xsl:value-of select="$count-filostrato"/></title>
+                    </rect>
+                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="black" >
+                        <title><xsl:value-of select="$count-dioneo"/></title>
+                    </rect>
+                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="black" >
+                        <title><xsl:value-of select="$count-filomena"/></title>
+                    </rect>
                     <!-- text for rectanlge -->
                     <text x="{20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Pampinea</text>
                     <text x="{1 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Fiammetta</text>
