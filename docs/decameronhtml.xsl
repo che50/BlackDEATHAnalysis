@@ -509,7 +509,7 @@
         </xsl:result-document>
         <xsl:result-document href="themes.html" method="xhtml">
             <html>
-                <head><title>themes</title>
+                <head><title>Sources</title>
                     
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
@@ -520,8 +520,16 @@
                      <xsl:call-template name="nav"/>
                     
                     <h1>
-                        test
+                        Research Sources
                     </h1>
+                    <p>
+                        McGrath, Christina. “Manipulated, Misrepresented, and Maligned: The Censorship and <em>Rassettatura</em> of the <em>Decameron</em>.” <em>Heliotropia 15</em>, (2018): 189-203. <a href= "https://heliotropia.org/15/mcgrath.pdf">https://heliotropia.org/15/mcgrath.pdf</a>
+                        
+                        “The Ten Rules: <em>Concilium Tridentinum</em>, Council of Trent (1545-1563).” SMU Libraries: Bridwell Library Special Collections, <a href="https://bridwell.omeka.net/exhibits/show/heresyerror/indexprohibitedbooks/tenrules">https://bridwell.omeka.net/exhibits/show/heresyerror/indexprohibitedbooks/tenrules</a>
+                        
+                        Tonozzi, Daniel Thomas. 2010. "Reading the ‘Decameron’ from Boccaccio to Salviati." Order No. 3396289, <em>Cornell University</em>. <a href="https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2.">https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2.</a>
+                        
+                    </p>
                 </body>
             </html>
             
