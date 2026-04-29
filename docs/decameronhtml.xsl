@@ -109,6 +109,16 @@
                     <title>About</title>
                      
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                    
+                    <!-- add image as background -->
+                    <style>
+                        body {
+                        background-image: url(Decameron_Intro_Image.jpeg);
+                            background-size: cover;
+                            background-position: center;
+                            background-repear: no-repeat;
+                        }
+                    </style>
                 </head>
                 <body>
                      <xsl:call-template name="nav"/>
