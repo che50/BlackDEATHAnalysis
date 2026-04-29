@@ -26,7 +26,14 @@
                     <h1> The Decameron and Perceptions Around the Black Death   </h1> 
                     
                 </header>
-               
+                <figure class="intropic">
+                    <img src="images/triumph.jpg"
+                        alt="The Triumph of Death by Pieter Bruegel the Elder, c. 1562"/>
+                    <figcaption>
+                        Pieter Bruegel the Elder, <em>The Triumph of Death</em>, c. 1562.
+                        Public domain via Wikimedia Commons.
+                    </figcaption>
+                </figure>
                 
                 <div class="list">
                 <h1>Team Members</h1> 
@@ -37,10 +44,14 @@
                 </div>
                 <h2> Research Question
                 </h2>
-                <p>
-                    How does The Decameron, and it's censored version, address and discuss the Church and what
-                    patterns in the explanations for the plague. We analyed perceptions of the Catholic Church in response to the calamity of the Black Death as exemplified by the Decameron and it's subsequent censorhip
-                </p>
+                
+                    <p>
+                        How does The Decameron, and its censored version, address and discuss the Church, and what
+                        patterns appear in the explanations for the plague? We analyzed perceptions of the Catholic Church
+                        in response to the calamity of the Black Death as exemplified by the Decameron and its
+                        subsequent censorship.
+                    </p>
+                
                              
                
                 
@@ -51,9 +62,21 @@
             <!-- This section is the XSL to make another page for corpus. It generates another HTML file, which can be navigated to from the top. USES SAME CSS as index document, but can probably be changed --> 
             <html>
             <head><title>Corpus</title>
+                <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                 <!-- add image as background -->
+                <style>
+                    body {
+                    background-image: url(images/Decameron_image_2.jpeg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    }
+                </style>
+                
                  
-                <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
+               </head>
             <body>
+                <div id="tooltip"></div>
                  <xsl:call-template name="nav"/>
                 
                 <h1 id="corpus"> Corpus </h1>
@@ -61,20 +84,38 @@
                 
               <h1 class="main_title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
              
-                <ul>
-                    <li>Introduction
-                        <ul>
-                            <li><a href="proem.html">Proem</a></li>
-                        </ul>
-                    </li>
+                
+                    <section class="day-card highlighted">
+                    <h3>Introduction</h3>
+                    <ul>
+                        <li><a href="proem.html">Proem</a></li>
+                    </ul>
+                </section>
+                
+                <div class="toc-grid">
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
-                </ul>
+                </div>
                 <hr/>
                
             
                
+                <script type="text/javascript">
+                    var tooltip = document.getElementById("tooltip");
+                    document.querySelectorAll(".story-link").forEach(function(link) {
+                    link.addEventListener("mousemove", function(e) {
+                    tooltip.style.display = "block";
+                    tooltip.style.left = (e.clientX + 12) + "px";
+                    tooltip.style.top = (e.clientY - 28) + "px";
+                    tooltip.textContent = this.getAttribute("data-title");
+                    });
+                    link.addEventListener("mouseleave", function() {
+                    tooltip.style.display = "none";
+                    });
+                    });
+                </script>
                
             </body>
+                
             </html>
         </xsl:result-document>
         
@@ -89,6 +130,16 @@
                     <title>About</title>
                      
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                    
+                    <!-- add image as background -->
+                    <style>
+                        body {
+                        background-image: url(images/Decameron_image_3.jpeg);
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
                 </head>
                 <body>
                      <xsl:call-template name="nav"/>
@@ -137,18 +188,49 @@
                     <h2><strong>Research Methodology</strong></h2>
                     <p>By using Boccaccio's Decameron as an exemplar text of the time period, we analyzed the perceptions around the Catholic Church in late Medieval Europe in the wake of the Black Plague.
                         In 1564 the Catholic Church published the aforementioned list of ten rules to guide their process of censorship:</p>
-                    <ul>
-                        <li>1. All books condemned by popes or councils before 1515 will remain prohibited.</li>
-                        <li>2. All books by “heresiarchs” (heretical leaders) and theological books by heretics are prohibited.</li>
-                        <li>3. Heretics’ Bible translations are banned; heretics’ translations of other texts require approval.</li>
-                        <li>4. Vernacular translations of the Bible by Catholic scholars require approval.</li>
-                        <li>5. Compilations of earlier works edited by heretics require correction and approval.</li>
-                        <li>6. Theological writings in vernacular languages require correction and approval..</li>
-                        <li>7. Obscene or immoral works are prohibited; Classical works may be read by adults.</li>
-                        <li>8. Books that are generally sound, but which contain isolated heresies must be corrected.</li>
-                        <li>9. All books treating magic, superstition, astrology, or occult practices are prohibited.</li>
-                        <li>10. The bishop and the inquisitor require all books to be licensed prior to publication.</li>
-                    </ul>
+                    <div class="rules-grid">
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">I</span>
+                            <p>All books condemned by popes or councils before 1515 will remain prohibited.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">II</span>
+                            <p>All books by "heresiarchs" (heretical leaders) and theological books by heretics are prohibited.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">III</span>
+                            <p>Heretics' Bible translations are banned; heretics' translations of other texts require approval.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">IV</span>
+                            <p>Vernacular translations of the Bible by Catholic scholars require approval.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">V</span>
+                            <p>Compilations of earlier works edited by heretics require correction and approval.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">VI</span>
+                            <p>Theological writings in vernacular languages require correction and approval.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">VII</span>
+                            <p>Obscene or immoral works are prohibited; Classical works may be read by adults.</p>
+                            
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">VIII</span>
+                            <p>Books that are generally sound, but which contain isolated heresies must be corrected.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">IX</span>
+                            <p>All books treating magic, superstition, astrology, or occult practices are prohibited.</p>
+                        </div>
+                        <div class="rule-card highlighted">
+                            <span class="rule-number">X</span>
+                            <p>The bishop and the inquisitor require all books to be licensed prior to publication.</p>
+                        </div>
+                    </div>
                     
                     <p>
                         We utilized this as a guide to flag certain stories in the text as problematic in the eyes of the church, based on our modern sensibilities and interpretations. 
@@ -550,6 +632,16 @@
                 <head><title>censorship</title>
                     
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                    
+                    <!-- add image as background -->
+                    <style>
+                        body {
+                        background-image: url(images/Decameron_censoriship_image.jpeg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        }
+                    </style>
                 </head>
                 
                 
@@ -569,8 +661,6 @@
                                 <xsl:value-of select="$day"/> Day - <xsl:value-of select="p/story_numbr"/>
                             </h2>
                                 </a>
-                            <!-- placeholder for information on censorship details -->
-                            <p class="placeholder">Censorship details for this story coming soon.</p>
                             
                             <!-- use this line for when we add the actual censorship data -->
                            
@@ -597,21 +687,30 @@
    
    
     <!-- table of contents templates -->
+    <!-- Each day becomes a card in the grid -->
     <xsl:template match="div[@day]" mode="toc">
-        <li>
-            <xsl:value-of select="@day"/> Day
+     
+            <section class="day-card highlighted">
+            <h3><xsl:value-of select="@day"/> Day</h3>
             <ul>
                 <xsl:apply-templates select="story" mode="toc"/>
             </ul>
-        </li>
-        </xsl:template>
+        </section>
+    </xsl:template>
+    
+    <!-- Each story becomes an li inside its day's ul -->
     <xsl:template match="story" mode="toc">
         <xsl:variable name="day" select="parent::div/@day"/>
-        <li>
-            <a href="story-{$day}-{@numbr}.html">
-                <xsl:value-of select="p/story_numbr"/>
-               <!-- <xsl:text>. </xsl:text>
-                <xsl:value-of select="p[not(story_numbr) and not(ch_title)][1]"/>-->
+        <xsl:variable name="hover-text"
+            select="normalize-space(string-join(p[not(story_numbr) and not(ch_title)][1]//text(), ' '))"/>
+        <li class="{if (@status='problematique') then 'censored-story' else ''}">
+            <a href="story-{$day}-{@numbr}.html"
+                class="story-link"
+                data-title="{substring($hover-text, 1, 200)}…">
+                <span class="story-num"><xsl:value-of select="p/story_numbr"/></span>
+                <xsl:if test="@status='problematique'">
+                    <span class="censor-badge">⚠</span>
+                </xsl:if>
             </a>
         </li>
     </xsl:template>

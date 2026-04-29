@@ -1,11 +1,34 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;600&family=EB+Garamond:wght@400;600&display=swap');
 
-body {
-    background-color: #E5D1A4;
+:root {
+    --parchment: #E5D1A4;
+    --parchment-light: #f0dfa0;
+    --ink: #271814;
+    --burgundy: #34150F;
+    --burgundy-deep: #321f1b;
+    --gold: #D39858;
+    --gold-soft: #FFEDAC;
+    --ochre: #CE793A;
+    --rust: #B64B12;
+    --border-tan: #A07840;
+    --crimson: #670626;
+}
+  
+    body {
+    
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+    background-color: var(--parchment);
+    background-image: 
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 2px,
+            rgba(160, 120, 64, 0.03) 2px,
+            rgba(160, 120, 64, 0.03) 4px
+        );
 }
 
 nav {
@@ -179,4 +202,164 @@ figure.author-portrait figcaption {
     color: #271814;
     background-color: #f0dfa0;
     padding: 4px;
+}
+
+
+
+/* styling for the ten rules */
+
+.rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 1.5rem 0;
+}
+.rule-card {
+    background-color: #f0dfa0;
+    border: 1px solid #A07840;
+    padding: 16px 16px 16px 56px;
+    position: relative;
+    font-family: 'EB Garamond', serif;
+}
+.rule-card.highlighted {
+    border: 2px solid #B64B12;
+    background-color: #FFEDAC;
+}
+.rule-card .rule-number {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.8rem;
+    color: #34150F;
+    font-weight: bold;
+}
+.rule-card p {
+    margin: 0;
+    color: #271814;
+}
+.rule-card small {
+    display: block;
+    margin-top: 8px;
+    font-style: italic;
+    color: #B64B12;
+    font-size: 0.85rem;
+}
+
+
+/* table of contents style */
+
+.story-link {
+    display: inline-block;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.story-num {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 600;
+    color: #34150F;
+    margin-right: 6px;
+}
+
+.censor-badge {
+    color: #B64B12;
+    margin-left: 6px;
+}
+
+.censored-story {
+    border-left: 3px solid #B64B12;
+    padding-left: 8px;
+}
+
+
+/* index picute */
+
+figure.intropic {
+    display: block;
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 12px;
+    background-color: #f0dfa0;
+    border: 3px solid #34150F;
+    outline: 2px solid #D39858;
+    outline-offset: -8px;
+    box-shadow: 4px 4px 0px #D39858, 8px 8px 0px #34150F;
+}
+
+figure.intropic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure.intropic figcaption {
+    margin-top: 0.75rem;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #271814;
+    background-color: #f0dfa0;
+    padding: 4px;
+}
+
+
+/* for the table of contents */
+
+.toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 1.5rem 0;
+}
+
+.day-card {
+    background-color: #f0dfa0;
+    border: 1px solid #A07840;
+    padding: 16px;
+    font-family: 'EB Garamond', serif;
+}
+
+.day-card.highlighted {
+    border: 2px solid #B64B12;
+    background-color: #FFEDAC;
+}
+
+.day-card h3 {
+    margin: 0 0 0.75rem 0;
+    padding: 0 0 0.5rem 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #A07840;
+    box-shadow: none;
+    font-family: 'Cormorant SC', serif;
+    color: #34150F;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Strip the global parchment box treatment off lists inside cards */
+.day-card ul {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.day-card ul li {
+    padding: 3px 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #271814;
+}
+
+
+.day-card .censored-story {
+    border-left: 3px solid #B64B12;
+    padding-left: 8px;
+    margin: 2px 0;
 }
