@@ -627,7 +627,8 @@
                         <p>“The Ten Rules: <em>Concilium Tridentinum</em>, Council of Trent (1545-1563).” SMU Libraries: Bridwell Library Special Collections, <a href="https://bridwell.omeka.net/exhibits/show/heresyerror/indexprohibitedbooks/tenrules" target="_blank">https://bridwell.omeka.net/exhibits/show/heresyerror/indexprohibitedbooks/tenrules</a></p>
                         
                         <p>Tonozzi, Daniel Thomas. 2010. "Reading the ‘Decameron’ from Boccaccio to Salviati." Order No. 3396289, <em>Cornell University</em>. <a href="https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2." target="_blank">https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2.</a></p>
-                        
+                    
+                        <p>Images Courtesy of Wikimedia Commons: All In Public Domain</p>    
                     
                 </body>
             </html>
