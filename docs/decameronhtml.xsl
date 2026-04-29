@@ -634,7 +634,7 @@
                     <!-- add image as background -->
                     <style>
                         body {
-                        background-image: url(images/Decameron_censorship_image.jpeg);
+                        background-image: url(images/Decameron_censoriship_image.jpeg);
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
