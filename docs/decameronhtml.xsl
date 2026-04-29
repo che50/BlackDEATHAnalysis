@@ -627,6 +627,16 @@
                 <head><title>censorship</title>
                     
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
+                    
+                    <!-- add image as background -->
+                    <style>
+                        body {
+                        background-image: url(images/Decameron_censorship_image.jpeg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        }
+                    </style>
                 </head>
                 
                 
