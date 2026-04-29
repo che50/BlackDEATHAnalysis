@@ -113,7 +113,7 @@
                     <!-- add image as background -->
                     <style>
                         body {
-                        background-image: url(Decameron_Intro_Image.jpeg);
+                        background-image: url(images/Decameron_Intro_Image.jpeg);
                             background-size: cover;
                             background-position: center;
                             background-repear: no-repeat;
@@ -628,8 +628,6 @@
                                 <xsl:value-of select="$day"/> Day - <xsl:value-of select="p/story_numbr"/>
                             </h2>
                                 </a>
-                            <!-- placeholder for information on censorship details -->
-                            <p class="placeholder">Censorship details for this story coming soon.</p>
                             
                             <!-- use this line for when we add the actual censorship data -->
                            
