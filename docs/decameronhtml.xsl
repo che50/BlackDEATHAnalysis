@@ -529,7 +529,11 @@
                         
                         <p>Tonozzi, Daniel Thomas. 2010. "Reading the ‘Decameron’ from Boccaccio to Salviati." Order No. 3396289, <em>Cornell University</em>. <a href="https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2." target="_blank">https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2.</a></p>
                         
-                    
+                    <h1>
+                        Decameron Links
+                    </h1>
+                    <p><a href="https://www.gutenberg.org/files/23700/23700-h/23700-h.htm" target="_blank">Original Text</a>, Courtesy of The Project Gutenberg</p>
+                    <p>Florio's 1620 Censored Version (<a href="https://www.gutenberg.org/cache/epub/52617/pg52617-images.html" target="_blank">part 1</a>) (<a href="https://www.gutenberg.org/cache/epub/52618/pg52618-images.html" target="_blank">part 2</a>), Courtesy of the Project Gutenberg</p>
                 </body>
             </html>
             
