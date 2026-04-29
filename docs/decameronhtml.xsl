@@ -94,13 +94,18 @@
                      <xsl:call-template name="nav"/>
                     <!-- hard coded about page from google doc, will have to manually update to change -->
                     <h1>About</h1>
+                    <h2><strong>Author</strong></h2>
                     <div class="author-section">
                         <figure class="author-portrait">
                             <img src="images/boccaccio-portrait.jpg" alt="Portrait of Giovanni Boccaccio"/>
                             <figcaption>Giovanni Boccaccio, c. 1375</figcaption>
                         </figure>
                         <div class="author-text">
-                    <h2><strong>Author</strong></h2>
+               
+                            <figure class="author-portrait">
+                                <img src="images/boccaccio-portrait.jpg" alt="Portrait of Giovanni Boccaccio"/>
+                                <figcaption>Giovanni Boccaccio, c. 1375</figcaption>
+                            </figure>
                     <p>Giovanni Boccaccio</p>
                         </div>
                     </div>
