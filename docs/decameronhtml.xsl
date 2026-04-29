@@ -96,17 +96,14 @@
                     <h1>About</h1>
                     <h2><strong>Author</strong></h2>
                     <div class="author-section">
-                        <figure class="author-portrait">
-                            <img src="images/boccaccio-portrait.jpg" alt="Portrait of Giovanni Boccaccio"/>
-                            <figcaption>Giovanni Boccaccio, c. 1375</figcaption>
-                        </figure>
+                       
                         <div class="author-text">
                
                             <figure class="author-portrait">
                                 <img src="images/boccaccio-portrait.jpg" alt="Portrait of Giovanni Boccaccio"/>
                                 <figcaption>Giovanni Boccaccio, c. 1375</figcaption>
                             </figure>
-                    <p>Giovanni Boccaccio</p>
+                   
                         </div>
                     </div>
                    <h2><em>The Decameron</em></h2>
