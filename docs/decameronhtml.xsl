@@ -617,8 +617,6 @@
                         
                         <p>Tonozzi, Daniel Thomas. 2010. "Reading the ‘Decameron’ from Boccaccio to Salviati." Order No. 3396289, <em>Cornell University</em>. <a href="https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2." target="_blank">https://pitt.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/reading-decameron-boccaccio-salviati/docview/305198899/se-2.</a></p>
                         
-                        <p>Imaged Courtesy of Wikimedia Commons: All Under Public Domain</p>
-                        
                     
                 </body>
             </html>
