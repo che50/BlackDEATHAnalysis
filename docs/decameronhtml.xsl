@@ -219,7 +219,7 @@
                 <title> Stats </title>
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
             </head>
-            
+            <html>
             <!-- first set of variables for graph 1 --> 
             <xsl:variable name="count-judaism" select="count(//faith[@ref='#Judaism'])"/>
             <xsl:variable name="count-islam" select="count(//faith[@ref='#Islam'])"/>
@@ -247,17 +247,7 @@
             <xsl:variable name="scale" select="8"/>
             <body>
                 <div id="tooltip"></div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="corpus.html">Corpus</a></li>
-                        <li><a href="censorship.html">Censorship</a></li>
-                        <li><a href="themes.html">Themes</a></li>
-                        <li><a href="statistics.html">Stats</a></li>
-                    </ul>
-                </nav>
-                
+                <xsl:call-template name="nav"/>
                 <h1>Statistics of <em>The Decameron</em></h1>
                 <h2><em>Religious References</em></h2>
                 <h3><em>The Decameron</em> as a text has a heavy focus on religion. This graph counts the frequency as they appear in the text.</h3>
@@ -454,6 +444,7 @@
                 });
                 });
             </script>
+            </html>
         </xsl:result-document>
         
     </xsl:template>
@@ -465,6 +456,19 @@
     </xsl:template>
     
  
+    <xsl:template name="nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="corpus.html">Corpus</a></li>
+                <li><a href="censorship.html">Censorship</a></li>
+                <li><a href="themes.html">Themes</a></li>
+                <li><a href="statistics.html">Stats</a></li>
+            </ul>
+        </nav>
+    </xsl:template>
+    
     
     <xsl:template match="story">   <!-- creates new page for every story day -->
         <xsl:variable name="day" select="parent::div/@day"/>
