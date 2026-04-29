@@ -99,7 +99,7 @@
                 <hr/>
                
             
-               
+            <!-- all this java script took alot of trial and error/AI help to get working -->   
                 <script type="text/javascript">
                     <!-- hover stuff, same as the one for graph w/ small changes -->
                     var tooltip = document.getElementById("tooltip");
