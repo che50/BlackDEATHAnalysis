@@ -164,6 +164,7 @@ h3, ul:not(nav ul), p{
 }
 
 .author-portrait {
+    display: inline-block;
     width: 220px;
     text-align: center;
     padding: 10px;
@@ -175,6 +176,8 @@ h3, ul:not(nav ul), p{
 
 .author-portrait img {
     width: 200px;
+    height: auto;
+    display: block;
 }
 
 .author-portrait figcaption {
