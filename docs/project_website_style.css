@@ -303,3 +303,63 @@ figure.intropic figcaption {
     background-color: #f0dfa0;
     padding: 4px;
 }
+
+
+/* for the table of contents */
+
+.toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin: 1.5rem 0;
+}
+
+.day-card {
+    background-color: #f0dfa0;
+    border: 1px solid #A07840;
+    padding: 16px;
+    font-family: 'EB Garamond', serif;
+}
+
+.day-card.highlighted {
+    border: 2px solid #B64B12;
+    background-color: #FFEDAC;
+}
+
+.day-card h3 {
+    margin: 0 0 0.75rem 0;
+    padding: 0 0 0.5rem 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #A07840;
+    box-shadow: none;
+    font-family: 'Cormorant SC', serif;
+    color: #34150F;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Strip the global parchment box treatment off lists inside cards */
+.day-card ul {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.day-card ul li {
+    padding: 3px 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #271814;
+}
+
+
+.day-card .censored-story {
+    border-left: 3px solid #B64B12;
+    padding-left: 8px;
+    margin: 2px 0;
+}
