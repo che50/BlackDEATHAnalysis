@@ -32,8 +32,7 @@
          <ul>
             <li><a href="proem.html">Proem</a></li>
          </ul>
-      </section>
-      <div class="toc-grid">
+      </section><input type="text" id="story-search" placeholder="Search stories..." class="story-search"/><div class="toc-grid">
          <section class="day-card highlighted">
             <h3>First Day</h3>
             <ul>
@@ -189,6 +188,7 @@
          </section>
       </div>
       <hr/><script type="text/javascript">
+                    
                     var tooltip = document.getElementById("tooltip");
                     document.querySelectorAll(".story-link").forEach(function(link) {
                     link.addEventListener("mousemove", function(e) {
@@ -199,6 +199,15 @@
                     });
                     link.addEventListener("mouseleave", function() {
                     tooltip.style.display = "none";
+                    });
+                    });
+                    
+                    var searchInput = document.getElementById("story-search");
+                    searchInput.addEventListener("input", function(e) {
+                    var q = e.target.value.toLowerCase();
+                    document.querySelectorAll(".story-link").forEach(function(link) {
+                    var matches = link.dataset.title.toLowerCase().includes(q);
+                    link.parentElement.style.display = matches ? "" : "none";
                     });
                     });
                 </script></body>
