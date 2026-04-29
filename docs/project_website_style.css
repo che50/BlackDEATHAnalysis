@@ -163,24 +163,25 @@ h3, ul:not(nav ul), p{
     margin: 2.5rem 0;
 }
 
-.author-portrait {
+figure.author-portrait {
     display: inline-block;
-    width: 220px;
+    max-width: 220px;
     text-align: center;
     padding: 10px;
     border: 3px solid black;
     outline: 2px solid gold;
     outline-offset: -8px;
     box-shadow: 4px 4px 0px gold, 8px 8px 0px black;
+    margin: 0;
 }
 
-.author-portrait img {
+figure.author-portrait img {
     width: 200px;
     height: auto;
     display: block;
 }
 
-.author-portrait figcaption {
+figure.author-portrait figcaption {
     margin-top: 0.5rem;
     font-style: italic;
     font-size: 0.9rem;
