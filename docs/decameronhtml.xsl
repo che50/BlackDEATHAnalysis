@@ -410,8 +410,8 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="corpus.html">Corpus</a></li>
                 <li><a href="censorship.html">Censorship</a></li>
-                <li><a href="themes.html">Themes</a></li>
                 <li><a href="statistics.html">Stats</a></li>
+                <li><a href="themes.html">Sources</a></li>
             </ul>
         </nav>
     </xsl:template>
