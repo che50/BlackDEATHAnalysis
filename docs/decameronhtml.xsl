@@ -169,7 +169,7 @@
                         <div class="rule-card highlighted">
                             <span class="rule-number">VII</span>
                             <p>Obscene or immoral works are prohibited; Classical works may be read by adults.</p>
-                            <small>Most relevant to the Decameron's censorship</small>
+                            
                         </div>
                         <div class="rule-card">
                             <span class="rule-number">VIII</span>
