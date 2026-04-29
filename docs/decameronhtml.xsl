@@ -27,7 +27,7 @@
                     
                 </header>
                 <figure class="intropic">
-                    <img src="images/triumph-of-death.jpg"
+                    <img src="images/triumph.jpg"
                         alt="The Triumph of Death by Pieter Bruegel the Elder, c. 1562"/>
                     <figcaption>
                         Pieter Bruegel the Elder, <em>The Triumph of Death</em>, c. 1562.
@@ -62,6 +62,17 @@
             <!-- This section is the XSL to make another page for corpus. It generates another HTML file, which can be navigated to from the top. USES SAME CSS as index document, but can probably be changed --> 
             <html>
             <head><title>Corpus</title>
+                 
+                 <!-- add image as background -->
+                <style>
+                    body {
+                    background-image: url(images/Decameron_image_2.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repear: no-repeat;
+                    }
+                </style>
+                
                  
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
