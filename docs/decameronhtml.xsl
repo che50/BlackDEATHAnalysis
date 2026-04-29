@@ -56,6 +56,17 @@
             <html>
             <head><title>Corpus</title>
                  
+                 <!-- add image as background -->
+                <style>
+                    body {
+                    background-image: url(images/Decameron_image_2.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repear: no-repeat;
+                    }
+                </style>
+                
+                 
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
                 <div id="tooltip"></div>
