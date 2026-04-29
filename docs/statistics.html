@@ -2,6 +2,7 @@
    <title> Stats </title>
    <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
 </head><body>
+   <div id="tooltip"></div>
    <nav>
       <ul>
          <li><a href="index.html">Home Page</a></li>
@@ -23,15 +24,9 @@
       <text x="-35" y="-160">20</text>
       <text x="-35" y="-240">30</text>
       <text x="-35" y="-320">40</text>
-      <rect x="20" y="-120" width="80" height="120" fill="#4A7C4E">
-         <title>15</title>
-      </rect>
-      <rect x="140" y="-192" width="80" height="192" fill="#2E5E8E">
-         <title>24</title>
-      </rect>
-      <rect x="260" y="-304" width="80" height="304" fill="#D4A017">
-         <title>38</title>
-      </rect>
+      <rect x="20" y="-120" width="80" height="120" fill="#4A7C4E" data-value="Islam: 15"></rect>
+      <rect x="140" y="-192" width="80" height="192" fill="#2E5E8E" data-value="Judaism: 24"></rect>
+      <rect x="260" y="-304" width="80" height="304" fill="#D4A017" data-value="Christianity: 38"></rect>
       <text x="60" y="20" font-size="15" text-anchor="middle">Islam</text>
       <text x="180" y="20" font-size="15" text-anchor="middle">Judaism</text>
       <text x="300" y="20" font-size="15" text-anchor="middle">Christianity</text>
@@ -52,36 +47,16 @@
       <text x="-35" y="-360">45</text>
       <text x="-35" y="-400">50</text>
       <text x="-35" y="-440">55</text>
-      <rect x="20" y="-360" width="40" height="360" fill="black">
-         <title>45</title>
-      </rect>
-      <rect x="110" y="-248" width="40" height="248" fill="black">
-         <title>31</title>
-      </rect>
-      <rect x="200" y="-224" width="40" height="224" fill="black">
-         <title>28</title>
-      </rect>
-      <rect x="290" y="-248" width="40" height="248" fill="black">
-         <title>31</title>
-      </rect>
-      <rect x="380" y="-232" width="40" height="232" fill="black">
-         <title>29</title>
-      </rect>
-      <rect x="470" y="-256" width="40" height="256" fill="black">
-         <title>32</title>
-      </rect>
-      <rect x="560" y="-272" width="40" height="272" fill="black">
-         <title>34</title>
-      </rect>
-      <rect x="650" y="-312" width="40" height="312" fill="black">
-         <title>39</title>
-      </rect>
-      <rect x="740" y="-408" width="40" height="408" fill="black">
-         <title>51</title>
-      </rect>
-      <rect x="830" y="-264" width="40" height="264" fill="black">
-         <title>33</title>
-      </rect>
+      <rect x="20" y="-360" width="40" height="360" fill="black" data-value="Pampinea: 45"></rect>
+      <rect x="110" y="-248" width="40" height="248" fill="black" data-value="Fiammetta: 31"></rect>
+      <rect x="200" y="-224" width="40" height="224" fill="black" data-value="Emilia: 28"></rect>
+      <rect x="290" y="-248" width="40" height="248" fill="black" data-value="Lauretta: 31"></rect>
+      <rect x="380" y="-232" width="40" height="232" fill="black" data-value="Neifile: 29"></rect>
+      <rect x="470" y="-256" width="40" height="256" fill="black" data-value="Elisa: 32"></rect>
+      <rect x="560" y="-272" width="40" height="272" fill="black" data-value="Pamfilo: 34"></rect>
+      <rect x="650" y="-312" width="40" height="312" fill="black" data-value="Filostrato: 39"></rect>
+      <rect x="740" y="-408" width="40" height="408" fill="black" data-value="Dioneo: 51"></rect>
+      <rect x="830" y="-264" width="40" height="264" fill="black" data-value="Filomena: 33"></rect>
       <text x="40" y="30" font-size="15" text-anchor="middle">Pampinea</text>
       <text x="130" y="30" font-size="15" text-anchor="middle">Fiammetta</text>
       <text x="220" y="30" font-size="15" text-anchor="middle">Emilia</text>
@@ -102,4 +77,17 @@
       <text x="670" y="45" font-size="15" text-anchor="middle">M</text>
       <text x="760" y="45" font-size="15" text-anchor="middle">M</text>
       <text x="850" y="45" font-size="15" text-anchor="middle">F</text>
-      <text x="550" y="-440" font-size="20" text-anchor="middle" font-weight="bold">Character Mention Frequency in The Decameron</text></svg></body>
+      <text x="550" y="-440" font-size="20" text-anchor="middle" font-weight="bold">Character Mention Frequency in The Decameron</text></svg></body><script type="text/javascript">
+                var tooltip = document.getElementById("tooltip");
+                document.querySelectorAll("rect").forEach(function(rect) {
+                rect.addEventListener("mousemove", function(e) {
+                tooltip.style.display = "block";
+                tooltip.style.left = (e.clientX + 12) + "px";
+                tooltip.style.top = (e.clientY - 28) + "px";
+                tooltip.textContent = this.getAttribute("data-value");
+                });
+                rect.addEventListener("mouseleave", function() {
+                tooltip.style.display = "none";
+                });
+                });
+            </script>

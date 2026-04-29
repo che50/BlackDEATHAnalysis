@@ -246,6 +246,7 @@
             <!--<xsl:variable name="religion-x" select="(position() - 1) * ($bar-width + $bar-spacing)"/>-->
             <xsl:variable name="scale" select="8"/>
             <body>
+                <div id="tooltip"></div>  <!-- for java script -->
                 <nav>
                     <ul>
                         <li>
@@ -290,17 +291,11 @@
                     <xsl:variable name="height-judaism" select="$count-judaism * $scale"/>
                     <!-- rectangles -->
                     <!-- islam rectangle -->
-                    <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="#4A7C4E" >
-                        <title><xsl:value-of select="$count-islam"/></title>
-                    </rect>
+                    <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="#4A7C4E" data-value="Islam: {$count-islam}" />
                     <!-- judaism -->
-                    <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="#2E5E8E" >
-                        <title><xsl:value-of select="$count-judaism"/></title>
-                    </rect>
+                    <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="#2E5E8E" data-value="Judaism: {$count-judaism}" />
                     <!-- christianity -->
-                    <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="#D4A017" >
-                        <title><xsl:value-of select="$count-christianity"/></title>
-                    </rect>
+                    <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="#D4A017" data-value="Christianity: {$count-christianity}" />
                     
                     <!-- the name of religion -->
                     <text x="{20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Islam</text>
@@ -320,6 +315,8 @@
                         <text x="-35" y="{-. * $scale}" >
                             <xsl:value-of select="."/>
                         </text>
+                        
+                        
                     </xsl:for-each>
                     <!-- name variables, probaly not the most efficent way of doing this -->
                     <xsl:variable name="height-pampinea" select="$count-pampinea * $scale"/>
@@ -345,36 +342,16 @@
                     <xsl:variable name="sex-filomena" select="(//person[@name='filomena'])[1]/@sex"/>
                     
                     <!-- rectangle creation, again probably not most efficient -->
-                    <rect x="20" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="black" >
-                        <title><xsl:value-of select="$count-pampinea"/></title>
-                    </rect>
-                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="black" >
-                        <title><xsl:value-of select="$count-fiammetta"/></title>
-                    </rect>
-                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="black" >
-                        <title><xsl:value-of select="$count-emilia"/></title>
-                    </rect>
-                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="black" >
-                        <title><xsl:value-of select="$count-lauretta"/></title>
-                    </rect>
-                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="black" >
-                        <title><xsl:value-of select="$count-neifile"/></title>
-                    </rect>
-                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="black" >
-                        <title><xsl:value-of select="$count-elisa"/></title>
-                    </rect>
-                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="black" >
-                        <title><xsl:value-of select="$count-pamfilo"/></title>
-                    </rect>
-                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="black" >
-                        <title><xsl:value-of select="$count-filostrato"/></title>
-                    </rect>
-                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="black" >
-                        <title><xsl:value-of select="$count-dioneo"/></title>
-                    </rect>
-                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="black" >
-                        <title><xsl:value-of select="$count-filomena"/></title>
-                    </rect>
+                    <rect x="20" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="black" data-value="Pampinea: {$count-pampinea}" />
+                    <rect x="{1 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="black" data-value="Fiammetta: {$count-fiammetta}" />
+                    <rect x="{2 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="black" data-value="Emilia: {$count-emilia}" />
+                    <rect x="{3 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-lauretta}" width="{$bar-width-2}" height="{$height-lauretta}" fill="black" data-value="Lauretta: {$count-lauretta}" />
+                    <rect x="{4 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-neifile}" width="{$bar-width-2}" height="{$height-neifile}" fill="black" data-value="Neifile: {$count-neifile}" />
+                    <rect x="{5 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-elisa}" width="{$bar-width-2}" height="{$height-elisa}" fill="black" data-value="Elisa: {$count-elisa}" />
+                    <rect x="{6 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-pamfilo}" width="{$bar-width-2}" height="{$height-pamfilo}" fill="black" data-value="Pamfilo: {$count-pamfilo}" />
+                    <rect x="{7 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="black" data-value="Filostrato: {$count-filostrato}" />
+                    <rect x="{8 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="black" data-value="Dioneo: {$count-dioneo}" />
+                    <rect x="{9 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="black" data-value="Filomena: {$count-filomena}" />
                     <!-- text for rectanlge -->
                     <text x="{20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Pampinea</text>
                     <text x="{1 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Fiammetta</text>
@@ -386,7 +363,7 @@
                     <text x="{7 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Filostrato</text>
                     <text x="{8 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Dioneo</text>
                     <text x="{9 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Filomena</text>
-                 
+                    
                     <!-- sex labels -->
                     <text x="{20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-pampinea"/></text>
                     <text x="{1 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-fiammetta"/></text>
@@ -399,9 +376,23 @@
                     <text x="{8 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-dioneo"/></text>
                     <text x="{9 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="45" font-size="15" text-anchor="middle"><xsl:value-of select="$sex-filomena"/></text>
                     <text x="550" y="-440" font-size="20" text-anchor="middle" font-weight="bold">Character Mention Frequency in The Decameron</text>
-                    
                 </svg>
             </body>
+            <!-- java script functionality for hover, this took so long -->
+            <script type="text/javascript">
+                var tooltip = document.getElementById("tooltip");
+                document.querySelectorAll("rect").forEach(function(rect) {
+                rect.addEventListener("mousemove", function(e) {
+                tooltip.style.display = "block";
+                tooltip.style.left = (e.clientX + 12) + "px";
+                tooltip.style.top = (e.clientY - 28) + "px";
+                tooltip.textContent = this.getAttribute("data-value");
+                });
+                rect.addEventListener("mouseleave", function() {
+                tooltip.style.display = "none";
+                });
+                });
+            </script>
         </xsl:result-document>
         
     </xsl:template>

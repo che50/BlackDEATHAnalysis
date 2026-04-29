@@ -141,3 +141,18 @@ h3, ul:not(nav ul), p{
     color: #f0dfa0;
     font-family: 'EB Garamond', serif;
 }
+
+/* tooltip hover */
+#tooltip {
+    position: fixed;
+    background-color: #321f1b;
+    color: #D39858;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'EB Garamond', serif;
+    border: 1px solid #A07840;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 999;
+}
