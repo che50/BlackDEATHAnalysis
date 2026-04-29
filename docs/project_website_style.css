@@ -156,3 +156,28 @@ h3, ul:not(nav ul), p{
     display: none;
     z-index: 999;
 }
+
+
+/*  styling for boccacio image */
+.author-section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.author-portrait {
+    flex: 0 0 220px;
+    text-align: center;
+}
+
+.author-portrait img {
+    width: 100%;
+    border: 3px solid var(--color-gold);
+}
+
+.author-portrait figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}

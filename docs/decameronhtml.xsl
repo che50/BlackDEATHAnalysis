@@ -20,28 +20,7 @@
             </head>
            
             <body>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home Page</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="corpus.html">Corpus</a>
-                        </li>
-                        <li>
-                            <a href="censorship.html">Censorship</a>
-                        </li>
-                        <li>
-                            <a href="themes.html">Themes</a>
-                        </li>
-                        <li>
-                            <a href="statistics.html">Stats</a>
-                        </li>
-                    </ul>
-                </nav>
+                <xsl:call-template name="nav"/>
                
                 <header>
                     <h1> The Decameron and Perceptions Around the Black Death   </h1> 
@@ -75,28 +54,7 @@
                  
                 <link rel="stylesheet" type="text/css" href="project_website_style.css"/></head>
             <body>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home Page</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="corpus.html">Corpus</a>
-                        </li>
-                        <li>
-                            <a href="censorship.html">Censorship</a>
-                        </li>
-                        <li>
-                            <a href="themes.html">Themes</a>
-                        </li>
-                        <li>
-                            <a href="statistics.html">Stats</a>
-                        </li>
-                    </ul>
-                </nav>
+                 <xsl:call-template name="nav"/>
                 
                 <h1 id="corpus"> Corpus </h1>
                 
@@ -133,32 +91,19 @@
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home Page</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="corpus.html">Corpus</a>
-                            </li>
-                            <li>
-                                <a href="censorship.html">Censorship</a>
-                            </li>
-                            <li>
-                                <a href="themes.html">Themes</a>
-                            </li>
-                            <li>
-                                <a href="statistics.html">Stats</a>
-                            </li>
-                        </ul>
-                    </nav>
+                     <xsl:call-template name="nav"/>
                     <!-- hard coded about page from google doc, will have to manually update to change -->
                     <h1>About</h1>
+                    <div class="author-section">
+                        <figure class="author-portrait">
+                            <img src="images/boccaccio-portrait.jpg" alt="Portrait of Giovanni Boccaccio"/>
+                            <figcaption>Giovanni Boccaccio, c. 1375</figcaption>
+                        </figure>
+                        <div class="author-text">
                     <h2><strong>Author</strong></h2>
                     <p>Giovanni Boccaccio</p>
+                        </div>
+                    </div>
                    <h2><em>The Decameron</em></h2>
                     <p>As the Black Death swept through Europe, Giovanni Boccaccio witnessed the horrors that such an apocalyptic event could cause. 
                         Witnessing the death of up to 60% of his fellow Florentines, he turned the horror into a catalyst for creativity. 
@@ -487,28 +432,7 @@
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home Page</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="corpus.html">Corpus</a>
-                            </li>
-                            <li>
-                                <a href="censorship.html">Censorship</a>
-                            </li>
-                            <li>
-                                <a href="themes.html">Themes</a>
-                            </li>
-                            <li>
-                                <a href="statistics.html">Stats</a>
-                            </li>
-                        </ul>
-                    </nav>
+                     <xsl:call-template name="nav"/>
                     
                     <h2> <xsl:value-of select="$day"/> 
                         Day
@@ -574,28 +498,7 @@
                     <link rel="stylesheet" type="text/css" href="project_website_style.css"/>
                 </head>
                 <body>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home Page</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="corpus.html">Corpus</a>
-                            </li>
-                            <li>
-                                <a href="censorship.html">Censorship</a>
-                            </li>
-                            <li>
-                                <a href="themes.html">Themes</a>
-                            </li>
-                            <li>
-                                <a href="statistics.html">Stats</a>
-                            </li>
-                        </ul>
-                    </nav>
+                     <xsl:call-template name="nav"/>
                     
                     <h2><xsl:value-of select="p/intro_title"/></h2>
                     <xsl:apply-templates select="p[not(intro_title)]"/>
@@ -612,28 +515,7 @@
                 
                 <body>
                     
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home Page</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="corpus.html">Corpus</a>
-                            </li>
-                            <li>
-                                <a href="censorship.html">Censorship</a>
-                            </li>
-                            <li>
-                                <a href="themes.html">Themes</a>
-                            </li>
-                            <li>
-                                <a href="statistics.html">Stats</a>
-                            </li>
-                        </ul>
-                    </nav>
+                     <xsl:call-template name="nav"/>
                     
                     <h1>
                         test
@@ -654,28 +536,7 @@
                 
                 
                 <body>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Home Page</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="corpus.html">Corpus</a>
-                            </li>
-                            <li>
-                                <a href="censorship.html">Censorship</a>
-                            </li>
-                            <li>
-                                <a href="themes.html">Themes</a>
-                            </li>
-                            <li>
-                                <a href="statistics.html">Stats</a>
-                            </li>
-                        </ul>
-                    </nav>
+                   <xsl:call-template name="nav"/>
                     
                     <h1>Censorship</h1>
                     <p>The following stories were identified as censored or problematic. Details on each will be added below.</p>
