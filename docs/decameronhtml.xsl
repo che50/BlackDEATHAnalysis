@@ -37,14 +37,14 @@
                 </div>
                 <h2> Research Question
                 </h2>
-                <p>
+                
                     <p>
                         How does The Decameron, and its censored version, address and discuss the Church, and what
                         patterns appear in the explanations for the plague? We analyzed perceptions of the Catholic Church
                         in response to the calamity of the Black Death as exemplified by the Decameron and its
                         subsequent censorship.
                     </p>
-                </p>
+                
                              
                
                 
