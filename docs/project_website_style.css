@@ -168,10 +168,11 @@ figure.author-portrait {
     max-width: 220px;
     text-align: center;
     padding: 10px;
-    border: 3px solid black;
-    outline: 2px solid gold;
+    background-color: #f0dfa0;
+    border: 3px solid #34150F;
+    outline: 2px solid #D39858;
     outline-offset: -8px;
-    box-shadow: 4px 4px 0px gold, 8px 8px 0px black;
+    box-shadow: 4px 4px 0px #D39858, 8px 8px 0px #34150F;
     margin: 0;
 }
 
@@ -183,6 +184,10 @@ figure.author-portrait img {
 
 figure.author-portrait figcaption {
     margin-top: 0.5rem;
+    font-family: 'EB Garamond', serif;
     font-style: italic;
     font-size: 0.9rem;
+    color: #271814;
+    background-color: #f0dfa0;
+    padding: 4px;
 }
