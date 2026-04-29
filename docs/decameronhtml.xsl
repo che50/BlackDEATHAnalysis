@@ -69,7 +69,7 @@
                     background-image: url(images/Decameron_image_2.jpeg);
                     background-size: cover;
                     background-position: center;
-                    background-repear: no-repeat;
+                    background-repeat: no-repeat;
                     }
                 </style>
                 
@@ -131,10 +131,10 @@
                     <!-- add image as background -->
                     <style>
                         body {
-                        background-image: url(images/Decameron_Intro_Image.jpeg);
+                        background-image: url(images/Decameron_image_3.jpeg);
                             background-size: cover;
                             background-position: center;
-                            background-repear: no-repeat;
+                            background-repeat: no-repeat;
                         }
                     </style>
                 </head>
