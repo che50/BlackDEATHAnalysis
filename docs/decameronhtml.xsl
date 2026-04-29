@@ -66,7 +66,7 @@
                  <!-- add image as background -->
                 <style>
                     body {
-                    background-image: url(images/Decameron_image_2.jpg);
+                    background-image: url(images/Decameron_image_2.jpeg);
                     background-size: cover;
                     background-position: center;
                     background-repear: no-repeat;
