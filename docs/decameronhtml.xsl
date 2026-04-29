@@ -246,79 +246,68 @@
             <!--<xsl:variable name="religion-x" select="(position() - 1) * ($bar-width + $bar-spacing)"/>-->
             <xsl:variable name="scale" select="8"/>
             <body>
-                <div id="tooltip"></div>  <!-- for java script -->
+                <div id="tooltip"></div>
                 <nav>
                     <ul>
-                        <li>
-                            <a href="index.html">Home Page</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="corpus.html">Corpus</a>
-                        </li>
-                        <li>
-                            <a href="censorship.html">Censorship</a>
-                        </li>
-                        <li>
-                            <a href="themes.html">Themes</a>
-                        </li>
-                        <li>
-                            <a href="statistics.html">Stats</a>
-                        </li>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="corpus.html">Corpus</a></li>
+                        <li><a href="censorship.html">Censorship</a></li>
+                        <li><a href="themes.html">Themes</a></li>
+                        <li><a href="statistics.html">Stats</a></li>
                     </ul>
                 </nav>
                 
                 <h1>Statistics of <em>The Decameron</em></h1>
                 <h2><em>Religious References</em></h2>
-                <h3><em>The Decameron</em> as a text has a heavy focus on religion. This graph counts the frequency as they appear in the text. </h3>
-                <!-- ngl this some bs just copy and pasting from other assignment for bar chart hopefully it works lol -->
+                <h3><em>The Decameron</em> as a text has a heavy focus on religion. This graph counts the frequency as they appear in the text.</h3>
                 
-                <!-- creates graph -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-50 -400 1200 450">
                     <line x1="0" y1="0" x2="360" y2="0" stroke="black"/>
                     <line x1="0" y1="0" x2="0" y2="-320" stroke="black"/>
+                    
+                    <!-- gridlines and y axis labels -->
                     <xsl:for-each select="(0, 10, 20, 30, 40)">
-                        <text x="-35" y="{-. * $scale}" >
+                        <line x1="0" x2="360" y1="{-. * $scale}" y2="{-. * $scale}" stroke="#ccc" stroke-width="0.5"/>
+                        <text x="-35" y="{-. * $scale}">
                             <xsl:value-of select="."/>
                         </text>
-                
                     </xsl:for-each>
+                    
                     <!-- variables for heights for religion -->
                     <xsl:variable name="height-islam" select="$count-islam * $scale"/>
                     <xsl:variable name="height-christianity" select="$count-christianity * $scale"/>
                     <xsl:variable name="height-judaism" select="$count-judaism * $scale"/>
+                    
                     <!-- rectangles -->
-                    <!-- islam rectangle -->
                     <rect x="20" y="{-$height-islam}" width="{$bar-width-1}" height="{$height-islam}" fill="#4A7C4E" data-value="Islam: {$count-islam}" />
-                    <!-- judaism -->
                     <rect x="{$bar-spacing-1 + $bar-width-1 + 20}" y="{-$height-judaism}" width="{$bar-width-1}" height="{$height-judaism}" fill="#2E5E8E" data-value="Judaism: {$count-judaism}" />
-                    <!-- christianity -->
                     <rect x="{2 * ($bar-spacing-1 + $bar-width-1) + 20}" y="{-$height-christianity}" width="{$bar-width-1}" height="{$height-christianity}" fill="#D4A017" data-value="Christianity: {$count-christianity}" />
                     
-                    <!-- the name of religion -->
+                    <!-- labels -->
                     <text x="{20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Islam</text>
                     <text x="{$bar-spacing-1 + $bar-width-1 + 20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Judaism</text>
                     <text x="{2 * ($bar-spacing-1 + $bar-width-1) + 20 + $bar-width-1 div 2}" y="20" font-size="15" text-anchor="middle">Christianity</text>
                     <text x="170" y="-340" font-size="20" text-anchor="middle" font-weight="bold">Religious References in The Decameron</text>
-                    
                 </svg>
                 
                 
                 <h2><em>Character Frequency</em></h2>
-                <h3> <em>The Decameron</em> primarily follows the stories of ten main characters. This graph tracks the frequency which their names appear in the text.</h3>
+                <h3><em>The Decameron</em> primarily follows the stories of ten main characters. This graph tracks the frequency which their names appear in the text.</h3>
+                
                 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-100 -460 1400 560">
-                    <line x1="0" y1="0" x2="0" y2="-450" stroke="black" />
+                    <line x1="0" y1="0" x2="0" y2="-450" stroke="black"/>
                     <line x1="0" y1="0" x2="850" y2="0" stroke="black"/>
+                    
+                    <!-- gridlines and y axis labels -->
                     <xsl:for-each select="(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55)">
-                        <text x="-35" y="{-. * $scale}" >
+                        <line x1="0" x2="850" y1="{-. * $scale}" y2="{-. * $scale}" stroke="#ccc" stroke-width="0.5"/>
+                        <text x="-35" y="{-. * $scale}">
                             <xsl:value-of select="."/>
                         </text>
-                        
-                        
                     </xsl:for-each>
-                    <!-- name variables, probaly not the most efficent way of doing this -->
+                    
+                    <!-- name variables -->
                     <xsl:variable name="height-pampinea" select="$count-pampinea * $scale"/>
                     <xsl:variable name="height-fiammetta" select="$count-fiammetta * $scale"/>
                     <xsl:variable name="height-emilia" select="$count-emilia * $scale"/>
@@ -329,7 +318,8 @@
                     <xsl:variable name="height-filostrato" select="$count-filostrato * $scale"/>
                     <xsl:variable name="height-dioneo" select="$count-dioneo * $scale"/>
                     <xsl:variable name="height-filomena" select="$count-filomena * $scale"/>
-                    <!-- charachters sex variables, not efficent again-->
+                    
+                    <!-- sex variables -->
                     <xsl:variable name="sex-pampinea" select="(//person[@name='pampinea'])[1]/@sex"/>
                     <xsl:variable name="sex-fiammetta" select="(//person[@name='fiammetta'])[1]/@sex"/>
                     <xsl:variable name="sex-emilia" select="(//person[@name='emilia'])[1]/@sex"/>
@@ -341,7 +331,7 @@
                     <xsl:variable name="sex-dioneo" select="(//person[@name='dioneo'])[1]/@sex"/>
                     <xsl:variable name="sex-filomena" select="(//person[@name='filomena'])[1]/@sex"/>
                     
-                    <!-- rectangle creation, again probably not most efficient -->
+                    <!-- rectangles -->
                     <rect x="20" y="{-$height-pampinea}" width="{$bar-width-2}" height="{$height-pampinea}" fill="black" data-value="Pampinea: {$count-pampinea}" />
                     <rect x="{1 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-fiammetta}" width="{$bar-width-2}" height="{$height-fiammetta}" fill="black" data-value="Fiammetta: {$count-fiammetta}" />
                     <rect x="{2 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-emilia}" width="{$bar-width-2}" height="{$height-emilia}" fill="black" data-value="Emilia: {$count-emilia}" />
@@ -352,7 +342,8 @@
                     <rect x="{7 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filostrato}" width="{$bar-width-2}" height="{$height-filostrato}" fill="black" data-value="Filostrato: {$count-filostrato}" />
                     <rect x="{8 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-dioneo}" width="{$bar-width-2}" height="{$height-dioneo}" fill="black" data-value="Dioneo: {$count-dioneo}" />
                     <rect x="{9 * ($bar-spacing-2 + $bar-width-2) + 20}" y="{-$height-filomena}" width="{$bar-width-2}" height="{$height-filomena}" fill="black" data-value="Filomena: {$count-filomena}" />
-                    <!-- text for rectanlge -->
+                    
+                    <!-- name labels -->
                     <text x="{20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Pampinea</text>
                     <text x="{1 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Fiammetta</text>
                     <text x="{2 * ($bar-spacing-2 + $bar-width-2) + 20 + $bar-width-2 div 2}" y="30" font-size="15" text-anchor="middle">Emilia</text>
@@ -379,9 +370,6 @@
                 </svg>
                 
                 
-                
-                <!-- this counts the amount of problematic sentences flagged in each story -->
-                
                 <!-- variables for problematic story counts per day -->
                 <xsl:variable name="prob-day1" select="count(//div[@day='First']/story[@status='problematique'])"/>
                 <xsl:variable name="prob-day2" select="count(//div[@day='Second']/story[@status='problematique'])"/>
@@ -395,77 +383,63 @@
                 <xsl:variable name="prob-day10" select="count(//div[@day='Tenth']/story[@status='problematique'])"/>
                 <xsl:variable name="bar-width-3" select="60"/>
                 <xsl:variable name="bar-spacing-3" select="30"/>
+                <xsl:variable name="scale-3" select="30"/>
+                <xsl:variable name="prob-height-1" select="$prob-day1 * $scale-3"/>
+                <xsl:variable name="prob-height-2" select="$prob-day2 * $scale-3"/>
+                <xsl:variable name="prob-height-3" select="$prob-day3 * $scale-3"/>
+                <xsl:variable name="prob-height-4" select="$prob-day4 * $scale-3"/>
+                <xsl:variable name="prob-height-5" select="$prob-day5 * $scale-3"/>
+                <xsl:variable name="prob-height-6" select="$prob-day6 * $scale-3"/>
+                <xsl:variable name="prob-height-7" select="$prob-day7 * $scale-3"/>
+                <xsl:variable name="prob-height-8" select="$prob-day8 * $scale-3"/>
+                <xsl:variable name="prob-height-9" select="$prob-day9 * $scale-3"/>
+                <xsl:variable name="prob-height-10" select="$prob-day10 * $scale-3"/>
                 
                 <h2><em>Problematic Stories Per Day</em></h2>
                 <h3>This graph tracks the number of stories per day that were flagged as problematic in the eyes of the Church.</h3>
                 
-                <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="400" viewBox="-100 -200 1400 320">
-                    <line x1="0" y1="0" x2="0" y2="-180" stroke="black" stroke-width="2"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-100 -360 1400 440">
+                    <line x1="0" y1="0" x2="0" y2="-340" stroke="black" stroke-width="2"/>
                     <line x1="0" y1="0" x2="980" y2="0" stroke="black"/>
                     
-                    <!-- use a larger scale for this graph since values are small (0-10) -->
-                    <xsl:variable name="scale-3" select="30"/>
+                    <!-- gridlines and y axis labels -->
+                    <xsl:for-each select="(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)">
+                        <line x1="0" x2="980" y1="{-. * $scale-3}" y2="{-. * $scale-3}" stroke="#ccc" stroke-width="0.5"/>
+                        <text x="-35" y="{-. * $scale-3 + 5}" font-size="14">
+                            <xsl:value-of select="."/>
+                        </text>
+                    </xsl:for-each>
                     
-                    <!-- height variables -->
-                    <xsl:variable name="prob-height-1" select="$prob-day1 * $scale-3"/>
-                    <xsl:variable name="prob-height-2" select="$prob-day2 * $scale-3"/>
-                    <xsl:variable name="prob-height-3" select="$prob-day3 * $scale-3"/>
-                    <xsl:variable name="prob-height-4" select="$prob-day4 * $scale-3"/>
-                    <xsl:variable name="prob-height-5" select="$prob-day5 * $scale-3"/>
-                    <xsl:variable name="prob-height-6" select="$prob-day6 * $scale-3"/>
-                    <xsl:variable name="prob-height-7" select="$prob-day7 * $scale-3"/>
-                    <xsl:variable name="prob-height-8" select="$prob-day8 * $scale-3"/>
-                    <xsl:variable name="prob-height-9" select="$prob-day9 * $scale-3"/>
-                    <xsl:variable name="prob-height-10" select="$prob-day10 * $scale-3"/>
+                    <!-- rectangles -->
+                    <rect x="20" y="{-$prob-height-1}" width="{$bar-width-3}" height="{$prob-height-1}" fill="#34150F" data-value="Day 1: {$prob-day1} problematic stories"/>
+                    <rect x="{1 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-2}" width="{$bar-width-3}" height="{$prob-height-2}" fill="#34150F" data-value="Day 2: {$prob-day2} problematic stories"/>
+                    <rect x="{2 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-3}" width="{$bar-width-3}" height="{$prob-height-3}" fill="#34150F" data-value="Day 3: {$prob-day3} problematic stories"/>
+                    <rect x="{3 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-4}" width="{$bar-width-3}" height="{$prob-height-4}" fill="#34150F" data-value="Day 4: {$prob-day4} problematic stories"/>
+                    <rect x="{4 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-5}" width="{$bar-width-3}" height="{$prob-height-5}" fill="#34150F" data-value="Day 5: {$prob-day5} problematic stories"/>
+                    <rect x="{5 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-6}" width="{$bar-width-3}" height="{$prob-height-6}" fill="#34150F" data-value="Day 6: {$prob-day6} problematic stories"/>
+                    <rect x="{6 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-7}" width="{$bar-width-3}" height="{$prob-height-7}" fill="#34150F" data-value="Day 7: {$prob-day7} problematic stories"/>
+                    <rect x="{7 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-8}" width="{$bar-width-3}" height="{$prob-height-8}" fill="#34150F" data-value="Day 8: {$prob-day8} problematic stories"/>
+                    <rect x="{8 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-9}" width="{$bar-width-3}" height="{$prob-height-9}" fill="#34150F" data-value="Day 9: {$prob-day9} problematic stories"/>
+                    <rect x="{9 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-10}" width="{$bar-width-3}" height="{$prob-height-10}" fill="#34150F" data-value="Day 10: {$prob-day10} problematic stories"/>
                     
-                    <h2><em>Problematic Stories Per Day</em></h2>
-                    <h3>This graph tracks the number of stories per day that were flagged as problematic in the eyes of the Church.</h3>
+                    <!-- day labels -->
+                    <text x="{20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 1</text>
+                    <text x="{1 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 2</text>
+                    <text x="{2 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 3</text>
+                    <text x="{3 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 4</text>
+                    <text x="{4 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 5</text>
+                    <text x="{5 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 6</text>
+                    <text x="{6 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 7</text>
+                    <text x="{7 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 8</text>
+                    <text x="{8 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 9</text>
+                    <text x="{9 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 10</text>
                     
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="-100 -360 1400 440">
-                        <line x1="0" y1="0" x2="0" y2="-340" stroke="black" stroke-width="2"/>
-                        <line x1="0" y1="0" x2="980" y2="0" stroke="black"/>
-                        
-                        <!-- gridlines and y axis labels -->
-                        <xsl:for-each select="(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)">
-                            <line x1="0" x2="980" y1="{-. * $scale-3}" y2="{-. * $scale-3}" stroke="#ccc" stroke-width="0.5"/>
-                            <text x="-35" y="{-. * $scale-3 + 5}" font-size="14">
-                                <xsl:value-of select="."/>
-                            </text>
-                        </xsl:for-each>
-                        
-                        <!-- rectangles -->
-                        <rect x="20" y="{-$prob-height-1}" width="{$bar-width-3}" height="{$prob-height-1}" fill="#34150F" data-value="Day 1: {$prob-day1} problematic stories"/>
-                        <rect x="{1 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-2}" width="{$bar-width-3}" height="{$prob-height-2}" fill="#34150F" data-value="Day 2: {$prob-day2} problematic stories"/>
-                        <rect x="{2 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-3}" width="{$bar-width-3}" height="{$prob-height-3}" fill="#34150F" data-value="Day 3: {$prob-day3} problematic stories"/>
-                        <rect x="{3 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-4}" width="{$bar-width-3}" height="{$prob-height-4}" fill="#34150F" data-value="Day 4: {$prob-day4} problematic stories"/>
-                        <rect x="{4 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-5}" width="{$bar-width-3}" height="{$prob-height-5}" fill="#34150F" data-value="Day 5: {$prob-day5} problematic stories"/>
-                        <rect x="{5 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-6}" width="{$bar-width-3}" height="{$prob-height-6}" fill="#34150F" data-value="Day 6: {$prob-day6} problematic stories"/>
-                        <rect x="{6 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-7}" width="{$bar-width-3}" height="{$prob-height-7}" fill="#34150F" data-value="Day 7: {$prob-day7} problematic stories"/>
-                        <rect x="{7 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-8}" width="{$bar-width-3}" height="{$prob-height-8}" fill="#34150F" data-value="Day 8: {$prob-day8} problematic stories"/>
-                        <rect x="{8 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-9}" width="{$bar-width-3}" height="{$prob-height-9}" fill="#34150F" data-value="Day 9: {$prob-day9} problematic stories"/>
-                        <rect x="{9 * ($bar-spacing-3 + $bar-width-3) + 20}" y="{-$prob-height-10}" width="{$bar-width-3}" height="{$prob-height-10}" fill="#34150F" data-value="Day 10: {$prob-day10} problematic stories"/>
-                        
-                        <!-- day labels -->
-                        <text x="{20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 1</text>
-                        <text x="{1 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 2</text>
-                        <text x="{2 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 3</text>
-                        <text x="{3 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 4</text>
-                        <text x="{4 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 5</text>
-                        <text x="{5 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 6</text>
-                        <text x="{6 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 7</text>
-                        <text x="{7 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 8</text>
-                        <text x="{8 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 9</text>
-                        <text x="{9 * ($bar-spacing-3 + $bar-width-3) + 20 + $bar-width-3 div 2}" y="20" font-size="15" text-anchor="middle">Day 10</text>
-                        
-                        <!-- graph title -->
-                        <text x="490" y="-320" font-size="20" text-anchor="middle" font-weight="bold">Problematic Stories Per Day</text>
-                    </svg>
-                    
-                    <!-- auto generated summary sentence -->
-                    <p>Across all ten days, a total of <xsl:value-of select="count(//story[@status='problematique'])"/> stories were flagged as problematic in the eyes of the Church.</p>
+                    <text x="490" y="-320" font-size="20" text-anchor="middle" font-weight="bold">Problematic Stories Per Day</text>
                 </svg>
+                
+                <p>Across all ten days, a total of <xsl:value-of select="count(//story[@status='problematique'])"/> stories were flagged as problematic in the eyes of the Church.</p>
+                
             </body>
-            <!-- java script functionality for hover, this took so long -->
             <script type="text/javascript">
                 var tooltip = document.getElementById("tooltip");
                 document.querySelectorAll("rect").forEach(function(rect) {
