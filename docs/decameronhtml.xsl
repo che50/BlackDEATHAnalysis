@@ -91,15 +91,17 @@
                         <li><a href="proem.html">Proem</a></li>
                     </ul>
                 </section>
-                
+                <!-- story search functionality -->
+                <input type="text" id="story-search" placeholder="Search stories..." class="story-search"/>
                 <div class="toc-grid">
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
                 </div>
                 <hr/>
                
             
-               
+            <!-- all this java script took alot of trial and error/AI help to get working -->   
                 <script type="text/javascript">
+                    <!-- hover stuff, same as the one for graph w/ small changes -->
                     var tooltip = document.getElementById("tooltip");
                     document.querySelectorAll(".story-link").forEach(function(link) {
                     link.addEventListener("mousemove", function(e) {
@@ -110,6 +112,15 @@
                     });
                     link.addEventListener("mouseleave", function() {
                     tooltip.style.display = "none";
+                    });
+                    });
+                    <!-- this is for searching through the story description -->
+                    var searchInput = document.getElementById("story-search");
+                    searchInput.addEventListener("input", function(e) {
+                    var q = e.target.value.toLowerCase();
+                    document.querySelectorAll(".story-link").forEach(function(link) {
+                    var matches = link.dataset.title.toLowerCase().includes(q);
+                    link.parentElement.style.display = matches ? "" : "none";
                     });
                     });
                 </script>
