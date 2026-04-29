@@ -1,7 +1,6 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;600&family=EB+Garamond:wght@400;600&display=swap');
 
-
 body {
     background-color: #E5D1A4;
     max-width: 1200px;
@@ -21,14 +20,13 @@ nav {
     padding-left: calc(50vw - 600px);
 }
 
-nav ul{
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
     list-style: none;
     padding: 0px;
     margin: 0px;
-    
 }
 
 nav ul li a {
@@ -40,9 +38,10 @@ nav ul li a {
     display: inline-block;
 }
 
-       a:hover {
+a:hover {
     background-color: #B64B12;
 }
+
 .list {
     display: flex;
     flex-direction: column;
@@ -64,19 +63,15 @@ nav ul li a {
     font-style: italic;
 }
 
-     a {
+a {
     color: #670626 !important;
 }
 
-     a:hover {
+a:hover {
     color: #FFEDAC !important;
 }
 
-
-
-/*This section is for the nav buttons 
-*/
-
+/*This section is for the nav buttons */
 .prev, .next {
     background-color: #CE793A;
     color: #E5D1A4;
@@ -84,32 +79,27 @@ nav ul li a {
     padding: 10px 15px;
     border-radius: 5px;
     position: fixed;
-    bottom: 32px; 
+    bottom: 32px;
 }
+
 .prev:hover, .next:hover {
     background-color: #B64B12;
 }
 
+.prev { left: 32px; }
+.next { right: 32px; }
 
-.prev {
-left: 32px; 
-}
-.next { 
-right: 32px; 
-}
-
-h1, h2{
+h1, h2 {
     font-family: 'Cormorant SC', serif;
-    background-color:#321f1b;
+    background-color: #321f1b;
     color: #D39858;
     border: 3px solid #34150F;
     padding: 12px 20px;
     margin-bottom: 1rem;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-    
 }
 
-h3, ul:not(nav ul), p{
+h3, ul:not(nav ul), p {
     font-family: 'EB Garamond', serif;
     background-color: #f0dfa0;
     color: #271814;
@@ -127,9 +117,9 @@ h3, ul:not(nav ul), p{
 
 /* stlying for highlight on scandalous text */
 .scandalous {
-   background-color: rgba(225, 182, 193, 0.6);
-   padding: 2px 4px;
-   border-radius: 4px;
+    background-color: rgba(225, 182, 193, 0.6);
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 /* styling for legend */
@@ -156,7 +146,6 @@ h3, ul:not(nav ul), p{
     display: none;
     z-index: 999;
 }
-
 
 /*  styling for boccacio image */
 .author-section {
