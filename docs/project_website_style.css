@@ -160,17 +160,12 @@ h3, ul:not(nav ul), p{
 
 /*  styling for boccacio image */
 .author-section {
-    display: flex;
-    gap: 2.5rem;
     margin: 2.5rem 0;
 }
 
 .author-portrait {
     width: 220px;
     text-align: center;
-}
-
-.portrait-frame {
     padding: 10px;
     border: 3px solid black;
     outline: 2px solid gold;
@@ -178,7 +173,7 @@ h3, ul:not(nav ul), p{
     box-shadow: 4px 4px 0px gold, 8px 8px 0px black;
 }
 
-.portrait-frame img {
+.author-portrait img {
     width: 200px;
 }
 
