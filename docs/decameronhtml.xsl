@@ -84,14 +84,17 @@
                 
               <h1 class="main_title"><xsl:apply-templates select="//root//main_title"></xsl:apply-templates> </h1>
              
-                <ul>
-                    <li>Introduction
-                        <ul>
-                            <li><a href="proem.html">Proem</a></li>
-                        </ul>
-                    </li>
+                
+                    <section class="day-card highlighted">
+                    <h3>Introduction</h3>
+                    <ul>
+                        <li><a href="proem.html">Proem</a></li>
+                    </ul>
+                </section>
+                
+                <div class="toc-grid">
                     <xsl:apply-templates select="//div[@day]" mode="toc"/>
-                </ul>
+                </div>
                 <hr/>
                
             
@@ -672,18 +675,23 @@
    
    
     <!-- table of contents templates -->
+    <!-- Each day becomes a card in the grid -->
     <xsl:template match="div[@day]" mode="toc">
-        <li>
-            <strong><xsl:value-of select="@day"/> Day</strong>
+     
+            <section class="day-card highlighted">
+            <h3><xsl:value-of select="@day"/> Day</h3>
             <ul>
                 <xsl:apply-templates select="story" mode="toc"/>
             </ul>
-        </li>
+        </section>
     </xsl:template>
+    
+    <!-- Each story becomes an li inside its day's ul -->
     <xsl:template match="story" mode="toc">
         <xsl:variable name="day" select="parent::div/@day"/>
-        <xsl:variable name="hover-text" 
+        <xsl:variable name="hover-text"
             select="normalize-space(string-join(p[not(story_numbr) and not(ch_title)][1]//text(), ' '))"/>
+        <li class="{if (@status='problematique') then 'censored-story' else ''}">
             <a href="story-{$day}-{@numbr}.html"
                 class="story-link"
                 data-title="{substring($hover-text, 1, 200)}…">
@@ -692,6 +700,7 @@
                     <span class="censor-badge">⚠</span>
                 </xsl:if>
             </a>
+        </li>
     </xsl:template>
     
     <xsl:template match="person"> <!-- template for person, just bolds it in the text for now-->
